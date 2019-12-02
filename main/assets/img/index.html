@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+       <!--  <meta http-equiv="Content-Type" content="width=device-width,initial-scale=1; charset=utf-8" name="viewport"/> -->
+        <title>Apetite</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <script src="lib/bootstrap-3.3.7-dist/css/bootstrap.min.js"></script> -->
+		<style>
+			li{list-style-type:none}
+			#listDesign{
+				padding:5px;
+				transition:font 0.5s ease;
+				cursor:pointer;
+				font-family:monospace;
+			}
+			#listDesign:hover{
+				font-size:x-large;
+				color:#a6c;
+				
+			}
+			#autoC{
+				overflow:hidden
+			}
+			h3{font-size:18px}
+		</style>
+    </head>
+        
+    <body>
+		<div ng-app="deliveryLocation" ng-controller="locationCtrl">
+			
+			<div class="container" style = "background:url('https://thumbs.dreamstime.com/z/food-ingredients-wooden-table-horizontal-photo-top-view-35788814.jpg') no-repeat;width:100%;background-size:cover">
+				<button type="button" class="btn btn-default" style="float: right;position: absolute;top: 35px;right: 45px;border-color:#a6c;color:#a6c" >
+								 LOGIN
+				 </button>
+				 
+				 <div class="container" style="width:30%;margin-top:22%;">
+					
+						<input type="text" class="form-control" placeholder="Enter delivery location" style="height:40px;box-shadow:5px 10px 20px #312e2e" ng-model="hotelNm.hotelLoc"  ng-focus="getLocations()" /><br />
+						<button class="btn btn-primary btn-block" style="background:#a6c" ng-click="findFood()">FIND FOOD</button></br>
+				</div>
+			</div>
+			<div style="background:#efefef;height:135px;overflow:auto">
+				<ul id ="autoC" style="margin-left:42%;display:none;">
+					
+					<li id="listDesign" ng-repeat="places in names |filter:hotelNm.hotelLoc " ng-click="setList(places)">
+						{{places}}
+					</li>
+							
+				</ul>
+			</div>
+		</div>
+		<div style="padding:10px;border-bottom:1px solid #ddd" class="container">
+			<ul class="clearfix" >
+				<li class="col-xs-12 col-md-4"><img src="img/address.png"/><h3>Track your food</h3></li>
+				<li class="col-xs-12 col-md-4"><img src="img/lightning.png"/><h3>Fastest delivery</h3></li>
+				<li class="col-xs-12 col-md-4"><img src="img/wallet.png"/><h3>Cash/Card on Delivery</h3></li>
+			</ul>
+		</div>
+		
+		<footer style="position:relative;bottom:0px">
+			<div style="margin: 30px auto auto;width: 250px;">
+				<ul class="clearfix">
+					<li class="col-xs-12 col-md-4"><a href="#"><img src="img/fb.png"/></a></li>
+					<li class="col-xs-12 col-md-4"><a href="#"><img src="img/insta.png"/></a></li>
+					<li class="col-xs-12 col-md-4"><a href="#"><img src="img/pinterest.png"/></a></li>
+					<!-- <li class="col-xs-12 col-md-4"><a href="#"><img src="img/twitter.png"/></a></li> -->
+				</ul>
+			</div>
+		</footer>
+		
+		
+		<script src = "Controllers/page1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "Filiated",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "assert": "1.4.1",
+    "body-parser": "1.18.3",
+    "dom-event": "^1.0.0",
+    "dom-events": "^0.1.1",
+    "express": "4.15.3",
+    "express-rate-limit": "^5.0.0",
+    "jsdom": "^15.2.1",
+    "mongodb": "2.2.36",
+    "mongojs": "2.6.0",
+    "util": "0.11.0"
+  },
+  "author": "Sourav Paul",
+  "license": "ISC",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul41/Filiated.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/paul41/Filiated/issues"
+  },
+  "homepage": "https://github.com/paul41/Filiated#readme",
+  "description": ""
+}
