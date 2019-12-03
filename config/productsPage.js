@@ -1,8 +1,7 @@
-const express = require('express');
-const app=express();
 const mongoClient = require('mongodb').MongoClient;
 const assert = require("assert");
-module.exports = (url)=>{
+
+module.exports = (app,url)=>{
     app.get('/marketplace',(req,res)=>{
         let respArr = [];
         mongoClient.connect(url,(err,db)=>{
@@ -19,7 +18,7 @@ module.exports = (url)=>{
     });
 }
 
-module.exports.productDetails = (url,projectQ)=>{
+module.exports.productDetails = (app,url,projectQ)=>{
     app.get('/productsdetail',(req,res)=>{
 
         let colRes = [];
@@ -36,7 +35,7 @@ module.exports.productDetails = (url,projectQ)=>{
         })
     });
 }
-module.exports.sort = (url)=>{
+module.exports.sort = (app,url)=>{
     app.get('/sortitems',(req,res)=>{
         let sortArr = [];
         let cursor;
@@ -101,7 +100,7 @@ module.exports.sort = (url)=>{
         })
     })
 }
-module.exports.nodata = ()=>{
+module.exports.nodata = (app)=>{
     app.get('/No-Data',(req,res)=>{
         res.send("<!doctype html><html><body><div style='text-align:center'><h1>No Data Found. </h1></br><a href='http://localhost:5000/#!/' ><span style='color:green'>Try again</span></a></div></body></html>")
     });

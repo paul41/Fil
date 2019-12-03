@@ -1,16 +1,15 @@
 const express = require('express');
 const app=express();
-const util = require("util");
 const rateLimit = require("express-rate-limit");
 const getProducts = require("./config/productsPage.js")
 const dbconfig = require("./config/db.js");
 const port = process.env.PORT || 8080;
 app.use(express.static(__dirname+"/main"));
 
-getProducts(dbconfig.url);
-getProducts.productDetails(dbconfig.url,dbconfig.projectQ)
-getProducts.sort(dbconfig.url)
-getProducts.nodata();
+getProducts(app,dbconfig.url);
+getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
+getProducts.sort(app,dbconfig.url)
+getProducts.nodata(app);
 
 /* Log-in service */
 const createAccountLimiter = rateLimit({
