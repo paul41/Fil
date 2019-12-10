@@ -1,10 +1,11 @@
 {
-  "name": "Filiated",
+  "name": "Fily",
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "angular-ui-bootstrap": "^2.5.6",
     "assert": "1.4.1",
     "body-parser": "1.18.3",
     "dom-event": "^1.0.0",
@@ -29,5 +30,5 @@
     "url": "https://github.com/paul41/Filiated/issues"
   },
   "homepage": "https://github.com/paul41/Filiated#readme",
-  "description": ""
+  "description": "Amazon affiliate"
 }

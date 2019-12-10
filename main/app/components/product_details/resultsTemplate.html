@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Fili &mdash;Amazon affiliate website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../assets/fonts/icomoon/style.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="../../../assets/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../assets/css/animate.min.css">
+  <link rel="stylesheet" href="../../../assets/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../../assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../../assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../assets/fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../../../assets/css/aos.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../../../assets/css/style.css">
+    <style>
+        table {
+          margin:auto;
+          font-family: arial, sans-serif;
+          border-collapse: separate;
+          width: 80%;
+          background: #fff;
+          
+        }
+        th {
+          text-align: center;
+          border:1px solid #dddddd;
+          padding: 10px;
+        }
+        td {
+            text-align: justify;
+            border-right: 1px solid #dddddd;
+            
+        }
+        td div{
+            letter-spacing: .3px;
+            padding:6px;
+        }
+        td h4{
+            color: #3e64ff;
+        }
+        tr:nth-child(1) {
+            background-color:#f6f5f5;    
+        }
+        
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    
+    <div class="site-wrap" id="home-section">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      <header class="site-navbar site-navbar-target bg-white" role="banner">
+        <div class="container">
+          <div class="row align-items-center position-relative">  
+            <div class="col-lg-4 text-center header-ele" style="display: contents;">
+                <div class = "site-logo logo-style" style="color: #3e64ff !important;padding-right: 80px;"><a href = "index.html">Fili</a></div>
+                <input type="text" id = "re-search" autocomplete="off" placeholder="Search for products" >
+                <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
+                
+            </div>
+            
+            <div class="col-lg-4">   
+              <nav class="site-navigation text-right mr-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li>
+                    <a href="Javascript:Void(0)" onclick="document.getElementById('filterModal').style.display='block'">
+                      <i class="fa fa-filter" style="font-size:24px"></i> Filter 
+                    </a>
+                  </li>
+                  <li><a href="Javascript:Void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">1</sup>Wishlist</a></li>
+                  <li><a href="gallery.html" class="nav-link">Log In</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div style="margin-top: 140px;"></div>
+
+      <div id = "wishModal" class = "w3-modal">
+        <div class = "w3-container wishListStyle">
+          <h3 style="margin:5px;color: white">WishList</h3>
+          <span onclick="document.getElementById('wishModal').style.display='none'" 
+            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 10px;">&times;</span>
+        </div>
+        <section id="wishLists">
+          <ul>
+            <li>
+              <img id="modal-image-style" src="../../../assets/images/person_5.jpg" > <p style ="margin-left:20px;margin-top:22px;position:absolute;display:inline !important">Hit the gym</p><b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">Rs.300</b>
+              <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;">Buy Now</button>
+              <span class="close">&times;</span>
+            </li>
+            <li>
+                <img id="modal-image-style" src="../../../assets/images/person_4.jpg" > <p style ="margin-left:20px;margin-top:20px;position:absolute;display:inline !important">Meet George</p><span class="close">&times;</span>
+              </li>
+            <li>
+                <img id="modal-image-style" src="../../../assets/images/person_3.jpg" ><p style ="box-flex:20px;margin-top:20px;position:absolute;display:inline !important"> Buy eggs</p><span class="close">&times;</span>
+              </li>
+            <li>
+                <img id="modal-image-style" src="../../../assets/images/person_2.jpg" > <p style ="margin-left:20px;margin-top:20px;position:absolute;display:inline !important"> Read a book</p><span class="close">&times;</span>
+              </li>
+            <li>
+                <img id="modal-image-style" src="../../../assets/images/person_1.jpg" ><p style ="margin-left:20px;margin-top:20px;position:absolute;display:inline !important"> Organize office</p><span class="close">&times;</span>
+              </li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="filterModal" class="w3-modal">
+        <table class="w3-container">
+         
+          <caption style="caption-side: top;background: #fff;color: #3e64ff;padding-bottom: 0% !important; padding-top: 0% !important;">   
+            <span onclick="document.getElementById('filterModal').style.display='none'" 
+            class="w3-button" style="float: right;font-weight: 900;">&times;</span>
+          </caption>
+            <tr>
+                <th>Filter</th>
+                <th>Sort
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Budget</h4>
+                    <div>
+                        <select name = "min">
+                            <option value="volvo">0</option>
+                            <option value="1000">1000</option>
+                            <option value="3000">3000</option>
+                            <option value="5000">5000</option>
+                            <option value="7000">7000</option>
+                            <option value="9000">9000</option>
+                            <option value="11000">11000</option>
+                            <option value="13000">13000</option>
+                            <option value="15000">15000</option>
+                            <option value="17000">17000</option>
+                            <option value="20000">20000</option>
+                        </select>
+                        &nbsp; To &nbsp;
+                        <select name = "max">
+                            <option value="2000">2000</option>
+                            <option value="4000">4000</option>
+                            <option value="6000">6000</option>
+                            <option value="8000">8000</option>
+                            <option value="10000">10000</option>
+                            <option value="12000">12000</option>
+                            <option value="16000">16000</option>
+                            <option value="20000">20000</option>
+                            <option value="25000">25000</option>
+                            <option value="30000">30000</option>
+                            <option value="50000">50000</option>
+                            <option value="50000">50000+</option>
+                        </select>
+                    </div>
+                    
+                </td>
+                <td>
+                    <h4>Rating</h4>
+                    <div>
+                        <select name = "stars">
+                            <option value="volvo">More to less</option>
+                            <option value="volvo">Less to more</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Brand</h4>
+                    <div style = "overflow-y:auto">
+                        <input type="checkbox" name="vehicle1" value="Bike"> {{brandName}}<br>
+                        <input type="checkbox" name="vehicle2" value="Car"> Nike<br>
+                        <input type="checkbox" name="vehicle3" value="Boat" checked> Reebok <br>
+                    </div>
+                    
+                </td>
+                <td>
+                    <h4>Price</h4>
+                    <div>
+                        <select name = "Money">
+                            <option value="volvo">High to low</option>
+                            <option value="volvo">Low to high</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Rating</h4>
+                    <div id = "mobile-style">
+                        <input type="checkbox" name="vehicle1" value="Bike"> 4★ & above<br>
+                        <input type="checkbox" name="vehicle2" value="Car"> 3★ & above<br>
+                        <input type="checkbox" name="vehicle3" value="Boat"> 2★ & above <br>
+                        <input type="checkbox" name="vehicle3" value="Boat"> 1★ & above <br>
+                    </div>    
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                  <div style="color:#fff;text-align:center;background: #3e64ff;cursor: pointer;">Submit</div>
+              </td>
+              
+            </tr>
+        </table>
+      </div>
+    </div>
+    <div class = "container-fluid" ng-app="myApp" ng-controller="myCtrl">
+      <div style="height:640px;display:flex;flex-direction:row;justify-content:flex-start;align-items: stretch;">
+        <div id="contentDiv" style="max-height: 478px;background-color: #f1f1f1;width: 100px;margin-right:7px;text-align: center;flex-grow: 3;overflow-y: auto;">
+          <section style="position: relative;">
+            <div id="productDetail" style="margin:5px;">
+              <div ng-init="ProductName='Mr Bowerbird';ProductBrand = 'Printed Polo'">
+                <header id = "articleHead">
+                  <pre id = "tagStyle" style = "word-wrap: break-word;white-space:pre-wrap;word-break: normal;overflow: hidden;"><h2 id="prodName">{{ProductName}}</h2></pre>
+                  <pre style = "word-wrap: break-word;white-space: pre-wrap;word-break: normal;overflow: hidden;"><h4 id="prodBrand">{{ProductBrand}}</h4></pre>
+                </header>
+                <p id = "review" style = "word-wrap: break-word;">
+                    <h2>Review</h2>
+                    OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                    OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                </p>
+                <p id = "specs" style = "word-wrap: break-word;">
+                  <h2>Specs</h2>
+                    OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                    OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                </p>
+                <p id = "buy" style = "word-wrap: break-word;">
+                    <h2>Buy</h2>
+                    OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                    OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                </p>
+              </div>
+            </div>
+            <div style="width:100%;cursor: pointer;color:#fff;background:#3e64ff;padding: 7px;overflow:auto;position: sticky;bottom: -1px;">
+                <a href="#review" style="color:#fff;padding:7px"> Review</a> |
+                <a href="#specs" style="color:#fff;padding:7px"> Specs</a> | 
+                <a href="#buy" style="color:#fff;padding:7px"> Buy At  <i class="fa fa-amazon" style="font-size: 18px;"></i></a>  
+                <!-- <a href="#" style="color:#fff;"> News</a> -->
+            </div>
+          </section> 
+        </div>
+          <div id = "gridView" style="background-color: #f1f1f1;width:50px;text-align: center;flex-grow: 7;overflow: auto;">
+            <section width=100%>
+              <ul style="justify-content:space-between;margin-left: -32px;">
+                <li ng-repeat ="x in lists" style="margin:7px;box-shadow: 0px 5px 3px #888888;box-sizing:border-box;width:250px;overflow:hidden;position:relative;z-index:2;display:inline-block;cursor: pointer;" ng-click = "productList($index);">
+                    <div style="width:100%;height:100%;display:block">
+                        <i class="fa fa-heart" style="font-size:25px;color:#b5b3b3;padding:12px;position: absolute;" ng-click = redHeart($index);$event.stopPropagation();></i>
+                      <img style = "max-width: 100%;margin-left: auto;margin-right: auto;height: auto;" src = {{x.img}}>
+                    </div>
+                    <div style = "text-align: center;position:relative;z-index:2;background:#fff;padding:0 10px;box-sizing:border-box;overflow:hidden">
+                      <h3 style = "margin-bottom:6px;overflow:hidden">{{x.productName}}</h3>
+                      <h4 style ="display:block;font-size:17px">{{x.productBrand}}</h4>
+                      <div style = "margin:10px 0 16px;font-size:15px"><b>{{x.productPrice}}</b></div>
+                    </div>
+                  </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    <div class="site-section section-4">
+      <div class="container">
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-7">
+            <div class="slide-one-item owl-carousel">
+              <blockquote class="testimonial-1">
+                <span class="quote quote-icon-wrap"><span class="icon-format_quote"></span></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus totam sit delectus earum facere ex ea sunt, eos?</p>
+                <cite><span class="text-black">Mike Dorney</span> &mdash; <span class="text-muted">CEO and Co-Founder</span></cite>
+              </blockquote>
+
+              <blockquote class="testimonial-1">
+                <span class="quote quote-icon-wrap"><span class="icon-format_quote"></span></span>
+                <p>Eligendi earum ad perferendis dolores, dolor quas. Ullam in, eaque mollitia suscipit id aspernatur rerum! Sit quibusdam ullam tempora quis, in voluptatum maiores veritatis recusandae!</p>
+                <cite><span class="text-black">James Smith</span> &mdash; <span class="text-muted">CEO and Co-Founder</span></cite>
+              </blockquote>
+
+              <blockquote class="testimonial-1">
+                <span class="quote quote-icon-wrap"><span class="icon-format_quote"></span></span>
+                <p> Officia, eius omnis rem non quis eos excepturi cumque sequi pariatur eaque quasi nihil dicta tempore voluptate culpa, veritatis incidunt voluptatibus qui?</p>
+                <cite><span class="text-black">Mike Dorney</span> &mdash; <span class="text-muted">CEO and Co-Founder</span></cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <footer class="site-footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-7">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+            <div class="mb-5">
+              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+              <form action="#" method="post" class="footer-suscribe-form">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control rounded-0 border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                </div>
+            </div>
+            <h2 class="footer-heading mb-4">Follow Us</h2>
+            <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="pt-5">
+              <p style="font-size: 3px; float: left;">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+    <script src="../../../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../../../assets/js/popper.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../../assets/js/jquery.sticky.js"></script>
+    <script src="../../../assets/js/jquery.waypoints.min.js"></script>
+    <script src="../../../assets/js/jquery.animateNumber.min.js"></script>
+    <script src="../../../assets/js/jquery.fancybox.min.js"></script>
+    <script src="../../../assets/js/jquery.easing.1.3.js"></script>
+    <script src="../../../assets/js/shrinkNavigation.js"></script>
+    <script src="../../../assets/js/aos.js"></script>
+    <script src="../../../page2.js"></script>
+    <script src="../../../assets/js/main.js"></script>
+
+    
+
+  </body>
+
+</html>

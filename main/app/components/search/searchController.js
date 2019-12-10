@@ -1,17 +1,5 @@
 angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http','$timeout','$window','$location','getServerData', function ($scope,$http,$timeout,$window,$location,getServerData){
 	
-    	// *** Header Navbar Design ***
-
-	let header = document.getElementById("stickyNav");
-	let sticky = header.offsetTop;
-	$window.onscroll = ()=>{
-		if ($window.pageYOffset > sticky) {
-			header.classList.add("sticky");
-		} else {
-			header.classList.remove("sticky");
-		}
-	}
-
 	$scope.product = [
         "Amazon Devices","Amazon Fashion","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
         "Computers & Accessories","Electronics","Furnitures","Garden & outdoors","Gift cards","Health & personal care","Home & Kitchen","Jewellery",
@@ -20,7 +8,8 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     ]
 
     $scope.setValue = (product)=>{
-    	$('#inputBox').val(product);
+		
+    	$('#input-search').val(product);
     	$('#productList').css('display','none')
     }
     $scope.showList = ()=>{
@@ -33,7 +22,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     }
     /**********Search module***********/
     $scope.search = ()=>{
-    	let inputVal = $('#inputBox').val();
+    	let inputVal = $('#input-search').val();
     	if(inputVal){
     		getServerData.fetchProductDetails((res)=>{
     			if(res.data.length > 0){
