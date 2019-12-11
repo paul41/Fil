@@ -7,8 +7,8 @@ const port = process.env.PORT || 8080;
 app.use(express.static(__dirname+"/main"));
 
 getProducts(app,dbconfig.url);
-// getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
-// getProducts.sort(app,dbconfig.url)
+getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
+getProducts.sort(app,dbconfig.url)
 getProducts.nodata(app);
 
 /* Log-in service */

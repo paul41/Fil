@@ -1,4 +1,4 @@
- document.getElementById('contentDiv').onscroll = ()=>{
+document.getElementById('contentDiv').onscroll = ()=>{
     if(document.getElementById('contentDiv').scrollTop > 30){
         document.getElementById('prodName').style.fontSize = "20px";
         document.getElementById('prodName').style.paddingTop = '5px'

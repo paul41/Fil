@@ -1,5 +1,5 @@
 angular.module('searchAppService',[]).service('getServerData',function ($http){
-	let cacheVal,dataVal;
+	let cacheVal;
 	return{
 		
 		getResponse:function(callback,parameter){
@@ -21,9 +21,9 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 			
 		 	for(const elements of itemData){
 		 		cacheVal = new Map(Object.entries(elements));
-		 	}
+			}
 		},
-		getMap:function(key){
+		getMap:function(key){	
 			return cacheVal.get(key);
 		}
 	}
