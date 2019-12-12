@@ -1,25 +1,20 @@
 angular.module('contentApp',[])
 	
 	.controller('headerCtrl',['$scope','getServerData',function($scope,getServerData){
-		$('#scrollTop').click(()=>{
-			$('html, body').animate({ scrollTop: 0 }, 'slow');
-		});
+		
+		/* Page externalJS funtionality */
 
-		document.getElementById('contentDiv').onscroll = ()=>{
-			if(document.getElementById('contentDiv').scrollTop > 30){
-				document.getElementById('prodName').style.fontSize = "20px";
-				document.getElementById('prodName').style.paddingTop = '5px'
-				document.getElementById('prodBrand').style.fontSize = "16px";
-				document.getElementById('tagStyle').style.marginBottom = "4px";
-			}
-			else{
-				document.getElementById('prodName').style.fontSize = "2rem";
-				document.getElementById('prodName').style.paddingTop = '5px'
-				document.getElementById('prodBrand').style.fontSize = "1.5rem";
-				document.getElementById('tagStyle').style.marginBottom = "1rem"
-			}
-		}
+		$(document).ready(function(){
+			$('#scrollTop').click(()=>{
+				$('html, body').animate({ scrollTop: 0 }, 'slow');
+			});
 
+			let b = document.createElement('script');
+		 	b.src = "../../../assets/js/shrinkNavigation.js"
+			$("body").append(b);
+			 
+		})
+		 	
 		let btnIndex = 0;
 		let productsArr = getServerData.getMap('product'); 
 		$scope.ProductType = getServerData.getMap('ProductType');
