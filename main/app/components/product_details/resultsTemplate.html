@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="../../../assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="../../../assets/fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="../../../assets/css/aos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-resource.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="../../../assets/css/style.css">
     <style>
@@ -47,7 +51,38 @@
         tr:nth-child(1) {
             background-color:#f6f5f5;    
         }
-        
+        .slider {
+          -webkit-appearance: none;
+          width: 80%;
+          height: 10px;
+          background: #d3d3d3;
+          outline: none;
+          opacity: 0.7;
+          -webkit-transition: .2s;
+          transition: opacity .2s;
+        }
+
+        .slider:hover {
+          opacity: 1;
+        }
+        /* .slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 23px;
+          height: 24px;
+          border: 0;
+          background: url('http://iconizer.net/files/Duesseldorf/orig/heart.png');
+          cursor: pointer;
+        }
+
+        .slider::-moz-range-thumb {
+          width: 23px;
+          height: 24px;
+          border: 0;
+          background: url('http://iconizer.net/files/Duesseldorf/orig/heart.png');
+          cursor: pointer;
+        }
+         */
     </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" >
@@ -149,36 +184,10 @@
                 <td>
                     <h4>Budget</h4>
                     <div>
-                        <select name = "min">
-                            <option value="volvo">0</option>
-                            <option value="1000">1000</option>
-                            <option value="3000">3000</option>
-                            <option value="5000">5000</option>
-                            <option value="7000">7000</option>
-                            <option value="9000">9000</option>
-                            <option value="11000">11000</option>
-                            <option value="13000">13000</option>
-                            <option value="15000">15000</option>
-                            <option value="17000">17000</option>
-                            <option value="20000">20000</option>
-                        </select>
-                        &nbsp; To &nbsp;
-                        <select name = "max">
-                            <option value="2000">2000</option>
-                            <option value="4000">4000</option>
-                            <option value="6000">6000</option>
-                            <option value="8000">8000</option>
-                            <option value="10000">10000</option>
-                            <option value="12000">12000</option>
-                            <option value="16000">16000</option>
-                            <option value="20000">20000</option>
-                            <option value="25000">25000</option>
-                            <option value="30000">30000</option>
-                            <option value="50000">50000</option>
-                            <option value="50000">50000+</option>
-                        </select>
-                    </div>
-                    
+                      <input type="range" min={{min}} max={{max}} value={{max}} class="slider" id="myRange">
+                      <p style="color: #3e64ff;"><span id = "mini">{{min}} </span><b style="color: #47495a">to</b> <span id="maxi"></span></p>
+                      <!-- <p><input type="text" placeholder="Min" ng-model = "mini"> To <input type="text" placeholder="Max" ng-model = "maxi"></p> -->
+                    </div>  
                 </td>
                 <td>
                     <h4>Rating</h4>
@@ -224,7 +233,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                  <div style="color:#fff;text-align:center;background: #3e64ff;cursor: pointer;">Submit</div>
+                  <div style="color:#fff;text-align:center;background: #3e64ff;cursor: pointer;" ng-click = "filterValues()">Submit</div>
               </td>
               
             </tr>
@@ -375,6 +384,10 @@
           </div>
         </div>
       </div>
-    </footer>    
+    </footer>
+    <script>
+      
+    </script>  
+    <script src="./filter.js"></script>  
   </body>
 </html>

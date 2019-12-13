@@ -8,8 +8,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 		$("head").append(s);
 		let scr = document.createElement('script');
 		scr.src = "../../../assets/js/jquery.waypoints.min.js"
-		$("head").append(scr);
-		
+		$("head").append(scr);	
 		let x = document.createElement('script');
 		x.src = "../../../assets/js/jquery.animateNumber.min.js"
 		$("head").append(x);
@@ -28,7 +27,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 		let b = document.createElement('script');
 		b.src = "../../../assets/js/main.js"
 		$("head").append(b);
-	 })
+	})
 
 	$scope.product = [
         "Amazon Devices","Amazon Fashion","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",

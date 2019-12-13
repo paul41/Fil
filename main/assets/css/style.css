@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5,
   border-bottom: 1px solid #e9ecef !important; }
 /* Modal */
 #filterModal{
-  top:2%;
+  top:0;
 }
 @media (max-width: 549px){
   input {
@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px) {
   #filterModal {
-    top:6%; }
+    top:5%; }
   }
 /* Navbar */
 .dropdown-menu li {
@@ -1847,3 +1847,9 @@ h1, h2, h3, h4, h5,
       cursor: pointer;
       padding: 5px;
     }
+    @media (max-width: 549px){
+      input[type=range] {
+        width: 70% !important;
+      }
+    }
+      
