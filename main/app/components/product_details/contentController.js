@@ -34,6 +34,14 @@ angular.module('contentApp',[])
 		$scope.redirect = ()=>{
 		 	$(location).attr('href',productsArr[btnIndex].productURL)
 		}
+		$scope.redHeart = (rh)=>{
+			if(document.getElementsByClassName('fa fa-heart')[rh].style.color == 'red'){
+				document.getElementsByClassName('fa fa-heart')[rh].style.color = '#b5b3b3'
+			}else{
+				document.getElementsByClassName('fa fa-heart')[rh].style.color = 'red';
+			}
+			
+		}
 		$scope.radioValues = {
 			brandName:["Versace","Amazon","Reebok","Adidas","Woodland","HRX","Zara","Bata"]
 		}

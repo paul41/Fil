@@ -35,11 +35,14 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 		setMap:function(itemData){
 			
 		 	for(const elements of itemData){
-		 		cacheVal = new Map(Object.entries(elements));
+		 		sessionStorage.setItem('cached',JSON.stringify(elements))	
 			}
+			
 		},
-		getMap:function(key){	
-			return cacheVal.get(key);
+		getMap:function(key){
+			let cachedValue = sessionStorage.getItem('cached');
+			let cacheMap = new Map(Object.entries(JSON.parse(cachedValue)));
+			return cacheMap.get(key);
 		}
 	}
 });
