@@ -9,10 +9,42 @@ app.controller('headerCtrl', function($scope) {
     output.innerHTML = this.value;
     
   }
+  //Fetch value from JSON
   $scope.min = 1
   $scope.max = 200
+  $scope.radioValues = {
+    brandName:["Versace","Nike","Reebok","Adidas","Woodland","HRX","Zara","Bata"]
+  }
+
+
   $scope.filterValues = ()=>{
-    console.log($('#mini').text())
-    console.log($('#maxi').text())
+    let budgetArr = [];
+    let brandsArr = [];
+    let ratingArr = [];
+    
+    budgetArr.push(Number($('#mini').text()))
+    budgetArr.push(Number($('#maxi').text()))
+    //console.log(budgetArr);
+    var o;
+    var productType = "Amazon"
+    $.each($("input[name='brands']:checked"),function(){
+      brandsArr.push($(this).val());
+       o = {"brands":brandsArr,productType}
+      
+    });
+    console.log(o);
+
+    $.each($("input[name='rating']:checked"),function(){
+      ratingArr.push($(this).val());
+    });
+    //console.log(ratingArr)
+
+    let moneySortOption = $("select.Money option:selected").val();
+    //console.log(moneySortOption)
+
+    let starSortOption = $("select.Stars option:selected").val();
+    //console.log(starSortOption)
+
+    document.getElementById('filterModal').style.display='none';
   }
 });

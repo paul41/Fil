@@ -185,16 +185,16 @@
                     <h4>Budget</h4>
                     <div>
                       <input type="range" min={{min}} max={{max}} value={{max}} class="slider" id="myRange">
-                      <p style="color: #3e64ff;"><span id = "mini">{{min}} </span><b style="color: #47495a">to</b> <span id="maxi"></span></p>
-                      <!-- <p><input type="text" placeholder="Min" ng-model = "mini"> To <input type="text" placeholder="Max" ng-model = "maxi"></p> -->
+                      <p style="color: #3e64ff;"><span id = "mini">{{min}} </span><b style="color: #47495a">to</b> <span id="maxi">{{max}}</span></p>
                     </div>  
                 </td>
                 <td>
                     <h4>Rating</h4>
                     <div>
-                        <select name = "stars">
-                            <option value="volvo">More to less</option>
-                            <option value="volvo">Less to more</option>
+                        <select class = "Stars">
+                            <option value="">--Please choose an option--</option>
+                            <option value="Desc">More to less</option>
+                            <option value="Asc">Less to more</option>
                         </select>
                     </div>
                 </td>
@@ -202,19 +202,19 @@
             <tr>
                 <td>
                     <h4>Brand</h4>
-                    <div style = "overflow-y:auto">
-                        <input type="checkbox" name="vehicle1" value="Bike"> {{brandName}}<br>
-                        <input type="checkbox" name="vehicle2" value="Car"> Nike<br>
-                        <input type="checkbox" name="vehicle3" value="Boat" checked> Reebok <br>
-                    </div>
+                    <ul style = "list-style-type: none;padding-inline-start: 5px !important; column-count: 3">
+                      <li ng-repeat = "val in radioValues.brandName">
+                        <input type="checkbox" name = "brands" value={{val}}>{{val}}<br>
+                      </li>
+                    </ul>
                     
                 </td>
                 <td>
                     <h4>Price</h4>
                     <div>
-                        <select name = "Money">
-                            <option value="volvo">High to low</option>
-                            <option value="volvo">Low to high</option>
+                        <select class = "Money">
+                            <option value="Ascending">Low to high</option>
+                            <option value="Descending">High to low</option>
                         </select>
                     </div>
                 </td>
@@ -223,10 +223,10 @@
                 <td>
                     <h4>Rating</h4>
                     <div id = "mobile-style">
-                        <input type="checkbox" name="vehicle1" value="Bike"> 4★ & above<br>
-                        <input type="checkbox" name="vehicle2" value="Car"> 3★ & above<br>
-                        <input type="checkbox" name="vehicle3" value="Boat"> 2★ & above <br>
-                        <input type="checkbox" name="vehicle3" value="Boat"> 1★ & above <br>
+                        <input type="checkbox" name="rating" value="4"> 4★ & above<br>
+                        <input type="checkbox" name="rating" value="3"> 3★ & above<br>
+                        <input type="checkbox" name="rating" value="2"> 2★ & above <br>
+                        <input type="checkbox" name="rating" value="1"> 1★ & above <br>
                     </div>    
                 </td>
                 <td></td>

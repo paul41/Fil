@@ -81,15 +81,7 @@ module.exports.sort = (app,url)=>{
                     }
                   }
                 ]);
-            }
-            // YET TO IMPLEMENT...
-            //	}else{
-            // 	cursor = db.collection('BestBuy').aggregate([
-            // 		{$match:''},
-            // 		{$unwind:'$SearchItems.product'},
-            // 		{$sort:'SearchItems.product.recommended':1}
-            // 	])
-            // }		
+            }	
             cursor.forEach((docs,err)=>{
                 assert.equal(null,err);
                 sortArr.push(docs)
@@ -100,8 +92,140 @@ module.exports.sort = (app,url)=>{
         })
     })
 }
-module.exports.nodata = (app)=>{
-    app.get('/No-Data',(req,res)=>{
-        res.send("<!doctype html><html><body><div style='text-align:center'><h1>No Data Found. </h1></br><a href='http://localhost:5000/#!/' ><span style='color:green'>Try again</span></a></div></body></html>")
+module.exports.getrange = (app,url) =>{
+  app.get('/minmax',(req,res)=>{
+    let filterArr = [];
+    let cursor;
+    mongoClient.connect(url,(err,db)=>{
+      assert.equal(null,err);
+      cursor = db.collection('BestBuy').aggregate([
+        {
+          $unwind: "$SearchItems"
+        },
+        {
+          $match: {
+            "SearchItems.ProductType": req.query.budgetArr[2]
+          }
+        },
+        {
+          $project: {
+            product: {
+              $filter: {
+                input: "$SearchItems.product",
+                as: "item",
+                cond: { 
+                  $and: [
+                    {
+                      $gte: [
+                        "$$item.price",
+                        Number(req.query.budgetArr[0])
+                      ]
+                    },
+                    {
+                      $lte: [
+                        "$$item.price",
+                        Number(req.query.budgetArr[1])
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ])
+      cursor.forEach((docs,err)=>{
+        assert.equal(null,err);
+        filterArr.push(docs);
+      },()=>{
+        db.close();
+        res.json(filterArr)
+      })
+    })
+  })
+}
+module.exports.ratingFilter = (app,url)=>{
+  app.get('/ratingfilter',(req,res)=>{
+    let ratingArr = [];
+    let cursor;
+    mongoClient.connect(url,(err,db)=>{
+      assert.equal(null,err);
+      cursor = db.collection('BestBuy').aggregate([
+        {
+          $unwind: "$SearchItems"
+        },
+        {
+          $match: {
+            "SearchItems.ProductType": req.query.rateFilterArr[1]
+          }
+        },
+        {
+          $project: {
+            product: {
+              $filter: {
+                input: "$SearchItems.product",
+                as: "item",
+                cond: {
+                  $gte: [
+                    "$$item.rating",
+                    Number(req.query.rateFilterArr[0])
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ])
+      cursor.forEach((docs,err)=>{
+        assert.equal(null,err);
+        ratingArr.push(docs);
+      },()=>{
+        db.close();
+        res.json(ratingArr)
+      })
+    })
+  })
+}
+module.exports.braFil = (app,url) =>{
+  app.get('/brandsfilter',(req,res)=>{
+    let filteredArray = [];
+    let cursor;
+    console.log(req.query.brandsDataObj)
+    mongoClient.connect(url,(err,db)=>{
+      
+      assert.equal(null,err);
+      cursor = db.collection('BestBuy').aggregate([
+        {
+          $unwind: "$SearchItems"
+        },
+        {
+          $match: {
+            "SearchItems.ProductType": req.query.brandsDataObj.productType
+          }
+        },
+        {
+          $unwind: "$SearchItems.product"
+        },
+        {
+          $match: {
+            "SearchItems.product.product_specification.Brand": {
+              $in: req.query.brandsDataObj.brands
+            }  
+          }
+        }
+      ])
+      cursor.forEach((docs,err)=>{
+        assert.equal(null,err);
+        filteredArray.push(docs);
+      },()=>{
+        db.close();
+        res.json(filteredArray)
+      })
     });
+  })
+}
+module.exports.nodata = (app)=>{
+  app.get('/No-Data',(req,res)=>{
+      res.send("<!doctype html><html><body><div style='text-align:center'><h1>No Data Found. </h1></br><a href='http://localhost:5000/#!/' ><span style='color:green'>Try again</span></a></div></body></html>")
+  });
 }

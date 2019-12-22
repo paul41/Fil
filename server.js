@@ -10,6 +10,9 @@ getProducts(app,dbconfig.url);
 getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
 getProducts.sort(app,dbconfig.url)
 getProducts.nodata(app);
+getProducts.getrange(app,dbconfig.url);
+getProducts.ratingFilter(app,dbconfig.url);
+getProducts.braFil(app,dbconfig.url);
 
 /* Log-in service */
 const createAccountLimiter = rateLimit({

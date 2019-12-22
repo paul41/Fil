@@ -17,6 +17,21 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 				callback(response)
 			})
 		},
+		getRange:function(callback,parameter){
+			$http.get('/minmax',{params:parameter}).then((response)=>{
+				callback(response);
+			})
+		},
+		getRating:function(callback,parameter){
+			$http.get('/ratingfilter',{params:parameter}).then((response)=>{
+				callback(response);
+			})
+		},
+		getBrands:function(callback,parameter){
+			$http.get('/brandsfilter',{params:parameter}).then((response)=>{
+				callback(response);
+			})
+		},
 		setMap:function(itemData){
 			
 		 	for(const elements of itemData){

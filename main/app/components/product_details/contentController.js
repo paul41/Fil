@@ -8,10 +8,16 @@ angular.module('contentApp',[])
 			$('#scrollTop').click(()=>{
 				$('html, body').animate({ scrollTop: 0 }, 'slow');
 			});
-
-			let b = document.createElement('script');
-		 	b.src = "../../../assets/js/shrinkNavigation.js"
-			$("body").append(b);
+			var slider = document.getElementById("myRange");
+			var output = document.getElementById("maxi");
+			output.innerHTML = slider.value;
+			slider.oninput = function() {
+				output.innerHTML = this.value;
+				
+			}
+			let exScript = document.createElement('script');
+		 	exScript.src = "../../../assets/js/shrinkNavigation.js";
+			$("body").append(exScript);
 			 
 		})
 		 	
@@ -28,23 +34,52 @@ angular.module('contentApp',[])
 		$scope.redirect = ()=>{
 		 	$(location).attr('href',productsArr[btnIndex].productURL)
 		}
-		// $scope.sortItems = ['Price high to low','Rating','Recommended'];
-		// $scope.sortValue = (v) =>{
-		// 	$('#msgs').val(v)
-		// 	$('.dropdown-content').css("display","none");
-		// 	getServerData.sortProducts((res)=>{
-		// 		let productList = [];
-		// 		if(res.data.length > 0){
-		// 			(res.data).forEach((val)=>{
-		// 				productList.push(val.SearchItems.product);
-		// 			});
-		// 			$scope.lists = productList;
-		// 			console.log(productList);
-		// 		}
-		// 	},{"sortParam":[$('#msgs').val(),getServerData.getMap('ProductType')]})
-		// }
+		$scope.radioValues = {
+			brandName:["Versace","Amazon","Reebok","Adidas","Woodland","HRX","Zara","Bata"]
+		}
+		$scope.max = Math.max.apply(Math,productsArr.map(function(maxi){return maxi.price}));
+		$scope.min = Math.min.apply(Math,productsArr.map(function(mini){return mini.price}));
+		$scope.filterValues = ()=>{
+			let budgetArr = [];
+			let rateFilterArr = [];
+			let brandsArr = [];
+			let brandsDataObj;
+			//let globalFilterArray = [];
+			budgetArr.push(Number($('#mini').text()));
+			budgetArr.push(Number($('#maxi').text()));
+			budgetArr.push(getServerData.getMap('ProductType'));
+			getServerData.getRange((res)=>{
+				if(res.data[0].product.length > 0){
+					globalFilterArray = res.data[0].product;
+					$scope.lists = res.data[0].product;
+				}
+			},{budgetArr})
+			$.each($("input[name='rating']:checked"),function(){
+				rateFilterArr.push($(this).val());
+				rateFilterArr.push(getServerData.getMap('ProductType'));
+				if(rateFilterArr.length > 1 ){
+					getServerData.getRating((res)=>{
+						if(res.data[0].product.length > 0){
+							$scope.lists = res.data[0].product;
+						}
+					},{rateFilterArr});
+				}	
+			});
+			$.each($("input[name='brands']:checked"),function(){
+				brandsArr.push($(this).val());
+				let productType = getServerData.getMap('ProductType')
+				brandsDataObj = {"brands":brandsArr,productType}
+				console.log(brandsArr)
+				if(brandsArr.length > 0){
+					getServerData.getBrands((res)=>{
+						// if(res.data[0].product.length > 0){
+						// 	console.log(res.data[0]);
+						// }
+						console.log(res)
+					},{brandsDataObj});
+				}
+			});
+			document.getElementById('filterModal').style.display='none';
+		}
 		
-		$('input').mouseenter(()=>{
-			$('.dropdown-content').css("display","block");
-		})
 	}])
