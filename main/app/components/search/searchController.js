@@ -90,6 +90,9 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 	function showTrends(){
 		getServerData.getResponse((res)=>{
 			$scope.trend = res.data[0].Trend.TrendsArr;
+			$scope.refLink = (i) =>{
+				$(location).attr('href',res.data[0].Trend.TrendsArr[i].productUrl)
+			}
 		},{})
 	}
 	showTrends();

@@ -8,7 +8,8 @@ app.use(express.static(__dirname+"/main"));
 
 getProducts(app,dbconfig.url);
 getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
-getProducts.sort(app,dbconfig.url)
+getProducts.sort(app,dbconfig.url);
+getProducts.sortByPrice(app,dbconfig.url);
 getProducts.nodata(app);
 getProducts.getrange(app,dbconfig.url);
 getProducts.ratingFilter(app,dbconfig.url);

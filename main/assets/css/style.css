@@ -1792,7 +1792,9 @@ h1, h2, h3, h4, h5,
   .service-29193 img {
     position: relative;
     z-index: 1;
-    max-width: 80px; }
+    max-width: 200px;
+    height: 200px;
+  }
 
     .wishListStyle{
       background-color: #3e64ff;

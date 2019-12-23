@@ -25,14 +25,14 @@ app.controller('headerCtrl', function($scope) {
     budgetArr.push(Number($('#mini').text()))
     budgetArr.push(Number($('#maxi').text()))
     //console.log(budgetArr);
-    var o;
+    var ok;
     var productType = "Amazon"
     $.each($("input[name='brands']:checked"),function(){
       brandsArr.push($(this).val());
-       o = {"brands":brandsArr,productType}
-      
+       ok = {"brands":brandsArr,productType}
+       
     });
-    console.log(o);
+    console.log(ok);
 
     $.each($("input[name='rating']:checked"),function(){
       ratingArr.push($(this).val());
@@ -44,7 +44,12 @@ app.controller('headerCtrl', function($scope) {
 
     let starSortOption = $("select.Stars option:selected").val();
     //console.log(starSortOption)
-
+    let stars = $('.Stars').val();
+			if(stars){
+				alert("value")
+			}else{
+        alert('No value')
+      }
     document.getElementById('filterModal').style.display='none';
   }
 });

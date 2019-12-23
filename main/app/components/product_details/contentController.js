@@ -52,13 +52,15 @@ angular.module('contentApp',[])
 			let rateFilterArr = [];
 			let brandsArr = [];
 			let brandsDataObj;
-			//let globalFilterArray = [];
+			let sortParam = [];
+			let sortMoney = []
+
 			budgetArr.push(Number($('#mini').text()));
 			budgetArr.push(Number($('#maxi').text()));
 			budgetArr.push(getServerData.getMap('ProductType'));
 			getServerData.getRange((res)=>{
 				if(res.data[0].product.length > 0){
-					globalFilterArray = res.data[0].product;
+					
 					$scope.lists = res.data[0].product;
 				}
 			},{budgetArr})
@@ -77,16 +79,66 @@ angular.module('contentApp',[])
 				brandsArr.push($(this).val());
 				let productType = getServerData.getMap('ProductType')
 				brandsDataObj = {"brands":brandsArr,productType}
-				console.log(brandsArr)
-				if(brandsArr.length > 0){
-					getServerData.getBrands((res)=>{
-						// if(res.data[0].product.length > 0){
-						// 	console.log(res.data[0]);
-						// }
-						console.log(res)
-					},{brandsDataObj});
-				}
+				console.log(brandsDataObj)
 			});
+			if(brandsArr.length > 0){
+				getServerData.getBrands((res)=>{	
+					console.log(res)
+				},{brandsDataObj});
+			}
+				/** SORT */
+
+			let stars = $('.Stars').val();
+			
+			if(stars == "Desc"){
+				let array = [];
+				sortParam.push("Desc")
+				sortParam.push(getServerData.getMap('ProductType'));
+				getServerData.sortByStars((res)=>{
+					$.each((res.data),function(index,val){
+						array.push(val.product)
+					});
+					
+					$scope.lists = array;
+				},{sortParam})
+			}else if(stars == "Asc"){
+				let array = [];
+				sortParam.push("Asc");
+				sortParam.push(getServerData.getMap('ProductType'));
+				getServerData.sortByStars((res)=>{
+					$.each((res.data),function(index,val){
+						array.push(val.product)
+					});
+					$scope.lists = array;
+				},{sortParam})
+			}
+
+			let money = $('.Money').val();
+
+			if(money == "Descending"){
+				let arrays = [];
+				sortMoney.push("Descending");
+				sortMoney.push(getServerData.getMap('ProductType'));
+				getServerData.sortByMoney((res)=>{
+					$.each((res.data),function(index,val){
+						arrays.push(val.product)
+					});
+					
+					$scope.lists = arrays;
+				},{sortMoney})
+
+			}else if(money == "Ascending"){
+				let arrays = [];
+				sortMoney.push("Ascending");
+				sortMoney.push(getServerData.getMap('ProductType'));
+				getServerData.sortByMoney((res)=>{
+					$.each((res.data),function(index,val){
+						arrays.push(val.product)
+					});
+					$scope.lists = arrays;
+				},{sortMoney})
+			}
+
 			document.getElementById('filterModal').style.display='none';
 		}
 		

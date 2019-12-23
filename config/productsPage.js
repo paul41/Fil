@@ -36,33 +36,13 @@ module.exports.productDetails = (app,url,projectQ)=>{
     });
 }
 module.exports.sort = (app,url)=>{
-    app.get('/sortitems',(req,res)=>{
+    app.get('/sortbystars',(req,res)=>{
         let sortArr = [];
         let cursor;
         mongoClient.connect(url,(err,db)=>{
             assert.equal(null,err);
             let queryArray = req.query.sortParam;
-            if(queryArray[0] == 'Price high to low'){
-                cursor = db.collection('BestBuy').aggregate([
-                  {
-                    $unwind: "$SearchItems"
-                  },
-                  {
-                    $match: {
-                      "SearchItems.ProductType": queryArray[1]
-                    }
-                  },
-                  {
-                    $unwind: "$SearchItems.product"
-                  },
-                  {
-                    $sort: {
-                      "SearchItems.product.price": -1
-                    }
-                  }
-                ]);
-            }
-            else if(queryArray[0] == 'Rating'){
+            if(queryArray[0] == "Desc"){
                 cursor = db.collection('BestBuy').aggregate([
                   {
                     $unwind: "$SearchItems"
@@ -79,6 +59,36 @@ module.exports.sort = (app,url)=>{
                     $sort: {
                       "SearchItems.product.rating": -1
                     }
+                  },
+                  {
+                    $project: {
+                      "product": "$SearchItems.product"
+                    }
+                  }
+                ]);
+            }
+            else if(queryArray[0] == "Asc"){
+                cursor = db.collection('BestBuy').aggregate([
+                  {
+                    $unwind: "$SearchItems"
+                  },
+                  {
+                    $match: {
+                      "SearchItems.ProductType": queryArray[1]
+                    }
+                  },
+                  {
+                    $unwind: "$SearchItems.product"
+                  },
+                  {
+                    $sort: {
+                      "SearchItems.product.rating": 1
+                    }
+                  },
+                  {
+                    $project: {
+                      "product": "$SearchItems.product"
+                    }
                   }
                 ]);
             }	
@@ -92,6 +102,75 @@ module.exports.sort = (app,url)=>{
         })
     })
 }
+
+module.exports.sortByPrice = (app,url)=>{
+  app.get('/sortbyprice',(req,res)=>{
+      let sortArr = [];
+      let cursor;
+      mongoClient.connect(url,(err,db)=>{
+          assert.equal(null,err);
+          let queryArray = req.query.sortMoney;
+          if(queryArray[0] == "Descending"){
+              cursor = db.collection('BestBuy').aggregate([
+                {
+                  $unwind: "$SearchItems"
+                },
+                {
+                  $match: {
+                    "SearchItems.ProductType": queryArray[1]
+                  }
+                },
+                {
+                  $unwind: "$SearchItems.product"
+                },
+                {
+                  $sort: {
+                    "SearchItems.product.price": -1
+                  }
+                },
+                {
+                  $project: {
+                    "product": "$SearchItems.product"
+                  }
+                }
+              ]);
+          }
+          else if(queryArray[0] == "Ascending"){
+              cursor = db.collection('BestBuy').aggregate([
+                {
+                  $unwind: "$SearchItems"
+                },
+                {
+                  $match: {
+                    "SearchItems.ProductType": queryArray[1]
+                  }
+                },
+                {
+                  $unwind: "$SearchItems.product"
+                },
+                {
+                  $sort: {
+                    "SearchItems.product.price": 1
+                  }
+                },
+                {
+                  $project: {
+                    "product": "$SearchItems.product"
+                  }
+                }
+              ]);
+          }	
+          cursor.forEach((docs,err)=>{
+              assert.equal(null,err);
+              sortArr.push(docs)
+          },()=>{
+              db.close();
+              res.json(sortArr)
+          })
+      })
+  })
+}
+
 module.exports.getrange = (app,url) =>{
   app.get('/minmax',(req,res)=>{
     let filterArr = [];
@@ -209,7 +288,8 @@ module.exports.braFil = (app,url) =>{
         {
           $match: {
             "SearchItems.product.product_specification.Brand": {
-              $in: req.query.brandsDataObj.brands
+              $in: ["Amazon"]
+              //req.query.brandsDataObj.brands
             }  
           }
         }

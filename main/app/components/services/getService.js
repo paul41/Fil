@@ -32,6 +32,16 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 				callback(response);
 			})
 		},
+		sortByStars:function(callback,parameter){
+			$http.get('/sortbystars',{params:parameter}).then((response)=>{
+				callback(response);
+			})
+		},
+		sortByMoney:function(callback,parameter){
+			$http.get('/sortbyprice',{params:parameter}).then((response)=>{
+				callback(response);
+			})
+		},
 		setMap:function(itemData){
 			
 		 	for(const elements of itemData){

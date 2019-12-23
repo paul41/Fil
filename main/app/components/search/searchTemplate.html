@@ -185,16 +185,16 @@
         </div>
         <div class="row">
           
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-29193 text-center">
-              <span class="img-wrap mb-5">
-                <img src="../../../assets/images/about_1.jpg" alt="Image" class="img-fluid">
+          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100" ng-repeat = "t in trend">
+            <div class="service-29193 text-center" ng-click = "refLink($index)" style="cursor: pointer;">
+              <span class="img-wrap mb-5" >
+                <img src={{t.imgUrl}} alt="Image" class="img-fluid">
               </span>
               <h3 class="mb-4"><a href="#">Reiciendis Velit</a></h3>
               <p>Lorem ipsum dolor sit ame adipisicing elit. Perspiciatis incidunt distinctio voluptate .</p>
             </div>
           </div>
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <!-- <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="service-29193 text-center">
               <span class="img-wrap mb-5">
                 <img src="../../../assets/fonts/flaticon/svg/003-lamp.svg" alt="Image" class="img-fluid">
@@ -240,7 +240,7 @@
               <h3 class="mb-4"><a href="#">Dolor Sitame</a></h3>
               <p>Lorem ipsum dolor sit ame adipisicing elit. Perspiciatis incidunt distinctio voluptate .</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -322,7 +322,7 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="pt-5">
-              <p>
+              <p style="font-size: 3px; float: left;">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
