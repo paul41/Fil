@@ -1,6 +1,6 @@
 var app = angular.module('contentApp', []);
 
-app.controller('headerCtrl', function($scope) {
+app.controller('headerCtrl', function($scope,$timeout) {
   var slider = document.getElementById("myRange");
   var output = document.getElementById("maxi");
   output.innerHTML = slider.value;
@@ -15,8 +15,21 @@ app.controller('headerCtrl', function($scope) {
   $scope.radioValues = {
     brandName:["Versace","Nike","Reebok","Adidas","Woodland","HRX","Zara","Bata"]
   }
+  $scope.productList = [
+    "Amazon Devices","Amazon Fashion","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
+    "Computers & Accessories","Electronics","Furnitures","Garden & outdoors","Gift cards","Health & personal care","Home & Kitchen","Jewellery",
+    "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
+    "Toys & games","Video Games","Watches"
+]
 
-
+  $scope.displayList = () =>{
+    $('#list-product').css('display','block')
+  }
+  $scope.hideList = ()=>{
+    $timeout(()=>{
+      $('#list-product').css('display','none')
+    },250)
+  }
   $scope.filterValues = ()=>{
     let budgetArr = [];
     let brandsArr = [];

@@ -550,6 +550,7 @@ h1, h2, h3, h4, h5,
   height: 40px;
   width: 50%;
   font-size: 14px;
+  position: relative;
   
 }
 @media (max-width: 991.98px){

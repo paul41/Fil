@@ -304,6 +304,11 @@ module.exports.braFil = (app,url) =>{
     });
   })
 }
+module.exports.about = (app) =>{
+  app.get('/about',(req,res)=>{ 
+    res.sendFile(process.cwd()+'/main/app/components/about_us/about.html')
+  })
+}
 module.exports.nodata = (app)=>{
   app.get('/No-Data',(req,res)=>{
       res.send("<!doctype html><html><body><div style='text-align:center'><h1>No Data Found. </h1></br><a href='http://localhost:5000/#!/' ><span style='color:green'>Try again</span></a></div></body></html>")

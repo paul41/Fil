@@ -41,19 +41,16 @@
             <div class="col-lg-4">
               <nav class="site-navigation text-right ml-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li class="active"><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=apparel&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=fbbbb37602a7385b19f748188a60ac46&language=en_IN" class="nav-link">Clothings</a></li>
-                  <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=electronics&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=156c8511b3a60fa0bdbc71f5fbf7f949&language=en_IN" class="nav-link">Electronics</a></li>
+                  <li><a href={{clothing}} class="nav-link">Clothings</a></li>
+                  <li><a href= {{electronic}} class="nav-link">Electronics</a></li>
                   <li>
                     <div class="dropdown">
                       <a href="Javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown" style = "color:black">Discover</a>
                       <span class="caret"></span></button>
                       <ul class="dropdown-menu">
-                        <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=kitchen&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=c4dfbd8504458f19b6888da8ccae06ba&language=en_IN">Home & Kitchen</a></li>
-                        <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=sporting&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=7c27651b1e49b66ba9a7933aa93b1860&language=en_IN">Sports</a></li>
-                        <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=luggage&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=3803c20447a4dd517455b2a0132c937e&language=en_IN">Luggage & Bags</a></li>
-                        <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=dvd&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=faf9f7bcd3ed8e36feb7e31eac7b0587&language=en_IN">Movies & TV shows</a></li>
-                        <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=hpc&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=ea16aaaee40d8a342d0ae44794330eb3&language=en_IN">Health & Personal care</a></li>
-                        <li><a href="https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=jewelry&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=db75a55133cb0a422affb53905b80d30&language=en_IN">Jewellery & Beauty products</a></li>
+                        <li ng-repeat = "dis in discovery">
+                          <a href={{dis.href}}>{{dis.name}}</a>
+                        </li>
                       </ul>
                     </div>
                   </li>
@@ -62,7 +59,7 @@
             </div>
             <div class="col-lg-4 text-center">
               <div class="site-logo">
-                <a href="index.html">Fily</a>
+                <a href="#!/">Fily</a>
               </div>
               <div class="ml-auto toggle-button d-inline-block d-lg-none">
                 <a href="Javascript:void(0)" class="site-menu-toggle py-5 js-menu-toggle text-white">
@@ -73,7 +70,7 @@
             <div class="col-lg-4">
               <nav class="site-navigation text-left mr-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="contact.html" class="nav-link">About</a></li>
+                  <li><a href="/about" class="nav-link">About</a></li>
                   <li><a href="Javascript:Void(0)" class="nav-link"  onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">1</sup>Wishlist</a></li>
                   <li><a href="gallery.html" class="nav-link">Log In</a></li>
                 </ul>

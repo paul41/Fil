@@ -14,6 +14,7 @@ getProducts.nodata(app);
 getProducts.getrange(app,dbconfig.url);
 getProducts.ratingFilter(app,dbconfig.url);
 getProducts.braFil(app,dbconfig.url);
+getProducts.about(app);
 
 /* Log-in service */
 const createAccountLimiter = rateLimit({
