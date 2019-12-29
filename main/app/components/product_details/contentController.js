@@ -1,6 +1,6 @@
 angular.module('contentApp',[])
 	
-	.controller('headerCtrl',['$scope','getServerData',function($scope,getServerData){
+	.controller('headerCtrl',['$scope','getServerData','$timeout',function($scope,getServerData,$timeout){
 		
 		/* Page externalJS funtionality */
 
@@ -30,6 +30,21 @@ angular.module('contentApp',[])
 		 	$scope.ProductBrand = productsArr[i].product_specification[1].Brand;
 		 	$scope.Description = productsArr[i].product_specification[0].Description;
 		 	btnIndex = i;
+		}
+
+		$scope.amazonProducts = [
+		    "Amazon Devices","Amazon Fashion","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
+		    "Computers & Accessories","Electronics","Furnitures","Garden & outdoors","Gift cards","Health & personal care","Home & Kitchen","Jewellery",
+		    "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
+		    "Toys & games","Video Games","Watches"
+		] 
+		$scope.displayList = () =>{
+		   $('#list-product').css('display','block')
+		}
+		$scope.hideList = ()=>{
+		  	$timeout(()=>{
+		      $('#list-product').css('display','none')
+		    },250)
 		}
 		$scope.redirect = ()=>{
 		 	$(location).attr('href',productsArr[btnIndex].productURL)

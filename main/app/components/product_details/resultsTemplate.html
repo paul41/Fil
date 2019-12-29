@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="../../../assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="../../../assets/fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="../../../assets/css/aos.css">
+  <link rel="stylesheet" href="../../../assets/css/login.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-resource.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
@@ -65,24 +66,6 @@
         .slider:hover {
           opacity: 1;
         }
-        /* .slider::-webkit-slider-thumb {
-          -webkit-appearance: none;
-          appearance: none;
-          width: 23px;
-          height: 24px;
-          border: 0;
-          background: url('http://iconizer.net/files/Duesseldorf/orig/heart.png');
-          cursor: pointer;
-        }
-
-        .slider::-moz-range-thumb {
-          width: 23px;
-          height: 24px;
-          border: 0;
-          background: url('http://iconizer.net/files/Duesseldorf/orig/heart.png');
-          cursor: pointer;
-        }
-         */
     </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" >
@@ -97,12 +80,12 @@
         <div class="site-mobile-menu-body">
             <ul class="site-menu main-menu js-clone-nav ml-auto d-lg-block" style="list-style-type: none;">
                 <li>
-                  <a href="Javascript:void(0)" onclick="document.getElementById('filterModal').style.display='block'">
-                    <i class="fa fa-filter" style="font-size:24px"></i> Filter 
+                  <a href="Javascript:void(0)" class="nav-link" style="color: #000;font-size: 18px" onclick="document.getElementById('filterModal').style.display='block'">
+                    <i class="fa fa-filter" style="font-size:22px;color:#3e64ff"></i> Filter 
                   </a>
                 </li>
-                <li><a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">1</sup>Wishlist</a></li>
-                <li><a href="gallery.html" class="nav-link">Log In</a></li>
+                <li><a href="Javascript:void(0)" style="color: #000;font-size: 18px" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">5</sup>Wishlist</a></li>
+                <li><a style="color: #000;font-size: 18px" href = "Javascript:void(0)" data-toggle="modal" data-target="#login-modal" class="nav-link">Log In</a></li>
               </ul>
         </div>
       </div>
@@ -116,7 +99,7 @@
                 <input type="text" id = "re-search" autocomplete="off" placeholder="Search for products" ng-focus = displayList() ng-blur = hideList()>
                 <div id = "list-product" style="display:none;position: absolute;left:118px;min-width: 250px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);top:55px">
                   <ul style = "list-style-type: none;background: #ddd; overflow: auto; height: 250px;margin-block-end:0px">
-                    <li ng-repeat = "pl in productList" style="padding: 5px;">
+                    <li ng-repeat = "pl in amazonProducts" style="padding: 5px;">
                       {{pl}}
                     </li>
                   </ul>
@@ -138,14 +121,49 @@
                       <i class="fa fa-filter" style="font-size:24px"></i> Filter 
                     </a>
                   </li>
-                  <li><a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">1</sup>Wishlist</a></li>
-                  <li><a href="gallery.html" class="nav-link">Log In</a></li>
+                  <li><a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">5</sup>Wishlist</a></li>
+                  <li><a href = "Javascript:void(0)" data-toggle="modal" data-target="#login-modal" class="nav-link">Log In</a></li>
                 </ul>
               </nav>
             </div>
           </div>
         </div>
       </header>
+
+      <!-- LOGIN_MODAL-->
+
+      <div class="modal fade" id="login-modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" style="top:115px;left:10px">  
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" style = "padding:1rem 1rem 1.8rem 1rem;margin:0">&times;</button>
+              <h4 class="modal-title">Login</h4>
+            </div>
+            <div class="modal-body">
+             <h6 style="margin-left: 16px;">Get access to wishlist and recommendations</h6>
+              <br/>
+              <form >
+                <div style="margin-left: 12px">
+                  <div style="padding-bottom: 20px">
+                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67%">
+                  </div>
+                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67%;padding:7px;font-family: inherit; border: 1px solid #afa9a9"><br/>
+                  <a href="#" style="float: right;margin:5px;font-weight: 600;">
+                    <span style="position: relative;top:27px">
+                      Forgot?
+                    </span>
+                  </a>
+                  <div style="padding-bottom: 22px">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="width: 100px      
+                      ;position: relative; top: 17px;background: #3e64ff;color: #fff">
+                  </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div style="margin-top: 140px;"></div>
 
@@ -262,9 +280,8 @@
                     <pre style = "word-wrap: break-word;white-space: pre-wrap;word-break: normal;overflow: hidden;"><h4 id="prodBrand">{{ProductBrand}}</h4></pre>
                   </header>
                   <p id = "review" style = "word-wrap: break-word;">
-                      <h2>Review</h2>
-                      OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
-                      OnePlus 7 Pro has become the fastest selling ultra-premium smartphone on Amazon India in its first seven days of launch, the e-retailer claimed on Thursday. The smartphone had gone on sale for the first time on May 16 for Prime subscribers, followed by for all Amazon customers on May 17. OnePlus is only offering two variants of the smartphone in the country right now (6GB+128GB and 8GB+256GB), in a Mirror Grey colour option, with the Nebula Blue 8GB+256GB and 12GB+256GB variants due to go on sale on May 28. The Almond colour variant, only available in the 8GB+256GB variant, will go on sale in June.
+                    <h2>Review</h2>
+                    {{Description}}
                   </p>
                   <p id = "specs" style = "word-wrap: break-word;">
                     <h2>Specs</h2>
@@ -345,15 +362,17 @@
             <div class="row">
               <div class="col-md-7">
                 <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p><b>Fily</b> makes it easy to search and select from wide range of recommended Amazon products. 
+                  Wheather you want to review or add it to your wishlist, Fily provides a hussle free platform to buy products of your choice.
+                </p>
 
               </div>
               <div class="col-md-4 ml-auto">
                 <h2 class="footer-heading mb-4">Features</h2>
                 <ul class="list-unstyled">
                   <li><a href="#">About Us</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Terms of Service</a></li>
+                  <!-- <li><a href="#">Testimonials</a></li> -->
+                  <!-- <li><a href="#">Terms of Service</a></li> -->
                   <li><a href="#">Privacy</a></li>
                   <li><a href="#">Contact Us</a></li>
                 </ul>
@@ -362,21 +381,12 @@
             </div>
           </div>
           <div class="col-md-4 ml-auto">
-            <div class="mb-5">
-              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
-              <form action="#" method="post" class="footer-suscribe-form">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control rounded-0 border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
-                  </div>
-                </div>
-            </div>
+            <!--  -->
             <h2 class="footer-heading mb-4">Follow Us</h2>
-            <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+            <a href="#" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+            <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a> -->
             <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            <!-- <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
             </form>
           </div>
         </div>
