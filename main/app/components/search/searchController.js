@@ -45,8 +45,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
         "Toys & games","Video Games","Watches"
     ]
 
-    $scope.setValue = (product)=>{
-		
+    $scope.setValue = (product)=>{	
     	$('#input-search').val(product);
     	$('#productList').css('display','none')
     }

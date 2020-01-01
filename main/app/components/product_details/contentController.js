@@ -46,6 +46,14 @@ angular.module('contentApp',[])
 		      $('#list-product').css('display','none')
 		    },250)
 		}
+		$scope.fetchproducts = (item)=>{
+			$('#re-search').val(item)
+			getServerData.fetchProductDetails((res)=>{
+					//console.log(res.data[0].SearchItems[0].product)
+					$scope.lists = res.data[0].SearchItems[0].product;
+					$('#re-search').val("")
+			},{"SearchItems.ProductType":item})
+		}
 		$scope.redirect = ()=>{
 		 	$(location).attr('href',productsArr[btnIndex].productURL)
 		}
