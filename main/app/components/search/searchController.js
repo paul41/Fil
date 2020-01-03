@@ -63,7 +63,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     	if(inputVal){
     		getServerData.fetchProductDetails((res)=>{
     			if(res.data.length > 0){
-    				$window.location.href="#!/productContent";
+					$window.location.href="#!/productContent";
     				getServerData.setMap(res.data[0].SearchItems)
     				
     			}else{

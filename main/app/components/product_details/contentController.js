@@ -21,7 +21,6 @@ angular.module('contentApp',[])
 		 	
 		let btnIndex = 0;
 		let productsArr = getServerData.getMap('product'); 
-		console.log(productsArr)
 		$scope.ProductType = getServerData.getMap('ProductType');
 		$scope.lists =  productsArr;
 		$scope.productList = (i)=>{
@@ -52,15 +51,22 @@ angular.module('contentApp',[])
 				if(res.data.length > 0){ 
 					
 					getServerData.setMap(res.data[0].SearchItems)
-					let productsArry = getServerData.getMap('product');	
-							//console.log($scope.$$phase)
-							$("#myRange").attr(
-								"max" , Math.max.apply(Math,productsArry.map(function(maxi){return maxi.price})),       	
-							);
-							$("#myRange").attr(
-								'min' , Math.min.apply(Math,productsArry.map(function(mini){return mini.price})),       	
-							);
-    				$scope.lists = res.data[0].SearchItems[0].product;
+					console.log(res.data[0])
+					$scope.ProductType = getServerData.getMap('ProductType');
+					let prdList = getServerData.getMap('product');
+					$scope.lists = prdList;
+					$scope.productList = (i)=>{
+						$scope.ProductName = prdList[i].ProductName;
+						$scope.ProductBrand = prdList[i].product_specification[1].Brand;
+						$scope.Description = prdList[i].product_specification[0].Description;
+						btnIndex = i;
+				   }		
+				   $("#myRange").attr(
+					"max" , Math.max.apply(Math,prdList.map(function(maxi){return maxi.price})),       	
+					);
+					$("#myRange").attr(
+						'min' , Math.min.apply(Math,prdList.map(function(mini){return mini.price})),       	
+					);
     			}else{
     				$window.location.href = "/No-Data";
     			}
