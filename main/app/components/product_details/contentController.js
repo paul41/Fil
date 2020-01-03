@@ -1,5 +1,4 @@
 angular.module('contentApp',[])
-	
 	.controller('headerCtrl',['$scope','getServerData','$timeout',function($scope,getServerData,$timeout){
 		
 		/* Page externalJS funtionality */
@@ -12,8 +11,7 @@ angular.module('contentApp',[])
 			var output = document.getElementById("maxi");
 			output.innerHTML = slider.value;
 			slider.oninput = function() {
-				output.innerHTML = this.value;
-				
+				output.innerHTML = this.value;	
 			}
 			let exScript = document.createElement('script');
 		 	exScript.src = "../../../assets/js/shrinkNavigation.js";
@@ -23,6 +21,7 @@ angular.module('contentApp',[])
 		 	
 		let btnIndex = 0;
 		let productsArr = getServerData.getMap('product'); 
+		console.log(productsArr)
 		$scope.ProductType = getServerData.getMap('ProductType');
 		$scope.lists =  productsArr;
 		$scope.productList = (i)=>{
@@ -47,10 +46,25 @@ angular.module('contentApp',[])
 		    },250)
 		}
 		$scope.fetchproducts = (item)=>{
-			$('#re-search').val(item)
-			getServerData.fetchProductDetails((res)=>{
-					//console.log(res.data[0].SearchItems[0].product)
-					$scope.lists = res.data[0].SearchItems[0].product;
+			$('#re-search').val(item);
+			 
+			getServerData.fetchProductDetails((res)=>{	
+				if(res.data.length > 0){ 
+					
+					getServerData.setMap(res.data[0].SearchItems)
+					let productsArry = getServerData.getMap('product');	
+							//console.log($scope.$$phase)
+							$("#myRange").attr(
+								"max" , Math.max.apply(Math,productsArry.map(function(maxi){return maxi.price})),       	
+							);
+							$("#myRange").attr(
+								'min' , Math.min.apply(Math,productsArry.map(function(mini){return mini.price})),       	
+							);
+    				$scope.lists = res.data[0].SearchItems[0].product;
+    			}else{
+    				$window.location.href = "/No-Data";
+    			}
+					
 					$('#re-search').val("")
 			},{"SearchItems.ProductType":item})
 		}

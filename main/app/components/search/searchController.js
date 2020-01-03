@@ -2,7 +2,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 	
 	/* Load UI externalJSs when DOM is ready.. */
 
-	$(document).ready(function(){	
+	 $(document).ready(function(){	
 		let s = document.createElement('script');
 		s.src = "../../../assets/js/jquery.sticky.js"
 		$("head").append(s);
@@ -15,16 +15,16 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 		let sc = document.createElement('script');
 		sc.src = "../../../assets/js/owl.carousel.min.js"
 		$("head").append(sc);
-		let y = document.createElement('script');
-		y.src = "../../../assets/js/jquery.fancybox.min.js"
-		$("head").append(y);
+		// let y = document.createElement('script');
+		// y.src = "../../../assets/js/jquery.fancybox.min.js"
+		//$("head").append(y);
 		let z = document.createElement('script');
 		z.src = "../../../assets/js/jquery.easing.1.3.js"
 		$("head").append(z);
 		let a = document.createElement('script');
 		a.src = "../../../assets/js/aos.js"
 		$("head").append(a);
-		let b = document.createElement('script');
+	 	let b = document.createElement('script');
 		b.src = "../../../assets/js/main.js"
 		$("head").append(b);
 	})
@@ -69,7 +69,6 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     			}else{
     				$window.location.href = "/No-Data";
     			}
-
     		},{"SearchItems.ProductType":inputVal})
     		
     	}else{
