@@ -51,7 +51,7 @@ angular.module('contentApp',[])
 				if(res.data.length > 0){ 
 					
 					getServerData.setMap(res.data[0].SearchItems)
-					console.log(res.data[0])
+					
 					$scope.ProductType = getServerData.getMap('ProductType');
 					let prdList = getServerData.getMap('product');
 					$scope.lists = prdList;
@@ -101,9 +101,10 @@ angular.module('contentApp',[])
 			budgetArr.push(Number($('#mini').text()));
 			budgetArr.push(Number($('#maxi').text()));
 			budgetArr.push(getServerData.getMap('ProductType'));
+			console.log(budgetArr)
 			getServerData.getRange((res)=>{
 				if(res.data[0].product.length > 0){
-					
+					console.log(res.data[0])
 					$scope.lists = res.data[0].product;
 				}
 			},{budgetArr})
