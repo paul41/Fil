@@ -158,10 +158,11 @@
               </div>
             </div>
         </div>
-        <div class="owl-carousel owl-1 ">
-          <div class="ftco-cover-1" style="background-image: url('../../../assets/images/hero_1.jpg');"></div>
-          <div class="ftco-cover-1" style="background-image: url('../../../assets/images/hero_2.jpg');"></div>
-          <div class="ftco-cover-1" style="background-image: url('../../../assets/images/hero_3.jpg');"></div>  
+        <div class="owl-carousel owl-1" style="position: relative;top:88px;">
+          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/WLA/Jan/Cases/D14720820_WLA_Heroes_DesktopTallHero_1500x600._CB427645230_.jpg');background-size: cover;"></div>
+          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Xiaomi/Redmi_Note8Pro/Alexa/D14759939_IN_WLME_Redmi_Note_Pro_Alexa_DesktopTallHero_1500x600._CB426125107_.jpg');background-size: cover;"></div>
+          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fashion/2019/dec/EOSSL1/GatewayGraphics/1500x600._CB425806110_.jpg');background-size: cover;"></div>  
+          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/WLA/Jan/GW/Unrec/D14535816_IN_WLA_Headsets_New_launches_Tall_hero_1500x600._CB426168372_.jpg');background-size: cover;"></div>
         </div>
     </div>  
 
@@ -184,8 +185,10 @@
                   </a>  
                 </div>
                 <div style="position: relative;bottom: 0;text-align: center;">
-                    <h3><a href="Javascript:void(0)">{{d.name}}</a></h3>
-                    <span style="color:#3e64ff"><i class = "fa fa-rupee"></i>{{d.price}} &nbsp; <i class = "fa fa-rupee"></i><strike>{{d.strikethrough}}</strike></span>
+                    <h3><a href="Javascript:void(0)" style="font-family: none;">{{d.name}}</a></h3>
+                    <span style="position: relative;top:15px;"><i class = "fa fa-rupee" style="color: #000;"></i><b>{{d.price}}</b> &nbsp; <i class = "fa fa-rupee" style="color: #000;"></i><strike>{{d.strikethrough}}</strike> &nbsp; 
+                      <p style="font-size: x-large;color:#3e64ff">{{d.percentdiscount}}% Off</p>
+                    </span>
                 </div>
               </div>     
             </div>
@@ -209,10 +212,10 @@
           <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100" ng-repeat = "t in trend">
             <div class="service-29193 text-center" ng-click = "refLink($index)" style="cursor: pointer;">
               <span class="img-wrap mb-5" >
-                <img src={{t.imgUrl}} alt="Image" class="img-fluid">
+                <img src={{t.imgUrl}} alt="Image" class="img-fluid" >
               </span>
-              <h3 class="mb-4"><a href="#">Reiciendis Velit</a></h3>
-              <p>Lorem ipsum dolor sit ame adipisicing elit. Perspiciatis incidunt distinctio voluptate .</p>
+              <h3 class="mb-4"><a href="#">{{t.productName}}</a></h3>
+              <p style="height: 200px;overflow: auto;">{{t.productDetail}}</p>            
             </div>
           </div>
         </div>

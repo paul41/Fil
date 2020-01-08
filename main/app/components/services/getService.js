@@ -1,5 +1,5 @@
 angular.module('searchAppService',[]).service('getServerData',function ($http){
-	let cacheVal;
+	
 	return{
 		
 		getResponse:function(callback,parameter){
@@ -45,12 +45,12 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 		setMap:function(itemData){
 			
 		 	for(const elements of itemData){
-		 		sessionStorage.setItem('cached',JSON.stringify(elements))	
+		 		localStorage.setItem('cached',JSON.stringify(elements))	
 			}
 			
 		},
 		getMap:function(key){
-			let cachedValue = sessionStorage.getItem('cached');
+			let cachedValue = localStorage.getItem('cached');
 			let cacheMap = new Map(Object.entries(JSON.parse(cachedValue)));
 			return cacheMap.get(key);
 		}

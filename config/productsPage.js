@@ -17,7 +17,6 @@ module.exports = (app,url)=>{
         });
     });
 }
-
 module.exports.productDetails = (app,url,projectQ)=>{
     app.get('/productsdetail',(req,res)=>{
 

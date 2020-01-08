@@ -77,28 +77,40 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     }
 
     function getDeals(){
-
     	getServerData.getResponse((res)=>{
-    		$scope.deals = res.data[0].Deals.DealsImg;
+			
+			let newDealsArr = [];
+			console.log(res)
+			let dealsArray = res.data[1].Deals.DealsImg;
+			//$scope.deals = dealsArray;
     		$scope.link = (index)=>{
-    			$(location).attr('href',res.data[0].Deals.ProductURL[index])
-    		}
+    			$(location).attr('href',res.data[1].Deals.ProductURL[index])
+			}
+			(dealsArray).forEach((item,i)=>{
+
+				let discountPrice = ((item.strikethrough)-(item.price));
+				let discountRate = Number(discountPrice/item.strikethrough)
+				let rate = (discountRate*100).toFixed(2)
+				item.percentdiscount = rate; 
+				newDealsArr.push(item)
+			})	
+			$scope.deals = dealsArray
     	},{});
     }
     getDeals();
 
 	function showBrands(){
 		getServerData.getResponse((res)=>{
-			$scope.brands = res.data[0].Brands.BrandsArr;
+			$scope.brands = res.data[1].Brands.BrandsArr;
 		},{})
 	}
 	showBrands()
 
 	function showTrends(){
 		getServerData.getResponse((res)=>{
-			$scope.trend = res.data[0].Trend.TrendsArr;
+			$scope.trend = res.data[1].Trend.TrendsArr;
 			$scope.refLink = (i) =>{
-				$(location).attr('href',res.data[0].Trend.TrendsArr[i].productUrl)
+				$(location).attr('href',res.data[1].Trend.TrendsArr[i].productUrl)
 			}
 		},{})
 	}
