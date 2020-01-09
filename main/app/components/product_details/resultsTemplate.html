@@ -250,8 +250,8 @@
         </table>
       </div>
       <div class = "container-fluid">
-        <div style="height:640px;display:flex;flex-direction:row;justify-content:flex-start;align-items: stretch;">
-          <div id="contentDiv" style="max-height: 478px;background-color: #f1f1f1;width: 100px;margin-right:7px;text-align: center;flex-grow: 3;overflow-y: auto;">
+        <div style="display:flex;flex-direction:row;justify-content:flex-start;align-items: stretch;">
+          <!-- <div id="contentDiv" style="max-height: 478px;background-color: #f1f1f1;width: 100px;margin-right:7px;text-align: center;flex-grow: 3;overflow-y: auto;">
             <section style="position: relative;">
               <div id="productDetail" style="margin:5px;">
                 <div ng-init="ProductName=lists[0].ProductName;ProductBrand = lists[0].product_specification[1].Brand;
@@ -280,25 +280,30 @@
                   <a href="#review" style="color:#fff;padding:7px"> Review</a> |
                   <a href="#specs" style="color:#fff;padding:7px"> Specs</a> | 
                   <a href="Javascript:void(0)" style="color:#fff;padding:7px" ng-click = "redirect()"> Buy At  <i class="fa fa-amazon" style="font-size: 18px;"></i></a>  
-                  <!-- <a href="#" style="color:#fff;"> News</a> -->
+                  
               </div>
             </section> 
-          </div>
-            <div id = "gridView" style="background-color: #f1f1f1;width:50px;text-align: center;flex-grow: 7;overflow: auto;">
+          </div> -->
+            <div id = "gridView" style="background-color: #fff;width:50px;text-align: center;flex-grow: 7;overflow: auto;">
               <section width=100%>
                 <ul style="justify-content:space-between;margin-left: -32px;">
-                    <li ng-repeat ="x in lists" style="margin:7px;box-shadow: 0px 5px 3px #888888;box-sizing:border-box;width:200px;overflow:hidden;position:relative;z-index:2;display:inline-block;cursor: pointer;" 
+                    <li ng-repeat ="x in lists" style="margin:7px;box-sizing:border-box;width:230px;overflow:hidden;position:relative;z-index:2;display:inline-block;cursor: pointer;" 
                     ng-click = "productList($index);">
                       <div height = "200px">
-                        <div style="width:100%;height:100%;display:block">
+                        <div style="width:100%;height:100%;display:block;background: #fff;">
                             <i class="fa fa-heart" style="font-size:25px;color:#b5b3b3;padding:12px;position: absolute;" ng-click = redHeart($index);$event.stopPropagation();></i>
                           <img style = "max-width: 100%;margin-left: auto;margin-right: auto;height: 250px" src = {{x.productImg}}>
                         </div>
-                        <div style = "text-align: center;position:relative;z-index:2;background:#fff;padding:0 10px;box-sizing:border-box;overflow:hidden">
-                          <h4 style = "white-space: nowrap;overflow: hidden;height:60px;text-overflow: ellipsis;">{{x.ProductName}}</h4>
-                          <h5 style ="display:block;font-size:17px">{{x.Brand}}</h5>
-                          <div style = "margin:10px 0 16px;font-size:15px;"><b style="color: #3e64ff;">{{x.price}}</b></div>
-                          <div style = "margin:10px 0 16px;font-size:15px"><b>{{x.rating}} ★</b></div>
+                        <div style = "text-align: center;position:relative;z-index:2;background:#fff;box-sizing:border-box;overflow:hidden">
+                          <h4  style = "overflow: hidden;height:60px;text-overflow: ellipsis;position: relative;top:12px">{{x.ProductName}}</h4>
+                          <div style = "margin:10px 0 12px;font-size:15px;"><i class = "fa fa-rupee" style="color: #3e64ff"></i><b style="color: #3e64ff;font-size: 22px;">{{x.price}}&nbsp;</b>
+                            <strike><i class = "fa fa-rupee"></i>{{x.strike}}</strike>&nbsp; ({{x.discountpercent}}% Off)
+                          </div>
+                          <div style = "margin:12px 0 12px;font-size:15px"><b>{{x.rating}} ★</b></div>
+                          <div width = "100%" style="background:#3e64ff;color: #fff; padding:7px" ng-click = "productUrl($index)">
+                            BUY AT
+                            <i class="fa fa-amazon"></i>
+                          </div>
                         </div>
                       </div>
                     </li>

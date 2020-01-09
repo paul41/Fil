@@ -348,14 +348,17 @@ h1, h2, h3, h4, h5,
       left:0%;
     }
   }
+  #gridView ul li:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+  }
   @media (max-width:767px) {
     #gridView ul{ 
       margin-left:-20px; 
     }
     #gridView ul li{
-      width: 150px !important;
-      display: block !important;  
-      margin: auto !important;
+      width: 153px !important;
+      
       margin-top: 10px !important;
     }
     .container-fluid{

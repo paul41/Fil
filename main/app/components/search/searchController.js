@@ -80,7 +80,6 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     	getServerData.getResponse((res)=>{
 			
 			let newDealsArr = [];
-			console.log(res)
 			let dealsArray = res.data[1].Deals.DealsImg;
 			//$scope.deals = dealsArray;
     		$scope.link = (index)=>{

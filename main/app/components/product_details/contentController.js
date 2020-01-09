@@ -13,23 +13,36 @@ angular.module('contentApp',[])
 			slider.oninput = function() {
 				output.innerHTML = this.value;	
 			}
-			let exScript = document.createElement('script');
-		 	exScript.src = "../../../assets/js/shrinkNavigation.js";
-			$("body").append(exScript);
-			 
 		})
-		 	
+		 
 		let btnIndex = 0;
+		
 		let productsArr = getServerData.getMap('product'); 
 		$scope.ProductType = getServerData.getMap('ProductType');
-		$scope.lists =  productsArr;
+		/** Calculate discount functionality */	
+		
+		function discountRateFn(arr){
+			let newProductArr = [];
+			(arr).forEach((item)=>{
+				
+				let discountPrice = ((item.strike)-(item.price));
+				let discountRate = Number(discountPrice/item.strike)
+				let rate = (discountRate*100).toFixed(0)
+				item.discountpercent = rate; 
+				newProductArr.push(item)
+			})
+			
+			return newProductArr;
+		}
+		$scope.lists =  discountRateFn(productsArr);
 		$scope.productList = (i)=>{
 		 	$scope.ProductName = productsArr[i].ProductName;
 		 	$scope.ProductBrand = productsArr[i].product_specification[1].Brand;
 		 	$scope.Description = productsArr[i].product_specification[0].Description;
-		 	btnIndex = i;
 		}
-
+		$scope.productUrl = (i) =>{
+			$(location).attr('href',productsArr[i].productURL)
+		}
 		$scope.amazonProducts = [
 		    "Amazon Devices","Amazon Fashion","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
 		    "Computers & Accessories","Electronics","Furnitures","Garden & outdoors","Gift cards","Health & personal care","Home & Kitchen","Jewellery",
@@ -54,7 +67,10 @@ angular.module('contentApp',[])
 					
 					$scope.ProductType = getServerData.getMap('ProductType');
 					let prdList = getServerData.getMap('product');
-					$scope.lists = prdList;
+					$scope.lists = discountRateFn(prdList);
+					$scope.productUrl = (i) =>{
+						$(location).attr('href',prdList[i].productURL)
+					}
 					$scope.productList = (i)=>{
 						$scope.ProductName = prdList[i].ProductName;
 						$scope.ProductBrand = prdList[i].product_specification[1].Brand;
