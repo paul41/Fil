@@ -1,6 +1,12 @@
 angular.module('contentApp',[])
 	.controller('headerCtrl',['$scope','getServerData','$timeout',function($scope,getServerData,$timeout){
 		
+		let btnIndex = 0;
+		let wishCount = 0;
+		let wishlistArray = [];
+		let productsArr = getServerData.getMap('product'); 
+		$scope.ProductType = getServerData.getMap('ProductType');
+
 		/* Page externalJS funtionality */
 
 		$(document).ready(function(){
@@ -13,14 +19,11 @@ angular.module('contentApp',[])
 			slider.oninput = function() {
 				output.innerHTML = this.value;	
 			}
+			if(wishlistArray.length < 1){
+				//document.getElementById('wishLists').innerHTML = "Your Wishlist is empty";
+			}
 		})
-		 
-		let btnIndex = 0;
-		let wishCount = 0;
-		let productsArr = getServerData.getMap('product'); 
-		$scope.ProductType = getServerData.getMap('ProductType');
-		/** Calculate discount functionality */	
-		
+			/** Calculate discount  */	
 		function discountRateFn(arr){
 			let newProductArr = [];
 			(arr).forEach((item)=>{
@@ -94,15 +97,19 @@ angular.module('contentApp',[])
 		 	$(location).attr('href',productsArr[btnIndex].productURL)
 		}
 		$scope.redHeart = (rh)=>{
-			let wishlistArray = [];
+			
 			if(document.getElementsByClassName('fa fa-heart')[rh].style.color == 'red'){
 				document.getElementsByClassName('fa fa-heart')[rh].style.color = '#b5b3b3';
 				$scope.wishItems = --wishCount;
+				wishlistArray.pop(productsArr[rh]);
+				if(wishlistArray.length < 1){
+					//document.getElementById('wishLists').innerHTML = "Your Wishlist is empty";
+				}
 			}else{
 				document.getElementsByClassName('fa fa-heart')[rh].style.color = 'red';
 				$scope.wishItems = ++wishCount;
 				wishlistArray.push(productsArr[rh]);
-				//console.log(wishlistArray)
+				$scope.wishArray = wishlistArray
 
 			}
 			
@@ -145,11 +152,9 @@ angular.module('contentApp',[])
 				brandsArr.push($(this).val());
 				let productType = getServerData.getMap('ProductType')
 				brandsDataObj = {"brands":brandsArr,productType}
-				console.log(brandsDataObj)
 			});
 			if(brandsArr.length > 0){
 				getServerData.getBrands((res)=>{	
-					console.log(res)
 				},{brandsDataObj});
 			}
 				/** SORT */

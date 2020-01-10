@@ -161,10 +161,10 @@
         </div>
         <section id="wishLists">
           <ul>
-            <li ng-repeat = "w in wishlistArray">
-              <img id="modal-image-style" src={{w.productImg}} > 
-              <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important">Hit the gym</p>
-              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">Rs.300</b>
+            <li ng-repeat = "w in wishArray">
+              <img id="modal-image-style" src="w.productImg" > 
+              <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important">{{w.ProductName}}</p>
+              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">{{w.price}}</b>
               <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;">Buy Now</button>
               <span class="close">&times;</span>
             </li>
@@ -308,34 +308,6 @@
           </div>
         </div>
     </div>
-    
-    <!-- <div class="site-section section-4">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-md-7">
-            <div class="slide-one-item owl-carousel">
-              <blockquote class="testimonial-1">
-                <span class="quote quote-icon-wrap"><span class="icon-format_quote"></span></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus totam sit delectus earum facere ex ea sunt, eos?</p>
-                <cite><span class="text-black">Mike Dorney</span> &mdash; <span class="text-muted">CEO and Co-Founder</span></cite>
-              </blockquote>
-
-              <blockquote class="testimonial-1">
-                <span class="quote quote-icon-wrap"><span class="icon-format_quote"></span></span>
-                <p>Eligendi earum ad perferendis dolores, dolor quas. Ullam in, eaque mollitia suscipit id aspernatur rerum! Sit quibusdam ullam tempora quis, in voluptatum maiores veritatis recusandae!</p>
-                <cite><span class="text-black">James Smith</span> &mdash; <span class="text-muted">CEO and Co-Founder</span></cite>
-              </blockquote>
-
-              <blockquote class="testimonial-1">
-                <span class="quote quote-icon-wrap"><span class="icon-format_quote"></span></span>
-                <p> Officia, eius omnis rem non quis eos excepturi cumque sequi pariatur eaque quasi nihil dicta tempore voluptate culpa, veritatis incidunt voluptatibus qui?</p>
-                <cite><span class="text-black">Mike Dorney</span> &mdash; <span class="text-muted">CEO and Co-Founder</span></cite>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>    -->
     <footer class="site-footer bg-light">
       <div class="container">
         <div class="row">
@@ -344,7 +316,7 @@
               <div class="col-md-7">
                 <h2 class="footer-heading mb-4">About Us</h2>
                 <p><b>Fily</b> makes it easy to search and select from wide range of recommended Amazon products. 
-                  Wheather you want to review or add it to your wishlist, Fily provides a hussle free platform to buy products of your choice.
+                  Whether you want to review or add it to your wishlist, Fily provides a hassle free platform to buy products of your choice.
                 </p>
 
               </div>
