@@ -16,7 +16,7 @@ angular.module('contentApp',[])
 		})
 		 
 		let btnIndex = 0;
-		
+		let wishCount = 0;
 		let productsArr = getServerData.getMap('product'); 
 		$scope.ProductType = getServerData.getMap('ProductType');
 		/** Calculate discount functionality */	
@@ -94,10 +94,16 @@ angular.module('contentApp',[])
 		 	$(location).attr('href',productsArr[btnIndex].productURL)
 		}
 		$scope.redHeart = (rh)=>{
+			let wishlistArray = [];
 			if(document.getElementsByClassName('fa fa-heart')[rh].style.color == 'red'){
-				document.getElementsByClassName('fa fa-heart')[rh].style.color = '#b5b3b3'
+				document.getElementsByClassName('fa fa-heart')[rh].style.color = '#b5b3b3';
+				$scope.wishItems = --wishCount;
 			}else{
 				document.getElementsByClassName('fa fa-heart')[rh].style.color = 'red';
+				$scope.wishItems = ++wishCount;
+				wishlistArray.push(productsArr[rh]);
+				//console.log(wishlistArray)
+
 			}
 			
 		}

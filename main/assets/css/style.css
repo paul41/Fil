@@ -1802,24 +1802,31 @@ h1, h2, h3, h4, h5,
 
     .wishListStyle{
       background-color: #3e64ff;
-      padding: 30px 40px;
+      padding: 20px 40px;
       text-align: center;
       position: relative;
       top: 7%;
       width:75%;
       margin: auto;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      
     }
     #wishLists{
       width:75%;
       margin: auto;
+      background: #f7f7f7;
       top:7%;
       position: relative;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
     }
 
     #wishLists ul{
       padding-inline-start: 0 !important;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      
     }
     #wishLists ul li{
       cursor: pointer;
@@ -1829,6 +1836,9 @@ h1, h2, h3, h4, h5,
       background: #fff;
       font-size: 15px;
       transition: 0.2s;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      padding-bottom: 16px;
     }
     #wishLists ul li:nth-child(odd) {
       background: #f6f5f5;

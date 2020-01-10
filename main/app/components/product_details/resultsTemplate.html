@@ -66,7 +66,12 @@
                     <i class="fa fa-filter" style="font-size:22px;color:#3e64ff"></i> Filter 
                   </a>
                 </li>
-                <li><a href="Javascript:void(0)" style="color: #000;font-size: 18px" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">5</sup>Wishlist</a></li>
+                <li>
+                  <a href="Javascript:void(0)" style="color: #000;font-size: 18px" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'">
+                    <sup style="color:red;font-weight:bold;font-size:17px;">{{wishItems}}</sup>
+                      Wishlist
+                  </a>
+                </li>
                 <li><a style="color: #000;font-size: 18px" href = "Javascript:void(0)" data-toggle="modal" data-target="#login-modal" class="nav-link">Log In</a></li>
               </ul>
         </div>
@@ -102,7 +107,7 @@
                       <i class="fa fa-filter" style="font-size:24px"></i> Filter 
                     </a>
                   </li>
-                  <li><a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 15px;">5</sup>Wishlist</a></li>
+                  <li><a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'"><sup style="color:red;font-weight:bold;font-size: 17px;">{{wishItems}}</sup>Wishlist</a></li>
                   <li><a href = "Javascript:void(0)" data-toggle="modal" data-target="#login-modal" class="nav-link">Log In</a></li>
                 </ul>
               </nav>
@@ -152,27 +157,17 @@
         <div class = "w3-container wishListStyle">
           <h3 style="margin:5px;color: white">WishList</h3>
           <span onclick="document.getElementById('wishModal').style.display='none'" 
-            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 10px;">&times;</span>
+            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 6px;">&times;</span>
         </div>
         <section id="wishLists">
           <ul>
-            <li>
-              <img id="modal-image-style" src="../../../assets/images/person_5.jpg" > <p style ="margin-left:20px;margin-top:22px;position:absolute;display:inline !important">Hit the gym</p><b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">Rs.300</b>
+            <li ng-repeat = "w in wishlistArray">
+              <img id="modal-image-style" src={{w.productImg}} > 
+              <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important">Hit the gym</p>
+              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">Rs.300</b>
               <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;">Buy Now</button>
               <span class="close">&times;</span>
             </li>
-            <li>
-                <img id="modal-image-style" src="../../../assets/images/person_4.jpg" > <p style ="margin-left:20px;margin-top:20px;position:absolute;display:inline !important">Meet George</p><span class="close">&times;</span>
-              </li>
-            <li>
-                <img id="modal-image-style" src="../../../assets/images/person_3.jpg" ><p style ="box-flex:20px;margin-top:20px;position:absolute;display:inline !important"> Buy eggs</p><span class="close">&times;</span>
-              </li>
-            <li>
-                <img id="modal-image-style" src="../../../assets/images/person_2.jpg" > <p style ="margin-left:20px;margin-top:20px;position:absolute;display:inline !important"> Read a book</p><span class="close">&times;</span>
-              </li>
-            <li>
-                <img id="modal-image-style" src="../../../assets/images/person_1.jpg" ><p style ="margin-left:20px;margin-top:20px;position:absolute;display:inline !important"> Organize office</p><span class="close">&times;</span>
-              </li>
           </ul>
         </section>
       </div>
@@ -314,7 +309,7 @@
         </div>
     </div>
     
-    <div class="site-section section-4">
+    <!-- <div class="site-section section-4">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-7">
@@ -340,7 +335,7 @@
           </div>
         </div>
       </div>
-    </div>   
+    </div>    -->
     <footer class="site-footer bg-light">
       <div class="container">
         <div class="row">
