@@ -19,8 +19,11 @@ angular.module('contentApp',[])
 			slider.oninput = function() {
 				output.innerHTML = this.value;	
 			}
-			if(wishlistArray.length < 1){
-				//document.getElementById('wishLists').innerHTML = "Your Wishlist is empty";
+			if(wishlistArray.length == 0 ){
+				document.getElementById('emptymsg').style.display =  'block';
+				
+			}else{
+				document.getElementById('emptymsg').style.display =  'none';
 			}
 		})
 			/** Calculate discount  */	
@@ -93,26 +96,31 @@ angular.module('contentApp',[])
 					$('#re-search').val("")
 			},{"SearchItems.ProductType":item})
 		}
-		$scope.redirect = ()=>{
-		 	$(location).attr('href',productsArr[btnIndex].productURL)
-		}
+		// $scope.redirect = ()=>{
+		//  	$(location).attr('href',productsArr[btnIndex].productURL)
+		// }
 		$scope.redHeart = (rh)=>{
 			
 			if(document.getElementsByClassName('fa fa-heart')[rh].style.color == 'red'){
 				document.getElementsByClassName('fa fa-heart')[rh].style.color = '#b5b3b3';
 				$scope.wishItems = --wishCount;
 				wishlistArray.pop(productsArr[rh]);
-				if(wishlistArray.length < 1){
-					//document.getElementById('wishLists').innerHTML = "Your Wishlist is empty";
+				if(wishlistArray.length == 0){
+					document.getElementById('emptymsg').style.display =  'block';
+				}else{
+					document.getElementById('emptymsg').style.display =  'none';
 				}
 			}else{
+				document.getElementById('emptymsg').style.display =  'none';
 				document.getElementsByClassName('fa fa-heart')[rh].style.color = 'red';
 				$scope.wishItems = ++wishCount;
 				wishlistArray.push(productsArr[rh]);
-				$scope.wishArray = wishlistArray
-
+				$scope.wishArray = wishlistArray;
 			}
 			
+		}
+		$scope.getWishProduct = (w) =>{
+			$(location).attr('href',wishlistArray[w].productURL)
 		}
 		$scope.radioValues = {
 			brandName:["Versace","Amazon","Reebok","Adidas","Woodland","HRX","Zara","Bata"]
@@ -125,7 +133,7 @@ angular.module('contentApp',[])
 			let brandsArr = [];
 			let brandsDataObj;
 			let sortParam = [];
-			let sortMoney = []
+			let sortMoney = [];
 
 			budgetArr.push(Number($('#mini').text()));
 			budgetArr.push(Number($('#maxi').text()));
