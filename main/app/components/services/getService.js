@@ -42,6 +42,13 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 				callback(response);
 			})
 		},
+		setWishlistState:function(wishitems){
+			localStorage.setItem('cart',JSON.stringify(wishitems))
+		},
+		getWishItems:function(){
+			let cartValues = localStorage.getItem('cart');
+			return JSON.parse(cartValues);
+		},
 		setMap:function(itemData){
 			
 		 	for(const elements of itemData){
