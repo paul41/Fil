@@ -167,7 +167,7 @@
               <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important;height:20px;overflow: hidden;">{{w.ProductName}}</p>
               <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">{{w.price}}</b>
               <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;" ng-click = "getWishProduct($index)">Buy Now</button>
-              <span class="close">&times;</span>
+              <span class="close" ng-click = "removeList(w.productId)">&times;</span>
             </li>
           </ul>
         </section>

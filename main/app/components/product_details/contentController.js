@@ -150,6 +150,37 @@ angular.module('contentApp', [])
 			$scope.wishArray = wishlistArray;
 			getServerData.setWishlistState(wishlistArray)
 		}
+		$scope.removeList = (itemtoremove) =>{
+			let productType = getServerData.getMap('product')
+			wishlistArray = wishlistArray.filter((itmrmv)=> itmrmv.productId != itemtoremove);
+			getServerData.setWishlistState(wishlistArray)
+			if(wishlistArray.length > 0){
+				$scope.wishArray = wishlistArray;
+				wishCount = wishlistArray.length;
+				$scope.wishItems = wishCount;
+				
+				for(let i = 0; i<productType.length; i++){
+					if(itemtoremove == productType[i].productId){
+						setTimeout(() => {
+							document.getElementsByClassName('fa fa-heart')[i].style.color = "#b5b3b3"
+						})
+					}
+				}
+			}else{
+				$scope.wishArray = wishlistArray;
+				wishCount = wishlistArray.length;
+				$scope.wishItems = wishCount;
+				for(let i = 0; i<productType.length; i++){
+					
+					if(itemtoremove == productType[i].productId){
+						setTimeout(() => {
+							document.getElementsByClassName('fa fa-heart')[i].style.color = "#b5b3b3"
+						})
+					}
+				}
+				document.getElementById('emptymsg').style.display = 'block';
+			}
+		}
 		$scope.getWishProduct = (w) => {
 			$(location).attr('href', wishlistArray[w].productURL)
 		}
