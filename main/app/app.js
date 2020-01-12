@@ -2,5 +2,6 @@ const filiateApp = angular.module("mainApp",[
 												'filiateRouter',
 												'mainAppCtrl',
 												'searchAppService',
-												'contentApp'
+												'contentApp',
+												'angular-loading-bar'
 											]); 
