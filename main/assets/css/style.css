@@ -372,6 +372,77 @@ h1, h2, h3, h4, h5,
       width: 80% !important;
     }
   } 
+ /* ipad-pro */
+  @media (min-width:1024px) {
+    #list-product{
+      width: 482px !important;
+      position: absolute !important;
+      left: 120px !important;
+      min-width: 0px !important;
+      top: 52px !important;
+    }
+  }
+  /* ipad */
+  @media (max-width:768px){
+    #list-product{
+      width: 482px !important;
+      position: absolute !important;
+      left: 137px !important;
+      min-width: 0px !important;
+      top: 41px !important;
+      }
+  }
+ /* iphone 6/7/8 plus */
+ @media (max-width:414px){
+    #list-product{
+      width: 252px !important;
+      position: absolute !important;
+      left: 89px !important;
+      min-width: 0px !important;
+      top: 41px !important;
+    }
+  }
+  /* pixel2 */
+  @media (max-width:411px){
+    #list-product{
+      width: 248px !important;
+      position: absolute !important;
+      left: 89px !important;
+      min-width: 0px !important;
+      top:41px !important;
+    }
+  }
+   /* iphone 6/7/8 */
+  @media (max-width:376px){
+    #list-product{
+      width: 225px !important;
+      position: absolute !important;
+      left: 83px !important;
+      min-width: 0px !important;
+      top: 41px !important;
+    }
+  }
+  /* Galaxy S5 */
+  @media (max-width:360px){
+    #list-product{
+      width: 214px !important;
+      position: absolute !important;
+      left: 81px !important;
+      min-width: 0px !important;
+      top:40px !important;
+    }
+  }
+
+  /* iphone 5SE */
+  @media (max-width:320px){
+    #list-product{
+      width: 186px !important;
+      position: absolute !important;
+      left: 75px !important;
+      min-width: 0px !important;
+      top: 41px !important;
+    }
+  }
 
 .site-section {
   padding: 2.5em 0; }
