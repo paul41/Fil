@@ -366,14 +366,30 @@ h1, h2, h3, h4, h5,
       padding-right: 0px !important;
     }
   }
+  @media (max-width:995px) {
+    #imgStyle{
+     border:none !important
+    }
+  }
+  
   @media (max-width:1109px) and (min-width:550px){
     #input-box{
       left: 10% !important;
       width: 80% !important;
     }
-  } 
+  }
+  /* Desktop  */
+  @media (max-width:1030px) {
+    #list-product{
+      width: 569px !important;
+      position: absolute !important;
+      left: 120px !important;
+      min-width: 0px !important;
+      top: 54px !important;
+    }
+  }
  /* ipad-pro */
-  @media (min-width:1024px) {
+  @media (max-width:1024px) {
     #list-product{
       width: 482px !important;
       position: absolute !important;
@@ -1013,8 +1029,8 @@ h1, h2, h3, h4, h5,
 .site-section {
   padding: 7rem 0; }
   @media (max-width: 991.98px) {
-    .site-section {
-      padding: 3rem 0; } }
+    .site-section-detail {
+      padding: 7rem 0; } }
 
 .block-heading-1 span {
   text-transform: uppercase;

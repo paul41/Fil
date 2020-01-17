@@ -3,5 +3,6 @@ const filiateApp = angular.module("mainApp",[
 												'mainAppCtrl',
 												'searchAppService',
 												'contentApp',
+												'prodDescApp',
 												'angular-loading-bar'
 											]); 

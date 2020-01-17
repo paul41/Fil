@@ -1,5 +1,5 @@
 angular.module('contentApp', [])
-	.controller('headerCtrl', ['$scope', 'getServerData', '$timeout', function ($scope, getServerData, $timeout) {
+	.controller('headerCtrl', ['$scope', '$window','getServerData', '$timeout', function ($scope,$window, getServerData, $timeout) {
 
 		let wishCount = 0;
 		let wishListItems = getServerData.getWishItems();
@@ -9,6 +9,7 @@ angular.module('contentApp', [])
 		$scope.wishItems = wishCount;
 		let wishlistArray = getServerData.getWishItems();
 		let productsArr = getServerData.getMap('product');
+		
 		$scope.ProductType = getServerData.getMap('ProductType');
 		if (wishlistArray && wishlistArray.length) {
 			$scope.wishArray = wishlistArray;
@@ -63,13 +64,13 @@ angular.module('contentApp', [])
 		}
 		$scope.lists = discountRateFn(productsArr);
 
-		$scope.productList = (i) => {
-			$scope.ProductName = productsArr[i].ProductName;
-			$scope.ProductBrand = productsArr[i].product_specification[1].Brand;
-			$scope.Description = productsArr[i].product_specification[0].Description;
+		$scope.productList = (id) => {
+			
+			$window.location.href="#!/productDetails"+'/'+id;
 		}
 		$scope.productUrl = (i) => {
-			$(location).attr('href', productsArr[i].productURL)
+			window.open(productsArr[i].productURL)
+			//$(location).attr('href', )
 		}
 		$scope.amazonProducts = [
 			"Amazon Devices", "Amazon Fashion", "Appliances", "Apps for android", "Baby products", "Bags wallets and luggage", "Beauty", "Books", "Car & motorbike", "Clothing",
@@ -104,13 +105,11 @@ angular.module('contentApp', [])
 						}
 					}
 					$scope.productUrl = (i) => {
-						$(location).attr('href', prdList[i].productURL)
+						window.open(prdList[i].productURL)
+						//$(location).attr('href', prdList[i].productURL)
 					}
-					$scope.productList = (i) => {
-						$scope.ProductName = prdList[i].ProductName;
-						$scope.ProductBrand = prdList[i].product_specification[1].Brand;
-						$scope.Description = prdList[i].product_specification[0].Description;
-						btnIndex = i;
+					$scope.productList = (id) => {
+						$window.location.href="#!/productDetails"+'/'+id;
 					}
 					$("#myRange").attr(
 						"max", Math.max.apply(Math, prdList.map(function (maxi) { return maxi.price })),

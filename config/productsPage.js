@@ -19,19 +19,18 @@ module.exports = (app,url)=>{
 }
 module.exports.productDetails = (app,url,projectQ)=>{
     app.get('/productsdetail',(req,res)=>{
-
-        let colRes = [];
-        mongoClient.connect(url,(err,db)=>{
-            assert.equal(null,err);
-            let cursor = db.collection('BestBuy').find(req.query,projectQ);
-            cursor.forEach((docs,err)=>{
-                assert.equal(null,err);
-                colRes.push(docs)
-            },()=>{
-                db.close();
-                res.json(colRes)
-            })
-        })
+      let colRes = [];
+      mongoClient.connect(url,(err,db)=>{
+          assert.equal(null,err);
+          let cursor = db.collection('BestBuy').find(req.query,projectQ);
+          cursor.forEach((docs,err)=>{
+              assert.equal(null,err);
+              colRes.push(docs)
+          },()=>{
+              db.close();
+              res.json(colRes)
+          })
+      })
     });
 }
 module.exports.sort = (app,url)=>{

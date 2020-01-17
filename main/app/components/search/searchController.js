@@ -44,7 +44,20 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
         "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
         "Toys & games","Video Games","Watches"
     ]
-
+	const wishCount = getServerData.getWishItems();
+	$scope.wishItems = wishCount.length;
+	let wishlistArray = getServerData.getWishItems()
+	$scope.wishArray = wishlistArray;
+	if (wishlistArray === null || !wishlistArray.length) {
+		document.getElementById('emptymsg').style.display = 'block';
+	} else {
+		document.getElementById('emptymsg').style.display = 'none';
+		$scope.wishArray = wishlistArray;
+	}
+	$scope.getWishProduct = (w) => {
+		window.open(wishlistArray[w].productURL)
+		//$(location).attr('href', wishlistArray[w].productURL)
+	}
     $scope.setValue = (product)=>{	
     	$('#input-search').val(product);
     	$('#productList').css('display','none')
@@ -63,7 +76,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     	if(inputVal){
     		getServerData.fetchProductDetails((res)=>{
     			if(res.data.length > 0){
-					$window.location.href="#!/productContent";
+					$window.location.href="#!/productList";
     				getServerData.setMap(res.data[0].SearchItems)
     				
     			}else{
@@ -83,7 +96,8 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 			let dealsArray = res.data[1].Deals.DealsImg;
 			//$scope.deals = dealsArray;
     		$scope.link = (index)=>{
-    			$(location).attr('href',res.data[1].Deals.ProductURL[index])
+				window.open(res.data[1].Deals.ProductURL[index])
+    			//$(location).attr('href',res.data[1].Deals.ProductURL[index])
 			}
 			(dealsArray).forEach((item,i)=>{
 
@@ -109,7 +123,8 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 		getServerData.getResponse((res)=>{
 			$scope.trend = res.data[1].Trend.TrendsArr;
 			$scope.refLink = (i) =>{
-				$(location).attr('href',res.data[1].Trend.TrendsArr[i].productUrl)
+				window.open(res.data[1].Trend.TrendsArr[i].productUrl)
+				//$(location).attr('href',res.data[1].Trend.TrendsArr[i].productUrl)
 			}
 		},{})
 	}
