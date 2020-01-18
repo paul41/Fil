@@ -44,14 +44,13 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
         "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
         "Toys & games","Video Games","Watches"
     ]
-	const wishCount = getServerData.getWishItems();
-	$scope.wishItems = wishCount.length;
-	let wishlistArray = getServerData.getWishItems()
-	$scope.wishArray = wishlistArray;
+	const wishlistArray = getServerData.getWishItems()
+	//$scope.wishArray = wishlistArray;
 	if (wishlistArray === null || !wishlistArray.length) {
 		document.getElementById('emptymsg').style.display = 'block';
 	} else {
 		document.getElementById('emptymsg').style.display = 'none';
+		$scope.wishItems = wishlistArray.length;
 		$scope.wishArray = wishlistArray;
 	}
 	$scope.getWishProduct = (w) => {
