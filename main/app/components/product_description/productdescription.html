@@ -13,10 +13,25 @@
       <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
           <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
+            <span class="icon-close2 js-menu-toggle">
+            </span>
           </div>
         </div>
-        <div class="site-mobile-menu-body"></div>
+        <div class="site-mobile-menu-body">
+          <ul class="site-menu main-menu js-clone-nav ml-auto d-lg-block" style="list-style-type: none;">
+            <li style="margin-top: 12px;">
+              <a href="Javascript:void(0)" style="color: #000;font-size: 18px" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'">
+                <sup style="color:red;font-weight:bold;font-size:17px;">{{wishItems}}</sup>
+                  Wishlist
+              </a>
+            </li>
+            <li style="margin-top: 12px">
+              <a style="color: #000;font-size: 18px" href = "Javascript:void(0)" data-toggle="modal" data-target="#login-modal" class="nav-link">
+                Log In
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <header class="site-navbar site-navbar-target bg-white" role="banner">
         <div class="container">
@@ -28,7 +43,28 @@
               <div class="site-logo">
                 <a href="index.html">Fily</a>
               </div>
-              <!-- <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div> -->
+              <div class="ml-auto toggle-button d-inline-block d-lg-none">
+                <a href="Javascript:void(0)" class="site-menu-toggle py-5 js-menu-toggle text-white">
+                  <span class="icon-menu h3 text-primary">
+                  </span>
+                </a>
+              </div>
+              
+            </div>
+            <div class="col-lg-4">
+              <nav class="site-navigation text-left mr-auto" role="navigation" style="padding-left: 8rem;">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li>
+                    <a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'">
+                      <sup style="color:red;font-weight:bold;font-size: 17px;">
+                        {{wishItems}}
+                      </sup>
+                      Wishlist
+                    </a>
+                  </li>
+                  <li><a href = "Javascript:void(0)" data-toggle="modal" data-target="#login-modal" class="nav-link">Log In</a></li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
@@ -39,18 +75,23 @@
           <div class="row align-items-stretch" ng-repeat = "detail in productDetail">
             
               <div class="col-lg-5">
-                <img src={{detail.productImg}} height="70%" width = "85%" id = "imgStyle" style="border:1px solid #ddd"/>
+                <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>
+                
+               
               </div>
               <div class="col-lg-7">
                 <div class="h-100 bg-white" style = "background: #fff;
                 position: relative;
                 z-index: 2;
-                padding: 4rem;
-                padding-top: 1rem;">
-                    <h2 class="heading-39291">{{detail.ProductName}}</h2>
-                    <p><i class="fa fa-star" aria-hidden="true"></i> {{detail.rating}}</p>
-                    <p style="margin-bottom: 0rem;"><u>Best Price:</u></p>
-                    <h2>Rs. {{detail.price}}</h2><button style = "background:#3e64ff;color:#fff;border:1px solid #3e64ff" ng-click = "amazonRedirect()">Buy Now</button>
+                padding: 3rem;
+                padding-top: 0rem;">
+                    <h2 >{{detail.ProductName}}</h2><br>
+                    <p><i class="fa fa-star" aria-hidden="true" style="color: #3e64ff;"></i> {{detail.rating}}</p>
+                    <p style="margin-bottom: 0rem;color:#3e64ff"><u>Best Price:</u></p>
+                    
+                    <h2>Rs. {{detail.price}}</h2><br>
+                    <button style = "background:#3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "amazonRedirect()">Buy Now</button>
+                    <button id = "cartBtn" style = "background: #3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "addtoCart()">Add to Cart</button>
                     <br><br>
                     <p>{{detail.product_specification[0].Description}}</p>
                 </div>
@@ -63,6 +104,65 @@
       <div>
         {{writereview}}
       </div>
+
+      <!-- Wishlist modal -->
+      <div style="margin-top: 140px;"></div>
+      <div id = "wishModal" class = "w3-modal">
+        <div class = "w3-container wishListStyle">
+          <h3 style="margin:5px;color: white">WishList</h3>
+          <span onclick="document.getElementById('wishModal').style.display='none'" 
+            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 6px;">&times;</span>
+        </div>
+        <section id="wishLists">
+          <h4 id = "emptymsg" style="display: none;text-align: center;padding: 100px;background: #f6f5f5;">Your wishlist is empty</h4>
+          <ul ng-if="wishArray">
+            <li ng-repeat = "w in wishArray; track by $index">
+              <img id="modal-image-style" src="{{w.productImg}}"> 
+              <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important;height:20px;overflow: hidden;">{{w.ProductName}}</p>
+              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">{{w.price}}</b>
+              <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;" ng-click = "getWishProduct($index)">Buy Now</button>
+              <span class="close" ng-click = "removeList(w.productId)">&times;</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+
+      <!-- Login modal -->
+
+      <div class="modal fade" id="login-modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" style="top:115px;left:10px">  
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" style = "padding:1rem 1rem 1.8rem 1rem;margin:0">&times;</button>
+              <h4 class="modal-title">Login</h4>
+            </div>
+            <div class="modal-body">
+             <h6 style="margin-left: 16px;">Get access to wishlist and recommendations</h6>
+              <br/>
+              <form >
+                <div style="margin-left: 12px">
+                  <div style="padding-bottom: 20px">
+                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67%">
+                  </div>
+                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67%;padding:7px;font-family: inherit; border: 1px solid #afa9a9"><br/>
+                  <a href="#" style="float: right;margin:5px;font-weight: 600;">
+                    <span style="position: relative;top:27px">
+                      Forgot?
+                    </span>
+                  </a>
+                  <div style="padding-bottom: 22px">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="width: 100px      
+                      ;position: relative; top: 17px;background: #3e64ff;color: #fff">
+                  </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer class="site-footer bg-light">
         <div class="container">
           <div class="row">
