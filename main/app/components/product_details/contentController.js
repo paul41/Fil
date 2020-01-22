@@ -65,12 +65,10 @@ angular.module('contentApp', [])
 		$scope.lists = discountRateFn(productsArr);
 
 		$scope.productList = (id) => {
-			
 			$window.location.href="#!/productDetails"+'/'+id;
 		}
 		$scope.productUrl = (i) => {
 			window.open(productsArr[i].productURL)
-			//$(location).attr('href', )
 		}
 		$scope.amazonProducts = [
 			"Amazon Devices", "Amazon Fashion", "Appliances", "Apps for android", "Baby products", "Bags wallets and luggage", "Beauty", "Books", "Car & motorbike", "Clothing",
@@ -106,10 +104,10 @@ angular.module('contentApp', [])
 					}
 					$scope.productUrl = (i) => {
 						window.open(prdList[i].productURL)
-						//$(location).attr('href', prdList[i].productURL)
 					}
 					$scope.productList = (id) => {
 						$window.location.href="#!/productDetails"+'/'+id;
+						
 					}
 					$("#myRange").attr(
 						"max", Math.max.apply(Math, prdList.map(function (maxi) { return maxi.price })),
@@ -118,7 +116,7 @@ angular.module('contentApp', [])
 						'min', Math.min.apply(Math, prdList.map(function (mini) { return mini.price })),
 					);
 				} else {
-					$window.location.href = "/No-Data";
+					$window.location.href = "/NotFound";
 				}
 
 				$('#re-search').val("")

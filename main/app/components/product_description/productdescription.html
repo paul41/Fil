@@ -73,38 +73,60 @@
 
       <div class="site-section">
         <div class="container">
-          <div class="row align-items-stretch" ng-repeat = "detail in productDetail">
-            
-              <div class="col-lg-5">
-                <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>
-                
-               
+          <div class="row align-items-stretch" ng-repeat = "detail in productDetail">  
+            <div class="col-lg-5">
+              <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>    
+              <ul class = "more-images" style="list-style-type: none;padding-inline-start: 0;">
+                <li style="display: inline;">
+                    <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+                </li>
+                <li style="display: inline;">
+                    <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+                </li>
+                <li style="display: inline;">
+                  <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+                </li>
+              </ul>
+          </div>
+            <div class="col-lg-7">
+              <div class="h-100 bg-white" style = "background: #fff;
+              position: relative;
+              z-index: 2;
+              padding: 3rem;
+              padding-top: 0rem;">
+                  <h2 >{{detail.ProductName}}</h2><br>
+                  <p><i class="fa fa-star" aria-hidden="true" style="color: #3e64ff;"></i> {{detail.rating}}</p>
+                  <p style="margin-bottom: 0rem;color:#3e64ff"><u>Best Price:</u></p>
+                  <h2>Rs. {{detail.price}}</h2><br>
+                  <button style = "background:#3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "amazonRedirect()">Buy Now</button>
+                  <button id = "cartBtn" style = "background: #3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "addtoCart()">Add to Cart</button>
+                  <br><br>
+                  <p>{{detail.product_specification[0].Description}}</p>
               </div>
-              <div class="col-lg-7">
-                <div class="h-100 bg-white" style = "background: #fff;
-                position: relative;
-                z-index: 2;
-                padding: 3rem;
-                padding-top: 0rem;">
-                    <h2 >{{detail.ProductName}}</h2><br>
-                    <p><i class="fa fa-star" aria-hidden="true" style="color: #3e64ff;"></i> {{detail.rating}}</p>
-                    <p style="margin-bottom: 0rem;color:#3e64ff"><u>Best Price:</u></p>
-                    
-                    <h2>Rs. {{detail.price}}</h2><br>
-                    <button style = "background:#3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "amazonRedirect()">Buy Now</button>
-                    <button id = "cartBtn" style = "background: #3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "addtoCart()">Add to Cart</button>
-                    <br><br>
-                    <p>{{detail.product_specification[0].Description}}</p>
-                </div>
-              </div>
-             
+            </div> 
+          </div>  
           </div>
         </div>
       </div>
-      <div>{{similarproducts}}</div>
-      <div>
-        {{writereview}}
-      </div>
+      <!-- <div style="width: 100px;">
+        <ul style="list-style-type: none;">
+          <li style="display: inline;">
+            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+          </li>
+          <li style="display: inline;">
+            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+          </li>
+          <li style="display: inline;">
+            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+          </li>
+          <li style="display: inline;">
+            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+          </li>
+          <li style="display: inline;">
+            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+          </li>
+        </ul>
+      </div> -->
 
       <!-- Wishlist modal -->
       <div style="margin-top: 140px;"></div>
@@ -134,30 +156,29 @@
       <div class="modal fade" id="login-modal" role="dialog" tabindex="-1">
         <div class="modal-dialog" style="top:115px;left:10px">  
           <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header" style="margin-left: 19px;">
               <button type="button" class="close" data-dismiss="modal" style = "padding:1rem 1rem 1.8rem 1rem;margin:0">&times;</button>
               <h4 class="modal-title">Login</h4>
             </div>
             <div class="modal-body">
-             <h6 style="margin-left: 16px;">Get access to wishlist and recommendations</h6>
-              <br/>
+             <h6 style="margin-left: 20px;margin-bottom: 1.5rem">Get access to wishlist and recommendations</h6>
+              <!-- <br/> -->
               <form >
                 <div style="margin-left: 12px">
                   <div style="padding-bottom: 20px">
-                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67%">
+                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67% !important;">
                   </div>
-                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67%;padding:7px;font-family: inherit; border: 1px solid #afa9a9"><br/>
+                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67% !important;padding:7px;font-family: inherit; border: 1px solid #afa9a9"><br/>
                   <a href="#" style="float: right;margin:5px;font-weight: 600;">
                     <span style="position: relative;top:27px">
                       Forgot?
                     </span>
                   </a>
                   <div style="padding-bottom: 22px">
-                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="width: 100px      
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="width: 100px !important    
                       ;position: relative; top: 17px;background: #3e64ff;color: #fff">
                   </div>
-                </div>
-                
+                </div> 
               </form>
             </div>
           </div>

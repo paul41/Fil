@@ -79,7 +79,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     				getServerData.setMap(res.data[0].SearchItems)
     				
     			}else{
-    				$window.location.href = "/No-Data";
+    				$window.location.href = "/NotFound";
     			}
     		},{"SearchItems.ProductType":inputVal})
     		

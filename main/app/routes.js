@@ -9,6 +9,6 @@ filiateAppRouter.config(($routeProvider)=>{
 	.when("/productDetails/:id",{
 		templateUrl:"app/components/product_description/productdescription.html"
 	})
-	.otherwise({ redirectTo: '/NotFound' });
+	.otherwise({ redirectTo: '/' });
 
 });

@@ -373,6 +373,12 @@ h1, h2, h3, h4, h5,
      margin: auto;
     }
   }
+
+  @media (max-width:995px) {
+    .more-images{
+      text-align: center;
+    }
+  }
   
   @media (max-width:1109px) and (min-width:550px){
     #input-box{
