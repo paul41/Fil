@@ -107,7 +107,6 @@
           </div>  
           </div>
         </div>
-      </div>
       <!-- <div style="width: 100px;">
         <ul style="list-style-type: none;">
           <li style="display: inline;">
@@ -130,6 +129,7 @@
 
       <!-- Wishlist modal -->
       <div style="margin-top: 140px;"></div>
+
       <div id = "wishModal" class = "w3-modal">
         <div class = "w3-container wishListStyle">
           <h3 style="margin:5px;color: white">WishList</h3>
@@ -138,7 +138,7 @@
         </div>
         <section id="wishLists">
           <h4 id = "emptymsg" style="display: none;text-align: center;padding: 100px;background: #f6f5f5;">Your wishlist is empty</h4>
-          <ul ng-if="wishArray">
+          <ul>
             <li ng-repeat = "w in wishArray; track by $index">
               <img id="modal-image-style" src="{{w.productImg}}"> 
               <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important;height:20px;overflow: hidden;">{{w.ProductName}}</p>
@@ -224,7 +224,7 @@
               </p>
               </div>
             </div>
-
+            
           </div>
         </div>
       </footer>
