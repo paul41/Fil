@@ -67,7 +67,7 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 				  appId            : '805862913172894',
 				  autoLogAppEvents : true,
 				  xfbml            : true,
-				  version          : 'v5.0',
+				  version          : 'v2.7',
 				  status           : true
 				});
 				FB.getLoginStatus(function(res){
