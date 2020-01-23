@@ -33,6 +33,17 @@ module.exports.productDetails = (app,url,projectQ)=>{
       })
     });
 }
+module.exports.login = (app,url) =>{
+  app.post('/userlogin', (req,res) =>{
+    console.log(req.body)
+    mongoClient.connect(url,(err,db)=>{
+      assert.equal(null,err);
+      db.collection('users').insert(req.body);
+      db.close()
+    })
+    res.json('user added')
+  })
+}
 module.exports.sort = (app,url)=>{
     app.get('/sortbystars',(req,res)=>{
         let sortArr = [];

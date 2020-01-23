@@ -2,6 +2,7 @@ angular.module('contentApp', [])
 	.controller('headerCtrl', ['$scope', '$window','getServerData', '$timeout', function ($scope,$window, getServerData, $timeout) {
 
 		let wishCount = 0;
+		let fbResponse = JSON.parse(localStorage.getItem('loginCred'));
 		let wishListItems = getServerData.getWishItems();
 		if (wishListItems !== null) {
 			wishCount = wishListItems.length;
@@ -47,6 +48,7 @@ angular.module('contentApp', [])
 					}
 				}
 			}
+			getServerData.FBLogin()
 		})
 		/** Calculate discount  */
 		function discountRateFn(arr) {
@@ -278,6 +280,35 @@ angular.module('contentApp', [])
 			}
 
 			document.getElementById('filterModal').style.display = 'none';
+		}
+		$scope.getWishModal = () =>{
+			console.log(fbResponse)
+			if(fbResponse){
+				document.getElementById('wishModal').style.display='block'
+			}else{
+				alert('Login first to access your wishlist')
+			}
+			
+		}
+		/************** FB LOGIN **************/
+
+		$scope.onFBLogin = function(){
+			FB.login(function(res){
+				if(res.authResponse){
+					FB.api('/me','GET',{fields:'id,first_name,last_name'},function(response){
+						if(response){
+							getServerData.loginCredState(response)
+						}else{
+							alert('Login to get access to wishlist')
+						}
+					})
+				}else{
+					console.log('ERROR')
+				}
+			},{
+				scope:'email,user_likes',
+				return_scopes:true
+			})
 		}
 
 	}])

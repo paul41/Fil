@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">   
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300"> 
     <div class="site-wrap" id="home-section" ng-app="prodDescApp" ng-controller="prodDescCtrl">
 
       <div class="site-mobile-menu site-navbar-target">
@@ -21,7 +21,7 @@
         <div class="site-mobile-menu-body">
           <ul class="site-menu main-menu js-clone-nav ml-auto d-lg-block" style="list-style-type: none;">
             <li style="margin-top: 12px;">
-              <a href="Javascript:void(0)" style="color: #000;font-size: 18px" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'">
+              <a href="Javascript:void(0)" style="color: #000;font-size: 18px" class="nav-link" ng-click="getWishModal()">
                 <sup style="color:red;font-weight:bold;font-size:17px;">{{wishItems}}</sup>
                   Wishlist
               </a>
@@ -56,7 +56,7 @@
               <nav class="site-navigation text-left mr-auto" role="navigation" style="padding-left: 8rem;">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li>
-                    <a href="Javascript:void(0)" class="nav-link" onclick="document.getElementById('wishModal').style.display='block'">
+                    <a href="Javascript:void(0)" class="nav-link" ng-click="getWishModal()">
                       <sup style="color:red;font-weight:bold;font-size: 17px;">
                         {{wishItems}}
                       </sup>
@@ -77,15 +77,15 @@
             <div class="col-lg-5">
               <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>    
               <ul class = "more-images" style="list-style-type: none;padding-inline-start: 0;">
-                <li style="display: inline;">
-                    <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-                </li>
-                <li style="display: inline;">
+                <li style="display: inline;" >
                     <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
                 </li>
                 <li style="display: inline;">
                   <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
                 </li>
+                <li style="display: inline;">
+                  <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+                </li> 
               </ul>
           </div>
             <div class="col-lg-7">
@@ -107,25 +107,35 @@
           </div>  
           </div>
         </div>
-      <!-- <div style="width: 100px;">
-        <ul style="list-style-type: none;">
-          <li style="display: inline;">
-            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-          </li>
-          <li style="display: inline;">
-            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-          </li>
-          <li style="display: inline;">
-            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-          </li>
-          <li style="display: inline;">
-            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-          </li>
-          <li style="display: inline;">
-            <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-          </li>
-        </ul>
-      </div> -->
+        <div class="container" >
+          <h3 style="padding:2rem">Similar Products</h3>
+          <div class="row align-items-stretch" ng-repeat = "detail in productDetail" style="width: 100%;overflow-x: scroll;">
+            <ul style="list-style-type: none;white-space:nowrap;">  
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <li style="display: inline;">
+                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
 
       <!-- Wishlist modal -->
       <div style="margin-top: 140px;"></div>
@@ -154,7 +164,7 @@
       <!-- Login modal -->
 
       <div class="modal fade" id="login-modal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" style="top:115px;left:10px">  
+        <div class="modal-dialog" style="top:115px;left:0px">  
           <div class="modal-content">
             <div class="modal-header" style="margin-left: 19px;">
               <button type="button" class="close" data-dismiss="modal" style = "padding:1rem 1rem 1.8rem 1rem;margin:0">&times;</button>
@@ -166,17 +176,18 @@
               <form >
                 <div style="margin-left: 12px">
                   <div style="padding-bottom: 20px">
-                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67% !important;">
+                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67% !important;" disabled>
                   </div>
-                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67% !important;padding:7px;font-family: inherit; border: 1px solid #afa9a9"><br/>
+                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67% !important;padding:7px;font-family: inherit; border: 1px solid #afa9a9" disabled><br/>
                   <a href="#" style="float: right;margin:5px;font-weight: 600;">
                     <span style="position: relative;top:27px">
                       Forgot?
                     </span>
                   </a>
                   <div style="padding-bottom: 22px">
-                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="width: 100px !important    
-                      ;position: relative; top: 17px;background: #3e64ff;color: #fff">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login with Facebook" style="width: 145px !important    
+                      ;position: relative; top: 17px;background: #3e64ff;color: #fff" ng-click = "onFBLogin()">
+                    
                   </div>
                 </div> 
               </form>
@@ -223,8 +234,7 @@
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
               </div>
-            </div>
-            
+            </div> 
           </div>
         </div>
       </footer>

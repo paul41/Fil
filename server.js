@@ -4,9 +4,11 @@ const rateLimit = require("express-rate-limit");
 const getProducts = require("./config/productsPage.js")
 const dbconfig = require("./config/db.js");
 const port = process.env.PORT || 8080;
+const bodyParser = require('body-parser');
 app.use(express.static(__dirname+"/main"));
-
+app.use(bodyParser.json())
 getProducts(app,dbconfig.url);
+getProducts.login(app,dbconfig.url)
 getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
 getProducts.sort(app,dbconfig.url);
 getProducts.sortByPrice(app,dbconfig.url);

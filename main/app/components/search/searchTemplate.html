@@ -60,7 +60,7 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li><a href="/about" class="nav-link">About</a></li>
                   <li>
-                    <a href="Javascript:void(0)" class="nav-link"  onclick="document.getElementById('wishModal').style.display='block'">
+                    <a href="Javascript:void(0)" class="nav-link"  ng-click="getWishModal()">
                       <sup style="color:red;font-weight:bold;font-size: 15px;">
                         {{wishItems}}
                       </sup>
@@ -79,38 +79,39 @@
 
         <!-- LOGIN POPUP --->
 
-      <div class="modal fade" id="login-modal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" style="top:115px;left:10px">  
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" style = "padding:1rem 1rem 1.8rem 1rem;margin:0">&times;</button>
-              <h4 class="modal-title">Login</h4>
-            </div>
-            <div class="modal-body">
-             <h6 style="margin-left: 16px;">Get access to wishlist and recommendations</h6>
-              <br/>
-              <form >
-                <div style="margin-left: 12px">
-                  <div style="padding-bottom: 20px">
-                    <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67%">
-                  </div>
-                <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67%;padding:7px;font-family: inherit; border: 1px solid #afa9a9"><br/>
-                  <a href="#" style="float: right;margin:5px;font-weight: 600;">
-                    <span style="position: relative;top:27px">
-                      Forgot?
-                    </span>
-                  </a>
-                  <div style="padding-bottom: 22px">
-                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="width: 100px      
-                      ;position: relative; top: 17px;background: #3e64ff;color: #fff">
-                  </div>
-                </div>
-                
-              </form>
+        <div class="modal fade" id="login-modal" role="dialog" tabindex="-1">
+          <div class="modal-dialog" style="top:115px;left:0px">  
+            <div class="modal-content">
+              <div class="modal-header" style="margin-left: 19px;">
+                <button type="button" class="close" data-dismiss="modal" style = "padding:1rem 1rem 1.8rem 1rem;margin:0">&times;</button>
+                <h4 class="modal-title">Login</h4>
+              </div>
+              <div class="modal-body">
+               <h6 style="margin-left: 20px;margin-bottom: 1.5rem">Get access to wishlist and recommendations</h6>
+                <!-- <br/> -->
+                <form >
+                  <div style="margin-left: 12px">
+                    <div style="padding-bottom: 20px">
+                      <input type="text" name="users" placeholder="Username" style="padding:7px;width: 67% !important;" disabled>
+                    </div>
+                  <input type="password" name="passw" placeholder="Password" style="height:45px !important;width: 67% !important;padding:7px;font-family: inherit; border: 1px solid #afa9a9" disabled><br/>
+                    <a href="#" style="float: right;margin:5px;font-weight: 600;">
+                      <span style="position: relative;top:27px">
+                        Forgot?
+                      </span>
+                    </a>
+                    <div style="padding-bottom: 22px">
+                      <!-- <input type="submit" class="login loginmodal-submit" value="Login" style="width: 100px !important    
+                        ;position: relative; top: 17px;background: #3e64ff;color: #fff"> -->
+                      <input type="submit" class="login loginmodal-submit" value="Login with Facebook" style="width: 145px !important    
+                        ;position: relative; top: 17px;background: #3e64ff;color: #fff" ng-click = "onFBLogin()">
+                    </div>
+                  </div> 
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
         <!-- WISHLIST MODAL -->
 

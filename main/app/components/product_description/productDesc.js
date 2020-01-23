@@ -3,7 +3,8 @@ angular.module('prodDescApp', [])
         
         let productsObj = getServerData.getMap('product');
         let wishCount = 0;
-        const productDataArr = []
+        const productDataArr = [];
+        let fbResponse = JSON.parse(localStorage.getItem('loginCred'));
         let wishListItems = getServerData.getWishItems();
         function buttonDisable(){
             document.getElementById('cartBtn').disabled = true
@@ -18,6 +19,7 @@ angular.module('prodDescApp', [])
                         buttonDisable()
                     }
                 })
+                getServerData.FBLogin()
             })
             productDataArr.push(productsObj[$route.current.params.id])
             $scope.productDetail = productDataArr;
@@ -32,7 +34,7 @@ angular.module('prodDescApp', [])
                 $scope.wishItems = wishCount;
                 document.getElementById('emptymsg').style.display = 'block';
             }
-            
+             
             $scope.addtoCart = () =>{
                 document.getElementById('emptymsg').style.display = 'none';
                 wishListItems.push(productsObj[$route.current.params.id])
@@ -65,6 +67,35 @@ angular.module('prodDescApp', [])
                 }
                  getServerData.setWishlistState(wishListItems)  
             }
+            $scope.getWishModal = () =>{
+                if(fbResponse){
+                    document.getElementById('wishModal').style.display='block'
+                }else{
+                    alert('Login first to access your wishlist')
+                }
+                
+            }
+            /************** FB LOGIN **************/
+
+            $scope.onFBLogin = function(){
+                FB.login(function(res){
+                    if(res.authResponse){
+                        FB.api('/me','GET',{fields:'id,first_name,last_name'},function(response){
+                            if(response){
+                                getServerData.loginCredState(response)
+                            }else{
+                                alert('Login to get access to wishlist')
+                            }
+                        })
+                    }else{
+                        console.log('ERROR')
+                    }
+                },{
+                    scope:'email,user_likes',
+                    return_scopes:true
+                })
+            }
+
 
         }else{
             $window.location.href='/NotFound';

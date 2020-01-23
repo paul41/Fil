@@ -27,6 +27,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 	 	let b = document.createElement('script');
 		b.src = "../../../assets/js/main.js"
 		$("head").append(b);
+		getServerData.FBLogin()
 	})
 	$scope.clothing = "https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=apparel&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=fbbbb37602a7385b19f748188a60ac46&language=en_IN"
 	$scope.electronic = "https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=electronics&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=156c8511b3a60fa0bdbc71f5fbf7f949&language=en_IN"
@@ -44,8 +45,8 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
         "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
         "Toys & games","Video Games","Watches"
     ]
-	const wishlistArray = getServerData.getWishItems()
-	//$scope.wishArray = wishlistArray;
+	const wishlistArray = getServerData.getWishItems();
+	let fbResponse = JSON.parse(localStorage.getItem('loginCred'));
 	if (wishlistArray === null || !wishlistArray.length) {
 		document.getElementById('emptymsg').style.display = 'block';
 	} else {
@@ -86,7 +87,36 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     	}else{
     		alert('Enter products,brands and more to search')
     	}
-    }
+	}
+	$scope.getWishModal = () =>{
+		if(fbResponse){
+			document.getElementById('wishModal').style.display='block'
+		}else{
+			alert('Login first to access your wishlist')
+		}
+		
+	}
+	/************** FB LOGIN **************/
+
+	$scope.onFBLogin = function(){
+		FB.login(function(res){
+			if(res.authResponse){
+				FB.api('/me','GET',{fields:'id,first_name,last_name'},function(response){
+					if(response){
+						getServerData.loginCredState(response)
+						getServerData.storeUserDatas(response)
+					}else{
+						alert('Login to get access to wishlist')
+					}
+				})
+			}else{
+				console.log('ERROR')
+			}
+		},{
+			scope:'email,user_likes',
+			return_scopes:true
+		})
+	}
 
     function getDeals(){
     	getServerData.getResponse((res)=>{
