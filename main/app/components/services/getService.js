@@ -62,24 +62,24 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 			return cacheMap.get(key);
 		},
 		FBLogin:function(){
-			window.fbAsyncInit = function() {
-				FB.init({
-				  appId            : '460742234620707',
-				  autoLogAppEvents : true,
-				  xfbml            : true,
-				  version          : 'v5.0',
-				  status           : true
-				});
-				FB.getLoginStatus(function(res){
-				  if(res.status === 'connected'){
-					console.log('connected')
-				  }else if(res.status === 'not_authorized'){
-					console.log("Not authorized")
-				  }else{
-					console.log('Create FB account')
-				  }
-				})
-			};
+			// window.fbAsyncInit = function() {
+			// 	FB.init({
+			// 	  appId            : '805862913172894',
+			// 	  autoLogAppEvents : true,
+			// 	  xfbml            : true,
+			// 	  version          : 'v5.0',
+			// 	  status           : true
+			// 	});
+			// 	FB.getLoginStatus(function(res){
+			// 	  if(res.status === 'connected'){
+			// 		console.log('connected')
+			// 	  }else if(res.status === 'not_authorized'){
+			// 		console.log("Not authorized")
+			// 	  }else{
+			// 		console.log('Create FB account')
+			// 	  }
+			// 	})
+			// };
 		},
 		loginCredState:function(credObj){
 			localStorage.setItem('loginCred',JSON.stringify(credObj))
