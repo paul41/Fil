@@ -64,7 +64,7 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 		FBLogin:function(){
 			window.fbAsyncInit = function() {
 				FB.init({
-				  appId            : '805862913172894',
+				  appId            : '460742234620707',
 				  autoLogAppEvents : true,
 				  xfbml            : true,
 				  version          : 'v5.0',
