@@ -68,6 +68,7 @@ angular.module('prodDescApp', [])
                  getServerData.setWishlistState(wishListItems)  
             }
             $scope.getWishModal = () =>{
+                fbResponse = JSON.parse(localStorage.getItem('loginCred'))
                 if(fbResponse){
                     document.getElementById('wishModal').style.display='block'
                 }else{

@@ -282,7 +282,7 @@ angular.module('contentApp', [])
 			document.getElementById('filterModal').style.display = 'none';
 		}
 		$scope.getWishModal = () =>{
-			console.log(fbResponse)
+			fbResponse = JSON.parse(localStorage.getItem('loginCred'))
 			if(fbResponse){
 				document.getElementById('wishModal').style.display='block'
 			}else{

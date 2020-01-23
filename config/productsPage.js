@@ -35,7 +35,6 @@ module.exports.productDetails = (app,url,projectQ)=>{
 }
 module.exports.login = (app,url) =>{
   app.post('/userlogin', (req,res) =>{
-    console.log(req.body)
     mongoClient.connect(url,(err,db)=>{
       assert.equal(null,err);
       db.collection('users').insert(req.body);
