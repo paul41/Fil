@@ -298,6 +298,7 @@ angular.module('contentApp', [])
 					FB.api('/me','GET',{fields:'id,first_name,last_name'},function(response){
 						if(response){
 							getServerData.loginCredState(response)
+							getServerData.storeUserDatas(response)
 						}else{
 							alert('Login to get access to wishlist')
 						}

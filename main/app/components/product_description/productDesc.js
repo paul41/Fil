@@ -73,8 +73,7 @@ angular.module('prodDescApp', [])
                     document.getElementById('wishModal').style.display='block'
                 }else{
                     alert('Login first to access your wishlist')
-                }
-                
+                }    
             }
             /************** FB LOGIN **************/
 
@@ -84,6 +83,7 @@ angular.module('prodDescApp', [])
                         FB.api('/me','GET',{fields:'id,first_name,last_name'},function(response){
                             if(response){
                                 getServerData.loginCredState(response)
+                                getServerData.storeUserDatas(response)
                             }else{
                                 alert('Login to get access to wishlist')
                             }
