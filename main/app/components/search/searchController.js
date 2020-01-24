@@ -88,7 +88,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     		alert('Enter products,brands and more to search')
     	}
 	}
-	$scope.getWishModal = () =>{
+	getWishModal = () =>{
 		fbResponse = JSON.parse(localStorage.getItem('loginCred'))
 		if(fbResponse){
 			document.getElementById('wishModal').style.display='block'
