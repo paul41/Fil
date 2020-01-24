@@ -70,6 +70,9 @@ angular.module('prodDescApp', [])
                 }
                  getServerData.setWishlistState(wishListItems)  
             }
+            $scope.gotoSimilar = (productLink) =>{
+                window.open(productLink)
+            }
             $scope.getWishModal = () =>{
                 fbResponse = JSON.parse(localStorage.getItem('loginCred'))
                 if(fbResponse){

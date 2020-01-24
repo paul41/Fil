@@ -77,15 +77,15 @@
             <div class="col-lg-5">
               <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>    
               <ul class = "more-images" style="list-style-type: none;padding-inline-start: 0;">
-                <li style="display: inline;" >
-                    <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+                <li style="display: inline;" ng-repeat = "imG in detail.moreImage">
+                    <img src={{imG}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
                 </li>
-                <li style="display: inline;">
+                <!-- <li style="display: inline;">
                   <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
                 </li>
                 <li style="display: inline;">
                   <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-                </li> 
+                </li>  -->
               </ul>
           </div>
             <div class="col-lg-7">
@@ -111,7 +111,10 @@
           <h3 style="padding:2rem">Similar Products</h3>
           <div class="row align-items-stretch" ng-repeat = "detail in productDetail" style="width: 100%;overflow-x: scroll;margin-left: 0px; margin-right: 0px;">
             <ul style="list-style-type: none;white-space:nowrap;">  
-              <li style="display: inline;">
+              <li style="display: inline;cursor: pointer;" ng-repeat = "similar in detail.similarProducts" ng-click = gotoSimilar(similar.productLink)>
+                <img src={{similar.imgURL}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
+              </li>
+              <!-- <li style="display: inline;">
                 <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
               </li>
               <li style="display: inline;">
@@ -128,10 +131,7 @@
               </li>
               <li style="display: inline;">
                 <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
