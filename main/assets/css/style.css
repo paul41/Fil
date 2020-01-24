@@ -372,7 +372,12 @@ h1, h2, h3, h4, h5,
      display: block;
     }
   }
-
+  @media (min-width:1020px) and (max-width:1025px) {
+    #content-ipad-design{
+     position: relative;
+     top:66px
+    }
+  }
   @media (max-width:995px) {
     .more-images{
       text-align: center;

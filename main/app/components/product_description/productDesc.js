@@ -70,6 +70,9 @@ angular.module('prodDescApp', [])
                 }
                  getServerData.setWishlistState(wishListItems)  
             }
+            $scope.showimage = (imageToShow) =>{
+                document.getElementById('imgStyle').src = imageToShow;
+            }
             $scope.gotoSimilar = (productLink) =>{
                 window.open(productLink)
             }

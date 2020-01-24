@@ -73,19 +73,13 @@
 
       <div class="site-section">
         <div class="container">
-          <div class="row align-items-stretch" ng-repeat = "detail in productDetail">  
+          <div id = "content-ipad-design" class="row align-items-stretch" ng-repeat = "detail in productDetail">  
             <div class="col-lg-5">
               <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>    
               <ul class = "more-images" style="list-style-type: none;padding-inline-start: 0;">
-                <li style="display: inline;" ng-repeat = "imG in detail.moreImage">
+                <li style="display: inline;cursor: pointer;" ng-repeat = "imG in detail.moreImage" ng-click = showimage(imG)>
                     <img src={{imG}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
                 </li>
-                <!-- <li style="display: inline;">
-                  <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-                </li>
-                <li style="display: inline;">
-                  <img src={{detail.productImg}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
-                </li>  -->
               </ul>
           </div>
             <div class="col-lg-7">
