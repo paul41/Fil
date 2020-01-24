@@ -37,7 +37,7 @@ module.exports.login = (app,url) =>{
   app.post('/userlogin', (req,res) =>{
     mongoClient.connect(url,(err,db)=>{
       assert.equal(null,err);
-      db.collection('users').insert(req.body);
+      db.collection('users').update(req.body,{ upsert: true});
       db.close()
     })
     res.json('user added')

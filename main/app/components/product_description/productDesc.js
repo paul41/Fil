@@ -20,6 +20,9 @@ angular.module('prodDescApp', [])
                     }
                 })
                 getServerData.FBLogin()
+                $('#scrollTop').click(() => {
+                    $('html, body').animate({ scrollTop: 0 }, 'slow');
+                });
             })
             productDataArr.push(productsObj[$route.current.params.id])
             $scope.productDetail = productDataArr;
@@ -92,7 +95,7 @@ angular.module('prodDescApp', [])
                         console.log('ERROR')
                     }
                 },{
-                    scope:'email,user_likes',
+                    scope:'email',
                     return_scopes:true
                 })
             }
