@@ -307,7 +307,7 @@ angular.module('contentApp', [])
 					console.log('ERROR')
 				}
 			},{
-				scope:'email,user_likes',
+				scope:'email',
 				return_scopes:true
 			})
 		}
