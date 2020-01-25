@@ -40,6 +40,9 @@ angular.module('prodDescApp', [])
              
             $scope.addtoCart = () =>{
                 document.getElementById('emptymsg').style.display = 'none';
+                if(wishListItems == null){
+                    wishListItems = [];
+                }
                 wishListItems.push(productsObj[$route.current.params.id])
                 $scope.wishItems = wishListItems.length;
                 $scope.wishArray = wishListItems;
