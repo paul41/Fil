@@ -61,7 +61,6 @@ angular.module('contentApp', [])
 				item.discountpercent = rate;
 				newProductArr.push(item)
 			})
-
 			return newProductArr;
 		}
 		$scope.lists = discountRateFn(productsArr);

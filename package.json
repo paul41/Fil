@@ -2,7 +2,8 @@
   "name": "Fily",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack main/app/app.js --output dist/bundle.js --mode development"
   },
   "dependencies": {
     "angular-loading-bar": "^0.9.0",
@@ -21,7 +22,10 @@
   "author": "Sourav Paul",
   "license": "ISC",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paul41/Filiated.git"

@@ -15,9 +15,6 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 		let sc = document.createElement('script');
 		sc.src = "../../../assets/js/owl.carousel.min.js"
 		$("head").append(sc);
-		// let y = document.createElement('script');
-		// y.src = "../../../assets/js/jquery.fancybox.min.js"
-		//$("head").append(y);
 		let z = document.createElement('script');
 		z.src = "../../../assets/js/jquery.easing.1.3.js"
 		$("head").append(z);
@@ -56,7 +53,6 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 	}
 	$scope.getWishProduct = (w) => {
 		window.open(wishlistArray[w].productURL)
-		//$(location).attr('href', wishlistArray[w].productURL)
 	}
     $scope.setValue = (product)=>{	
     	$('#input-search').val(product);
@@ -77,8 +73,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     		getServerData.fetchProductDetails((res)=>{
     			if(res.data.length > 0){
 					$window.location.href="#!/productList";
-    				getServerData.setMap(res.data[0].SearchItems)
-    				
+    				getServerData.setMap(res.data[0].SearchItems)	
     			}else{
     				$window.location.href = "/NotFound";
     			}

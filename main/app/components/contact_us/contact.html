@@ -5,12 +5,8 @@
   <title>Fily | Find the best price,deals,offers for Electronics,Dresses,Home appliances and more &mdash; Fily.com</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900|Roboto&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="../../../assets/fonts/icomoon/style.css">
-
     <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../assets/css/animate.min.css">
     <link rel="stylesheet" href="../../../assets/css/jquery.fancybox.min.css">
@@ -18,168 +14,98 @@
     <link rel="stylesheet" href="../../../assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../../../assets/fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="../../../assets/css/aos.css">
-
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="../../../assets/css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        font-weight: 600;
+      }
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      @media screen and (max-width: 600px) {
+      input{
+        width: 100% !important;
+      }
+      label{
+        display: inline
+      }
+      #mobile-form{
+        margin: 17px;
+      }
+      #section-design{
+        margin-left: 10px !important;
+      }
+    }
+    </style>
   </head>
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-    
+  <body>
+  
     <div class="site-wrap" id="home-section">
-
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
-
-
-
       <header class="site-navbar site-navbar-target bg-white" role="banner">
-
         <div class="container">
           <div class="row align-items-center position-relative">
-
             <div class="col-lg-4">
             </div>
             <div class="col-lg-4 text-center">
               <div class="site-logo">
                 <a href="index.html">Fily</a>
               </div>
-
-
-              <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
             </div>
             <div class="col-lg-4">
             </div>
-            
-
           </div>
         </div>
-
       </header>
-   <div class="owl-carousel-wrapper">
-
-      
-
-      <div class="box-92819 shadow-lg">
-        
-
-          <div>
-            <h1 class=" mb-3 text-black">About Fily</h1>
-            <p>Hello Fily</p>
+      <div class="container" style="position:relative;top:105px"> 
+        <div style="text-align: center;">
+          <p style="color: #3e64ff;">Got a question?</p>
+          <h1 class="mb-3 text-black">Contact Fily</h1>
+          <article style="margin: auto;width: 50%;">
+            We’re here to help and answer any question you might have. We look forward to hear from you 🙂
+          </article>
+        </div>
+        <br />
+        <div class="row align-items-stretch" ng-repeat = "detail in productDetail">  
+          <div class="col-lg-5">
+            <div class="row ">
+              <div class="position-relative" style="margin:auto;">
+                <div id = "mobile-form" style="box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+                  <form style="padding:30px">
+                    <label for="Name">Full Name</label>
+                    <input type="text" placeholder="Full Name" required/>
+                    <label for="Email">Email</label>
+                    <input type="text" placeholder="Email" required/>
+                    <label for="Message">Message</label>
+                    <input type="text" placeholder="Message" required/>
+                    <label for="Details">Additional Details</label>
+                    <textarea type="text" placeholder="Additional Details"></textarea>
+                    <div style="padding: 5px;"></div>                 
+                    <input type = "submit" style="width: 100%;color: #fff;background: #3e64ff;padding:5px;border: 2px solid #3e64ff;"/>
+                  </form>
+                </div>      
+              </div>  
+            </div>
           </div>
+          <div id = "section-design" class="col-lg-7" style="margin-top: 30px;padding-left: 100px;">
+            <h2>How can we help?</h2>
+            <p>Fily's help center is fresh and always open. If you can’t find the answer you’re looking for, we’re here to lend a hand.</p>
+            <h4>Contact Information</h4><p></p>
+            <p><i class = "fa fa-map-marker"></i>   Sourav Paul,<br>NAL Wind Tunnel road, <br>Bangalore</p>
+            <p><i class = "fa fa-envelope"></i>   usernamepaul214@gmail.com</p>
+          </div> 
+        </div>  
         
       </div>
-
-        <div class="ftco-cover-1" style="background-image: url('../../../assets/images/hero_1.jpg');"></div>
-    </div>
-
-
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5 section-2-title">
-          <div class="col-md-6">
-            <h2 class="heading-39291">Meet Our Team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis provident eius ratione velit, voluptas laborum nemo quas ad necessitatibus placeat?</p>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-
-          <div class="col-lg-4 col-md-6 mb-5" style="margin:auto">
-            <div class="post-entry-1 h-100 bg-white text-center">
-              <a href="#" class="d-inline-block">
-                <img src="../../../assets/images/person_1.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                <span class="meta">Founder</span>
-                <h2>James Doe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
-              </div>
-            </div>
-          </div>
-          <!-- <!-- <div class="col-lg-4 col-md-6 mb-5">
-            <div class="post-entry-1 h-100 bg-white text-center">
-              <a href="#" class="d-inline-block">
-                <img src="../../../assets/images/person_2.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                <span class="meta">Founder</span>
-                <h2>James Doe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="post-entry-1 h-100 bg-white text-center">
-              <a href="#" class="d-inline-block">
-                <img src="../../../assets/images/person_3.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                <span class="meta">Founder</span>
-                <h2>James Doe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="post-entry-1 h-100 bg-white text-center">
-              <a href="#" class="d-inline-block">
-                <img src="../../../assets/images/person_4.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                <span class="meta">Founder</span>
-                <h2>James Doe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="post-entry-1 h-100 bg-white text-center">
-              <a href="#" class="d-inline-block">
-                <img src="../../../assets/images/person_5.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                <span class="meta">Founder</span>
-                <h2>James Doe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="post-entry-1 h-100 bg-white text-center">
-              <a href="#" class="d-inline-block">
-                <img src="../../../assets/images/person_1.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                <span class="meta">Founder</span>
-                <h2>James Doe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
-              </div>
-            </div>
-          </div> -->
-
-
-        </div>
-      </div>
-    </div>
-    
-    <footer class="site-footer bg-light">
+    <footer class="site-footer bg-light" style="position: relative;top: 150px;">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -188,7 +114,6 @@
                 <h2 class="footer-heading mb-4">About Us</h2>
                 <p><b>Fily</b> makes it easy to search and select from wide range of recommended Amazon products. 
                   Whether you want to review or add it to your wishlist, Fily provides a hassle free platform to buy products of your choice.</p>
-
               </div>
               <div class="col-md-4 ml-auto">
                 <h2 class="footer-heading mb-4">Features</h2>
@@ -198,7 +123,6 @@
                   <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </div>
-
             </div>
           </div>
           <div class="col-md-4 ml-auto">
@@ -210,23 +134,15 @@
             </form>
           </div>
         </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="pt-5">
-              <p style="font-size: 0.4px; float: left;">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-
+        <div>
+          <p style="font-size: 0.4px; float: left;">
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
         </div>
       </div>
     </footer>
-
-    </div>
-
     <script src="../../../assets/js/jquery-3.3.1.min.js"></script>
     <script src="../../../assets/js/popper.min.js"></script>
     <script src="../../../assets/js/bootstrap.min.js"></script>
@@ -237,11 +153,6 @@
     <script src="../../../assets/js/jquery.fancybox.min.js"></script>
     <script src="../../../assets/js/jquery.easing.1.3.js"></script>
     <script src="../../../assets/js/aos.js"></script>
-
     <script src="../../../assets/js/main.js"></script>
-
-     
-
   </body>
-
 </html>
