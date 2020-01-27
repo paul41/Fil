@@ -5,8 +5,12 @@ const getProducts = require("./config/productsPage.js")
 const dbconfig = require("./config/db.js");
 const port = process.env.PORT || 8080;
 const bodyParser = require('body-parser');
+const multer = require('multer');
+var upload = multer();
 app.use(express.static(__dirname+"/main"));
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
+app.use(upload.array());
 getProducts(app,dbconfig.url);
 getProducts.login(app,dbconfig.url)
 getProducts.productDetails(app,dbconfig.url,dbconfig.projectQ)
@@ -17,6 +21,7 @@ getProducts.getrange(app,dbconfig.url);
 getProducts.ratingFilter(app,dbconfig.url);
 getProducts.braFil(app,dbconfig.url);
 getProducts.about(app);
+getProducts.contactform(app,dbconfig.url)
 getProducts.privacy(app);
 getProducts.contact(app);
 

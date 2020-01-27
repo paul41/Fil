@@ -79,13 +79,13 @@
             <div class="row ">
               <div class="position-relative" style="margin:auto;">
                 <div id = "mobile-form" style="box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-                  <form style="padding:30px">
+                  <form style="padding:30px" action = "/submit-form" method="post">
                     <label for="Name">Full Name</label>
-                    <input type="text" placeholder="Full Name" required/>
+                    <input type="text" name = "fullname" placeholder="Full Name" required/>
                     <label for="Email">Email</label>
-                    <input type="text" placeholder="Email" required/>
+                    <input type="text" name = "email" placeholder="Email" required/>
                     <label for="Message">Message</label>
-                    <input type="text" placeholder="Message" required/>
+                    <input type="text" name = "message" placeholder="Message" required/>
                     <label for="Details">Additional Details</label>
                     <textarea type="text" placeholder="Additional Details"></textarea>
                     <div style="padding: 5px;"></div>                 
@@ -95,7 +95,7 @@
               </div>  
             </div>
           </div>
-          <div id = "section-design" class="col-lg-7" style="margin-top: 30px;padding-left: 100px;">
+          <div id = "section-design" class="col-lg-7" style="margin-top: 30px;">
             <h2>How can we help?</h2>
             <p>Fily's help center is fresh and always open. If you can’t find the answer you’re looking for, we’re here to lend a hand.</p>
             <h4>Contact Information</h4><p></p>

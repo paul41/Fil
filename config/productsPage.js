@@ -313,6 +313,16 @@ module.exports.braFil = (app,url) =>{
     });
   })
 }
+module.exports.contactform = (app,url) =>{
+  app.post('/submit-form',(req,res) =>{
+    mongoClient.connect(url,(err,db)=>{
+      assert.equal(null,err);
+      db.collection('contactUs').insert(req.body);
+      db.close()
+    })
+    res.send('<h2>Thanks for the opportunity to help you.We will get back to you soon</h2>');
+  })
+}
 module.exports.about = (app) =>{
   app.get('/about',(req,res)=>{ 
     res.sendFile(process.cwd()+'/main/app/components/about_us/about.html')
