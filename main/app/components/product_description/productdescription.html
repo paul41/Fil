@@ -56,7 +56,7 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li>
                     <a href="Javascript:void(0)" class="nav-link" ng-click="getWishModal()">
-                      <sup style="color:red;font-weight:bold;font-size: 17px;">
+                      <sup id = "subscript">
                         {{wishItems}}
                       </sup>
                       Wishlist
@@ -77,22 +77,18 @@
               <img src={{detail.productImg}} height="auto" max-width = "100%" id = "imgStyle" style="border:1px solid #ddd"/>    
               <ul class = "more-images" style="list-style-type: none;padding-inline-start: 0;">
                 <li style="display: inline;cursor: pointer;" ng-repeat = "imG in detail.moreImage" ng-click = showimage(imG)>
-                    <img src={{imG}}  style="margin-top: 15px;height: 80px; width: 80px;border:1px solid #ddd"/>
+                    <img src={{imG}}  id="image-stt"/>
                 </li>
               </ul>
           </div>
             <div class="col-lg-7">
-              <div class="h-100 bg-white" style = "background: #fff;
-              position: relative;
-              z-index: 2;
-              padding: 3rem;
-              padding-top: 0rem;">
+              <div class="h-100 bg-white" id = "div-desc">
                   <h2 >{{detail.ProductName}}</h2><br>
                   <p>{{detail.rating}}<i class="fa fa-star" aria-hidden="true" style="color: #3e64ff;"></i></p>
                   <p style="margin-bottom: 0rem;color:#3e64ff"><u>Best Price:</u></p>
                   <h2>Rs. {{detail.price}}</h2><br>
-                  <button style = "background:#3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "amazonRedirect()">Buy Now</button>
-                  <button id = "cartBtn" style = "background: #3e64ff;color:#fff;border:1px solid #3e64ff;width:100px" ng-click = "addtoCart()">Add to Cart</button>
+                  <button id = "buy-now-style" ng-click = "amazonRedirect()">Buy Now</button>
+                  <button id = "cartBtn" ng-click = "addtoCart()">Add to Cart</button>
                   <br><br>
                   <p>{{detail.product_specification[0].Description}}</p>
               </div>
@@ -102,29 +98,11 @@
         </div>
         <div class="container" >
           <h3 style="padding:2rem">Similar Products</h3>
-          <div class="row align-items-stretch" ng-repeat = "detail in productDetail" style="width: 100%;overflow-x: scroll;margin-left: 0px; margin-right: 0px;">
+          <div class="row align-items-stretch" ng-repeat = "detail in productDetail" id="div-similar-product">
             <ul style="list-style-type: none;white-space:nowrap;">  
               <li style="display: inline;cursor: pointer;" ng-repeat = "similar in detail.similarProducts" ng-click = gotoSimilar(similar.productLink)>
-                <img src={{similar.imgURL}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <!-- <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li>
-              <li style="display: inline;">
-                <img src={{detail.productImg}}  style="margin-top: 15px;height: 200px; width: 170px;border:1px solid #ddd"/>
-              </li> -->
+                <img src={{similar.imgURL}}  id="similar-image-style"/>
+              </li> 
             </ul>
           </div>
         </div>
@@ -137,16 +115,16 @@
         <div class = "w3-container wishListStyle">
           <h3 style="margin:5px;color: white">WishList</h3>
           <span onclick="document.getElementById('wishModal').style.display='none'" 
-            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 6px;">&times;</span>
+            class="w3-button" id="close-btn">&times;</span>
         </div>
         <section id="wishLists">
           <h4 id = "emptymsg" style="display: none;text-align: center;padding: 100px;background: #f6f5f5;">Your wishlist is empty</h4>
           <ul>
             <li ng-repeat = "w in wishArray; track by $index">
               <img id="modal-image-style" src="{{w.productImg}}"> 
-              <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important;height:20px;overflow: hidden;">{{w.ProductName}}</p>
-              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">{{w.price}}</b>
-              <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;" ng-click = "getWishProduct($index)">Buy Now</button>
+              <p id ="wishlist-stt">{{w.ProductName}}</p>
+              <b id="wish-price">{{w.price}}</b>
+              <button type="button" class="btn-primary" id = "wish-btn" ng-click = "getWishProduct($index)">Buy Now</button>
               <span class="close" ng-click = "removeList(w.productId)">&times;</span>
             </li>
           </ul>
@@ -188,7 +166,7 @@
           </div>
         </div>
       </div>
-      <div id = "scrollTop" style = "left:90%;color:#3e64ff;font-weight:1000;margin-bottom: 4px;margin-top: 35px;width:12%" class = "container">
+      <div id = "scrollTop" id = "top-style" class = "container">
         <i class="fa fa-hand-o-up" style = "font-size:25px; cursor: pointer;"> </i>Top
       </div>
       <footer class="site-footer bg-light">

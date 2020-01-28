@@ -61,7 +61,7 @@
                   <li><a href="/about" class="nav-link">About</a></li>
                   <li>
                     <a href="Javascript:void(0)" class="nav-link"  onclick="getWishModal()">
-                      <sup style="color:red;font-weight:bold;font-size: 15px;">
+                      <sup id="subscript">
                         {{wishItems}}
                       </sup>
                       Wishlist
@@ -101,10 +101,7 @@
                       </span>
                     </a>
                     <div style="padding-bottom: 22px">
-                      <!-- <input type="submit" class="login loginmodal-submit" value="Login" style="width: 100px !important    
-                        ;position: relative; top: 17px;background: #3e64ff;color: #fff"> -->
-                      <input type="submit" class="login loginmodal-submit" value="Login with Facebook" style="width: 145px !important    
-                        ;position: relative; top: 17px;background: #3e64ff;color: #fff" ng-click = "onFBLogin()">
+                      <input type="submit" class="login loginmodal-submit" value="Login with Facebook" id="fb-login-style" ng-click = "onFBLogin()">
                     </div>
                   </div> 
                 </form>
@@ -112,24 +109,21 @@
             </div>
           </div>
         </div>
-
         <!-- WISHLIST MODAL -->
-
       <div id = "wishModal" class = "w3-modal">
         <div class = "w3-container wishListStyle">
-          <h3 style="margin:5px;color: white">WishList</h3>
+          <h3 id="wish-head">WishList</h3>
           <span onclick="document.getElementById('wishModal').style.display='none'" 
-            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 10px;">&times;</span>
+            class="w3-button" id="close-btn">&times;</span>
         </div>
         <section id="wishLists">
-          <h4 id = "emptymsg" style="display: none;text-align: center;padding: 100px;background: #f6f5f5;">Your wishlist is empty</h4>
+          <h4 id = "emptymsg" id="wishlist-header">Your wishlist is empty</h4>
           <ul ng-if="wishArray">
             <li ng-repeat = "w in wishArray; track by $index">
               <img id="modal-image-style" src="{{w.productImg}}" > 
-              <p style ="margin-left:20px; margin-top:22px; position:absolute;display:inline !important;height:20px;overflow: hidden;">{{w.ProductName}}</p>
-              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">{{w.price}}</b>
-              <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;" ng-click = "getWishProduct($index)">Buy Now</button>
-              <!-- <span class="close" ng-click = "removeList(w.productId)">&times;</span> -->
+              <p id ="wishlist-stt">{{w.ProductName}}</p>
+              <b id="wish-price">{{w.price}}</b>
+              <button type="button" class="btn-primary" id = "wish-btn" ng-click = "getWishProduct($index)">Buy Now</button>
             </li>
           </ul>
         </section>
@@ -138,15 +132,15 @@
         <!-- SEARCH SECTION -->
 
       <div class="owl-carousel-wrapper">
-        <div class="shadow-lg" style="padding:0 50px">
+        <div class="shadow-lg" id="search-one">
             <div class = "container">
-              <div class = "row" style="align-items: center !important;">
+              <div class = "row" id="search-two">
                 <div id = "input-box" class = "col-xl-9">
-                  <form style="width:100%;position:relative">
-                    <input type="text" placeholder="Find products" id ="input-search" style="height: 50px;background: #fff;font-size: 17px;color: #000;font-weight: 400;border: 0;border-top-left-radius: 4px;border-bottom-left-radius: 4px;padding:20px;width:85%;float: left;" ng-model = "products" ng-focus='showList()' ng-blur = 'hideList()' autocomplete="off" >
+                  <form id="search-form">
+                    <input type="text" placeholder="Find products" id ="input-search" ng-model = "products" ng-focus='showList()' ng-blur = 'hideList()' autocomplete="off" >
                     <button class = "find-btn" ng-click="search()">FIND OUT</button>
-                    <div style="overflow:auto;width:33%;">
-                      <ul id ="productList" class="text-center col-sm-4" style = 'position:absolute;background: #fff;display: none;overflow: auto;height: 230px;border:1px solid skyblue'>
+                    <div id="search-three">
+                      <ul id ="productList" class="text-center col-sm-4" id = 'prod-list'>
                         <li id="listDesign" ng-repeat="x in product | filter:products" ng-click="setValue(x)">
                           {{x}}
                           <hr style="margin:1px;">
@@ -158,7 +152,7 @@
               </div>
             </div>
         </div>
-        <div class="owl-carousel owl-1" style="position: relative;top:88px;">
+        <div class="owl-carousel owl-1" id="carousel-div">
           <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/WLA/Jan/Cases/D14720820_WLA_Heroes_DesktopTallHero_1500x600._CB427645230_.jpg');background-size: cover;"></div>
           <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Xiaomi/Redmi_Note8Pro/Alexa/D14759939_IN_WLME_Redmi_Note_Pro_Alexa_DesktopTallHero_1500x600._CB426125107_.jpg');background-size: cover;"></div>
           <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fashion/2019/dec/EOSSL1/GatewayGraphics/1500x600._CB425806110_.jpg');background-size: cover;"></div>  
@@ -168,7 +162,7 @@
 
         <!-- DEALS SECTION -->
 
-    <div class="site-section" style="position: relative; top: 80px;">
+    <div class="site-section" id="deals-sec">
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-7">
@@ -179,15 +173,15 @@
           <div class="col-lg-12">
             <div class="media-02819 row">
               <div class = "col-md-4" ng-repeat = "d in deals">
-                <div class = "thumbnail" ng-click = 'link($index)' style="cursor: pointer;position: relative;text-align: center;">
+                <div class = "thumbnail" ng-click = 'link($index)' id="deals-div">
                   <a href="Javascript:void(0)" class="img-link">
                     <img src={{d.url}} alt="Image" class="img-fluid" style="height: 190px;">
                   </a>  
                 </div>
-                <div style="position: relative;bottom: 0;text-align: center;">
+                <div id="deals-stt">
                     <h3><a href="Javascript:void(0)" style="font-family: none;">{{d.name}}</a></h3>
-                    <span style="position: relative;top:15px;"><i class = "fa fa-rupee" style="color: #000;"></i><b>{{d.price}}</b> &nbsp; <i class = "fa fa-rupee" style="color: #000;"></i><strike>{{d.strikethrough}}</strike> &nbsp; 
-                      <p style="font-size: x-large;color:#3e64ff">{{d.percentdiscount}}% Off</p>
+                    <span id="span-sec"><i class = "fa fa-rupee" style="color: #000;"></i><b>{{d.price}}</b> &nbsp; <i class = "fa fa-rupee" style="color: #000;"></i><strike>{{d.strikethrough}}</strike> &nbsp; 
+                      <p id="discount-style">{{d.percentdiscount}}% Off</p>
                     </span>
                 </div>
               </div>     
@@ -214,7 +208,7 @@
                 <img src={{t.imgUrl}} alt="Image" class="img-fluid" >
               </span>
               <h3 class="mb-4"><a href="#">{{t.productName}}</a></h3>
-              <p style="height: 200px;overflow: auto;">{{t.productDetail}}</p>            
+              <p id="trends-style">{{t.productDetail}}</p>            
             </div>
           </div>
         </div>
@@ -250,10 +244,10 @@
 
     <!-- BRANDS SECTION -->
 
-    <div class = "container-fluid" style="margin-bottom:70px;text-align: center;">
-      <div class="jumbotron" style = "background: ghostwhite; position: relative;">
+    <div class = "container-fluid" id="brand-div">
+      <div class="jumbotron" id = "jumbotron-style">
         <div>
-          <h2 class="heading-39291 mb-0" style = "margin-bottom: 50px !important;">Brands</h2>
+          <h2 class="heading-39291 mb-0" id = "brand-header">Brands</h2>
         </div>
           <a ng-repeat = "y in brands" href={{y.productUrl}}>
             <img src={{y.imgUrl}} class="img-thumbnail" height="350px" width="200px">
@@ -295,22 +289,14 @@
             </form>
           </div>
         </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="pt-5">
-              <p style="font-size: 0.4px; float: left;">
+          <p style="font-size: 0.4px; float: left;">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-
-        </div>
+          </p>
       </div>
     </footer>
-    </div>  
-    
+    </div>    
   </body>
 </html>
 
