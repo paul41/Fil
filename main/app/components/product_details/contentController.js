@@ -50,9 +50,10 @@ angular.module('contentApp', [])
 			}
 			//getServerData.FBLogin()
 			if(fbResponse){
+				document.getElementById('name-style').style.display='block';
 				$scope.fname = fbResponse.first_name
 				$scope.lname = fbResponse.last_name
-				document.getElementById('name-style').style.display='block'
+				
 			}
 		})
 		/** Calculate discount  */

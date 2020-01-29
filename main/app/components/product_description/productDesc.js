@@ -20,9 +20,10 @@ angular.module('prodDescApp', [])
                     }
                 })
                 if(fbResponse){
+                    document.getElementById('displayName').style.display='inline-block'
                     $scope.fname = fbResponse.first_name
                     $scope.lname = fbResponse.last_name
-                    document.getElementById('displayName').style.display='block'
+                   
                 }
                 $('#scrollTop').click(() => {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
