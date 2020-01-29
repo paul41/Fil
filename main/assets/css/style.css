@@ -663,7 +663,8 @@ h1, h2, h3, h4, h5,
 }
 @media (max-width: 991.98px){
   #displayName{
-    font-size: 15px !important
+    font-size: 15px !important;
+    padding-top: 10px;
   }
 }
 @media (max-width: 991.98px){
