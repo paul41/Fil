@@ -48,7 +48,12 @@ angular.module('contentApp', [])
 					}
 				}
 			}
-			getServerData.FBLogin()
+			//getServerData.FBLogin()
+			if(fbResponse){
+				$scope.fname = fbResponse.first_name
+				$scope.lname = fbResponse.last_name
+				document.getElementById('name-style').style.display='block'
+			}
 		})
 		/** Calculate discount  */
 		function discountRateFn(arr) {

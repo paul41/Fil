@@ -19,7 +19,11 @@ angular.module('prodDescApp', [])
                         buttonDisable()
                     }
                 })
-                getServerData.FBLogin()
+                if(fbResponse){
+                    $scope.fname = fbResponse.first_name
+                    $scope.lname = fbResponse.last_name
+                    document.getElementById('displayName').style.display='block'
+                }
                 $('#scrollTop').click(() => {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                 });
