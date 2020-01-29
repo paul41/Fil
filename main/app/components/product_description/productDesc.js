@@ -96,6 +96,9 @@ angular.module('prodDescApp', [])
                             if(response){
                                 getServerData.loginCredState(response)
                                 getServerData.storeUserDatas(response)
+                                $scope.fname = response.first_name
+                                $scope.lname = response.last_name
+                                document.getElementById('displayName').style.display='block'
                             }else{
                                 alert('Login to get access to wishlist')
                             }

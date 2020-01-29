@@ -88,7 +88,9 @@
                 <div class = "site-logo logo-style" style="color: #3e64ff !important;padding-right: 80px;">
                   <a href = "#!/">Fily</a>
                 </div>
+                
                 <input type="text" id = "re-search" autocomplete="off" placeholder="Search for products" ng-model = "amazonItems" ng-focus = displayList() ng-blur = hideList()>
+                
                 <div id = "list-product" style="left:74px;width:570px;display:none;position: absolute;left:118px;min-width: 250px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);top:55px">
                   <ul style = "padding-inline-start: 0px;list-style-type: none;background: #fff; overflow: auto; height: 250px;margin-block-end:0px;color:black">
                     <li ng-repeat = "pl in amazonProducts | filter:amazonItems" style="padding: 7.5px;cursor: pointer;text-align: center;border-bottom: 1px solid #ddd;" ng-click = fetchproducts(pl)>
@@ -106,7 +108,7 @@
                 </div>
                     
             </div>            
-            <div class="col-lg-4">   
+            <div class="col-lg-4">  
               <nav class="site-navigation text-right mr-auto" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li>
@@ -121,7 +123,11 @@
             </div>
           </div>
         </div>
+        <div class="container" id = "name-style" style="display:none;padding-left: 0px;font-size: 18px;font-family: Playfair Display, serif">
+          Hello,{{fname}} {{lname}}
+        </div>
       </header>
+      
 
       <!-- LOGIN_MODAL-->
 

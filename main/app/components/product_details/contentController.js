@@ -283,7 +283,8 @@ angular.module('contentApp', [])
 		$scope.getWishModal = () =>{
 			fbResponse = JSON.parse(localStorage.getItem('loginCred'))
 			if(fbResponse){
-				document.getElementById('wishModal').style.display='block'
+				document.getElementById('wishModal').style.display='block';
+				
 			}else{
 				alert('Login first to access your wishlist')
 			}
@@ -298,6 +299,9 @@ angular.module('contentApp', [])
 						if(response){
 							getServerData.loginCredState(response)
 							getServerData.storeUserDatas(response)
+							$scope.fname = response.first_name
+							$scope.lname = response.last_name
+							document.getElementById('name-style').style.display='block'
 						}else{
 							alert('Login to get access to wishlist')
 						}
