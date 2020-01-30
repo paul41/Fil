@@ -1,0 +1,162 @@
+{
+    "_id": {
+        "$oid": "5d8ca14a7c213e5561369718"
+    },
+    "Deals": {
+        "QuerySelector": "dealsCollection",
+        "DealsImg": [
+            {
+                "name": "Samsung Galaxy A50 (Blue, 4GB RAM, 64GB Storage)",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/41tIgANca0L._SL250_.jpg",
+                "price": "18490",
+                "strikethrough": "21000"
+            },
+            {
+                "name": "ASUS TUF Gaming FX505GD 15.6 FHD Laptop GTX 1050 4GB Graphics",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/41q3VpfimQL._SL250_.jpg",
+                "price": "49990",
+                "strikethrough": "64990"
+            },
+            {
+                "name": "Omen by HP Core i5 9th Gen 15.6-inch FHD Gaming Laptop",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/418Za-CqLXL._SL250_.jpg",
+                "price": "75990",
+                "strikethrough": "99401"
+            },
+            {
+                "name": "POLESTAR Noble Blue 32 Ltrs Casual bagpack/School Bag/Laptop Backpack",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/41SS4VYseVL._SL250_.jpg",
+                "price": "458",
+                "strikethrough": "1790"
+            },
+            {
+                "name": "WOW Apple Cider Vinegar Shampoo- Sulphates Hair Care Package,600mL",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/51-9gbPJnkL._SL250_.jpg",
+                "price": "549",
+                "strikethrough": "994"
+            },
+            {
+                "name": "Apple iPhone XR (64GB)",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/41x3E3NeRVL._SL250_.jpg",
+                "price": "42999",
+                "strikethrough": "49900"
+            },
+            {
+                "name": "Miss Chase Women's Striped Mini Dress",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/41plOldqvRL._SL250_.jpg",
+                "price": "559",
+                "strikethrough": "1399"
+            },
+            {
+                "name": "Yamaha F310, 6-Strings Acoustic Guitar",
+                "url": "https://images-eu.ssl-images-amazon.com/images/I/31Mcm7PpchL._SL250_.jpg",
+                "price": "7599",
+                "strikethrough": "9490"
+            }
+        ],
+        "ProductURL": [
+            "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXBMYCW/ref=as_li_ss_tl?_encoding=UTF8&smid=A14CZOWI0VEHLG&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=&pf_rd_r=9X9H5KQ563R37D4J77ZX&pf_rd_t=36701&pf_rd_p=99ee64af-e6ec-417e-a806-700ff584a89b&pf_rd_i=desktop&linkCode=ll1&tag=shroudedeyrie-21&linkId=1a8576b23fcbf07ffb6d7fee0d409409&language=en_IN",
+            "https://www.amazon.in/FX505GD-Graphics-i5-8300H-Windows-FX505GD-BQ136T/dp/B07VQLS8MQ/ref=as_li_ss_tl?keywords=laptop&qid=1569483317&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFCRTE5UzZIWFMxUEomZW5jcnlwdGVkSWQ9QTA4NzQ5MTVTWUYxMzZCMkpXUE4mZW5jcnlwdGVkQWRJZD1BMDczNjIyNDJMV0xDNklCRDJMNk4md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=ll1&tag=shroudedeyrie-21&linkId=858d80ad42b1d5cce6d8a91b9a7f7e3a&language=en_IN",
+            "https://amzn.to/2lNbQCK",
+            "https://amzn.to/2mQErag",
+            "https://amzn.to/2lZpSRw",
+            "https://amzn.to/2obE0Ik",
+            "https://amzn.to/2mGxEA7",
+            "https://www.amazon.in/gp/product/B000RVYW7E/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=R33DRRCRPMNGAW5N2Z1B&pf_rd_t=101&pf_rd_p=35cca221-5e50-4abe-9ffc-01b69dc7767c&pf_rd_i=4581268031&linkCode=sl1&tag=shroudedeyrie-21&linkId=c4675aa489e1c604c0d1e28151c30fd0&language=en_IN"
+        ]
+    },
+    "Brands": {
+        "BrandsArr": [
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?bbn=1953602031&rh=n:1953602031,p_4:BIBA&field-pct-off-with-tax=30-&pf_rd_i=15777196031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=509aa961-9aa9-4556-8daa-b861da9c8bbd&pf_rd_r=7EPTBEPKZ51PVHSYED1N&pf_rd_s=merchandised-search-11&pf_rd_t=101&ref=s9_acss_bw_cg_ncgyek_2a1_w&linkCode=ll2&tag=fily0e-21&linkId=1674693c8719afdfcf639c899a8f60ef&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Fashion/WA19/MAY-ART/brands/Biba.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?i=apparel&bbn=1968024031&rh=n:1571271031,n:!1571272031,n:1968024031,p_89:US+Polo+Association&hidden-keywords=-sock+-sunglasses+-trunk+-brief+-belt+-cap+-glove+-hankerchief+-bandana+-mask+-boxer+-handkerchief+-frame+-snow+-camping+-vest+-lounge+-pjyama+-bottom+-thermal&field-pct-off-with-tax=40-&pf_rd_i=15777196031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d991552d-8bfa-4aed-b827-a96a867faec7&pf_rd_r=7EPTBEPKZ51PVHSYED1N&pf_rd_s=merchandised-search-5&pf_rd_t=101&ref=s9_acss_bw_cg_hnislf_2a1_w&linkCode=ll2&tag=fily0e-21&linkId=a2bc743401dd168ad23d71da003bb792&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img18/apparel/men/brands/USAP.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?url=node=15777196031&field-keywords=&linkCode=sl2&tag=shroudedeyrie-21&linkId=1f43f53c920a767ca36467591974dfcd&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img18/apparel/Stores/Kids-carnival/KAbrands/ginijony.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?i=apparel&bbn=1968024031&rh=n:1571271031,n:!1571272031,n:1968024031,p_89:Jack+&+Jones&hidden-keywords=-tshirt+-shirt+-cardigan+-vest+-jacket+-short+-belt+-blazer+-formal+-waistcoat+-sweatpant+-pullover+-cheno&field-pct-off-with-tax=50-&pf_rd_i=15777196031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=d991552d-8bfa-4aed-b827-a96a867faec7&pf_rd_r=7EPTBEPKZ51PVHSYED1N&pf_rd_s=merchandised-search-5&pf_rd_t=101&ref=s9_acss_bw_cg_hnislf_2d1_w&linkCode=ll2&tag=fily0e-21&linkId=1da538782e956dbae5a0d42c9b0b6b23&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img18/apparel/men/brands/50/jack-jones.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?bbn=2563504031&rh=n:1350387031,n:!1350388031,n:2563504031,p_89:Frederique+Constant&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=6938e279-bfda-4f9b-9e82-759a785a44f4&pf_rd_r=RGZFD4TJGH7C0YFZWCCS&pf_rd_s=merchandised-search-10&ref=QAQuad11CTA_en_IN_3&linkCode=sl2&tag=shroudedeyrie-21&linkId=b82251ee29facb107c9859e5ebab613c&language=en_IN",
+                "imgUrl": "https://m.media-amazon.com/images/G/31/img19/Watches/Aug/sobe/men/premium/Frederique_Constant._SS680_QL85_.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?i=apparel&bbn=1968024031&rh=n:1571271031,n:!1571272031,n:1968024031,p_89:Wrangler&lo=image&hidden-keywords=-tshirt+-shirt+-jacket+-chino+-formal+-waistcoat+-belt&field-pct-off-with-tax=50-&pf_rd_i=15777196031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=0032e212-6ad1-4b89-a814-c470e8183c85&pf_rd_r=7EPTBEPKZ51PVHSYED1N&pf_rd_s=merchandised-search-7&pf_rd_t=101&ref=s9_acss_bw_cg_nficvw_2d1_w&linkCode=ll2&tag=fily0e-21&linkId=c009a1c67c437f419c28cd6d772ec8ce&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/brandtile/SYM_MW_ND.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?bbn=1953602031&rh=n:1953602031,p_89:Rangriti&field-pct-off-with-tax=40-&pf_rd_i=15777196031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=509aa961-9aa9-4556-8daa-b861da9c8bbd&pf_rd_r=7EPTBEPKZ51PVHSYED1N&pf_rd_s=merchandised-search-11&pf_rd_t=101&ref=s9_acss_bw_cg_ncgyek_2d1_w&linkCode=ll2&tag=fily0e-21&linkId=43d80788f1b8fa7355fd6d24db29f38c&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Fashion/WA19/MAY-ART/brands/Rangriti.jpg"
+            },
+            {
+                "productUrl": "https://www.amazon.in/s/ref=as_li_ss_tl?i=apparel&bbn=4091091031&rh=n:1571271031,n:!1571273031,n:!1975997031,n:4091091031,n:1967936031,p_89:nauti+nati,p_n_pct-off-with-tax:2665401031&pf_rd_i=15777196031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=bcf3b6fc-aea6-45ff-a9cf-5740088af4d6&pf_rd_r=7EPTBEPKZ51PVHSYED1N&pf_rd_s=merchandised-search-12&pf_rd_t=101&ref=s9_acss_bw_cg_fnsjkfbs_4d1_w&linkCode=ll2&tag=fily0e-21&linkId=6d6efa42c343e67a3330228fbbf59fe6&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img18/apparel/KA/Events/WRS-Dec/Brands/nauti.jpg"
+            }
+        ]
+    },
+    "Trend": {
+        "TrendsArr": [
+            {
+                "productName": "Yoga & Stress Management",
+                "productUrl": "https://amzn.to/35tnKDH",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41G7GCTMAQL._SL250_.jpg",
+                "productDetail": "Yoga & stress management is a therapeutic guide for those dealing with mental and physical stress, as well as a reference book for healthy living. Although urban work culture has greatly improved the individual economic status.Nature\u2019s endowments. While modern psychology effectively helps in creating an awareness of what causes this, the Yoga philosophy is capable of changing one\u2019s overall attitude towards life."
+            },
+            {
+                "productName": "Litchi for DJI drones",
+                "productUrl": "https://www.amazon.in/VC-Technology-Ltd-Litchi-drones/dp/B07BYFHGPB/ref=as_li_ss_tl?_encoding=UTF8&psc=1&refRID=DZJKF5JY5SJMS8GHPHJH&linkCode=ll1&tag=fily0e-21&linkId=8f552353e7c0542788ee29c4eb7089cb&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/71MRH%2BXC9jL._SL250_.png",
+                "productDetail": "Read the low-level system log files,Access the list of accounts in the Accounts Service,Write to the user dictionary,Discover and pair bluetooth devices"
+            },
+            {
+                "productName": "Kent Instant Egg Boiler 360-Watt",
+                "productUrl": "https://www.amazon.in/Instant-Boiler-360-Watt-Transparent-Silver/dp/B07XDRH1HG/ref=as_li_ss_tl?_encoding=UTF8&refRID=H8TN22TY8RBG7WXR119F&linkCode=ll1&tag=shroudedeyrie-21&linkId=a7fff2151317b875b2387e16a8ff185b&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/414rPZMmEXL._SL160_.jpg",
+                "productDetail": "The advanced appliance from Kent allows you to boil eggs in 3 different modes - hard, medium and soft Kent Egg Boiler is easy to operate, all you need to do is put the eggs in the appliance, add appropriate quantity of water and select the desired mode Kent Egg boiler comes with a one - touch operation which makes it easy to operate the appliance without any hassles The machine will turn off automatically when the eggs are boiled 1 Year Warranty Power: 360 watts, Input Power Supply: Single phase 220 V AC, 50 Hz. Includes: Egg Boiler and User Manual "
+            },
+            {
+                "productName": "The Longest Ride",
+                "productUrl": "https://amzn.to/2IJawcg",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/51vajNQR-pL._SL250_.jpg",
+                "productDetail": "Ninety-one year old Ira Levinson is in trouble. Struggling to stay conscious after a car crash, with his mind fading, an image of his beloved, and long-dead, wife Ruth appears. Urging him to hang on, she lovingly recounts the joys and sorrows of their life together - how they met, the dark days of WWII, and its unrelenting effect on their families."
+            },
+            {
+                "productName": "Anni Designer Women's Art silk with blouse piece Saree",
+                "productUrl": "https://www.amazon.in/Designer-Womens-blouse-piece-Saree/dp/B07SDRNDJF/ref=as_li_ss_tl?_encoding=UTF8&refRID=SCFGJ7T6YZQD3HHYYKQ5&linkCode=ll1&tag=shroudedeyrie-21&linkId=d3a781f5ca38e4c55bf59d9d81a12e5a&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/51D-iwDRfbL._SL250_.jpg",
+                "productDetail": "Care Instructions: Hand wash, Saree Color : Black, Saree Fabric : Mysore Silk,Saree Length:-5.30,Blouse Length:-0.80. Blouse is attached with saree. No Seprate Blouse. Blouse to be cut from saree. Blouse is unstitched Fabric.Wash Care :- Hand Wash & Dry Wash ,Product color may slightly vary due to photographic lighting sources on your monitor settings or device setting and lighting used in mode"
+            },
+            {
+                "productName": "Casio FX-991ES Plus Non-Programmable Scientific Calculator",
+                "productUrl": "https://www.amazon.in/Casio-FX-991ES-Plus-Scientific-Calculator/dp/B0034BAQS8/ref=as_li_ss_tl?_encoding=UTF8&psc=1&refRID=RXGYTMV4J6RXCAN02ZJG&linkCode=ll1&tag=shroudedeyrie-21&linkId=e9ceb2fe490902b1ccda895e5f851e25&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41aeOH-%2BtgL._SL250_.jpg",
+                "productDetail": "Non-Programmable Scientific Calculator with 417 Functions,Natural Textbook Display- Input and display fractions, powers, logarithms, roots, and other mathematical formulas and symbol just as they appear in textbooks.List Based Stat-Data Editor for Easy Viewing and Statistical Calculation Probability, Calculus, Permutation Combination, Random Number Calculation features Table Function for Function exploration Colour coded keypad for easy key differentiation. Dual Powered - Solar & Battery Solar powered when light is sufficient, battery powered when light is insufficient."
+            },
+            {
+                "productName": "OnePlus 7T Pro McLaren Limited Edition",
+                "productUrl": "https://www.amazon.in/Test-Exclusive-612/dp/B07HGKGDHH/ref=as_li_ss_tl?keywords=OnePlus+7T+Pro&qid=1578470985&s=books&sr=1-2-catcorr&linkCode=ll1&tag=fily0e-21&linkId=913e313ae83d2c1f5b126f8c1dd71cd2&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/31SGAyi0hsL._SL250_.jpg",
+                "productDetail": "48+8+16MP triple rear camera with face unlock, HDR, screen flash, face retouching, in-built - Fingerprint, 4K video at 30/60 fps, 1080P video at 30/60 fps, super slow motion: 1080P video at 240 fps, 720P video at 480 fps, 720P video at 960 fps, time-lapse and video editor | 16MP front camera. 16.94 centimeters (6.67 inch) 90Hz fluid display capacitive touchscreen with 3120 x 1440 pixels resolution, 516 ppi pixel density,Memory, Storage & SIM: 12GB RAM | 256GB internal memory | Dual SIM (nano+nano) dual-standby (4G+4G),Android v10 based on Oxygen OS operating system with 2.96GHz Qualcomm Snapdragon 855 Plus with AI Engine octa-core, 7nm processor, Adreno 640,4085mAH lithium-ion battery. 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
+            },
+            {
+                "productName": "Katso Men's Cotton T-Shirt",
+                "productUrl": "https://www.amazon.in/Katso-Mens-Cotton-T-Shirt-Katso-Hood-Full/dp/B01HQ0KCIQ/ref=as_li_ss_tl?pf_rd_p=79652f7f-9290-586a-ba52-7784ea4e9a2c&pf_rd_r=28MH8FNGJ2XJ12GFF65H&pd_rd_wg=0aEdO&ref_=pd_gw_ri&pd_rd_w=R7jEa&pd_rd_r=f98e0f94-a7c5-4960-86e7-ae9101719888&linkCode=ll1&tag=fily0e-21&linkId=e4b471bc45ee0bc12856e2a935bd41bc&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/41SZZ0utbwL._SL250_.jpg",
+                "productDetail": "Comfort: Fashionably cotton hoodies that you have wore till now. Sleeve type: Full sleeve hoodies. Neck type is v neck. Fitting type is slim fit. Occasion is casual t-shirt Quality: All garments are subjected to the following tests fabric dimensional stability test and print quality inspection for colours and wash fastness Light weight fabric sweeps sweat away from your skin and helps regulate body temperature Care Instructions: Wash with similar colours in cold water"
+            },
+            {
+                "productName": "DEATH; AN INSIDE STORY",
+                "productUrl": "https://www.amazon.in/Death-Inside-Story-those-shall/dp/0143450832/ref=as_li_ss_tl?_encoding=UTF8&psc=1&refRID=41229E0QCR8AN586WBE9&&linkCode=ll1&tag=fily0e-21&linkId=4bea857144de12a7888834709672a87e&language=en_IN",
+                "imgUrl": "https://images-eu.ssl-images-amazon.com/images/I/51nCw%2BfGyhL._SL250_.jpg",
+                "productDetail": "Death is a taboo in most societies in the world. But what if we have got this completely wrong? What if death was not the catastrophe it is made out to be but an essential aspect of life, rife with spiritual possibilities for transcendence? For the first time, someone is saying just that."
+            }
+        ]
+    }
+}

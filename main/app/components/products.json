@@ -1,0 +1,429 @@
+{
+    "_id": {
+        "$oid": "5dc5b40f7c213e54c48e9a14"
+    },
+    "SearchItems": [
+        {
+            "ProductType": "Amazon Devices",
+            "product": [
+                {
+                    "productId": "AD001",
+                    "productURL": "https://www.amazon.in/Amazon-FireTVStick-Alexa-Voice-Remote-Streaming-Player/dp/B0791YHVMK/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-1&linkCode=ll1&tag=shroudedeyrie-21&linkId=88132f07c49dd5652e6fa3578aa6c833&language=en_IN",
+                    "ProductName": "Fire TV Stick",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/31JYablLoWL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Our best-selling Fire TV Stick, now with the all-new Alexa Voice Remote.~*Fire TV Stick is easy to setup and comes pre-registered to your Amazon account so you can just plug it in to your HDTV and enjoy favourite titles and personalised recommendations.~* Play and control content with the All-New Alexa Voice Remote. ~*Use the dedicated power, volume and mute buttons to control compatible TVs. ~*Watch favourites from Prime Video, Hotstar, Netflix, Zee5, Sony LIV, Apple TV and others. Subscription fees may apply. ~*The official YouTube app is now available on Fire TV. Use your voice to find, launch and play content on YouTube. ~*Simply say 'Alexa, open YouTube' or 'Alexa, find movie trailers on YouTube' Experience thousands of apps, and Alexa skills, as well as millions of websites like Facebook and Twitter. ~*Do more with Alexa view live camera feeds, check cricket scores, order food and stream music. ~*Amazon Prime members get unlimited access to thousands of movies and TV episodes on Prime Video, as well as ad-free listening to millions of songs with Prime Music."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 3999,
+                    "strike": 4999,
+                    "rating": 4
+                },
+                {
+                    "productId": "AD002",
+                    "productURL": "https://www.amazon.in/All-new-Echo-Dot-3rd-Gen/dp/B07PFFMP9P/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-2&linkCode=ll1&tag=shroudedeyrie-21&linkId=ccc04b133d6e5d041c56a65969580e68&language=en_IN",
+                    "ProductName": "Echo Dot (3rd Gen)",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41tEQogY3qL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Meet Echo Dot - Our most popular smart speaker with a fabric design and improved speaker for richer and louder sound. It is our most compact smart speaker that fits perfectly into small spaces. ~*Voice control your music - Stream music from Amazon Prime Music, JioSaavn, and Gaana just ask for a song, artist, or genre. ~*Get help when your hands are full - Ask Alexa to play music, answer questions, read the news, check the weather, set alarms, control compatible smart home devices, and more. ~*Works with compatible smart home devices - Echo Dot is compatible with hundreds of smart home devices from Philips, Wipro, Syska, TP-Link and more. ~*Designed to protect your privacy - Built with multiple layers of privacy protections and controls, including a microphone off button that electronically disconnects the microphones. ~*Alexa has skills - With tens of thousands of skills and counting, Alexa is always getting smarter and adding new features and skills like booking a cab, ordering food, playing games, and more."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 3999,
+                    "strike": 4499,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "AD003",
+                    "productURL": "https://www.amazon.in/Kindle-10th-Gen-Black-with-front-light/dp/B07FRJTZ4T/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-6&linkCode=ll1&tag=shroudedeyrie-21&linkId=8af18cf12e8d1112675213015952a470&language=en_IN",
+                    "ProductName": "Kindle (10th Gen), 6 inch Display now with Built-in Light, 4 GB, Wi-Fi (Black)",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41Jd47YcI%2BL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Adjustable front light lets you read comfortably for hours indoors and outdoors, day and night. ~* Purpose-built for reading, with a 167 ppi glare-free display that reads like real paper, even in direct sunlight. ~*Read distraction-free. Highlight passages, look up definitions, translate words, and adjust text size without ever leaving the page. Select from millions of books including new releases and bestsellers. ~*Holds thousands of titles so you can take your library with you. ~*Prime members read free with unlimited access to hundreds of books, comics and more. ~*A single battery charge lasts weeks, not hours. This device does not support playback of Audible audiobooks."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 7999,
+                    "strike": 8500,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "AD004",
+                    "productURL": "https://www.amazon.in/Staging-Product-Not-Retail-Sale/dp/B07KD8L89H/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-8&linkCode=ll1&tag=shroudedeyrie-21&linkId=322abebb2ab9d9de5a98e0dafb24a305&language=en_IN",
+                    "ProductName": "Echo Show 5",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41OXywiNCuL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Alexa can show you more : Smart display with 5.5 screen and full sound, ready to provide you entertainment, help manage your day better and connect you to friends and family - just ask and Alexa will respond instantly. ~*Video and music entertainment : Ask Alexa to show your favourite TV shows on Amazon Prime Video or stream music videos from Hungama Music. Enjoy music from Amazon Prime Music, Saavn, Gaana, Hungama. Keep your kids entertained with skills like Chu Chu TV, Chhota Bheem and more. ~*Manage your day better : Ask Alexa to help you manage your busy life by setting reminders and timers. Watch the latest news or get weather updates while you are rushing through your daily chores. ~*Makes your home smart : Use your voice to control compatible smart devices or manage them on the easy-to-use display. Ask Alexa to show you the kids room or dim the bedroom lights or switch on the AC. ~* Video calling : Call friends and family who have the Alexa app, an Echo device with a screen, or Skype. Use drop-in feature to check on your kids or parents just like an intercom. ~*Personalize it : Use your Facebook photos to customize the home screen. Create morning routines to start your day."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 6999,
+                    "strike": 8999,
+                    "rating": 5
+                },
+                {
+                    "productId": "AD005",
+                    "productURL": "https://www.amazon.in/Amazon-FireTV-Stick-Alexa-Voice-Remote/dp/B07B6NCTWB/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-6&linkCode=ll1&tag=fily0e-21&linkId=4aaffcbf229f2253ae20cfc449e609c2&language=en_IN",
+                    "ProductName": "New Alexa Voice Remote with Power and Volume Control for Fire TV",
+                    "productImg": "https://m.media-amazon.com/images/I/31S-C8Ggj6L._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Welcome toCompatible with Fire TV Stick(2nd Generation), and Fire TV Stick 4K.~* Now with dedicated power, volume, and mute buttons that let you control your compatible TV.~* Just press and ask Alexa to easily find, launch, and control content.~* Quickly skip to your favorite scenes with standard navigation and playback controls.~* Do more with Alexa-play music, view sports scores, check the weather, see live camera feeds, and control compatible smart home devices.~* Included 2 AAA batteries"
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 1999,
+                    "strike": 2399,
+                    "rating": 4
+                },
+                {
+                    "productId": "AD006",
+                    "productURL": "https://www.amazon.in/Echo-Input-Portable-Smart-Speaker/dp/B07YP9WYFN/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-8&linkCode=ll1&tag=fily0e-21&linkId=e77f9d3898c5ea1635ab81e7dcecfeb2&language=en_IN",
+                    "ProductName": "Echo Input Portable Smart Speaker Edition",
+                    "productImg": "https://m.media-amazon.com/images/I/41yqA4Wyu1L._SL250_.jpg",
+                    "moreImage": [
+                        "https://m.media-amazon.com/images/I/41uxQ2Ms2aL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/310m38LTcJL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/314CQi6xoeL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41yqA4Wyu1L._SL250_.jpg"
+                    ],
+                    "product_specification": [
+                        {
+                            "Description": "Portable Echo for your home - Smart speaker that comes with a fabric design and 360 degree sound. Unplug the device and carry it room to room while listening to music, uninterrupted.~* Built-in battery for non-stop music - Comes with a 4800mAh rechargeable battery that provides up to 10hrs of continuous music playback time (up to 11hrs of stand-by time). Tap the power button to see the current battery level indicated by the 4 LEDs.~* Voice control your music - Stream music from Amazon Prime Music, Apple Music, JioSaavn, and Gaana – just ask for a song, artist, or genre. To increase the volume, just ask 'Alexa, volume 10.' ~* Get help when your hands are full - Ask Alexa to play music, control compatible smart home devices, answer questions, read the news, check the weather, and more.~* Works with compatible smart home devices - The device is compatible with hundreds of smart home devices from Philips, Wipro, Syska, TP-Link and more.~* Designed to protect your privacy - Built with multiple layers of privacy protections and controls, including a microphone off button that electronically disconnects the microphones.~* Alexa has skills - With tens of thousands of skills and counting, Alexa is always getting smarter and adding new features and skills like booking a cab, ordering food, playing games, and more."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 4999,
+                    "strike": 5999,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "AD007",
+                    "productURL": "https://www.amazon.in/Onida-Inches-Ready-Smart-IPS/dp/B08171NJL9/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-9&th=1&linkCode=ll1&tag=fily0e-21&linkId=f00f33673e6de5152aed661f6c326db0&language=en_IN",
+                    "ProductName": "Onida 80 cm (32 Inches) HD Ready Smart IPS LED TV – Fire TV Edition (Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/51Jk-nmYSkL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Fire TV experience built-in brings together your favorite streaming content on the home screen. Choose from a vast catalog of movies and TV shows from Prime Video, Hotstar, Netflix, Zee5, Sony LIV and more~* Resolution : Full HD (1920x1080) | Refresh Rate: 60 hertz~* Connectivity: 3 HDMI ports to connect set top box, Blu-ray players, gaming console | 1 USB port to connect hard drives and other USB devices~* Sound: 16 Watts Output | Dolby Digital Plus | DTS TruSurround~* Smart TV features : Dual band Wi-Fi | Built-in Fire TV OS | Alexa Voice Control | Apps: YouTube, Prime Video, Netflix, Hotstar, Zee5, SonyLiv and more | Display Mirroring for compatible devices | Voice Remote with Alexa~* Warranty Information: 1 Year warranty provided by Onida from date of purchase~* Installation: For requesting installation/wall mounting/demo of this product once delivered, please directly call Onida support on 7490955555 and provide product's model name as well as seller's details mentioned on the invoice~* Easy returns: This product is eligible for replacement within 10 days of delivery in case of any product defects, damage or features not matching the description provided"
+                        },
+                        {
+                            "Brand": "Onida"
+                        }
+                    ],
+                    "price": 21999,
+                    "strike": 29999,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "AD008",
+                    "productURL": "https://www.amazon.in/Echo-bundle-Stick-Wipro-smart/dp/B07XKVC4LV/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-11&linkCode=ll1&tag=fily0e-21&linkId=36134b8ea13220188e81f63e61432fef&language=en_IN",
+                    "ProductName": "Echo Dot (Grey) bundle with Fire TV Stick and Wipro 9W smart bulb",
+                    "productImg": "https://m.media-amazon.com/images/I/41gkDg-f+dL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "This bundle contains Echo Dot (3rd Gen), Fire TV Stick and 9W Wipro smart bulb. Pair the Fire TV Stick with Echo Dot and control your Fire TV Stick hands-free - just using your voice.~* Pair the Wipro smart bulb with Alexa to experience the magic of controlling your lights, using just your voice. Control your lights using voice, or control them remotely away from home. Or simply create a routine to automatically dim them at night or while you watch a movie. Only Wi-Fi needed - no additonal hub or setup required!~* Echo Dot is our most popular smart speaker and you can control it using just your voice. It can hear you from across the room even while music is playing.~* Fire TV Stick is easy to setup and comes pre-registered to your Amazon account so you can just plug it in to your HDTV and enjoy favourite titles and personalised recommendations.~* A new entertainment experience: Use Fire TV Stick to stream favourites from Prime Video, Hotstar, Netflix and others on your TV. Use Echo Dot to stream your favorite music from Amazon Prime Music, Saavn, Gaana or Hungama Music.~* Ready to help: Ask Alexa to play music, answer questions, read the news, check the weather, set alarms, control compatible smart home devices, and more. Echo Dot is designed around your privacy. You can press the microphone off button to disconnect the microphones."
+                        },
+                        {
+                            "Brand": "Amazon & Wipro"
+                        }
+                    ],
+                    "price": 9107,
+                    "strike": 10597,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "AD009",
+                    "productURL": "https://www.amazon.in/Echo-Show-5/dp/B07KD76PWD/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-12&linkCode=ll1&tag=fily0e-21&linkId=3037f34e6511f9567e712a62dc87679c&language=en_IN",
+                    "ProductName": "Introducing Echo Show 5 - Smart display with Alexa - 5.5inch screen & crisp sound (White)",
+                    "productImg": "https://m.media-amazon.com/images/I/41VQfO6-0CL._SL250_.jpg",
+                    "moreImage": [
+                        "https://m.media-amazon.com/images/I/41mhEkHHd+L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41VQfO6-0CL._SL250_.jpg"
+                    ],
+                    "product_specification": [
+                        {
+                            "Description": "Alexa can show you more : Smart display with 5.5” screen and full sound, ready to provide you entertainment, help manage your day better and connect you to friends and family - just ask and Alexa will respond instantly.~* Video and music entertainment : Ask Alexa to show your favourite TV shows on Amazon Prime Video or stream music videos from Hungama Music. Enjoy music from Amazon Prime Music, Saavn, Gaana, Hungama. Keep your kids entertained with skills like Chu Chu TV, Chhota Bheem and more.~* Manage your day better : Ask Alexa to help you manage your busy life by setting reminders and timers. Watch the latest news or get weather updates while you are rushing through your daily chores.~* Makes your home smart : Use your voice to control compatible smart devices or manage them on the easy-to-use display. Ask Alexa to show you the kid’s room or dim the bedroom lights or switch on the AC.~* Video calling : Call friends and family who have the Alexa app, an Echo device with a screen, or Skype. Use drop-in feature to check on your kids or parents – just like an intercom. Personalize it : Use your Facebook photos to customize the home screen. Create morning routines to start your day."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 6999,
+                    "strike": 8999,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "AD010",
+                    "productURL": "https://www.amazon.in/Stone-260-Portable-Bluetooth-Speakers/dp/B06Y64FM1C/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-13&linkCode=ll1&tag=fily0e-21&linkId=0f72f0be623f6b497c6afa45437c84c4&language=en_IN",
+                    "ProductName": "boAt Stone 260 Portable Bluetooth Speakers (Charcoal Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/51u8VLsGP1L._SL250_.jpg",
+                    "moreImage": [
+                        "https://m.media-amazon.com/images/I/51BiDzMN3jL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51PDbAG-DOL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51cVLN6i6vL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51ye4OReSZL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51GV3ihquGL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51u8VLsGP1L._SL250_.jpg"
+                    ],
+                    "product_specification": [
+                        {
+                            "Description": "BoAt Stone 260 is IPX5 waterproof and shockproof to suit your active, outdoor lifestyle - grab one and take it with you when swimming, camping, hiking, cycling, drifting and more.~* The body is constructed of durable silicon, rubber matte finish that makes it shock proof, which offers all around outdoor protection against dust and water~* It produces a very decent amount of bass, crystal sound and can go extremely loud that makes this a little beast, which is nice because you have the option to really crank this speaker up if ever needed, Rated Power: 2mW~* Bluetooth 4.1 transmission with no loss of audio performance for any query please contact_us on: [ 02242102409 ]~* Our portable speaker packs a 1000mAh battery which delivers 9 hours of talk time and 4-5 hours of musical extravaganza - boAt Stone 260 can easily be paired with all types of devices that use Bluetooth technology~* Battery Capacity: 1000 mAh; Playing Time: 5 Hours"
+                        },
+                        {
+                            "Brand": "Boat"
+                        }
+                    ],
+                    "price": 1354,
+                    "strike": 2490,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "AD011",
+                    "productURL": "https://www.amazon.in/Photron-P10-Wireless-Portable-Bluetooth/dp/B01EM2ZFJW/ref=as_li_ss_tl?qid=1580377262&s=amazon-devices&sr=1-14&linkCode=ll1&tag=fily0e-21&linkId=ad4fd4feda113ca7544a373de45189df&language=en_IN",
+                    "ProductName": "Photron P10 Wireless 3W Super Bass Mini Metal Aluminium Alloy Portable Bluetooth Speaker with Mic (Deep Cobalt)",
+                    "productImg": "https://m.media-amazon.com/images/I/41UHSrqLKpL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Portable and powerful wireless Bluetooth streaming speaker, Operation range: 10 meters~* Built-in microphone allows you to answer calls without skipping a beat~* Features a rechargeable battery for convenient portability and extended playback time~* SD Card slot mode automatically starts after putting readable sd card in slot its not in the mode button~* Aux-in connection, micro-sd card slot, speakerphone with echo and noise cancellation, Size:60.75*25.36*11mm~* 400Mah battery with Music Play time: Approx 3 hrs, Talk time: Approx 4.5 hrs and Standby time: Approx 165hrs~* 6 months manufacturer warranty For technical issues kindly contact_us on:1800222239 support@photron.in"
+                        },
+                        {
+                            "Brand": "Photron"
+                        }
+                    ],
+                    "price": 1990,
+                    "strike": 729,
+                    "rating": 3.5
+                }
+            ]
+        },
+        {
+            "ProductType": "Amazon Fashion",
+            "product": [
+                {
+                    "productId": "AF001",
+                    "productURL": "https://www.amazon.in/CHRYSOLITE-Linkin-American-Cotton-Tshirt/dp/B076C1JSSC/ref=as_li_ss_tl?_encoding=UTF8&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=bc30796b-6a65-487e-bc9e-117668871f49&pf_rd_r=1QN17XGSGBG0NTVBR1ED&pf_rd_s=merchandised-search-5&pf_rd_t=Gateway&qid=1577892409&refinements=p_72:1318476031&rnid=1318475031&s=apparel&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFZNzlaN05YU1JHWFkmZW5jcnlwdGVkSWQ9QTA0Njc2MzkyTDBNT1RNTTMzNDNCJmVuY3J5cHRlZEFkSWQ9QTAzMjUwMzAxV1VXVkU1MU82WkIzJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=&linkCode=ll1&tag=fily0e-21&linkId=7b656d27edfd0501f9e3264f56acae35&language=en_IN",
+                    "ProductName": "CHRYSOLITE Linkin Park American Rock Band Fan Art Men's Cotton Round Neck Tshirt",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41%2BlaIt8dlL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Fit Type: Regular Fit, 100% cotton,180gsm bio-washed Fabric,~* Half Sleeve T shirt, ~*Do not iron on print, Wash inside out,Sizes may rarely vary by approximately +/- 0.5 inches and is considered to be normal"
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 370,
+                    "strike": 999,
+                    "rating": 4
+                },
+                {
+                    "productId": "AF002",
+                    "productURL": "https://www.amazon.in/Pinaken-Sleeve-Cotton-T-Shirt-Maroon/dp/B07VLS7DKD/ref=as_li_ss_tl?_encoding=UTF8&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=bc30796b-6a65-487e-bc9e-117668871f49&pf_rd_r=1QN17XGSGBG0NTVBR1ED&pf_rd_s=merchandised-search-5&pf_rd_t=Gateway&qid=1577892409&refinements=p_72:1318476031&rnid=1318475031&s=apparel&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFZNzlaN05YU1JHWFkmZW5jcnlwdGVkSWQ9QTA0Njc2MzkyTDBNT1RNTTMzNDNCJmVuY3J5cHRlZEFkSWQ9QTA0NTgzNzYyR045WTBYODhRMEVMJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=&linkCode=ll1&tag=fily0e-21&linkId=14865a5c30f2e953fccd589ec5843179&language=en_IN",
+                    "ProductName": "Pinaken-Sleeve-Cotton-T-Shirt",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41qrBftaqnL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Fit Type: Regular,~* FitMaterial: Cotton, ~*Feature: Round Neck T-shirt For Men,~* Occasion: Casual, BasicColour: Black, White And Maroon, ~* Garment Care: Hand Wash and Machine Wash with Cold Water, Do Not Bleach"
+                        },
+                        {
+                            "Brand": "Pinaken"
+                        }
+                    ],
+                    "price": 299,
+                    "strike": 999,
+                    "rating": 4
+                },
+                {
+                    "productId": "AF003",
+                    "productURL": "https://www.amazon.in/American-Tourister-AMT-SCH-02/dp/B07CJCGM1M/ref=as_li_ss_tl?ref_=Oct_LDealC_2mu8sof_0_71c5d6fa&pf_rd_p=871b0c77-7164-5799-85ea-6a4c373f3fdf&pf_rd_s=merchandised-search-5&pf_rd_t=101&pf_rd_i=2917430031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=960DKRV1HNWPS7S2EBT1&pf_rd_r=960DKRV1HNWPS7S2EBT1&pf_rd_p=871b0c77-7164-5799-85ea-6a4c373f3fdf&linkCode=ll1&tag=fily0e-21&linkId=960f5c73eafb6cf080d725bb41cdbdb3&language=en_IN",
+                    "ProductName": "American Tourister 32 Ltrs Black Casual Backpack",
+                    "productImg": "https://m.media-amazon.com/images/I/41fnl0tW7nL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Laptop Compatibility: No, Strap ~* Type: Adjustable,Outer ~* Material: Polyester,~* Color: Black,Water ~* Resistance: Water resistant , not Waterproof ~* Capacity: 32 liters; ~* Dimensions: 32.5 cms x 18 cms x 50 cms (LxWxH)~* Number of Wheels: 0,~* Number of compartments: 3Warranty ~* Type: Manufacturer; 1 year International warranty valid for 1 year from the original date of,~* Mesh pockets on both sides to accommodate your sipper or bottle and umbrella,Lightweight backpack made of durable double dot polyester fabric,~*Mesh Padding on back & shoulder strap to provide comfort & better back support."
+                        },
+                        {
+                            "Brand": "American Tourister"
+                        }
+                    ],
+                    "price": 1425,
+                    "strike": 2300,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "AF004",
+                    "productURL": "https://www.amazon.in/SIRIL-Womens-Western-79TK2253-M-Medium/dp/B0816GYM4Z/ref=as_li_ss_tl?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=6292819c-1a93-4f81-b430-128d1b3a94ba&pf_rd_r=TZ67JBXYK1R57TRAY5CF&pf_rd_s=merchandised-search-5&qid=1577892992&rnid=10440598031&s=apparel&sr=1-7&linkCode=ll1&tag=fily0e-21&linkId=14a5c0bf0f6235b806fa025f38246b9d&language=en_IN",
+                    "ProductName": "SIRIL Women's A-line Style Crepe Western Dress",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41T-fcttqQL._SL250_.jpg",
+                    "moreImage": [
+                        "https://m.media-amazon.com/images/I/41WiSWkGM7L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41igSzBIMUL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41UXMcpL1JL._SL250_.jpg",
+                        "https://images-eu.ssl-images-amazon.com/images/I/41T-fcttqQL._SL250_.jpg"
+                    ],
+                    "product_specification": [
+                        {
+                            "Description": "Care Instructions: Hand Wash~* Fit Type: Regular Fit ~* Dress Length: 41 InchIdeal for Women and Girls, Can be wear as Casual as well as Party~* DressMaterial: Crepe;~* Pattern: PrintedPackage~* Contents: 1 Western DressSize Suitable For Bust Size Small-36inch, Medium-38inch, Large-40inch, Extra Large -42inch"
+                        },
+                        {
+                            "Brand": "SIRIL"
+                        }
+                    ],
+                    "price": 499,
+                    "strike": 1426,
+                    "rating": 3.5,
+                    "similarProducts": [
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/41pLbt3tPIL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/dp/B07MM981R8/ref=as_li_ss_tl?psc=1&pd_rd_i=B07MM981R8&pd_rd_w=QGfoD&pf_rd_p=357151f8-058c-46f1-b7d1-fa3647ce3999&pd_rd_wg=0L6GG&pf_rd_r=CCBWS31E6CPZY2QH0TDE&pd_rd_r=3ab482d0-7276-4d10-bb86-ac1f7b9a68f9&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTVlBR0hBUE4xVzBCJmVuY3J5cHRlZElkPUEwNTgxNDUyMkFPSVhLOUU0V1pJRiZlbmNyeXB0ZWRBZElkPUEwNjMyNTkyMlgxR1NRMldNNEFNRiZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=&linkCode=ll1&tag=fily0e-21&linkId=424bac17043b07ca86653737fa9ea047&language=en_IN"
+                        },
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/414uGibqySL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/dp/B07YPSHLNV/ref=as_li_ss_tl?psc=1&pd_rd_i=B07YPSHLNV&pd_rd_w=QGfoD&pf_rd_p=357151f8-058c-46f1-b7d1-fa3647ce3999&pd_rd_wg=0L6GG&pf_rd_r=CCBWS31E6CPZY2QH0TDE&pd_rd_r=3ab482d0-7276-4d10-bb86-ac1f7b9a68f9&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTVlBR0hBUE4xVzBCJmVuY3J5cHRlZElkPUEwNTgxNDUyMkFPSVhLOUU0V1pJRiZlbmNyeXB0ZWRBZElkPUEwMzIwMjkwQUJEVjhaQk9YNkRFJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=ll1&tag=fily0e-21&linkId=f4235c38ec0ea978ccbbd7eae58e241b&language=en_IN"
+                        },
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/31Bz29Sc0cL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/Rare-Synthetic-a-line-Dress-ep2978a-s_Black_Small/dp/B07NTBTWVW/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07P353JVK&pd_rd_r=3ab482d0-7276-4d10-bb86-ac1f7b9a68f9&pd_rd_w=BCBMC&pd_rd_wg=0L6GG&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=CCBWS31E6CPZY2QH0TDE&psc=1&refRID=CCBWS31E6CPZY2QH0TDE&linkCode=ll1&tag=fily0e-21&linkId=d52401f28c6139e452a181698e410e73&language=en_IN"
+                        },
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/310eo5Vz9YL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/Tfunny-Fashion-Womens-Waisted-Skater/dp/B081CCSBXY/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B081C9CM8F&pd_rd_r=3ab482d0-7276-4d10-bb86-ac1f7b9a68f9&pd_rd_w=BCBMC&pd_rd_wg=0L6GG&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=CCBWS31E6CPZY2QH0TDE&psc=1&refRID=CCBWS31E6CPZY2QH0TDE&linkCode=ll1&tag=fily0e-21&linkId=1e8b6995cd484c14bad27fafc5a1786b&language=en_IN"
+                        },
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/41P08MmsKyL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/dp/B07F6VG895/ref=as_li_ss_tl?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSFoxVUtZS0FHOFQyJmVuY3J5cHRlZElkPUEwMjE3MjUzMlRUSTk1TkI5VjNFMyZlbmNyeXB0ZWRBZElkPUEwMDIwMTkxMjhDOFAxVkxLR0hWTyZ3aWRnZXROYW1lPXNwX2RldGFpbDImYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=ll1&tag=fily0e-21&linkId=ab00548371333ae646b19985da80c402&language=en_IN"
+                        },
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/414xethgmRL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/dp/B07NDYJBGL/ref=as_li_ss_tl?psc=1&pd_rd_i=B07NDYJBGL&pd_rd_w=QGfoD&pf_rd_p=357151f8-058c-46f1-b7d1-fa3647ce3999&pd_rd_wg=0L6GG&pf_rd_r=CCBWS31E6CPZY2QH0TDE&pd_rd_r=3ab482d0-7276-4d10-bb86-ac1f7b9a68f9&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTVlBR0hBUE4xVzBCJmVuY3J5cHRlZElkPUEwNTgxNDUyMkFPSVhLOUU0V1pJRiZlbmNyeXB0ZWRBZElkPUEwODI3NjEwVFExTktPU0tTTTEwJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=ll1&tag=fily0e-21&linkId=403385b73b0e3aceb9b3fcf67279f5a2&language=en_IN"
+                        },
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/41xh8dH4I6L._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/dp/B0825RP683/ref=as_li_ss_tl?psc=1&pd_rd_i=B0825RP683&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyR0hRQlM5QTNXNFpQJmVuY3J5cHRlZElkPUEwODU2MDU0Mk43S1RRUFQyNktOUyZlbmNyeXB0ZWRBZElkPUEwMjQ0NDg2VUNBMVBSMTZBRkNOJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=ll1&tag=fily0e-21&linkId=71150b331732908cdcaced60eb58034a&language=en_IN"
+                        }
+                    ]
+                },
+                {
+                    "productId": "AF005",
+                    "productURL": "https://www.amazon.in/Fossil-Analog-Rose-Womens-Watch-BQ3026/dp/B078XY2KLG/ref=as_li_ss_tl?pf_rd_i=2563505031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=57f5b67f-d973-4525-9509-71df3f9b52e2&pf_rd_r=PG4Q3079YXTR0GZH9FS2&pf_rd_s=merchandised-search-6&qid=1577893085&refinements=p_89:Fossil&s=watch&sr=1-3&linkCode=ll1&tag=fily0e-21&linkId=487e9edcf5e19997874d580a967e9148&language=en_IN",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41A8aQbyRhL._SL250_.jpg",
+                    "ProductName": "Fossil Analog Rose Women's Watch",
+                    "product_specification": [
+                        {
+                            "Description": "Dial Color: Rose Gold, Case Shape: RoundBand Color: Rose Gold, Band Material: Stainless SteelWatch Movement Type: Quartz, Watch Display Type: Analog and Water Resistant: 5 ATM(50 Meters)Case Material: Stainless Steel, Case Diameter: 32 millimeters2 years international warranty"
+                        },
+                        {
+                            "Brand": "Fossil"
+                        }
+                    ],
+                    "price": 5577,
+                    "strike": 8795,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "AF006",
+                    "productURL": "https://www.amazon.in/Caprese-Pepa-Womens-Wallet-Peach/dp/B07BW1QN87/ref=as_li_ss_tl?s=shoes&ie=UTF8&qid=1577893137&sr=1-22&linkCode=ll1&tag=fily0e-21&linkId=4dde7e31a8f91c18c590529b4ae5a0d7&language=en_IN",
+                    "ProductName": "Caprese-Pepa-Womens-Wallet",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/51FW6UprXSL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Faux leather material, peach colored wallet,~* 10centimeters height x 10 centimeters length x 1.5 centimeters width ~*Do not expose to extreme heat ~* Branding: EmbossedZip around walletZip around closure"
+                        },
+                        {
+                            "Brand": "Caprese"
+                        }
+                    ],
+                    "price": 699,
+                    "strike": 1999,
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "ProductType": "Appliances",
+            "product": [
+                {
+                    "productId": "AP001",
+                    "productURL": "https://www.amazon.in/Amazon-FireTVStick-Alexa-Voice-Remote-Streaming-Player/dp/B0791YHVMK/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-1&linkCode=ll1&tag=shroudedeyrie-21&linkId=88132f07c49dd5652e6fa3578aa6c833&language=en_IN",
+                    "ProductName": "Fire TV Stick",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/31JYablLoWL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Our best-selling Fire TV Stick, now with the all-new Alexa Voice Remote.Fire TV Stick is easy to setup and comes pre-registered to your Amazon account so you can just plug it in to your HDTV and enjoy favourite titles and personalised recommendations. Play and control content with the All-New Alexa Voice Remote. Use the dedicated power, volume and mute buttons to control compatible TVs. Watch favourites from Prime Video, Hotstar, Netflix, Zee5, Sony LIV, Apple TV and others. Subscription fees may apply. The official YouTube app is now available on Fire TV. Use your voice to find, launch and play content on YouTube. Simply say 'Alexa, open YouTube' or 'Alexa, find movie trailers on YouTube' Experience thousands of apps, and Alexa skills, as well as millions of websites like Facebook and Twitter. Do more with Alexa\u2014view live camera feeds, check cricket scores, order food and stream music. Amazon Prime members get unlimited access to thousands of movies and TV episodes on Prime Video, as well as ad-free listening to millions of songs with Prime Music."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 3999,
+                    "rating": "4.5"
+                },
+                {
+                    "productId": "AP002",
+                    "productURL": "https://www.amazon.in/All-new-Echo-Dot-3rd-Gen/dp/B07PFFMP9P/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-2&linkCode=ll1&tag=shroudedeyrie-21&linkId=ccc04b133d6e5d041c56a65969580e68&language=en_IN",
+                    "ProductName": "Echo Dot (3rd Gen)",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41tEQogY3qL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Meet Echo Dot - Our most popular smart speaker with a fabric design and improved speaker for richer and louder sound. It is our most compact smart speaker that fits perfectly into small spaces. Voice control your music - Stream music from Amazon Prime Music, JioSaavn, and Gaana \u2013 just ask for a song, artist, or genre. Get help when your hands are full - Ask Alexa to play music, answer questions, read the news, check the weather, set alarms, control compatible smart home devices, and more. Works with compatible smart home devices - Echo Dot is compatible with hundreds of smart home devices from Philips, Wipro, Syska, TP-Link and more. Designed to protect your privacy - Built with multiple layers of privacy protections and controls, including a microphone off button that electronically disconnects the microphones. Alexa has skills - With tens of thousands of skills and counting, Alexa is always getting smarter and adding new features and skills like booking a cab, ordering food, playing games, and more."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 3999,
+                    "rating": "4.5"
+                },
+                {
+                    "productId": "AP003",
+                    "productURL": "https://www.amazon.in/Kindle-10th-Gen-Black-with-front-light/dp/B07FRJTZ4T/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-6&linkCode=ll1&tag=shroudedeyrie-21&linkId=8af18cf12e8d1112675213015952a470&language=en_IN",
+                    "ProductName": "Kindle (10th Gen), 6 inch Display now with Built-in Light, 4 GB, Wi-Fi (Black)",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41Jd47YcI%2BL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Adjustable front light lets you read comfortably for hours\u2014indoors and outdoors, day and night. Purpose-built for reading, with a 167 ppi glare-free display that reads like real paper, even in direct sunlight. Read distraction-free. Highlight passages, look up definitions, translate words, and adjust text size\u2014without ever leaving the page. Select from millions of books including new releases and bestsellers. Holds thousands of titles so you can take your library with you. Prime members read free with unlimited access to hundreds of books, comics and more. A single battery charge lasts weeks, not hours. This device does not support playback of Audible audiobooks."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 7999,
+                    "rating": "4.5"
+                },
+                {
+                    "productId": "AP004",
+                    "productURL": "https://www.amazon.in/Staging-Product-Not-Retail-Sale/dp/B07KD8L89H/ref=as_li_ss_tl?qid=1573234632&s=amazon-devices&sr=1-8&linkCode=ll1&tag=shroudedeyrie-21&linkId=322abebb2ab9d9de5a98e0dafb24a305&language=en_IN",
+                    "ProductName": "Echo Show 5",
+                    "productImg": "https://images-eu.ssl-images-amazon.com/images/I/41OXywiNCuL._SL250_.jpg",
+                    "product_specification": [
+                        {
+                            "Description": "Alexa can show you more : Smart display with 5.5\u201d screen and full sound, ready to provide you entertainment, help manage your day better and connect you to friends and family - just ask and Alexa will respond instantly. Video and music entertainment : Ask Alexa to show your favourite TV shows on Amazon Prime Video or stream music videos from Hungama Music. Enjoy music from Amazon Prime Music, Saavn, Gaana, Hungama. Keep your kids entertained with skills like Chu Chu TV, Chhota Bheem and more. Manage your day better : Ask Alexa to help you manage your busy life by setting reminders and timers. Watch the latest news or get weather updates while you are rushing through your daily chores. Makes your home smart : Use your voice to control compatible smart devices or manage them on the easy-to-use display. Ask Alexa to show you the kid\u2019s room or dim the bedroom lights or switch on the AC. Video calling : Call friends and family who have the Alexa app, an Echo device with a screen, or Skype. Use drop-in feature to check on your kids or parents \u2013 just like an intercom. Personalize it : Use your Facebook photos to customize the home screen. Create morning routines to start your day."
+                        },
+                        {
+                            "Brand": "Amazon"
+                        }
+                    ],
+                    "price": 7999,
+                    "rating": "4.5"
+                }
+            ]
+        }
+    ]
+}

@@ -118,10 +118,10 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     	getServerData.getResponse((res)=>{
 			
 			let newDealsArr = [];
-			let dealsArray = res.data[1].Deals.DealsImg;
+			let dealsArray = res.data[0].Deals.DealsImg;
 			//$scope.deals = dealsArray;
     		$scope.link = (index)=>{
-				window.open(res.data[1].Deals.ProductURL[index])
+				window.open(res.data[0].Deals.ProductURL[index])
     			//$(location).attr('href',res.data[1].Deals.ProductURL[index])
 			}
 			(dealsArray).forEach((item,i)=>{
@@ -139,17 +139,16 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 
 	function showBrands(){
 		getServerData.getResponse((res)=>{
-			$scope.brands = res.data[1].Brands.BrandsArr;
+			$scope.brands = res.data[0].Brands.BrandsArr;
 		},{})
 	}
 	showBrands()
 
 	function showTrends(){
 		getServerData.getResponse((res)=>{
-			$scope.trend = res.data[1].Trend.TrendsArr;
+			$scope.trend = res.data[0].Trend.TrendsArr;
 			$scope.refLink = (i) =>{
-				window.open(res.data[1].Trend.TrendsArr[i].productUrl)
-				//$(location).attr('href',res.data[1].Trend.TrendsArr[i].productUrl)
+				window.open(res.data[0].Trend.TrendsArr[i].productUrl)
 			}
 		},{})
 	}
