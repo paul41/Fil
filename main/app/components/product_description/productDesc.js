@@ -23,7 +23,7 @@ angular.module('prodDescApp', [])
                     document.getElementById('displayName').style.display='inline-block'
                     $scope.fname = fbResponse.first_name
                     $scope.lname = fbResponse.last_name
-                   
+                    $scope.$apply()
                 }
                 $('#scrollTop').click(() => {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -31,7 +31,6 @@ angular.module('prodDescApp', [])
             })
             productDataArr.push(productsObj[$route.current.params.id])
             let txt = productDataArr[0].product_specification[0].Description
-            console.log(txt.split("~*"))
             $scope.para = txt.split("~*")
             $scope.productDetail = productDataArr;
             $scope.amazonRedirect = () =>{

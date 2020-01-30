@@ -53,7 +53,7 @@ angular.module('contentApp', [])
 				document.getElementById('name-style').style.display='block';
 				$scope.fname = fbResponse.first_name
 				$scope.lname = fbResponse.last_name
-				
+				$scope.$apply()
 			}
 		})
 		/** Calculate discount  */
