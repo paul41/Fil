@@ -795,9 +795,9 @@ h1, h2, h3, h4, h5,
 }
 #similar-image-style{
   margin-top: 15px;
-  height: 200px;
-   width: 170px;
-   border:1px solid #ddd
+  height: auto;
+  
+  border:1px solid #ddd
 }
 #div-similar-product{
   width: 100%;

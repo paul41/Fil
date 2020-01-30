@@ -99,7 +99,12 @@
                   <button id = "buy-now-style" ng-click = "amazonRedirect()">Buy Now</button>
                   <button id = "cartBtn" ng-click = "addtoCart()">Add to Cart</button>
                   <br><br>
-                  <p>{{detail.product_specification[0].Description}}</p>
+                  <!-- <p>{{detail.product_specification[0].Description}}</p> -->
+                  <ul style="padding-inline-start:17px">
+                    <li ng-repeat = "listDesc in para">
+                      <p>{{listDesc}}</p>
+                    </li>
+                  </ul>
               </div>
             </div> 
           </div>  
