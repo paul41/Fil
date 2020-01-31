@@ -130,33 +130,44 @@
       </div>
 
         <!-- SEARCH SECTION -->
-
-      <div class="owl-carousel-wrapper">
         <div class="shadow-lg" id="search-one">
-            <div class = "container">
-              <div class = "row" id="search-two">
-                <div id = "input-box" class = "col-xl-9">
-                  <form id="search-form">
-                    <input type="text" placeholder="Find products" id ="input-search" ng-model = "products" ng-focus='showList()' ng-blur = 'hideList()' autocomplete="off" >
-                    <button class = "find-btn" ng-click="search()">FIND OUT</button>
-                    <div id="search-three">
-                      <ul id ="productList" class="text-center col-sm-4" id = 'prod-list'>
-                        <li id="listDesign" ng-repeat="x in product | filter:products" ng-click="setValue(x)">
-                          {{x}}
-                          <hr style="margin:1px;">
-                        </li>
-                      </ul>
-                    </div>
-                  </form>
-                </div>
+          <div class = "container">
+            <div class = "row" id="search-two">
+              <div id = "input-box" class = "col-xl-9">
+                <form id="search-form">
+                  <input type="text" placeholder="Find products" id ="input-search" ng-model = "products" ng-focus='showList()' ng-blur = 'hideList()' autocomplete="off" >
+                  <button class = "find-btn" ng-click="search()">FIND OUT</button>
+                  <div id="search-three">
+                    <ul id ="productList" class="text-center col-sm-4" id = 'prod-list'>
+                      <li id="listDesign" ng-repeat="x in product | filter:products" ng-click="setValue(x)">
+                        {{x}}
+                        <hr style="margin:1px;">
+                      </li>
+                    </ul>
+                  </div>
+                </form>
               </div>
             </div>
-        </div>
+          </div>
+      </div>
+        <!-- CAROUSEL -->
+      <div class="owl-carousel-wrapper">
         <div class="owl-carousel owl-1" id="carousel-div">
-          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/WLA/Jan/Cases/D14720820_WLA_Heroes_DesktopTallHero_1500x600._CB427645230_.jpg');background-size: cover;"></div>
-          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Xiaomi/Redmi_Note8Pro/Alexa/D14759939_IN_WLME_Redmi_Note_Pro_Alexa_DesktopTallHero_1500x600._CB426125107_.jpg');background-size: cover;"></div>
-          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fashion/2019/dec/EOSSL1/GatewayGraphics/1500x600._CB425806110_.jpg');background-size: cover;"></div>  
-          <div class="ftco-cover-1" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/WLA/Jan/GW/Unrec/D14535816_IN_WLA_Headsets_New_launches_Tall_hero_1500x600._CB426168372_.jpg');background-size: cover;"></div>
+          <a href = "https://www.amazon.in/gp/redirect.html?_encoding=UTF8&location=https://www.primevideo.com/detail/amzn1.dv.gti.f8b7b555-cfcf-ad88-ad1b-81f9baac1d0b/ref_=dvm_crs_gat_in_ai_s_dk_hero1_l_ft_PPW_TP&token=1A88225977320CED933DCA03EF3215BFD6DAF086&source=standard&pf_rd_p=5b4cc540-6a0c-41c4-9477-23ad0fa601a3&pf_rd_r=090JAG4C7SX9J31DR2T4">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2020/X-site/SingleTitle/PPW/1500x600_Hero-Tall_ft._CB423858737_.jpg" alt="image">
+          </a>
+          <a href="https://www.amazon.in/dp/B07HGMQX6N?pf_rd_p=91df91c4-1c32-427f-9754-7632ab51c79c&pf_rd_r=090JAG4C7SX9J31DR2T4">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/SamsungM/M30s/AMOLED_Display/WithoutBO/M30s_Tall_hero_1500x600._CB425232923_.jpg" alt="image">
+          </a>
+          <a href="https://www.amazon.in/b?node=18238166031&pf_rd_p=87b2b7ec-eff5-4037-8a89-aa76375732d0&pf_rd_r=090JAG4C7SX9J31DR2T4">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/WWF_Jan/GW/2._CB423687782_.jpg" alt="image">
+          </a>
+          <a href="https://www.amazon.in/s/ref=as_li_ss_tl?hidden-keywords=B08259JHK6%7CB081ZZ3TTJ%7CB081RZ1ZSQ%7CB081S1C428&pf_rd_p=b17af081-c1bb-4274-a0a8-5ce69e65d0f2&pf_rd_r=090JAG4C7SX9J31DR2T4&linkCode=ll2&tag=fily0e-21&linkId=b6cddacf4908f5a768aa72bc03097973&language=en_IN">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/WLA/Jan/GW/Crossbeats/V174104008_IN_WLA_Crossbeats_DesktopTallHero_1500x600._CB423659514_.jpg" alt="image">          
+          </a>
+          <a href="https://www.amazon.in/prime?primeCampaignId=testRF1&pf_rd_p=f15820bc-e09e-4fea-b9a8-3c5263260804&pf_rd_r=090JAG4C7SX9J31DR2T4">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2019/May/1171883_1500x600_Tallhero._CB462550275_.jpg" alt="image">
+          </a>
         </div>
     </div>  
 
@@ -217,7 +228,7 @@
 
     <!-- OFFERS CAROUSEL -->
 
-    <div class="site-section section-4">
+    <div id = "offer-mobile-style" class="site-section section-4">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-10">

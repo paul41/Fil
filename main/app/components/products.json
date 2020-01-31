@@ -21,7 +21,37 @@
                     ],
                     "price": 3999,
                     "strike": 4999,
-                    "rating": 4
+                    "rating": 4,
+                    "similarProducts": [
+                        {
+                            "imgURL": "https://m.media-amazon.com/images/I/4129WlfEbDL._SL250_.jpg",
+                            "productLink": "https://www.amazon.in/CROSSBEATS-Earphones-Headphones-Bluetooth-Microphone/dp/B07S85MJT8/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07S85MJT8&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=Kll4s&pd_rd_wg=m1HB4&pf_rd_p=65a2b3b4-c6ee-481d-84c0-06fec97024ff&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&linkCode=ll1&tag=fily0e-21&linkId=b8f1eb9424f5a2aa276bdacd7e665e17&language=en_IN"
+                        },
+                        {
+                            "imgURL":"https://m.media-amazon.com/images/I/31EXfvhCnGL._SL250_.jpg",
+                            "productLink":"https://www.amazon.in/Skullcandy-Method-S2CDY-K523-Ear-Cool/dp/B06XRX645N/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B06XRX645N&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=Kll4s&pd_rd_wg=m1HB4&pf_rd_p=65a2b3b4-c6ee-481d-84c0-06fec97024ff&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&linkCode=ll1&tag=fily0e-21&linkId=a4edebc02ac27a1cbc77a55ed3346fd5&language=en_IN"
+                        },
+                        {
+                            "imgURL":"https://m.media-amazon.com/images/I/31O8ImtyFsL._SL250_.jpg",
+                            "productLink":"https://www.amazon.in/Noise-Wireless-Bluetooth-Earphones-Charging/dp/B07MZ4Y4L1/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07MZ4Y4L1&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=Kll4s&pd_rd_wg=m1HB4&pf_rd_p=65a2b3b4-c6ee-481d-84c0-06fec97024ff&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&linkCode=ll1&tag=fily0e-21&linkId=4bd3105e06e2e28cae65b7364da2d7b6&language=en_IN"
+                        },
+                        {
+                            "imgURL":"https://m.media-amazon.com/images/I/417AzX+EgmL._SL250_.jpg",
+                            "productLink":"https://www.amazon.in/JBL-Endurance-Wireless-Headphones-Yellow/dp/B07N7WMCZ6/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07N7WMCZ6&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=Kll4s&pd_rd_wg=m1HB4&pf_rd_p=65a2b3b4-c6ee-481d-84c0-06fec97024ff&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&linkCode=ll1&tag=fily0e-21&linkId=77d155e6fee5bd99897b85e506467917&language=en_IN"
+                        },
+                        {
+                            "imgURL":"https://m.media-amazon.com/images/I/31g46whtt2L._SL250_.jpg",
+                            "productLink":"https://www.amazon.in/OAKTER-Oakremote-Universal-Compatibility-Conditioner/dp/B07T65KSLC/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07T65KSLC&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=7R3ZD&pd_rd_wg=m1HB4&pf_rd_p=83481a9b-2452-456b-b4e2-a68bb6822e82&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&smid=AT95IG9ONZD7S&linkCode=ll1&tag=fily0e-21&linkId=f5ca9a0779391dd21d6c4b06313b0c2f&language=en_IN"
+                        },
+                        {
+                            "imgURL":"https://m.media-amazon.com/images/I/41tHDYka0OL._SL250_.jpg",
+                            "productLink":"https://www.amazon.in/Staging-Product-Not-Retail-Sale/dp/B07C4D3L5S/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07C4D3L5S&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=7R3ZD&pd_rd_wg=m1HB4&pf_rd_p=83481a9b-2452-456b-b4e2-a68bb6822e82&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&linkCode=ll1&tag=fily0e-21&linkId=341d021296de09759e2a525e747a30c7&language=en_IN"
+                        },
+                        {
+                            "imgURL":"https://m.media-amazon.com/images/I/41N48z6Xj6L._SL250_.jpg",
+                            "productLink":"https://www.amazon.in/Mi-Compatible-Amazon-Google-Assistant/dp/B07SPZMH5W/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07SPZMH5W&pd_rd_r=c71fc324-e2db-4fe9-8912-d3a1c5ea948a&pd_rd_w=7R3ZD&pd_rd_wg=m1HB4&pf_rd_p=83481a9b-2452-456b-b4e2-a68bb6822e82&pf_rd_r=3NKT7XT7H6N7TSHA67B8&psc=1&refRID=3NKT7XT7H6N7TSHA67B8&linkCode=ll1&tag=fily0e-21&linkId=e17f7a55a4d82094c43b0975748b4cda&language=en_IN"
+                        }
+                    ]
                 },
                 {
                     "productId": "AD002",

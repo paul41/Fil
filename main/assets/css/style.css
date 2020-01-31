@@ -344,9 +344,9 @@ h1, h2, h3, h4, h5,
     .find-btn{
       width: 30%;
     }
-    #input-box{
+    /* #input-box{
       left:0%;
-    }
+    } */
   }
   #gridView ul li:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -727,6 +727,37 @@ h1, h2, h3, h4, h5,
   position: relative;
   top:88px;
 }
+#carousel-div img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  #carousel-div img{
+    height: 310px;
+  }
+  #input-box{
+    left:0%;
+    top:230px;
+  }
+  .owl-carousel-wrapper {
+    height:0px !important;
+    min-height: 0 !important;
+  }
+  #deals-sec {
+    position: relative;
+    top: 250px;
+  }
+  .site-section{
+    position: relative;
+    top: 100px;
+  }
+  #offer-mobile-style{
+    position: relative;
+    top:40px
+  }
+}
+@media (max-width: 991.98px) {}
 #productList{
   position:absolute;
   background: #fff;
@@ -794,9 +825,9 @@ h1, h2, h3, h4, h5,
   border-top-right-radius: 6px;
 }
 #similar-image-style{
-  margin-top: 15px;
-  height: auto;
-  border:1px solid #ddd
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 #div-similar-product{
   width: 100%;

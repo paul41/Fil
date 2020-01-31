@@ -114,7 +114,7 @@
           <h3 style="padding:2rem">Similar Products</h3>
           <div class="row align-items-stretch" ng-repeat = "detail in productDetail" id="div-similar-product">
             <ul style="list-style-type: none;white-space:nowrap;">  
-              <li style="display: inline;cursor: pointer;" ng-repeat = "similar in detail.similarProducts" ng-click = gotoSimilar(similar.productLink)>
+              <li style="display: inline-block;cursor: pointer;box-sizing: border-box;height: 253px;width: 200px;border: 1px solid #ddd;" ng-repeat = "similar in detail.similarProducts" ng-click = gotoSimilar(similar.productLink)>
                 <img src={{similar.imgURL}}  id="similar-image-style"/>
               </li> 
             </ul>
