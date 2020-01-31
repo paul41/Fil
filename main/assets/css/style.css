@@ -732,6 +732,14 @@ h1, h2, h3, h4, h5,
   object-fit: cover;
   width: 100%;
 }
+#content-img-style{
+  max-width: 100%;margin-left: auto;margin-right: auto;height: 200px;object-fit: cover;
+}
+@media (max-width: 991.98px) {
+  #content-img-style{
+    object-fit: contain !important;
+  }
+}
 @media (max-width: 991.98px) {
   #carousel-div img{
     height: 310px;
