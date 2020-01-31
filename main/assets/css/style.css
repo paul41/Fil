@@ -746,15 +746,15 @@ h1, h2, h3, h4, h5,
   }
   #deals-sec {
     position: relative;
-    top: 250px;
+    top: 320px;
   }
   .site-section{
     position: relative;
-    top: 100px;
+    top: 170px;
   }
   #offer-mobile-style{
     position: relative;
-    top:40px
+    top:80px
   }
 }
 @media (max-width: 991.98px) {}
