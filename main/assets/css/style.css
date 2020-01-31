@@ -739,6 +739,9 @@ h1, h2, h3, h4, h5,
   #content-img-style{
     object-fit: contain !important;
   }
+  #site-section #detail-css{
+    top:17px !important;
+  }
 }
 @media (max-width: 991.98px) {
   #carousel-div img{
