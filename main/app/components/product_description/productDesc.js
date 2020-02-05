@@ -14,6 +14,7 @@ angular.module('prodDescApp', [])
         if($route.current.params.id < productsObj.length){
 
             $(document).ready(function(){
+                $('html, body').animate({ scrollTop: 0 })
                 wishListItems.forEach(element => {
                     if(element.productId == productsObj[$route.current.params.id].productId){
                         buttonDisable()
