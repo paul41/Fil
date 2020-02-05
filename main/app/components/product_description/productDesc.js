@@ -6,6 +6,9 @@ angular.module('prodDescApp', [])
         const productDataArr = [];
         let fbResponse = JSON.parse(localStorage.getItem('loginCred'));
         let wishListItems = getServerData.getWishItems();
+        if(wishListItems == null){
+            wishListItems = [];
+        }
         function buttonDisable(){
             document.getElementById('cartBtn').disabled = true
             document.getElementById('cartBtn').style.opacity = 0.6
