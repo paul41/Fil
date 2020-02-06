@@ -736,6 +736,11 @@ h1, h2, h3, h4, h5,
   max-width: 100%;margin-left: auto;margin-right: auto;height: 200px;object-fit: contain;
 }
 @media (max-width: 991.98px) {
+  #about-design-mobile{
+    top:50px !important
+  }
+}
+@media (max-width: 991.98px) {
   .detail-css{
     top:17px !important;
   }
