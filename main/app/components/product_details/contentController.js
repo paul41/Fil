@@ -20,6 +20,7 @@ angular.module('contentApp', [])
 		
 		/* Page externalJS funtionality */
 		$(document).ready(function () {
+			//$('html, body').animate({ scrollTop: 0 })
 			$('#scrollTop').click(() => {
 				$('html, body').animate({ scrollTop: 0 }, 'slow');
 			});
