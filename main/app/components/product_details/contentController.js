@@ -65,7 +65,11 @@ angular.module('contentApp', [])
 				let discountPrice = ((item.strike) - (item.price));
 				let discountRate = Number(discountPrice / item.strike)
 				let rate = (discountRate * 100).toFixed(0)
-				item.discountpercent = rate;
+				if(isNaN(rate)){
+					item.discountpercent  = 0;
+				}else{
+					item.discountpercent = rate;
+				}	
 				newProductArr.push(item)
 			})
 			return newProductArr;
