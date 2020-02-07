@@ -2180,6 +2180,7 @@ h1, h2, h3, h4, h5,
       height: 115px !important;
       width: 120px !important;
       border-radius: 4px !important; 
+      object-fit: contain;
     }
     #listDesign{
       list-style-type: none;

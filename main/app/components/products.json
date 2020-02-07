@@ -1645,6 +1645,601 @@
                     "rating": 4.5
                 }
             ]
+        },
+        {
+            "ProductType": "Bags wallets and luggage",
+            "product": [
+                {
+                    "productId": "BWL001",
+                    "productURL": "https://www.amazon.in/Skybags-Footloose-Polyester-Softsided-STRUW68EBLU/dp/B073JWDLXZ/ref=as_li_ss_tl?s=luggage&ie=UTF8&qid=1581062014&sr=1-3&linkCode=ll1&tag=fily0e-21&linkId=96140ba23c7d0a1c3efbb316831bf597&language=en_IN",
+                    "ProductName": "Skybags Rubik Polyester 68 Cms Blue Softsided Check-in Luggage (STRUW68EBLU)",
+                    "productImg": "https://m.media-amazon.com/images/I/41PHE+B0+KL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Color: Blue~*Capacity: 66 liters; Weight: 4500 grams; Dimensions: 46.5 cms x 31.5 cms x 68.5 cms (LxWxH)~*Lock Type: Number Lock, Number of Wheels: 4, Number of compartments: 1~*Laptop Compatibility: No~*Warranty type: Manufacturer; 5 year manufacturer warranty is non-transferable and valid for 5 year from the original date of purchase~*Expander feature for extra packing space~*Push Button Trolley~*For any product related queries, contact_us on: [ 1800 102 2256 ]"
+                        },
+                        {
+                            "Brand": "Skybags"
+                        }
+                    ],
+                    "price": 3299,
+                    "strike": 7420,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL002",
+                    "productURL": "https://www.amazon.in/SAFARI-Ltrs-Casual-Backpack-DAYPACKNEO15CBSEB/dp/B07Q7CNPMV/ref=as_li_ss_tl?s=luggage&ie=UTF8&qid=1581062014&sr=1-10&linkCode=ll1&tag=fily0e-21&linkId=7889cb46f34af3a3b486e142ef8fe5da&language=en_IN",
+                    "ProductName": "SAFARI 15 Ltrs Sea Blue Casual Backpack (DAYPACKNEO15CBSEB)",
+                    "productImg": "https://m.media-amazon.com/images/I/31FnX4jk8zL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Outer Material: Polyester, Color: Sea Blue~*Not water resistant~*Capacity: 15 liters; Weight: 200 grams; Dimensions: 12 cms x 27 cms x 41 cms (LxWxH)~*Number of compartments: 2~*Laptop Compatibility: No~*Warranty type: Manufacturer; 18 months manufacturer warranty~*2 Compartment~*Compact Size~*Drawstring, 2 Compartments, Compact Size"
+                        },
+                        {
+                            "Brand": "SAFARI"
+                        }
+                    ],
+                    "price": 359,
+                    "strike": 799,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL003",
+                    "productURL": "https://www.amazon.in/American-Tourister-AN6-09-003/dp/B073XLKQ71/ref=as_li_ss_tl?s=luggage&ie=UTF8&qid=1581062014&sr=1-11&linkCode=ll1&tag=fily0e-21&linkId=942e2b730eb7f09a22a92948342a9636&language=en_IN",
+                    "ProductName": "Amercian Tourister Cruze ABS 80 cms Black Hardsided Carry-On (AN6 (0) 01 001)",
+                    "productImg": "https://m.media-amazon.com/images/I/4106YPziuZL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Outer Material: ABS, Casing: Hard, Color: Black~*Wear Resistant: Wear resistant, Water Resistance: Water proof and Scratch resistant~*Capacity: 42 liters; 54 cms x 30 cms x 80 cms (LxWxH)~*Lock Type: Number Lock, Number of Wheels: 4, Number of compartments: 2~*Laptop Compatibility: No~*Warranty type: Manufacturer; 3 Years international warranty valid across 100 countries~*1 inner mesh pocket with zipper~*Packing straps + Mesh pocket inside with Push button trolley"
+                        },
+                        {
+                            "Brand": "Amercian Tourister"
+                        }
+                    ],
+                    "price": 5299,
+                    "strike": 6600,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL004",
+                    "productURL": "https://www.amazon.in/Swiss-Gear-Hardsided-Luggage-7366743167/dp/B07XHJHX33/ref=as_li_ss_tl?fst=as:off&pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5b5de97a-ea5f-453e-8b2b-4645b609027f&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-4&qid=1581062032&refinements=p_89:Swiss+Gear&rnid=3837712031&s=luggage&sr=1-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyQkE1SDJUVjFYM1laJmVuY3J5cHRlZElkPUEwMTY1OTMyM0pHVUMxQkhMWDFJUCZlbmNyeXB0ZWRBZElkPUEwNDY5MjA1ODBST0dNWVdFU01RJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=&linkCode=ll1&tag=fily0e-21&linkId=91c4d57530765f22733a73ef01de9cbe&language=en_IN",
+                    "ProductName": "Swiss Gear ABS 59 cms Yellow Hardsided Check-in Luggage (7366743167)",
+                    "productImg": "https://m.media-amazon.com/images/I/31YsIQgR6PL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Outer Material: ABS, Casing: Hard, Color: Yellow~* Capacity: 65 liters; Dimensions: 42 cms x 26 cms x 59 cms (LxWxH)~* Lock Type: TSA Lock, Number of Wheels: 4~* Laptop Compatibility: No~* Warranty type: Manufacturer; 3 year Limited Warranty~* Integrated TSA Lock: Built-in TSA lock is conveniently located on the top of the bag to lock the luggage for added security.~* Efficient Interior with Divider: Include separate zippered pocket, the luggage protects stored items from scratches and snags, while its handy divider helps keep everything neatly separated.~*Convenient Handle: Extend the handle when rolling the luggage, and then collapse it down in one smooth move for compact storage when not in use or when placing in the trunk or closet.Securely Mounted Short Handle: The 24-inch Yellow hard-sided luggage bag provides a securely mounted short handle which offers rugged strength for stable lifting.~* Protective Hard Shell: The luggage features a protective hard shell. Hard shell's durable scratch-resistant finish offers added strength helping to keep the luggage looking like new even after rough and tumble travel conditions."
+                        },
+                        {
+                            "Brand": "Swiss Gear"
+                        }
+                    ],
+                    "price": 6360,
+                    "strike": 10600,
+                    "rating": 5
+                },
+                {
+                    "productId": "BWL005",
+                    "productURL": "https://www.amazon.in/Swiss-Gear-3555131416-SwissGear-Hybrid/dp/B06XWSFFN1/ref=as_li_ss_tl?fst=as:off&pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5b5de97a-ea5f-453e-8b2b-4645b609027f&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-4&qid=1581062032&refinements=p_89:Swiss+Gear&rnid=3837712031&s=luggage&sr=1-15&linkCode=ll1&tag=fily0e-21&linkId=de1017b9181ab9a58aa4bfdee1cebb5f&language=en_IN",
+                    "ProductName": "SwissGear Hybrid Grey",
+                    "productImg": "https://m.media-amazon.com/images/I/41UNRHtSZKL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/414dAnjbO1L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41uKcyfHEAL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41zD1Sy2jFL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41UNRHtSZKL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "Padded laptop compartment designed to fit most 15' portable computers~*Main compartment features garment compartment with mesh zippered divider~*Ergonomically contoured, padded shoulder straps~*Back panel add-a-bag feature allows bag to slide over extended handle of wheeled luggage~*7.9x12.2x18.5"
+                        },
+                        {
+                            "Brand": "Swiss Gear"
+                        }
+                    ],
+                    "price": 3731,
+                    "strike": 5330,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BWL006",
+                    "productURL": "https://www.amazon.in/POLESTAR-Casual-bagpack-School-Backpack/dp/B07PQQ8M7B/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062047&refinements=p_36:100-&rnid=1318502031&s=luggage&smid=A3HBYWQBT33AGW&sr=1-5&linkCode=ll1&tag=fily0e-21&linkId=42cacba9f9fe1ce6e775efe78b42ceab&language=en_IN",
+                    "ProductName": "POLESTAR Noble Blue 32 Ltrs Casual bagpack/School Bag/Laptop Backpack",
+                    "productImg": "https://m.media-amazon.com/images/I/416GLvnhYZL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "* Made from premium polyester fabric, provide strengthen and long-lasting performance;~** Outer material - polyester ,Inner Material - polyester ,Inside mesh Organizer pockets for cell phone ,wallets, keys etc.~** Lightweight yet durable backpack/daypack for school /college use or everyday outings~** Padded back panel and padded shoulder straps~** Warranty : 12 months (Warranty against manufacturing defects), Product Dimensions-45 cm x 31 cm x 22 cm (L x W x H)"
+                        },
+                        {
+                            "Brand": "Polestar"
+                        }
+                    ],
+                    "price": 537,
+                    "strike": 1790,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL007",
+                    "productURL": "https://www.amazon.in/POLESTAR-Casual-bagpack-School-Backpack/dp/B07PQQ8M7B/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062047&refinements=p_36:100-&rnid=1318502031&s=luggage&smid=A3HBYWQBT33AGW&sr=1-5&linkCode=ll1&tag=fily0e-21&linkId=42cacba9f9fe1ce6e775efe78b42ceab&language=en_IN",
+                    "ProductName": "POLESTAR XPLORE 55 ltrs with Rain Cover Rucksack/Hiking/Trekking Backpack Bag 55 ltrs (Sky)",
+                    "productImg": "https://m.media-amazon.com/images/I/416GLvnhYZL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "** RAIN COVER & WATER PROOF BASE : a rain cover can make hiking in bad weather as enjoyable as hiking in good weather. That’s why we are providing a Free Rain Cover also enhanced the durability by using a  Heavy Duty water proof and durable fabric for the base that is good enough for long lasting protection.~*** SPACIOUS & ORGANIZED >> Product Dimensions (L x W x H = 62 cm x 36 cm x 24 cm ) Polestar Rucksack lightweight comes with one zippered main compartment having the capacity of approx 55 Ltr, + front long Zippered pocket + Top zipper pocket for easy access things and two side net pockets + a Complementary RAIN COVER in Bottom zip pocket~*** SHOE COMPARTMENT: An outside completely separate spacious “SHOE Compartment” is provided so that you can access the pair of shoes comfortably without upsetting the other things.~*** BREATHABLE MESH SPONGE PADDING : the back panel is sufficiently padded with breathable mesh to make your journey comfortable all day long and provides proper air circulation . Ergonomic S-curved straps help spread the weight around and give arms extra flexibility and movability.~***YOGA MAT HOLDERS: the rucksack has two adjustable straps at the back to place a Yoga Mat or foldable tents that are difficult to adjust inside the backpack and making it Most Suitable for hiking, trekking, overnight trip, camping or biking and for both men and women."
+                        },
+                        {
+                            "Brand": "Polestar"
+                        }
+                    ],
+                    "price": 840,
+                    "strike": 2990,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL008",
+                    "productURL": "https://www.amazon.in/POLE-STAR-Casual-Backpack-bagpack/dp/B074G3TJYF/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062047&refinements=p_36:100-&rnid=1318502031&s=luggage&smid=A3HBYWQBT33AGW&sr=1-10&linkCode=ll1&tag=fily0e-21&linkId=5e516d2f4fc5342c3003208e6f3905f7&language=en_IN",
+                    "ProductName": "POLESTAR Hero 32 Lt Sky & Navy Casual Backpack/Day Pack Bag",
+                    "productImg": "https://m.media-amazon.com/images/I/51JufFk7OpL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "MAKE IN INDIA : The Polestar “Hero” backpack is 100% make in India product which is made of high quality polyester fabric, durable zipper and quality workmanship make it even more durable and long lasting . 12 months warranty.~*LARGE CAPACITY &LIGHT WEIGHT: Color: Sky Blue # Dimension: 45 cm x 32 cm x 24 cm # Volume: 32 lt r# Two main spacious zipper compartments, one front zipped pocket small accessories , water bottle pocket and mesh organizer pockets which keep your things organized. Adjustable shoulder strap those are suitable for men and women~*ERGONOMIC DESIGN: strong backpack with ergonomic design that S-Curved Shoulder Straps and padded back panel could protect your backbone and help to relieve the stress from your shoulder.~*SUITABLE FOR MANY OCCASIONS : Stylish, Fashion and Classic Design, Suitable for all school book bag, big student backpack, notebook backpack, high school backpack , middle school backpack, cycling backpack, traveling backpack, Casual backpack for men or women.~*“POLESTAR” HAS NOT AUTHORIZED ANY OTHER SELLER TO SELL THEIR PRODUCTS. BUY GENUINE PRODUCTS BY ENSURING THAT THE SELLER NAME IS : “POLESTAR - BAGS” ONLY."
+                        },
+                        {
+                            "Brand": "Polestar"
+                        }
+                    ],
+                    "price": 417,
+                    "strike": 999,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL009",
+                    "productURL": "https://www.amazon.in/Hornbull-Buttler-Genuine-Leather-Blocking/dp/B07L91DSYT/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062050&refinements=p_36:100-&rnid=1318502031&s=luggage&smid=A1LQ5DK9U47UYN&sr=1-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNDBHMzk4MjNZTEdPJmVuY3J5cHRlZElkPUEwMjAwNzA5MUZLVTlZRkRYMUVXWiZlbmNyeXB0ZWRBZElkPUEwMDM2MDgzMk5SUkRIVkxRU1RRVyZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=ll1&tag=fily0e-21&linkId=c9628b70e760e2b1d331a9d2e6999d0d&language=en_IN",
+                    "ProductName": "Hornbull Buttler Men's Navy Genuine Leather RFID Blocking Wallet",
+                    "productImg": "https://m.media-amazon.com/images/I/41uueWmduIL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/51seHz4eThL._SL160_.jpg",
+                        "https://m.media-amazon.com/images/I/51ahzGI-1RL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51Rmuz5kAeL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41uueWmduIL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "TOP GRAIN LEATHER: This Wallet Made in Exclusive High Quality Leather, Well Designed By Skilled Handcraft Man, Durable Cloth Lining Used, Designed To Accommodate maximum needs. Each Wallet Has Unique Natural Grain Of Leather.~*MECHANISM: There are 7 in build Credit card slots, 2 Secret Compartment, 2 money compartment and 1 Zipper compartment Currency compartment carrying all your needs with extra comfort while carrying. We have left nothing while designing this wallet.~*RFID BLOCKING SECURITY: Our wallets are equipped with advanced RFID SECURE Technology, a unique metal composite, engineered specifically to block 13.5 MHz or higher RFID signals and protect the valuable information stored on RFID chips from unauthorized scans.~*IT'S NOT BULKY: This wallet will never become bulky even after you keep all your ATM cards, credit cards and cash."
+                        },
+                        {
+                            "Brand": "Hornbull"
+                        }
+                    ],
+                    "price": 579,
+                    "strike": 2499,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL010",
+                    "productURL": "https://www.amazon.in/WildHorn-Brown-Mens-Wallet-WH2066A/dp/B07BMT1VSS/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062050&refinements=p_36:100-&rnid=1318502031&s=luggage&smid=AT95IG9ONZD7S&sr=1-7&th=1&linkCode=ll1&tag=fily0e-21&linkId=c2ddaf84c3eb4cc98f16440e24feedc1&language=en_IN",
+                    "ProductName": "WildHorn Brown Men's Wallet",
+                    "productImg": "https://m.media-amazon.com/images/I/41uueWmduIL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/51+uajrCoPL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/512kMvbcgKL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/517yAejpBkL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51LxmY2riNL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41uueWmduIL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "1.DIWALI GIFTS FOR MEN - This Festive Season Bring a smile on his face by gifting him this absolutely Classy and Robust coloured Leather Wallet for Men.It comes in a perfect Matte Black Box and is the perfect gifting solution for Men and boys of all age groups on all occasions,like Diwali Gifts, Birthday Gifts, Puja gifts, Dhanteras Gifts , Wedding Gifts , Anniversary gifts etc~*2.Product Dimensions: 12 x 2 x 10 cm , weight : 200 g , INGENIOUS DESIGN – Keep all your essentials neat and organized in this exclusive stylish wallet. It’s typically a bi-fold wallet handcrafted with premium leather. It has in-build card slots, currency slots, 2 secret compartment, a coin pocket and external card slot with loop closure.~*3.COMPACT YET SPACIOUS – Unique design and compact size, this wallet is not at all bulky. The size is just perfect to fit in your pocket with ease or to be kept in your travel bag. It is a perfect combination of size and space with numerous compartments for all your cards , bills, receipts and also a photo of your loved on~*4. CONTEMPORARY AND DURABLE – A man’s wallet should be contemporary , robust and durable. This wallet offers elite features with uncompromising style. The inside of the wallet is as important as the outside, hence we use top quality polyester fabric for the lining which is both soft to touch and extremely durable. It is a perfect gifting solution for men of all age groups.~*5. GRACEFUL AGEING - The Leather used in this exclsuive wallet is Hand Selected by Experts and only 20% of the Hides make it through our Rigorous Selection Process. Over time , rather than Wearing out , this Leather Develops a Patina which is not only Aesthetically Appealing but also Protective in Nature. So we can vouch for the Graceful Ageing of your wallet."
+                        },
+                        {
+                            "Brand": "WildHorn"
+                        }
+                    ],
+                    "price": 540,
+                    "strike": 1499,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL011",
+                    "productURL": "https://www.amazon.in/AL-FASCINO-Brown-Leather-Wallet/dp/B081M26Z5W/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062050&refinements=p_36:100-&rnid=1318502031&s=luggage&sr=1-15&th=1&linkCode=ll1&tag=fily0e-21&linkId=47e1563ec291a0c5c419fb744971e4c7&language=en_IN",
+                    "ProductName": "AL FASCINO Stylish RFID Protected Genuine Leather Wallet for Men",
+                    "productImg": "https://m.media-amazon.com/images/I/51LoOri4jkL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41e6ZLqTyUL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51VeGHXlsgL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41GWT+FsORL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51LoOri4jkL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "⭐ PREMIUM & CUSTOM FINISH】- Top Quality Craftsmanship With 100% Genuine & Pure Croc Leather that gives durability~* 【👌 ELEGANT AND CLASSY】- Distinctive look with Style with Designer Stitch~* 【🎁 IDEAL GIFT】- ❤️ Best Choice for your Loved Ones, Occasions like Birthday 🎂, Father's Day 👨, Wedding Anniversary 💐~* 【👍 CARRY MORE】- 💵 2 Spacious Currency Compartment, 💳 6 Card Slots with 🗂️ 1 See Through Compartment, and 🔐 2 Hidden  Pockets~* 【🔐 RFID SECURE】- ☣️ Prevent data theft from your Credit and Debit cards using our RFID Blocking Strip that block 13.5 MHz or higher RFID signals"
+                        },
+                        {
+                            "Brand": "AL FASCINO"
+                        }
+                    ],
+                    "price": 599,
+                    "strike": 2999,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL012",
+                    "productURL": "https://www.amazon.in/Mammon-Womens-Leather-Handbag-3L-bib-Cream/dp/B07XKNS6FF/ref=as_li_ss_tl?ref_=BSellerC&pf_rd_p=cdccfe80-8f6b-5739-aa7c-4a716cf49008&pf_rd_s=merchandised-search-5&pf_rd_t=101&pf_rd_i=1983355031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=4GW71BJG029DZ0QSFBQM&pf_rd_r=4GW71BJG029DZ0QSFBQM&pf_rd_p=cdccfe80-8f6b-5739-aa7c-4a716cf49008&linkCode=ll1&tag=fily0e-21&linkId=7bd081524876d4065fca0166ff8f3f0b&language=en_IN",
+                    "ProductName": "Mammon Women's PU Leather Handbag Combo (3L-bib-Cream)",
+                    "productImg": "https://m.media-amazon.com/images/I/41xLFvSwACL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "New Design By Mammon~*Made of PU, Dimension- 28x12x28 CM (LxBxH)~*Handbags: One Main compartment with top Zip closure~*Sling bag : 1 Main compartment with top Zip-closure ,Cute Small size sling for carrying phone cosmetics key money and other light and small essentials~*Accessories Pouch: 1 Main compartment with Magnetic Button Closure,Ideal to keep cell phones,money wallets cosmetics etc."
+                        },
+                        {
+                            "Brand": "Mammon"
+                        }
+                    ],
+                    "price": 699,
+                    "strike": 3499,
+                    "rating": 3.4
+                },
+                {
+                    "productId": "BWL013",
+                    "productURL": "https://www.amazon.in/Mammon-Womens-Stylish-Handbags-3LR-bib-Grey/dp/B07ZMJMNQN/ref=as_li_ss_tl?ref_=BSellerC&pf_rd_p=cdccfe80-8f6b-5739-aa7c-4a716cf49008&pf_rd_s=merchandised-search-5&pf_rd_t=101&pf_rd_i=1983355031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=4GW71BJG029DZ0QSFBQM&pf_rd_r=4GW71BJG029DZ0QSFBQM&pf_rd_p=cdccfe80-8f6b-5739-aa7c-4a716cf49008&linkCode=ll1&tag=fily0e-21&linkId=7fab220a4a05a071fb70b0cb4a9dc163&language=en_IN",
+                    "ProductName": "Mammon Women's Stylish Handbags Combo (3LR-bib-Grey)",
+                    "productImg": "https://m.media-amazon.com/images/I/41PNhttUmxL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "New Design By Mammon~*Made of PU, Dimension- 28x12x28 CM (LxBxH)~*Handbag: One Main compartment with top Zip closure,Flower attached With bag can be of different color~*Sling bag : 1 Main compartment with top Zip-closure,Cute Small size sling for carrying phone cosmetics key money and other light and small essentials~*Accessories Pouch: 1 Main compartment with Magnetic Button Closure,Ideal to keep cell phones,money wallets cosmetics etc."
+                        },
+                        {
+                            "Brand": "Mammon"
+                        }
+                    ],
+                    "price": 650,
+                    "strike": 3499,
+                    "rating": 3
+                },
+                {
+                    "productId": "BWL014",
+                    "productURL": "https://www.amazon.in/Fostelo-Stylish-Womens-Handbag-Maroon/dp/B00Z0NLKMY/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B00Z0NLKMY&pd_rd_r=14c3175f-e501-4481-b933-b9acc8d5eba4&pd_rd_w=1zGaU&pd_rd_wg=UKgmB&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=5ATDM2MYXH7QYX4KF1H1&psc=1&refRID=5ATDM2MYXH7QYX4KF1H1&linkCode=ll1&tag=fily0e-21&linkId=32c3a8783f67307c2ac70145ce3c1045&language=en_IN",
+                    "ProductName": "Fostelo Women's Catlin Handbag (Maroon) (FSB-1033)",
+                    "productImg": "https://m.media-amazon.com/images/I/417PsjAihZL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Warranty :- 1 Year Warranty On Manufacturing Defects. 100% Quality Assured.~*Dimensions (In Inches) :- 9' Tall X 14' Wide X 4' Deep~*Compartments :- 3 Zip Compartments And 1 Back Zip Pocket~*Material :-100% PU | Colour :- Maroon~* Fostelo Is A Registered Trademark. Any Unauthorized Sellers Will Certainly Bear The Legal Consequences Of Copyright Infringement. Color May Be Lighter Than It Appears."
+                        },
+                        {
+                            "Brand": "Fostelo"
+                        }
+                    ],
+                    "price": 594,
+                    "strike": 2399,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL015",
+                    "productURL": "https://www.amazon.in/dp/B01BYIFS6M/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-5&pf_rd_r=WMD1PR3PT01QBAGH7CFM&pf_rd_t=101&pf_rd_p=f05f6e82-8513-4660-80fa-98bb1ca93791&pf_rd_i=2917497031&linkCode=ll1&tag=fily0e-21&linkId=5663d7327213304471d5716905cf7d6e&language=en_IN",
+                    "ProductName": "ShopMantra Vector Tribal Ethnic Pattern Ladies Wallet",
+                    "productImg": "https://m.media-amazon.com/images/I/51BsUtYZGRL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Printed Clutch For Women & Girls, Ideal Gift For Ladies~*Easy To Carry,Innovative Design,Designer Clutch, Design Printed on Canvas, High Quality Printed Canvas, Premium Quality Leather,~*Other Body Features: 1 Zipped Pockets, 1 Open Pocket, 1 Coin Pocket & 3 Card Slot,Dimension : 4 x 8 x 1 inches (H x L x W)~*Faux Leather inside with Print on Canvas Outside~*Product colour may slightly vary due to photographic lighting sources or your monitor settings"
+                        },
+                        {
+                            "Brand": "ShopMantra"
+                        }
+                    ],
+                    "price": 370,
+                    "strike": 1999,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL016",
+                    "productURL": "https://www.amazon.in/TopGator-Sports-Duffel-Compartment-Black/dp/B07RHHHD7F/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062055&s=luggage&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRUJTOFlIU1I1UTZRJmVuY3J5cHRlZElkPUEwNTIxMDY5M0RPMUxPNjZLRzgxTCZlbmNyeXB0ZWRBZElkPUEwMzcxNDc3QVZaRk9aRkU0TkRCJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&linkCode=ll1&tag=fily0e-21&linkId=2464d18f5104faec0c47e13b9acd2f3e&language=en_IN",
+                    "ProductName": "TopGator Gym Bag Sports Duffel with Shoe Compartment 34 L (Grey/Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/41tw7kQ13JL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Durable - The gym bag is made of tear and water resistant dobby polyester; durable zippers and enhanced by strong stitching at major stress points provide long-lasting durability against daily activities.~* Multi-compartment - This duffle bag features one main zipped compartment for essentials and 3 separate pockets. One shoe compartment for sneakers, a transparent pocket for towel/wet clothes and side mesh pocket.~* Lightweight and fold-able - Super lightweight; it weighs only 280 g. It's easy to fold up into small compact space. A must have for sports and traveling.~* Easy to carry - Comes with adjustable shoulder straps with cushioning making it more comfy and anti-slip. It can be also used as a handbag or a shoulder bag.~* Dimensions are 21' x 10' 10' inches; capacity 34 L"
+                        },
+                        {
+                            "Brand": "TopGator"
+                        }
+                    ],
+                    "price": 499,
+                    "strike": 999,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL017",
+                    "productURL": "https://www.amazon.in/Sassie-Leatherette-Black-Gym-Duffel/dp/B07Y2B2FNP/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062055&s=luggage&smid=A3TTRF795ZO6A0&sr=1-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRUJTOFlIU1I1UTZRJmVuY3J5cHRlZElkPUEwNTIxMDY5M0RPMUxPNjZLRzgxTCZlbmNyeXB0ZWRBZElkPUEwNTY2OTQwMjI1RTY4SktJTFozWSZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=ll1&tag=fily0e-21&linkId=05be2c37ba66253167b66918ac7f5406&language=en_IN",
+                    "ProductName": "Sassie Leatherette Black Gym Bag Duffel Bag",
+                    "productImg": "https://m.media-amazon.com/images/I/41-DBpstUhL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Outer Material: Leatherette , Inner Material: Polyester , Colour : Black~*Water Resistant: Yes , Strain Resistant: Yes , Runner: Normal Runner~*Adjustable Shoulder Straps~*Product Dimensions : 45cms x 22 cms x 22 cms~*Product Capacity : 17 Litres"
+                        },
+                        {
+                            "Brand": "Sassie"
+                        }
+                    ],
+                    "price": 314,
+                    "strike": 999,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BWL018",
+                    "productURL": "https://www.amazon.in/Sunvibe-Women-Green-Duffel-Compartment/dp/B08388YJCT/ref=as_li_ss_tl?pf_rd_i=2454169031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=b85120cd-f99c-4386-ba73-83e6e0c637c5&pf_rd_r=MCZYP78MA80B6JN495V6&pf_rd_s=merchandised-search-5&qid=1581062055&s=luggage&sr=1-5&linkCode=ll1&tag=fily0e-21&linkId=365a270d3fde2ec78ad5cd4db7812fbe&language=en_IN",
+                    "ProductName": "Sunvibe Men & Women Sea Green Duffel Gym Bag with Shoe Compartment (Sea Green)",
+                    "productImg": "https://m.media-amazon.com/images/I/41jyK10LwxL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Premium Durable Material - Travel duffel bag is made of high quality,durable material.~*Separate Shoes Compartment - Built-in extra shoes compartment with exterior zippers to keep your shoes and clean sport gears separate.~*Multi-Purpose & Any Occasions - Perfect Duffle Bag for hiking, family holiday, vacation, sports, a short trip, gym, work, beach, used as a overnight bag, a short journey bag, a weekender bag, gym bag, sports duffel bag.~*Adjustable Shoulder straps - Comfortable and adjustable shoulder strap.~*Abundance of Storage - Large capacity,meet your requirement for sure and keep your stuff in order. What an amazing design for Sport Bag!"
+                        },
+                        {
+                            "Brand": "Sunvibe"
+                        }
+                    ],
+                    "price": 396,
+                    "strike": 999,
+                    "rating": 5
+                },
+                {
+                    "productId": "BWL019",
+                    "productURL": "https://www.amazon.in/dp/B07CB23MSS/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-5&pf_rd_r=G1VG5ZDTJZRJWKWXANPZ&pf_rd_t=101&pf_rd_p=f05f6e82-8513-4660-80fa-98bb1ca93791&pf_rd_i=2917497031&linkCode=ll1&tag=fily0e-21&linkId=fa61892ee2a58e748bb827d89d5392f2&language=en_IN",
+                    "ProductName": "Caprese Pepa Women's Wallet (Pink)",
+                    "productImg": "https://m.media-amazon.com/images/I/516ZrGQcX8L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Faux leather material pink colored wallet~*10 centimeters height x 10 centimeters length x 1.5 centimeters width~*Do not expose to extreme heat~*Branding: Embossed~*Zip around wallet~*Zip around closure"
+                        },
+                        {
+                            "Brand": "Caprese"
+                        }
+                    ],
+                    "price": 619,
+                    "strike": 1999,
+                    "rating": 4
+                },
+                {
+                    "productId": "BWL020",
+                    "productURL": "https://www.amazon.in/dp/B07QDX3TWX/ref=as_li_ss_tl?psc=1&pd_rd_i=B07QDX3TWX&pd_rd_w=U6wDh&pf_rd_p=357151f8-058c-46f1-b7d1-fa3647ce3999&pd_rd_wg=LyGNk&pf_rd_r=W2K3J4NHKXEQGR3HG89R&pd_rd_r=0c4fa048-1ef8-41fe-8ab5-b6769e93a540&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU0NJSVU5UUtaTFRYJmVuY3J5cHRlZElkPUEwMDI5MjQ5M05DTFFKN005NTZMRyZlbmNyeXB0ZWRBZElkPUEwMzkyMTIzOEVOTFJZNFdBQlJIJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=ll1&tag=fily0e-21&linkId=2f917b69723b2618f477099f389d1df3&language=en_IN",
+                    "ProductName": "Caprese Robbie Women's Wallet (Soft Pink)",
+                    "productImg": "https://m.media-amazon.com/images/I/31GCCxZKZ3L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Faux leather material soft pink colored wallet~*3.5 centimeters height x 20 centimeters length x 11 centimeters width~*Do not expose to extreme heat~*Internal Organizers~*Internal Compartment~*Powder Coated Logo, Metal Charm Logo~*Back Zipper"
+                        },
+                        {
+                            "Brand": "Caprese"
+                        }
+                    ],
+                    "price": 1494,
+                    "strike": 2299,
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "ProductType": "Books",
+            "product": [
+                {
+                    "productId": "BO001",
+                    "productURL": "https://www.amazon.in/Power-Your-Subconscious-Mind/dp/9380227582/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=fily0e-21&linkId=dfe00a9ee2766924c6508b62ebf7e170&language=en_IN",
+                    "ProductName": "The Power of your Subconscious Mind",
+                    "productImg": "https://m.media-amazon.com/images/I/51U6u+AscuL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Did you know that your mind has a 'mind' of its own? Yes! Without even realizing, our mind is often governed by another entity which is called the sub-conscious mind.This book can bring to your notice the innate power that the sub-conscious holds. We have some traits which seem like habits, but in reality these are those traits which are directly controlled by the sub-conscious mind, vis-à-vis your habits or your routine can be changed if you can control and direct your sub-conscious mind positively. To be able to control this 'mind power' and use it to improve the quality of your life is no walk in the park. This is where this book acts as a guide and allows you to decipher the depths of the sub-conscious.In this book, 'The power of your subconscious mind', the author fuses his spiritual wisdom and scientific research to bring to light how the sub-conscious mind can be a major influence on our daily lives. Once you understand your subconscious mind, you can also control or get rid of the various phobias that you may have in turn opening a brand new world of positive energy. ~* About the book- The book is available in two types, the kindle edition as well as the paperback edition. The book contains 312 pages of wisdom and positive energy. The modern English language used is easy to understand."
+                        },
+                        {
+                            "Brand": "Joseph Murphy"
+                        }
+                    ],
+                    "price": 99,
+                    "strike": 0,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO002",
+                    "productURL": "https://www.amazon.in/Indian-Polity-Civil-Services-Examinations/dp/B07Y3CJJCR/ref=as_li_ss_tl?_encoding=UTF8&psc=1&refRID=JFHWM5W7CMXV0K63TGDH&linkCode=ll1&tag=fily0e-21&linkId=3a67adb1cb839663c5aa929e4ae9273f&language=en_IN",
+                    "ProductName": "Indian Polity - For Civil Services and Other State Examinations | 6th Edition",
+                    "productImg": "https://m.media-amazon.com/images/I/51rKNmuSrsL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "The book Indian Polity, 6th edition is a must-read for the aspirants appearing for the Civil Services Examinations as well as the other state Services Examinations. It is conceived to cater to the requirements of not just students appearing for competitive examinations but also postgraduates, research scholars, academics and General readers who are interested in the country political, Civil and constitutional issues. The extant chapters have been thoroughly revised and updated as per the recent developments.<Salient features:✔ 80 chapters and 16 appendices covering the entire Indian political and constitutional spectrum✔ chapters rearranged as per the latest pattern of the examination✔ coverage on the recent developments in Jammu & Kashmir and Ladakh, constitutional interpretation, judicial review and judicial activism✔ updated previous years’ questions and revised practice questions for both Preliminary and Mains Examinations✔ one-stop reference for the Civil Services aspirants, students of law, political Science and public Administration✔ 6 New chapters:Goods and Services Tax CouncilNational Commission for backward classesNational investigation agencyNational disaster Managementrole of regional partiescoalition government"
+                        },
+                        {
+                            "Brand": "M. Laxmikanth"
+                        }
+                    ],
+                    "price": 589,
+                    "strike": 589,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO003",
+                    "productURL": "https://www.amazon.in/dp/9388292952/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=1C2ET4E3TSMAJ1HDYR9M&pf_rd_t=101&pf_rd_p=c6156a5c-7e18-458e-93ca-7eee75f9f23f&pf_rd_i=9899945031&linkCode=ll1&tag=fily0e-21&linkId=fadaef311c3fad353e5bf3aab9a56f7b&language=en_IN",
+                    "ProductName": "Not Just Another Story: A Novel",
+                    "productImg": "https://m.media-amazon.com/images/I/41i1HmObmsL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "When the rags-to-riches hit movie Slumdog Millionaire swept the Oscars in 2009, a Kolkata journalist was tasked with tracking down Lakshmi, a young girl from Sonagachi who had been part of an award-winning documentary about sex workers and their children. When the journalist finally tracked down the elusive Lakshmi, she was surprised to see how much the young girl had changed. Lakshmi, now called Anjali, was a high-class escort—astute, beautiful and ambitious, she had found peace with her place in the world. As the journalist slowly got to know Lakshmi, she found out more about her mother and grandmother and the circumstances that had brought them into the brothels of Kolkata’s red-light district. The poignant chronicle of three generations of sex workers—Saraju, Malati and Lakshmi— takes us from a village in Bangladesh to a refugee camp in India in the years before the Bangladesh War to the murky alleys of Sonagachi to the posh Salt Lake area in Kolkata. At the heart of this compelling narrative is Lakshmi’s tenacious struggle to lift herself out of the squalor and unpredictability of Sonagachi’s brothels to find power and stability in her life."
+                        },
+                        {
+                            "Brand": "Jhimli Mukherjee Pandey"
+                        }
+                    ],
+                    "price": 284,
+                    "strike": 284,
+                    "rating": 4
+                },
+                {
+                    "productId": "BO004",
+                    "productURL": "https://www.amazon.in/dp/1784742325/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=1C2ET4E3TSMAJ1HDYR9M&pf_rd_t=101&pf_rd_p=c6156a5c-7e18-458e-93ca-7eee75f9f23f&pf_rd_i=9899945031&linkCode=ll1&tag=fily0e-21&linkId=35a3c21df688a82ff27deb2e9b43cac8&language=en_IN",
+                    "ProductName": "The Testaments: The Sequel to The Handmaid’s Tale",
+                    "productImg": "https://m.media-amazon.com/images/I/41pcyAYXQtL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Margaret Atwood’s dystopian masterpiece, The Handmaid’s Tale, is a modern classic. Now she brings the iconic story to a dramatic conclusion in this riveting sequel.More than fifteen years after the events of The Handmaid’s Tale, the theocratic regime of the Republic of Gilead maintains its grip on power, but there are signs it is beginning to rot from within. At this crucial moment, the lives of three radically different women converge, with potentially explosive results.Two have grown up as part of the first generation to come of age in the new order. The testimonies of these two young women are joined by a third voice: a woman who wields power through the ruthless accumulation and deployment of secrets.As Atwood unfolds The Testaments, she opens up the innermost workings of Gilead as each woman is forced to come to terms with who she is, and how far she will go for what she believes.‘Dear Readers: Everything you’ve ever asked me about Gilead and its inner workings is the inspiration for this book. Well, almost everything! The other inspiration is the world we’ve been living in.' Margaret Atwood~*‘The literary event of the year.’ Guardian~*‘A savage and beautiful novel, and it speaks to us today, all around the world, with particular conviction and power… The bar is set particularly high for Atwood and she soars over it’ Peter Florence, Booker Prize Chair of Judges, Guardian"
+                        },
+                        {
+                            "Brand": "Margaret Atwood "
+                        }
+                    ],
+                    "price": 580,
+                    "strike": 580,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO005",
+                    "productURL": "https://www.amazon.in/dp/1419736191/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=1C2ET4E3TSMAJ1HDYR9M&pf_rd_t=101&pf_rd_p=e6e43bbf-05f8-4bcd-9b06-8417ae2ca231&pf_rd_i=9899945031&linkCode=ll1&tag=fily0e-21&linkId=52d27cf280dfa1c72c541ae7265999a2&language=en_IN",
+                    "ProductName": "Drawing Power: Women's Stories of Sexual Violence, Harassment, and Survival",
+                    "productImg": "https://m.media-amazon.com/images/I/51s0smHv71L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "More than 60 female Comics creators share their personal experiences with sexual violence and harassment through new and original Comics inspired by the global #me too movement, drawing power: women’s stories of sexual violence, harassment, and survival is a collection of original, nonfiction Comics drawn by more than 60 female Cartoonist from around the world. Featuring such noted creators as emil Ferris, aline kominsky-crumb, marinaomi, liana final, and ebony flowers the anthology contributors comprise a diverse group of many ages, sexual orientations, and races—and their personal stories convey the wide spectrum of sexual harassment and abuse that is still all too commonplace. With a Percentage of profits going to rainn, drawing power is an anthology that br>Stokes the fires of progressive social upheaval, in the fight for a better, safer world."
+                        },
+                        {
+                            "Brand": "Diane Noomin"
+                        }
+                    ],
+                    "price": 1790,
+                    "strike": 1790,
+                    "rating": 5
+                },
+                {
+                    "productId": "BO006",
+                    "productURL": "https://www.amazon.in/dp/9352759869/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-6&pf_rd_r=1C2ET4E3TSMAJ1HDYR9M&pf_rd_t=101&pf_rd_p=5f6b72bc-b70a-45ab-85fb-99832188e9fb&pf_rd_i=9899945031&linkCode=ll1&tag=fily0e-21&linkId=a1988d17c473962d75d3defb02fbc63b&language=en_IN",
+                    "ProductName": "Girl Power: Indian Women Who Broke the Rules",
+                    "productImg": "https://m.media-amazon.com/images/I/51r2CLskrrL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": ""
+                        },
+                        {
+                            "Brand": "Neha J Hiranandani"
+                        }
+                    ],
+                    "price": 284,
+                    "strike": 284,
+                    "rating": 5
+                },
+                {
+                    "productId": "BO007",
+                    "productURL": "https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1581075187&sr=1-1&linkCode=ll1&tag=fily0e-21&linkId=1fdd804343fbd35044d955998fb33563&language=en_IN",
+                    "ProductName": "The Subtle Art of Not Giving a F*ck",
+                    "productImg": "https://m.media-amazon.com/images/I/511vJPN7p5L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be “positive” all the time so that we can truly become better, happier peopleFor decades, we’ve been told that positive thinking is the key to a happy, rich life. “Fuck positivity,” Mark Manson says. “Let’s be honest, shit is fucked and we have to live with it.” In his wildly popular Internet blog, Manson doesn’t sugar-coat or equivocate. He tells it like it is—a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, let’s-all-feel-good mind-set that has infectedAmerican society and spoiled a generation, rewarding them with gold medals just for showing up.Manson makes the argument, backed both by academic research and well-timed poop jokes, that improving our lives hinges not on our ability to turn lemons into lemonade, but on learning to stomach lemons better. Human beings are flawed and limited—“not everybody can be extraordinary, there are winners and losers in society and some of it is not fair or your fault.” Manson advises us to get to know our limitations and accept them. Once we embraceour fears, faults and uncertainties, once we stop running and avoiding and start confronting painful truths, we can begin to find the courage, perseverance, honesty, responsibility, curiosity and forgiveness we seek.There are only so many things we can give a fuck about so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience.A much-needed grab-you-by-the-shoulders-and-look-you-in the-eye moment of real talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F**k is a refreshing slap for a generation to help them truly lead contented, grounded lives."
+                        },
+                        {
+                            "Brand": "Mark Manson"
+                        }
+                    ],
+                    "price": 264,
+                    "strike": 264,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO008",
+                    "productURL": "https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1581075187&sr=1-2&linkCode=ll1&tag=fily0e-21&linkId=2b22e293518d8a79849a5d8cc7109c63&language=en_IN",
+                    "ProductName": "Atomic Habits: The life-changing million copy bestseller",
+                    "productImg": "https://m.media-amazon.com/images/I/51Fqn4+UodL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "The must-read books to add to your library, hand-picked by Amazon Editors. A supremely practical and useful book. James Clear distils the most fundamental information about habit formation."
+                        },
+                        {
+                            "Brand": "James Clear"
+                        }
+                    ],
+                    "price": 519,
+                    "strike": 519,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO009",
+                    "productURL": "https://www.amazon.in/Homo-Deus-Brief-History-Tomorrow/dp/1784703931/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1581075187&sr=1-7&linkCode=ll1&tag=fily0e-21&linkId=489c4b4ed1a23daabd19fa21e04e5621&language=en_IN",
+                    "ProductName": "Homo Deus: A Brief History of Tomorrow",
+                    "productImg": "https://m.media-amazon.com/images/I/41x9l0H2UGL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Sapiens shows us where we came from. Homo Deusshows us where we’re going.Yuval Noah Harari envisions a near future in which we face a new set of challenges. Homo Deus explores the projects, dreams and nightmares that will shape the twenty-first century and beyond – from overcoming death to creating artificial life.It asks the fundamental questions: how can we protect this fragile world from our own destructive power? And what does our future hold?'Homo Deus will shock you. It will entertain you. It will make you think in ways you had not thought before’ Daniel Kahneman, bestselling author of Thinking, Fast and Slow"
+                        },
+                        {
+                            "Brand": "Yuval Noah Harari"
+                        }
+                    ],
+                    "price": 325,
+                    "strike": 325,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO010",
+                    "productURL": "https://www.amazon.in/Oswaal-Sample-Question-Paper-Biology/dp/9389340993/ref=as_li_ss_tl?ref_=ast_sto_dp&linkCode=ll1&tag=fily0e-21&linkId=3b51ce5c5ed3865da5f55365e09964f5&language=en_IN",
+                    "ProductName": "Oswaal CBSE Sample Question Paper Class 11 Biology Book (For March 2020 Exam)",
+                    "productImg": "https://m.media-amazon.com/images/I/510Cj+dRfBL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "CBSE Curriculum was most recently updated on 29th March 2019 for Academic year 2019 – 2020. There were major changes observed which will have direct impact on the Question Paper design for Board Examinations 2019. Keeping this in mind Oswaal Sample Question Papers have been thoroughly updated as per the latest Board guidelines. This makes them extremely relevant for Exam oriented study. • Self-Study Mode Ten Sample Question Papers covering important concepts from an examination perspective (1-5 solved and 6-10 for Self-Assessment) • Exam Preparatory Material Answers from the CBSE Marking Scheme upto March 2019 Exam with detailed explanations as per the word limit for exam-oriented study. • Answering Tips & Commonly Made Errors for clearer thinking. . • On Tips Notes On tips notes, Mind Maps & Grammar charts facilitate quick revision of chapters • Latest CBSE Curriculum Strictly based on the latest CBSE curriculum issued on 29th March 2019 for Academic Year 2019-2020, for classes 9 to 12 following the latest NCERT Textbook. • Latest Typology OF Questions Objective Type Questions included as per the latest design of the question paper issued by CBSE. • Most Likely Questions ‘Most likely questions’ generated by our editorial Board with 100+ years of teaching experience. Oswaal Books strongly believes in Making Learning Simple. To ensure student-friendly, yet highly exam-oriented content, we take due care in developing our Panel of Experts. Accomplished teachers with 100+ years of combined experience, Subject Matter Experts with unmatchable subject knowledge, dynamic educationists, professionals with a keen interest in education and topper students from the length and breadth of the country, together form the coveted Oswaal Panel of Experts. It is with their expertise, guidance and a keen eye for details that the content in each offering meets the need of the students. No wonder, Oswaal Books holds an enviable place in every student’s heart!"
+                        },
+                        {
+                            "Brand": "Oswaal Editorial Board"
+                        }
+                    ],
+                    "price": 139,
+                    "strike": 139,
+                    "rating": 5
+                },
+                {
+                    "productId": "BO011",
+                    "productURL": "https://www.amazon.in/Rejuvenate-Yourself-Abstract-Dreamland-Publications/dp/9350895250/ref=as_li_ss_tl?pf_rd_i=4506102031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=4db01c09-dfbf-44c0-9412-8176b4f1316f&pf_rd_r=CTF3KVVMFRS7EXKD3RB7&pf_rd_s=merchandised-search-4&pf_rd_t=101&qid=1581075300&s=books&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzS05KQ1I2R1RaREpIJmVuY3J5cHRlZElkPUEwNjQ3NDkxMkUzNkJSTFhIVkdaTiZlbmNyeXB0ZWRBZElkPUEwMzMwODY2MjQ4WFNXUTNCODNOTCZ3aWRnZXROYW1lPXNwX2F0Zl9icm93c2UmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=ll1&tag=fily0e-21&linkId=0ed0d7435b789eb81f13080f455e1708&language=en_IN",
+                    "ProductName": "Rejuvenate Yourself Abstract",
+                    "productImg": "https://m.media-amazon.com/images/I/61t1Q4HGRiL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "“Rejuvenate Yourself-Abstract” is a Dreamland’s publication. It’s a beautiful colouring book meant for all age-groups. This is a new consideration which is being adapted around the globe. The basic idea behind this concept is to de-stress oneself through simply colouring the pages given in the book. Colouring, which is a great pastime or hobby for the kids, is being viewed as a stress buster for the adults today.Through “Rejuvenate Yourself”, a person can express his/her true self within the ambit of the world of colours. It’s a great way of achieving inner calm and serenity. Besides, one can explore his/her creative side as well.The book has the potential to put a positive impact on mothers-to-be and in turn their babies. It will help relax the woman’s mind while she is going through the most stressful 9-month phase of her life. A relaxed approach towards life will ensure healthy babies.Colouring has been recommended as a relaxation technique by the psychologists all over the world. They generally prescribe colouring in a calm environment. The activity briefly frees a person from the daily pressures and burdens. Although the problems do not go away, but at least the person’s brain gets a break from the continuous stress that one goes through in today’s fast paced lives.Colouring has lowered people’s blood pressure problems. It has to a large extent cured insomnia. Colour and mental health have been linked to each other since ages. As a result, psychologists recommend colouring for banishing anxiety and even come out of certain kinds of trauma.So, a colouring book in itself is a solution to many health issues and is said to be as effective as meditation.The number of leafs given in 1 set is 64. The Binding style of the book is Paperback. The book is currently available on Amazon India, so the consumers can directly order their edition from the official website.About the author:Dreamland Publications has been publishing some very good literature books especially for the children. The authors at the publication house are teachers or educationists who are technically sound and experienced in handling children issues, so they are capable of delivering good quality literature for the children. Although the publication house specializes in children literature, adults are equally interested and amused by their work."
+                        },
+                        {
+                            "Brand": "Dreamland Publications"
+                        }
+                    ],
+                    "price": 140,
+                    "strike": 140,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO012",
+                    "productURL": "https://www.amazon.in/Think-and-Grow-Rich/dp/9385869760/ref=as_li_ss_tl?keywords=Think+and+Grow+Rich&qid=1581078705&s=books&sr=1-4&linkCode=ll1&tag=fily0e-21&linkId=acd37d634a97d0a6d96c37edcb2a8e90&language=en_IN",
+                    "ProductName": "Think and Grow Rich",
+                    "productImg": "https://m.media-amazon.com/images/I/51M+9jOIO9L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": ""
+                        },
+                        {
+                            "Brand": "Napoleon Hill"
+                        }
+                    ],
+                    "price": 110,
+                    "strike": 110,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO0013",
+                    "productURL": "https://www.amazon.in/Chandragupt-Hindi-Jaishankar-Prasad-ebook/dp/B01MG9F183/ref=as_li_ss_tl?pf_rd_i=4506102031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=4db01c09-dfbf-44c0-9412-8176b4f1316f&pf_rd_r=CTF3KVVMFRS7EXKD3RB7&pf_rd_s=merchandised-search-4&pf_rd_t=101&qid=1581075304&s=books&sr=1-1&linkCode=ll1&tag=fily0e-21&linkId=1e11bd3b1824d88a0960e45048500535&language=en_IN",
+                    "ProductName": "Chandragupt (Hindi)",
+                    "productImg": "https://m.media-amazon.com/images/I/51HZlC2t8iL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Length: 226pages ~* Language: Hindi"
+                        },
+                        {
+                            "Brand": "Jaishankar Prasad"
+                        }
+                    ],
+                    "price": 125,
+                    "strike": 125,
+                    "rating": 4
+                },
+                {
+                    "productId": "BO0014",
+                    "productURL": "https://www.amazon.in/%E0%A4%9F%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%B2%E0%A5%8D%E0%A4%A5-TWELFTH-FAIL-12th-Fail/dp/8194170109/ref=as_li_ss_tl?pf_rd_i=4506102031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=4db01c09-dfbf-44c0-9412-8176b4f1316f&pf_rd_r=CTF3KVVMFRS7EXKD3RB7&pf_rd_s=merchandised-search-4&pf_rd_t=101&qid=1581075307&s=books&sr=1-3&linkCode=ll1&tag=fily0e-21&linkId=3b42fcfe43ff47edde45d7d46ea80a10&language=en_IN",
+                    "ProductName": "ट्वेल्थ फेल | TWELFTH FAIL | 12th Fail",
+                    "productImg": "https://m.media-amazon.com/images/I/4159m+DDs3L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": ""
+                        },
+                        {
+                            "Brand": "Anurag Pathak"
+                        }
+                    ],
+                    "price": 194,
+                    "strike": 194,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "BO0015",
+                    "productURL": "https://www.amazon.in/dp/938598618X/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-8&pf_rd_r=CTF3KVVMFRS7EXKD3RB7&pf_rd_t=101&pf_rd_p=5baa763c-55ab-415d-a6a0-06bbeb7a5bb6&pf_rd_i=4506102031&linkCode=ll1&tag=fily0e-21&linkId=01af8c3290a7b6ed23aae5ef3dbb5bee&language=en_IN",
+                    "ProductName": "Bhagavad Gita: Yatharoop (Hindi)",
+                    "productImg": "https://m.media-amazon.com/images/I/51wJO6IqvnL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "The Bhagavad-Gita as it is is a translation and commentary of the Bhagat Gita, by a. C. Bhaktivedanta Swami Prabhupada, founder of the international society for Krishna consciousness, commonly known as the Hare Krishna movement. The Bhagat Gita emphasizes a path of devotion toward the personal God, Krishna. The Bhagat Gita, often referred to as the Gita, is a 700 verse Hindu scripture in Sanskrit that is part of the Hindu epic Mahabharata. This is new edition of Bhagat Gita Hindi by bhaktivedanta Swami Prabhupada.Popularly known as ISKCON Bhagvad Gita. Bhagavad Gita is universally renowned as the jewel of India's spiritual wisdom. Spoken by Lord Sri Krsna, the Supreme personality of Godhead, to his intimate devotee Arjuna, the Gita's seven hundred concise verses provide a definitive guide to the science of self-realization. Indeed, no work even compares in its revelations of man's essential nature, his environment and, ultimately, his relationship with God."
+                        },
+                        {
+                            "Brand": "A.C. Bhaktivendanta Swami Prabhupada"
+                        }
+                    ],
+                    "price": 89,
+                    "strike": 89,
+                    "rating": 5
+                }
+            ]
         }
     ]
 }
