@@ -737,7 +737,7 @@ h1, h2, h3, h4, h5,
 }
 @media (max-width: 991.98px) {
   #wishModal{
-    top:35px !important
+    top:15px !important
   }
 }
 @media (max-width: 991.98px) {
@@ -865,9 +865,10 @@ h1, h2, h3, h4, h5,
 }
 #image-stt{
   margin-top: 15px;
-  height: 80px;
-   width: 80px;
-   border:1px solid #ddd
+  height: 100%;
+   width: 100%;
+   border:1px solid #ddd;
+   object-fit: contain;
 }
 #div-desc{
   background: #fff;
