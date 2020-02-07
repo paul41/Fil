@@ -736,6 +736,11 @@ h1, h2, h3, h4, h5,
   max-width: 100%;margin-left: auto;margin-right: auto;height: 200px;object-fit: contain;
 }
 @media (max-width: 991.98px) {
+  #wishModal{
+    top:35px !important
+  }
+}
+@media (max-width: 991.98px) {
   #about-design-mobile{
     top:50px !important
   }
@@ -803,14 +808,6 @@ h1, h2, h3, h4, h5,
 }
 #wish-head{
   margin:5px;color: white
-}
-#wishlist-stt{
-  margin-left:20px; 
-  margin-top:22px; 
-  position:absolute;
-  display:inline !important;
-  height:20px;
-  overflow: hidden;
 }
 #wish-btn{
   position: absolute;
@@ -2117,21 +2114,22 @@ h1, h2, h3, h4, h5,
 
     .wishListStyle{
       background-color: #3e64ff;
-      padding: 20px 40px;
+      padding: 12px 12px;
       text-align: center;
       position: relative;
       top: 7%;
-      width:75%;
+      width:80%;
       margin: auto;
       border-top-left-radius: 6px;
       border-top-right-radius: 6px;
       
     }
     #wishLists{
-      width:75%;
+      width:80%;
       margin: auto;
       background: #f7f7f7;
       top:7%;
+      padding:5px;
       position: relative;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
@@ -2146,7 +2144,7 @@ h1, h2, h3, h4, h5,
     #wishLists ul li{
       cursor: pointer;
       position: relative;
-      padding: 12px 8px 12px 40px;
+      padding: 12px 14px 8px 414px;
       list-style-type: none;
       background: #fff;
       font-size: 15px;
@@ -2157,6 +2155,15 @@ h1, h2, h3, h4, h5,
     }
     #wishLists ul li:nth-child(odd) {
       background: #f6f5f5;
+    }
+    #wishitem-para{
+      margin:20px 40px 20px 15px;
+      position:absolute;
+      display:inline !important;
+      width:40%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
     }
     .close {
       position: absolute;

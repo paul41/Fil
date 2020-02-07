@@ -121,7 +121,7 @@
           <ul ng-if="wishArray">
             <li ng-repeat = "w in wishArray; track by $index">
               <img id="modal-image-style" src="{{w.productImg}}" > 
-              <p id ="wishlist-stt">{{w.ProductName}}</p>
+              <p id ="wishitem-para">{{w.ProductName}}</p>
               <b id="wish-price">{{w.price}}</b>
               <button type="button" class="btn-primary" id = "wish-btn" ng-click = "getWishProduct($index)">Buy Now</button>
             </li>
