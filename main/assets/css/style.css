@@ -2144,7 +2144,7 @@ h1, h2, h3, h4, h5,
     #wishLists ul li{
       cursor: pointer;
       position: relative;
-      padding: 12px 14px 8px 414px;
+      padding: 12px 14px 8px 14px;
       list-style-type: none;
       background: #fff;
       font-size: 15px;
