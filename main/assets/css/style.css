@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5,
     #input-box{
       z-index: 2; 
       left:13%;
-      top: 63%;
+      top: 53%;
       position: absolute;
       max-width: 920px;
       width:100%
@@ -782,6 +782,7 @@ h1, h2, h3, h4, h5,
   background: #fff;
   display: none;
   overflow: auto;
+  width:70%;
   height: 230px;
   border:1px solid skyblue
 }
@@ -881,7 +882,7 @@ h1, h2, h3, h4, h5,
   width: 145px !important;
   position: relative; 
   top: 17px;
-  background: #3e64ff;
+  background: #4267b2;
   color: #fff
 }
 .site-navbar {
