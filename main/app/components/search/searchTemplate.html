@@ -123,7 +123,9 @@
               <img id="modal-image-style" src="{{w.productImg}}" > 
               <p id ="wishitem-para">{{w.ProductName}}</p>
               <b id="wish-price">{{w.price}}</b>
-              <button type="button" class="btn-primary" id = "wish-btn" ng-click = "getWishProduct($index)">Buy Now</button>
+              <div id="btn-div">
+                <button type="button" class="btn-primary" id = "wish-btn" ng-click = "getWishProduct($index)">Buy Now</button>
+              </div>
             </li>
           </ul>
         </section>
