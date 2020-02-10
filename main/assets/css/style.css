@@ -813,14 +813,12 @@ h1, h2, h3, h4, h5,
 #wish-btn{
   position: absolute;
   bottom: 15px;
-  margin-left: 20px;
+  margin-left: -10px;
   border-radius: 5px;
 }
 #wish-price{
-  margin-left: 20px;
+  margin-left: 15px;
   color: #3e64ff;
-  margin-top:50px;
-  position: absolute;
 }
 #wishlist-header{
   display: none;
@@ -832,7 +830,8 @@ h1, h2, h3, h4, h5,
   position: absolute;
   right:0;
   top:0;
-  font-size: 25px;
+  color: aliceblue;
+  font-size: 29px;
   cursor: pointer;
   border-top-right-radius: 6px;
 }
@@ -2116,7 +2115,7 @@ h1, h2, h3, h4, h5,
 
     .wishListStyle{
       background-color: #3e64ff;
-      padding: 12px 12px;
+      padding: 15px 12px;
       text-align: center;
       position: relative;
       top: 7%;
@@ -2146,20 +2145,20 @@ h1, h2, h3, h4, h5,
     #wishLists ul li{
       cursor: pointer;
       position: relative;
-      padding: 12px 14px 8px 14px;
+      margin-left: 10px;
       list-style-type: none;
       background: #fff;
       font-size: 15px;
       transition: 0.2s;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
-      padding-bottom: 16px;
+      padding-bottom: 10px;
     }
     #wishLists ul li:nth-child(odd) {
       background: #f6f5f5;
     }
     #wishitem-para{
-      margin:20px 40px 20px 15px;
+      margin:6px 40px 20px 15px;
       position:absolute;
       display:inline !important;
       width:40%;
@@ -2178,9 +2177,9 @@ h1, h2, h3, h4, h5,
     }
 
     #modal-image-style{
-      height: 115px !important;
-      width: 120px !important;
-      border-radius: 4px !important; 
+      height: 95px !important;
+      width: 85px !important;
+      border-radius: 5px !important; 
       object-fit: contain;
     }
     #listDesign{

@@ -168,7 +168,7 @@
         <div class = "w3-container wishListStyle">
           <h3 style="margin:5px;color: white">WishList</h3>
           <span onclick="document.getElementById('wishModal').style.display='none'" 
-            class="w3-button" style="position: absolute;right:0; top:0;font-size: 25px;cursor: pointer;border-top-right-radius: 6px;">&times;</span>
+            class="w3-button" id="close-btn">&times;</span>
         </div>
         <section id="wishLists">
           <h4 id = "emptymsg" style="display: none;text-align: center;padding: 100px;background: #f6f5f5;">Your wishlist is empty</h4>
@@ -176,8 +176,8 @@
             <li ng-repeat = "w in wishArray; track by $index">
               <img id="modal-image-style" src="{{w.productImg}}" > 
               <p id ="wishitem-para">{{w.ProductName}}</p>
-              <b style="margin-left: 20px;color: #3e64ff;margin-top:50px;position: absolute;">{{w.price}}</b>
-              <button type="button" class="btn-primary" style = "position: absolute;bottom: 15px;margin-left: 20px;border-radius: 5px;" ng-click = "getWishProduct($index)">Buy Now</button>
+              <b id="wish-price">{{w.price}}</b>
+              <button type="button" class="btn-primary" id = "wish-btn" ng-click = "getWishProduct($index)">Buy Now</button>
               <span class="close" ng-click = "removeList(w.productId)">&times;</span>
             </li>
           </ul>
