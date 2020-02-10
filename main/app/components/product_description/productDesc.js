@@ -34,8 +34,11 @@ angular.module('prodDescApp', [])
                 });
             })
             productDataArr.push(productsObj[$route.current.params.id])
-            let txt = productDataArr[0].product_specification[0].Description
-            $scope.para = txt.split("~*")
+            let txt = productDataArr[0].product_specification[0].Description;
+            if(txt){
+                $scope.para = txt.split("~*")
+            }
+            
             $scope.productDetail = productDataArr;
             $scope.amazonRedirect = () =>{
                 window.open(productDataArr[0].productURL)
