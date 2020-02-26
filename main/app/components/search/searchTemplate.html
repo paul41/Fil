@@ -141,9 +141,12 @@
                   <button class = "find-btn" ng-click="search()">FIND OUT</button>
                   <div id="search-three">
                     <ul id ="productList" class="text-center col-sm-4" id = 'prod-list'>
-                      <li id="listDesign" ng-repeat="x in product | filter:products" ng-click="setValue(x)">
+                      <li id="listDesign" ng-repeat="x in product | filter:products" ng-click="setValue(x)" >
                         {{x}}
-                        <hr style="margin:1px;">
+                        <!-- <hr style="margin:1px;"> -->
+                      </li>
+                      <li id = "listDesign" style="display: inline-block !important;text-transform: capitalize;" ng-show="!product.length">
+                        <b>{{products}}</b>
                       </li>
                     </ul>
                   </div>

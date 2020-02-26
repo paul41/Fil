@@ -37,7 +37,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 		{"href":"https://www.amazon.in/s/ref=as_li_ss_tl?url=search-alias=jewelry&field-keywords=&linkCode=ll2&tag=fily0e-21&linkId=db75a55133cb0a422affb53905b80d30&language=en_IN","name":"Jewellery & Beauty products"}
 	]
 	$scope.product = [
-        "Amazon Devices","Amazon Fashion","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
+        "Amazon Devices","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
         "Computers & Accessories","Electronics","Furnitures","Garden & outdoors","Gift cards","Health & personal care","Home & Kitchen","Jewellery",
         "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
         "Toys & games","Video Games","Watches"
@@ -68,17 +68,20 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     }
     /**********Search module***********/
     $scope.search = ()=>{
-    	let inputVal = $('#input-search').val();
+		let inputVal = $('#input-search').val();
+		let dataArray = [];
     	if(inputVal){
-    		getServerData.fetchProductDetails((res)=>{
-    			if(res.data.length > 0){
+			 $.getJSON('https://web-scraper-v8.herokuapp.com/fily/list?search_text='+inputVal, function(data) {
+				// if(data.product in data){
+					dataArray.push(data)
 					$window.location.href="#!/productList";
-    				getServerData.setMap(res.data[0].SearchItems)	
-    			}else{
-    				$window.location.href = "/NotFound";
-    			}
-    		},{"SearchItems.ProductType":inputVal})
-    		
+					let sortedData = getServerData.scrapData(dataArray) 
+					dataArray[0].product = sortedData
+					getServerData.setMap(dataArray)
+				//}else{
+				//	$window.location.href = "/NotFound";
+				//}	
+			});
     	}else{
     		alert('Enter products,brands and more to search')
     	}

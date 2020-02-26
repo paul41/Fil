@@ -12,6 +12,24 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 				callback(response)
 			})
 		},
+		scrapData:function(data){
+			const requiredData = [];
+			let filterOffer = data[0].product;
+			for(let off = 0; off<filterOffer.length; off++){
+				if(filterOffer[off].offer.length > 0){
+					requiredData.push(filterOffer[off])
+				}
+			}
+			filterOffer.sort(function(a,b){
+				return a.price-b.price
+			})
+			for(let ele of filterOffer){
+				if(ele.offer.length == 0 ){
+					requiredData.push(ele)
+				}		
+			}
+			return requiredData;
+		},
 		sortProducts:function(callback,parameter){
 			$http.get('/sortitems',{params:parameter}).then((response)=>{
 				callback(response)
@@ -49,8 +67,7 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 			let cartValues = localStorage.getItem('cart');
 			return JSON.parse(cartValues);
 		},
-		setMap:function(itemData){
-			
+		setMap:function(itemData){	
 		 	for(const elements of itemData){
 		 		localStorage.setItem('cached',JSON.stringify(elements))	
 			}

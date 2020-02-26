@@ -2527,6 +2527,788 @@
                 }
 
             ]
+        },
+        {
+            "ProductType": "Car & motorbike",
+            "product": [
+                {
+                    "productId": "CM001",
+                    "productURL": "https://www.amazon.in/TYRE-Blaze-BA21-90-12-Tubeless/dp/B071X66JRF/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327003&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-11&linkCode=ll1&tag=fily0e-21&linkId=cf7e7b8033e6ad7c4b94b2c5d89869d4&language=en_IN",
+                    "ProductName": "JK TYRE Blaze BA21 90/90-12 Tubeless Bike Tyre, Rear",
+                    "productImg": "https://m.media-amazon.com/images/I/51SGsOSiXmL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility:Front Tyre for Mahindra Gusto, TVS Wego, TVS Jupiter, Rear Tyre for Hero Maestro Edge, Honda Activa 125, Honda Navi, Honda Aviator -Prev Model, Mahindra Gusto, TVS Wego, TVS Jupiter~*Specialized directional grooves, Zig-zag Centre groove~*Rigid shoulder design with cross cut grooves~*Better handling and good ride comfort~*Improved manoeuvrability and high wet traction~*Good cornering stability and high grip"
+                        },
+                        {
+                            "Brand": "JK Tyre"
+                        }
+                    ],
+                    "price": 950,
+                    "strike": 965,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM002",
+                    "productURL": "https://www.amazon.in/Ceat-Gripp-P3-00-18-Tube-Type-Installation/dp/B01FTSGLCI/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327003&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFGNzAyVEQzWjg0UDgmZW5jcnlwdGVkSWQ9QTAxNzA3NzUxWlpUUFFNWDBXUUlPJmVuY3J5cHRlZEFkSWQ9QTA5MDU5MzkzUk1OREdBMkM3SDQyJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&linkCode=ll1&tag=fily0e-21&linkId=81af1fccaa8116e8fde0a0982992bf38&language=en_IN",
+                    "ProductName": "Ceat Gripp 3.00-18 52P Tube-Type Bike Tyre, Rear (Home Delivery)",
+                    "productImg": "https://m.media-amazon.com/images/I/51UBXyvuJNL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility (Brand/Model) - Hero Glamour-125, Hero Passion, Mahindra Centuro, Mahindra Pantero, Suzuki Hayate, Suzuki Slingshot, TVS Star City, TVS Star Sport, Yamaha YBR~*Features: Angular and Directional block pattern, Wider and Deeper shoulder Grooves~*Functions: Easy handling and high traction, Better water channelling~*Benefits: High grip for safer ride, High wet grip~*Wider grooves helps in better water evacuation thus provides better wet grip"
+                        },
+                        {
+                            "Brand": "Ceat"
+                        }
+                    ],
+                    "price": 1729,
+                    "strike": 3004,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM003",
+                    "productURL": "https://www.amazon.in/MRF-Rib-2-75-18-Tube-Type-Front/dp/B06ZZ6ML8T/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327003&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFGNzAyVEQzWjg0UDgmZW5jcnlwdGVkSWQ9QTAxNzA3NzUxWlpUUFFNWDBXUUlPJmVuY3J5cHRlZEFkSWQ9QTA2MDEzMDlGTEo5VkExU1U1Njcmd2lkZ2V0TmFtZT1zcF9hdGZfYnJvd3NlJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=ll1&tag=fily0e-21&linkId=47f9abf25751bfe3077902208d5d9b1c&language=en_IN",
+                    "ProductName": "MRF Rib 2.75-18 42P Tube-Type Bike Tyre, Front",
+                    "productImg": "https://m.media-amazon.com/images/I/41s-de4M8aL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility: Bajaj Caliber 115, Hero Karizma Old, Hunk, Xtreme, Splendour Plus, Pro, Super Splendour, Splendor NXG, Pro Classic, CDN Standard, Deluxe, CD100SS, Achiever, CD Unicorn, Honda Shine Previous Model, Mahindra Stallio, Centuro, Pantero, Suzuki Zeus, Heat, GS 150R, Slingshot and Plus, TVS Flame (Old), Victor, Star City (Old), Max 100R, Yamaha Libero, YBR 125, Gladiator, Yamaha Enticer, Hero Glamour, HF Deluxe~* Provides excellent traction and grip in dry and wet conditions~* Superior tyre life and durability~* See through circumferential grooves and wide lateral grooves~* Large tread blocks~* Comes with tube and tyre"
+                        },
+                        {
+                            "Brand": "MRF"
+                        }
+                    ],
+                    "price": 1589,
+                    "strike": 1800,
+                    "rating": 4
+                },
+                {
+                    "productId": "CM004",
+                    "productURL": "https://www.amazon.in/Ceat-Milaze-Tubeless-Scooter-Delivery/dp/B01FTSFW50/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327003&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-4&linkCode=ll1&tag=fily0e-21&linkId=2e85e7498aea338d448bde10e835261d&language=en_IN",
+                    "ProductName": "Ceat Milaze 90/100-10 53J Tubeless Scooter Tyre,Front or Rear (Home Delivery)",
+                    "productImg": "https://m.media-amazon.com/images/I/418avdt27-L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility (Brand/Model) - Hero Ez, Hero Maestro, Hero Pleasure, Honda Activa, Honda Dio, Piaggio Vespa, Suzuki Access, Suzuki Swish, Yamaha Alpha, Yamaha Fascino, Yamaha Ray~*Features: Higher NSD with Connected Blocks, Continuous centre Groove, Deeper Shoulder Grooves and Sipes on the tread Blocks~*Functions: More rubber to wear ; Construction Type: Bias ; Grip: Excellent Dry & Wet Grip ; Functions:Functions: More rubber to wear Better mass transfer, More 'biting' edges to Grip on or Off road~*Longer tyre life and excellent handling~*Wider grooves helps in better water evacuation thus provides better wet grip"
+                        },
+                        {
+                            "Brand": "Ceat"
+                        }
+                    ],
+                    "price": 1094,
+                    "strike": 2011,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM005",
+                    "productURL": "https://www.amazon.in/100-10-BLAZE-BA22-TUBE-LESS/dp/B07XY9CPCV/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07XY9CPCV&pd_rd_r=701f6d3e-a512-492f-8ff8-0340c1f8a3f8&pd_rd_w=6zjHj&pd_rd_wg=3p7Hq&pf_rd_p=64901ac7-e7c5-4bfc-9580-c94746a1fc53&pf_rd_r=S7JKDWWHH48F29D4QY0X&psc=1&refRID=S7JKDWWHH48F29D4QY0X&linkCode=ll1&tag=fily0e-21&linkId=8a3a81906d74a1f250e688d1aa85faa4&language=en_IN",
+                    "ProductName": "90/100-10 53J BLAZE BA22 (TUBE LESS)",
+                    "productImg": "https://m.media-amazon.com/images/I/41Eq6hlq7VL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": ""
+                        },
+                        {
+                            "Brand": "Generic"
+                        }
+                    ],
+                    "price": 960,
+                    "strike": 2000,
+                    "rating": 5
+                },
+                {
+                    "productId": "CM006",
+                    "productURL": "https://www.amazon.in/Shell-Advance-550043185-Premium-Motorbike/dp/B00QK6RZT2/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327006&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-24&linkCode=ll1&tag=fily0e-21&linkId=590180b7e5b508c8d9eb2cd946ccba4b&language=en_IN",
+                    "ProductName": "Shell Advance AX5 550043185 20W-50 API SL Mineral Motorbike Engine Oil (1 L)",
+                    "productImg": "https://m.media-amazon.com/images/I/51pLPB3JNEL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility:Hero Achiever ,Hero Glamour,Hero Glamour FI,Hero HF Dawn,Hero HF Deluxe Eco,Hero HF Deluxe,Hero Hunk,Hero Splendour,Hero Splendour+,Hero Splendour NXG,Hero Super Splendour,Hero Xtreme Sports,Hero CBZ,Hero Passion Plus,Hero CD Dawn,Hero CD Deluxe,Hero Xtreme ,Hero Ignitor,Hero Impulse,Hero Splendour iSmart,Hero Splendour Pro Classic,Hero Passion Pro,Hero Passion Pro TR,Hero Passion XPRO,Hero Glamour Programmed FI,Hero Ismart 110,Hero Splendour Pro,Honda CB Shine ,Honda CB Twister,Honda CB Unicon 160,Honda CB Unicon,Honda CBF Stunner,Honda CBR 150R,Honda CD Hornet,Honda Dream Yuga,Honda Dream Neo,Honda CB Unicorn Dazzler,Bajaj Boxer,Bajaj Calliber 115,Bajaj Ct 100,Bajaj Discover 100,Bajaj Discover 125,Bajaj Discover 125 ST,Bajaj Eliminator,Bajaj Platina 100,Bajaj Platina 125,Bajaj XCD 125,Bajaj XCD 125 DTSI,Bajaj XCD 135,Bajaj Avenger 150,Bajaj Discover 150,Bajaj KTM Duke,Bajaj Pulsar 135 LS,Bajaj Pulsar 150 DTSI,Bajaj Pulsar 180 DTSI,Bajaj Pulsar 200 NS,Bajaj Pulsar 135 ,Bajaj Pulsar 150,Bajaj Pulsar 180,Bajaj Pulsar 200 ,TVS Apache RTR 160,TVS Apache RTR 180,TVS Apache RTR 200 4V,TVS Apache RTR 180 ABS,TVS Apache 150,TVS Flero,TVS Centra,TVS Flame DS 125,TVS Flame SR 125,TVS Jive,TVS MAX 125,TVS Max 100,TVS Max 4R,TVS Metro Plus,TVS Metro,TVS Sport,TVS Star,TVS Phoenix 125,TVS Star City Plus,TVS Star LX,TVS Victor GLX,TVS Victor125,TVS Victor GX,Yamaha Fazer FI,Yamaha FZ 16,Yamaha FZ-S,Yamaha FZ FI,Yamaha FZ,Yamaha FZS FI,Yamaha Crux,Yamaha Enticer,Yamaha Libero,Yamaha Ss 125,Yamaha SZ-R,Yamaha SZ-X,Yamaha YBR 110,Yamaha YBR 125,Yamaha YBX,Yamaha YD 125,Yamaha YZF R15,Yamaha Saluto,Yamaha Saluto RX,Suzuki GS125R,Suzuki Heat Alloy,Suzuki Sling Shot,Suzuki Sling Shot +,Suzuki Zeus 125EU,Suzuki Zeus 125XC D,Honda Livo~*In a blind perceptive survey, 90 percentage of the bikers agree that Shell advance makes their bikes run smoother~*Provides 33 percentage cleaner pistons, ensuring the piston rings move more freely~*Provides optimized clutch control with JASO MA specification~*In tough road trial of 11,000 KMs, pistons with Shell advance AX5 emerged cleaner than 3 other competitors~*Meets API SL performance specification"
+                        },
+                        {
+                            "Brand": "Shell"
+                        }
+                    ],
+                    "price": 352,
+                    "strike": 367,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM007",
+                    "productURL": "https://www.amazon.in/Castrol-MAGNATEC-Synthetic-Engine-Petrol/dp/B07N996JKL/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327006&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWVBQSjBZVDNERUhXJmVuY3J5cHRlZElkPUEwMjExMTExMkFRNEoxWTZXQkVUNCZlbmNyeXB0ZWRBZElkPUEwMDQ4NDI4TVhHVURIT0pLNjJFJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=&linkCode=ll1&tag=fily0e-21&linkId=f288161a62a44e4272a29e1468f4f8fd&language=en_IN",
+                    "ProductName": "Castrol MAGNATEC SUV 5W-40 Full Synthetic Engine Oil for Petrol, CNG and Diesel SUVs (3L)",
+                    "productImg": "https://m.media-amazon.com/images/I/51Cb8gRCDbL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Full synthetic engine oil for SUVs providing Non-Stop SUV protection from every start~*DUALOCK Technology delivers 50% better protection from warm-up1, stop-start2 and heavy load wear3~*Suitable for use in SUVs with Petrol, Diesel and CNG powered engines where API SN, ACEA A3/B4, A3/B3 specifications are recommended"
+                        },
+                        {
+                            "Brand": "Castrol"
+                        }
+                    ],
+                    "price": 1647,
+                    "strike": 1647,
+                    "rating": 4
+                },
+                {
+                    "productId": "CM008",
+                    "productURL": "https://www.amazon.in/Motul-4T-Gold-Synthetic-Engine/dp/B01ESPB2UE/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B01ESPB2UE&pd_rd_r=88f46e88-79c2-4dae-9830-a8ea2b39c461&pd_rd_w=V0YH3&pd_rd_wg=ELqUj&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=77XY614VTSPFPRHKFJTE&psc=1&refRID=77XY614VTSPFPRHKFJTE&linkCode=ll1&tag=fily0e-21&linkId=e34120d7ebfe0c632a69611b6b9870ec&language=en_IN",
+                    "ProductName": "Motul 104103 7100 4T Fully Synthetic Ester 20W-50 API SN Petrol Engine Oil for Bikes (1 L)",
+                    "productImg": "https://m.media-amazon.com/images/I/51e61M3z18L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility: KTM Duke 200 / Bajaj Pulsar 200 NS, Pulsar 220, Pulsar 180, Pulsar 150, Avenger 220 DTS-i~*100% Synthetic with ester 4-Stroke engine oil. Formulated to meet the newest in motorcycle manufacturer specifications in terms of JASO and API. Designed with the perfect synergy for less oil consumption, reduced engine internal friction and extreme pressure performance, for more power~*Viscosity: 20W-50 - Oil Type : Synthetic petrol engine oil~*JASO MA2 ensure optimum clutch performace at start-up, acceleration and full speed~*API SN provide improved high temperature deposit protection for more stringent sludge control"
+                        },
+                        {
+                            "Brand": "Motul"
+                        }
+                    ],
+                    "price": 699,
+                    "strike": 820,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM009",
+                    "productURL": "https://www.amazon.in/Motul-3000-4T-Plus-Engine/dp/B01IDHD7PQ/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327006&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-6&linkCode=ll1&tag=fily0e-21&linkId=a61ecb02ff504168e1e22bed6e045122&language=en_IN",
+                    "ProductName": "Motul 3000 4T Plus 20W40 HC Tech Engine Oil for Bikes (1 L)",
+                    "productImg": "https://m.media-amazon.com/images/I/41vXUNVf2iL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Suitable for all types of 4 stroke bikes upto 150 cc~*Excellent operation at high temperature conditions~*High detergent and dispersant properties keep the engine, gear and wet clutch clean~*Reinforced anti-wear ability extends engine life~*Specifications: API SM, HC- Tech, JASO MA2 4- Stroke motorcycle oil"
+                        },
+                        {
+                            "Brand": "Motul"
+                        }
+                    ],
+                    "price": 351,
+                    "strike": 355,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM010",
+                    "productURL": "https://www.amazon.in/Castrol-POWER1-Racing-4T-Synthetic/dp/B07RLXS86W/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327006&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWVBQSjBZVDNERUhXJmVuY3J5cHRlZElkPUEwMjExMTExMkFRNEoxWTZXQkVUNCZlbmNyeXB0ZWRBZElkPUEwMDAwMDYwNE9EUjE0U0tUMjFZJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=&linkCode=ll1&tag=fily0e-21&linkId=978809404fe032fe7e5de66a0f02702f&language=en_IN",
+                    "ProductName": "Castrol POWER1 Racing 4T 10W-50 API SN Full Synthetic Engine Oil for Bikes (1L)",
+                    "productImg": "https://m.media-amazon.com/images/I/51bpVJeAORL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Castrol POWER1 Racing 4T is a fully synthetic engine oil for modern, high performance 4-stroke bikes~*Castrol POWER1 Racing fully synthetic oil with Race Derived Technology is proven to stay strong and deliver acceleration in race track conditions~*It is specifically designed for bikers who love the exhilaration of riding on the limit~*Fulfils requirements of API SN and JASO MA2 standards"
+                        },
+                        {
+                            "Brand": "Castrol"
+                        }
+                    ],
+                    "price": 805,
+                    "strike": 805,
+                    "rating": 4
+                },
+                {
+                    "productId": "CM011",
+                    "productURL": "https://www.amazon.in/TYRE-Blaze-BA21-90-12-Tubeless/dp/B071X66JRF/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327003&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-11&linkCode=ll1&tag=fily0e-21&linkId=cf7e7b8033e6ad7c4b94b2c5d89869d4&language=en_IN",
+                    "ProductName": "Jopasu Car Duster",
+                    "productImg": "https://m.media-amazon.com/images/I/51SGsOSiXmL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41igpJx+eUL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51SGsOSiXmL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "Dust is lifted and removed, not just pushed around.~*Used for home and office furniture too.~*Reduces the number of washes.~*Water saver product.~*Reliable performance"
+                        },
+                        {
+                            "Brand": "Jopasu"
+                        }
+                    ],
+                    "price": 699,
+                    "strike": 739,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CM012",
+                    "productURL": "https://www.amazon.in/Sheeba-SCAIO07-Multipurpose-Liquid-Polish/dp/B00TC5I66Y/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327009&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-7&linkCode=ll1&tag=fily0e-21&linkId=a33d2752daf97682052288202a83c7ef&language=en_IN",
+                    "ProductName": "Sheeba SCAIO07 All-in-One Multipurpose Liquid Polish (200 ml)",
+                    "productImg": "https://m.media-amazon.com/images/I/41uw0Hf1AVL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "It's active formula gives extra bright shine & new look to articles polished~*High gloss, contains a unique blend of ingredients that gives extra bright shine and cover protection~*Easy application, as simple to apply and as simple to buff and no extra efforts~*Long Lasting: Leaves a long lasting protective film, that prevents & lasts for long time.~*Multi-purpose: An ideal polish for application on Cars / Bikes & Scooter (Plastic, Rubber, Vinyl, Rexene, Surface etc.) Powder Coated Accessories, Car & Bike Headlights & Taillights etc."
+                        },
+                        {
+                            "Brand": "Sheeba"
+                        }
+                    ],
+                    "price": 142,
+                    "strike": 142,
+                    "rating": 4
+                },
+                {
+                    "productId": "CM013",
+                    "productURL": "https://www.amazon.in/SHOPTOSHOP-Bike-Blinker-Indicator-Stylish/dp/B07K5DQJQF/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327012&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-5&linkCode=ll1&tag=fily0e-21&linkId=ab90966cc5e59854424aada58696b467&language=en_IN",
+                    "ProductName": "SHOPTOSHOP Bike Handle Bar End LED Blinker Indicator Light with Stylish Finish (Set Of 2)",
+                    "productImg": "https://m.media-amazon.com/images/I/41f7cp3Dv4L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Color:: Amber And White.~*Universal For 22mm Handlebar motorcycles.~*Get the unique look & outstanding impression.~*Easy Installation, minor modification may required.~*A good assistant for motorcycle decoration. PLEASE USE ONLY 12 V BATTERY."
+                        },
+                        {
+                            "Brand": "SHOPTOSHOP"
+                        }
+                    ],
+                    "price": 156,
+                    "strike": 299,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "CM014",
+                    "productURL": "https://www.amazon.in/Probiker-Synthetic-Leather-Motorcycle-Gloves/dp/B00KJI2GIM/ref=as_li_ss_tl?pf_rd_i=4772060031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=92e0cb8e-365d-464c-a9a5-12c688a80920&pf_rd_r=AJ5SJENMYHA0NEPWG6PX&pf_rd_s=merchandised-search-8&pf_rd_t=101&qid=1581327015&refinements=p_85:10440599031&rps=1&s=automotive&sr=1-6&linkCode=ll1&tag=fily0e-21&linkId=ece41c692b06f5ed9004a39b64e4c351&language=en_IN",
+                    "ProductName": "Probiker Synthetic Leather Motorcycle Gloves (Black, XL)",
+                    "productImg": "https://m.media-amazon.com/images/I/51n1zlxZGYL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Vehicle Compatibility:Front Tyre for Mahindra Gusto, TVS Wego, TVS Jupiter, Rear Tyre for Hero Maestro Edge, Honda Activa 125, Honda Navi, Honda Aviator -Prev Model, Mahindra Gusto, TVS Wego, TVS Jupiter~*Specialized directional grooves, Zig-zag Centre groove~*Rigid shoulder design with cross cut grooves~*Better handling and good ride comfort~*Improved manoeuvrability and high wet traction~*Good cornering stability and high grip"
+                        },
+                        {
+                            "Brand": "Probiker"
+                        }
+                    ],
+                    "price": 345,
+                    "strike": 899,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "CM015",
+                    "productURL": "https://www.amazon.in/Big-Tree-C05A3006BK2XXCT-Cotton-Black/dp/B0761W2NNP/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B0761W2NNP&pd_rd_r=c2f6ca4b-f448-4118-8237-b2a3ca17a3f6&pd_rd_w=8oFJr&pd_rd_wg=3EAjW&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=7Z7XYK1Y2HQJYJ5ZBWJH&psc=1&refRID=7Z7XYK1Y2HQJYJ5ZBWJH&linkCode=ll1&tag=fily0e-21&linkId=c9ac7de87f804051b7c810d183109e84&language=en_IN",
+                    "ProductName": "Big Tree® Pro Bike Riding & Cycling Anti Pollution Dust Sun Protecion Half Face Cover Mask (Black)(Pack of 2)",
+                    "productImg": "https://m.media-amazon.com/images/I/51jHBqpGpPL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "«PROTECTION» This face mask Protects your skin from wind, dust, cold, pollution, sun and UV-rays~*«UTILITY» This mask can be worn as it is or can be worn under any helmet or cap. Can also be worn as a Half Face Mask~*«EASE AND COMFORT» Made from the softest material the face mask can be worn with ease and is very comfortable. Also comes with a velcro closure.~*«PURE AIR» With the Air Filter Mesh and Ultra Cool Technology of the mask you can breathe Pure, Cool Air always.~*«UNIVERSAL SIZE» It’s a one size fits all universal mask. Can be used by men, women and Teen. It’s a must for every ride outdoor."
+                        },
+                        {
+                            "Brand": "Big Tree®"
+                        }
+                    ],
+                    "price": 399,
+                    "strike": 162,
+                    "rating": 3.5
+                }
+            ]
+        },
+        {
+            "ProductType": "Computers & Accessories",
+            "product": [
+                {
+                    "productId": "CA001",
+                    "productURL": "https://www.amazon.in/dp/B011UT3L5A/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=GM7WGDT6XGYEEZBN7K0M&pf_rd_t=101&pf_rd_p=1748a038-52bb-4bf1-8bfe-655ccd6d4c00&pf_rd_i=15621166031&th=1&linkCode=ll1&tag=fily0e-21&linkId=3add37b47cfdf3f9bbd8286a78ef5f1c&language=en_IN",
+                    "ProductName": "HP DeskJet 2131 All-in-One Inkjet Colour Printer",
+                    "productImg": "https://m.media-amazon.com/images/I/41gkZjQ8uYL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41X3rP12iIL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41gkZjQ8uYL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "Printer Type - Inkjet; Functionality - All-in-One (Print, Scan, Copy) , Scanner type - Flatbed; Printer Output - Colour~*Connectivity - USB~*Pages per minute - 7.5 (Black & White), 5.5 (Colour) ; Cost per page - ₹4.8 (Black & White), ₹6.6 (Colour) - As per ISO standards~*Ideal usage - Home & Small Office, Low usage ( less than 100 pages per month)~*Page size supported - A4, B5, A6, DL envelope ; Duplex Print - Manual ; Print resolution - Up to 4800 x 1200 optimized DPI (Colour), Up to 1200 x 1200 rendered DPI (Black)~*Compatible Ink Cartridge - HP 803 Tri-Color & Black Original Ink Cartridges ; Page Yield - ~190 pages (Black & White) - ISO standards, Get 1 black & 1 tri-color basis cartridge with the printer~*Duty Cycle (Maximum monthly recommended prints) - Up to 1,000 pages per month~*Warranty - 1 year from the date of purchase~*Easily set up this all-in-one to print, scan, and copy with simple controls ; Save your space with a compact all-in-one designed to fit where you need it~*For any product related queries, kindly contact HP brand customer care on : [1800-2000-047]~*Manufacturer Detail: HP India Sales pvt limited, 24 Salarpuria Arena, Hosur main road, Adugodi , Bangalore -560030.~*Importer Details: HP India Sales pvt limited, 24 Salarpuria Arena, Hosur main road, Adugodi , Bangalore -560030."
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 3074,
+                    "strike": 4642,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "CA002",
+                    "productURL": "https://www.amazon.in/dp/B013FV2N5U/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=GM7WGDT6XGYEEZBN7K0M&pf_rd_t=101&pf_rd_p=1748a038-52bb-4bf1-8bfe-655ccd6d4c00&pf_rd_i=15621166031&linkCode=ll1&tag=fily0e-21&linkId=d1efdefed0147589b7765a970fdff96e&language=en_IN",
+                    "ProductName": "HP DeskJet 1112 Single Function Inkjet Colour Printer",
+                    "productImg": "https://m.media-amazon.com/images/I/41skFoegAXL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Printer Type - Inkjet; Functionality - Single Function (Print only) ; Printer Output - Colour~*Connectivity - USB~*Pages per minute - 7.5 (Black & White), 5.5 (Colour) ; Cost per page - ₹4.8 (Black & White), ₹6.6 (Colour) - As per ISO standards~*Ideal usage - Home & Small Office, Low usage ( less than 100 pages per month)~*Page size supported - A4, B5, A6, DL envelope ; Duplex Print - Manual ; Print resolution - Up to 4800 x 1200 optimized DPI (Colour), Up to 1200 x 1200 rendered DPI (Black)~*Compatible Ink Cartridge - HP 803 Tri-Color & Black Original Ink Cartridges ; Page Yield - ~190 pages (Black & White) - ISO standards, Get 1 black & 1 tri-color basis cartridge with the printer~*Duty Cycle (Maximum monthly recommended prints) - Up to 1,000 pages per month~*Warranty Details: 1 year manufacturer warranty from the date of purchase~*For any product related queries, kindly contact HP brand customer care on : [1800-2000-047]~*Manufacturer Detail: HP India Sales pvt limited, 24 Salarpuria Arena, Hosur main road, Adugodi , Bangalore -560030.~*Importer Details: HP India Sales pvt limited, 24 Salarpuria Arena, Hosur main road, Adugodi , Bangalore -560030."
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 1799,
+                    "strike": 2918,
+                    "rating": 3.5
+                },
+                {
+                    "productId": "CA003",
+                    "productURL": "https://www.amazon.in/HP-DeskJet-3636-Advantage-Wireless/dp/B013FV2JO0/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B013FV2JO0&pd_rd_r=0ece1e22-f76f-47be-96a4-546bdc495b45&pd_rd_w=DSylM&pd_rd_wg=6ow75&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=EAFPQD866EHCDMC5AEGA&psc=1&refRID=EAFPQD866EHCDMC5AEGA&linkCode=ll1&tag=fily0e-21&linkId=3a28b4f68ed2eea2502ec9a34d4b2869&language=en_IN",
+                    "ProductName": "HP DeskJet 3636 All-in-One Ink Advantage Wireless Colour Printer",
+                    "productImg": "https://m.media-amazon.com/images/I/41TdgqGulUL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41IbsOFgzuL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41Kx0J-tTML._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41TdgqGulUL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "Printer Type - Ink Advantage ; Functionality - All-in-One (Print, Scan, Copy) , Scanner type - Flatbed; Printer Output - Colour~*Voice-activated, Hands Free Printing: This printer has voice-activated printing feature which works with Alexa & Google Assistant. From shopping lists to crossword puzzles, use this HP printer to print with Alexa or Google Home~*Connectivity - Wi-Fi, USB, HP Smart App~*Compatible Ink Cartridge - HP 680 Tri-Color & Black Original Ink Cartridges ; Page Yield - ~480 pages (Black & White), 150 pages (Colour) - ISO standards, Get 1 black & 1 tri-color basis cartridge with the printer, with extra free black cartridge~*Warranty - 1 year from the date of purchase~*Pages per minute - 8.5 (Black & White), 6 (Colour) ; Cost per page - ₹1.4 (Black & White). ₹4.5 (Colour) - As per ISO standards~*Page size supported - A4, B5, A6, DL, envelope ; Duplex Print - Manual ; Print resolution - Up to 4800 x 1200 optimized DPI (Colour), Up to 1200 x 1200 rendered DPI (Black)~*Duty Cycle - Up to 1,000 pages (A4 per month) ; Ideal usage - Home & Small Office, Regular usage~*COntact_us on: [ 1800-2000-047 ]"
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 5499,
+                    "strike": 8100,
+                    "rating": 4
+                },
+                {
+                    "productId": "CA004",
+                    "productURL": "https://www.amazon.in/HP-X4E78AA-Combo-Pack-Tri-Color-Cartridges/dp/B07NSHR77R/ref=as_li_ss_tl?s=computers&ie=UTF8&qid=1581333859&sr=1-1&th=1&linkCode=ll1&tag=fily0e-21&linkId=543756e70e1bf0273df395eb48378e1b&language=en_IN",
+                    "ProductName": "HP 680 2-Pack Black/tri-Color Ink cartridges",
+                    "productImg": "https://m.media-amazon.com/images/I/41B9nL5G60L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Cartridge Colors: Black,Tri color~*Yield-480 (black) + 150 (color) pages~*Ink type-Pigment-Black,Dye - Colour~*Compatible With Printers: HP DeskJet IA 2135 All-in-One Printer,HP DeskJet IA 2138 All-in-One Printer,HP DeskJet IA 2675 All-in-One Printer,HP DeskJet IA 2676 All-in-One Printer,HP DeskJet IA 2677 All-in-One Printer,HP DeskJet IA 2678 All -in-One Printer,HP DeskJet~*IA 3635 All-in-One Printer,HP DeskJet IA 3638 All-in-One Printer,HP DeskJet IA 3835 All-in-One Printer,HP DeskJet IA 3838 All-in-One Printer,HP DeskJet IA 5075 All-in-One Printer,HP DeskJet IA 5078 All-in-One Printer,HP DeskJet IA 5085 AiO Printer,HP DeskJet IA~*5088 AiO Printer,HP DeskJet IA 5275 All-in-One Printer,HP DeskJet IA 5278 All-in-One Printer,HP DeskJet Ink Adv 3776 AiO Printer,HP DeskJet Ink Adv 4535 AiO Prntr,HP DeskJet Ink Adv 4538 AiO Prntr,HP DeskJet Ink Advantage 1115 Printer,HP DeskJet Ink Advantage~*1118 Printer,HP DeskJet Ink Advantage 3636 AiO Prntr,HP DeskJet Ink Advantage 3775 AiO Prntr,HP DeskJet Ink Advantage 3777 AiO Prntr,HP DeskJet Ink Advantage 3778 AiO Prntr,HP DeskJet Ink Advantage 3779 AiO Prntr,HP DeskJet Ink Advantage 4536 AiO Prntr,HP~*DeskJet Ink Advantage 4675 AiO Prntr,HP DeskJet Ink Advantage 4678 AiO Prntr,HP OfficeJet 3830 All-in-One Printer~*Manufacturer Detail: HP India Sales pvt limited, 24 Salarpuria Arena, Hosur main road, Adugodi , Bangalore -560030.~*Importer Details: HP India Sales pvt limited, 24 Salarpuria Arena, Hosur main road, Adugodi , Bangalore -560030."
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 1144,
+                    "strike": 1242,
+                    "rating": 4
+                },
+                {
+                    "productId": "CA005",
+                    "productURL": "https://www.amazon.in/Canon-PG-47-Ink-Cartridge-Black/dp/B00MOESXPE/ref=as_li_ss_tl?s=computers&ie=UTF8&qid=1581333859&sr=1-3&linkCode=ll1&tag=fily0e-21&linkId=ec10d0fe1c4434252c1bfc1996b4d68e&language=en_IN",
+                    "ProductName": "Canon PG-47 Ink Cartridge (Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/512lYAoAhsL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "PG47cartridge suitable for Pixma E400~*Color Type : Black~*Cartridge breathes life into every print, high-quality make and diligent performance~*Compatibility with Canon PIXMA E400,PIXMA E460 , PIXMA E477 , PIXMA E480 ,PIXMA E410 ,PIXMA E3170,PIXMA E470 ,PIXMA E4270"
+                        },
+                        {
+                            "Brand": "Canon"
+                        }
+                    ],
+                    "price": 646,
+                    "strike": 669,
+                    "rating": 4
+                },
+                {
+                    "productId": "CA006",
+                    "productURL": "https://www.amazon.in/HP-Pavilion-dh0044TX-i3-8145U-Graphics/dp/B07Q1Z819Z/ref=as_li_ss_tl?ref_=ast_sto_dp&th=1&psc=1&linkCode=ll1&tag=fily0e-21&linkId=1f48b4a72fcd0137f009ea0a14c44ae8&language=en_IN",
+                    "ProductName": "HP Pavilion x360 dh0044TX 2019 14-inch Laptop (8th Gen i3-8145U/4GB/1TB HDD + 256GB SSD/Windows 10 Home/2GB Graphics), Natural Silver",
+                    "productImg": "https://m.media-amazon.com/images/I/51DgpHCX92L._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41SU+ubBJ1L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41XmZQxFxHL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41FW000K+aL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51DgpHCX92L._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "2.1GHz Intel Core i3-8145U 8th Gen processor~*4GB DDR4 RAM~*1TB 5400rpm hard drive~*14-inch screen, NVIDIA GeForce MX130 GDDR5 2GB Graphics~*Windows 10 Home operating system~*1.59kg laptop"
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 60836,
+                    "strike": 62532,
+                    "rating": 4
+                }
+                ,{
+                    "productId": "CA007",
+                    "productURL": "https://www.amazon.in/HP-14-inch-Laptop-Windows-14q-cs0023TU/dp/B07X7JH41Q/ref=as_li_ss_tl?ref_=ast_sto_dp&th=1&psc=1&linkCode=ll1&tag=fily0e-21&linkId=4b952f9422c3320c689ef522b3c1f422&language=en_IN",
+                    "ProductName": "HP 14 Core i3 7th gen 14-inch Thin and Light Laptop (8GB/256GB SSD/Windows 10 Home/MS Office/Jet Black/1.43 kg), 14q-cs0023TU",
+                    "productImg": "https://m.media-amazon.com/images/I/414SHSAsHoL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/31vwuaMbTZL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/414SHSAsHoL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "Processor: 7th Generation Intel Core i3-7020U processor (2.3 GHz, 3 MB cache, 2 cores)~*Operating System: Pre-loaded Windows 10 Home with lifetime validity~*Display: 14-inch diagonal SVA BrightView micro-edge HD (1366x768) display~*Storage: 256 GB PCIe NVMe M.2 SSD~*Memory and Graphics: 8GB DDR4-2133 RAM(1 x 8 GB), with Intel HD Graphics 620~*Design and battery: Thin and light design | Laptop weight: 1.43 kg | Average battery life = 7 hours, Lithium battery~*This genuine HP laptop comes with 1 year onsite domestic warranty from HP covering manufacturing defects and not covering physical damage. For more details, see Warranty section~*Pre-installed Software: Microsoft Office Home & Student 2019 | In the box: Laptop with included battery and charger~*Ports and CD drive: 1 USB 2.0, 2 USB 3.0, 1 HDMI, 1 Audio-output | Without CD-Drive"
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 32890,
+                    "strike": 35999,
+                    "rating": 4
+                },
+                {
+                    "productId": "CA008",
+                    "productURL": "https://www.amazon.in/Lenovo-81TK008HIN-Convertible-I3-10110U-Integrated/dp/B083PFZXBW/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B083PFZXBW&pd_rd_r=75eeea79-1630-449c-9c3e-bc7b530cd7b1&pd_rd_w=w775l&pd_rd_wg=mGyVB&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=J0AZHYPZCKQPH3VGYHG3&psc=1&refRID=J0AZHYPZCKQPH3VGYHG3&linkCode=ll1&tag=fily0e-21&linkId=ea0e9d82978984c079b6d0014d5759cb&language=en_IN",
+                    "ProductName": "Lenovo IdeaPad C340 81TK008HIN 14-inch FHD IPS Convertible Laptop (10th Gen CORE I3-10110U/8GB/512GB SSD/Windows 10/Microsoft Office/Integrated Graphics), Platinum",
+                    "productImg": "https://m.media-amazon.com/images/I/41oLVGV2csL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Processor: 10th Gen Intel Core i3 10110U processor, 2.1Ghz base speed, 4.1Ghz max speed, 2 cores, 4Mb Smart Cache~*Operating System: Preloaded Windows 10 Home, with lifetime validity~*Display: 14-inch screen with (1920X1080) full HD display | Anti Glare technology | IPS Display~*Memory and Storage: 8 GB RAM | Storage 512 GB SSD~*Design and battery: 2 in 1 convertible Laptop |Laptop weight 1.65kg | Battery life upto: 8 hours | Backlit Keyboard~*This genuine Lenovo Laptop comes with 1 year onsite domestic warranty from Lenovo covering manufacturing defects and not covering physical damage. For more details, see Warranty section~*Pre-Installed Software: Windows 10 Home, Office Home and Student 2019 | Inside the box: Laptop, Charger, User Manual~*Ports and Optical drive: 2 USB 3.0 | 1 Type C (USB 3.0) | 1 HDMI 2.0 | 4-in-1 card reader (SD,SDHC,SDXC,MMC) | Combo audio and microphone jack | Without Optical-drive | Without LAN port"
+                        },
+                        {
+                            "Brand": "Lenovo"
+                        }
+                    ],
+                    "price": 52000,
+                    "strike": 71290,
+                    "rating": 5
+                },
+                {
+                    "productId": "CA009",
+                    "productURL": "https://www.amazon.in/Inspiron-3493-Ci5-1035G1-Microsoft-Graphics/dp/B0839LB5D6/ref=as_li_ss_tl?ref_=ast_sto_dp&linkCode=ll1&tag=fily0e-21&linkId=4195ff574e492910623aa23bdf887a31&language=en_IN",
+                    "ProductName": "DELL Inspiron 3493 14-inch FHD Thin & Light Laptop (10th Gen Ci5-1035G1/8GB/1TB HDD/Windows 10 + Microsoft Office/Intel HD Graphics), Silver, No Bag",
+                    "productImg": "https://m.media-amazon.com/images/I/41ke5P+dNHL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "1.00GhzGHz Intel Ci5-1035G1 10th Gen processor~*8GB DDR4 RAM~*1TB 5400rpm hard drive~*14-inch screen, Intel HD Graphics Graphics~*Windows 10 Home operating system~*6 hours battery life, 1.66kg laptop~*Processor detail~*1TB SATA HDD, 8GB DDR4 RAM,Intel HD Graphics~*14 inch, Windows 10 Home,Microsoft office 2019~*1 Year Manufacturer Warranty"
+                        },
+                        {
+                            "Brand": "Dell"
+                        }
+                    ],
+                    "price": 55990,
+                    "strike": 46990,
+                    "rating": 2.5
+                },
+                {
+                    "productId": "CA010",
+                    "productURL": "https://www.amazon.in/JioFi-JMR541-150Mbps-Wireless-Portable/dp/B07YM3WRJ5/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07YM3WRJ5&pd_rd_r=1dca4079-b64d-4f17-8e7b-109c524024be&pd_rd_w=fVqgn&pd_rd_wg=idrYR&pf_rd_p=fbf43daf-8fb3-47b5-9deb-ae9cce3969a9&pf_rd_r=6XC2W5JZP3GT0ETMDZNS&psc=1&refRID=6XC2W5JZP3GT0ETMDZNS&linkCode=ll1&tag=fily0e-21&linkId=d7a523af38ad48a80cf8c2785ae17a99&language=en_IN",
+                    "ProductName": "JioFi JMR541 150Mbps Wireless 4G Portable Router",
+                    "productImg": "https://m.media-amazon.com/images/I/21vaB52p77L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Enjoy 4G features on 2G/3G smart phones ; Operating System Support: WInXP, Win10, Mac and Linux~*True 4G speed - download speed up to 150 Mbps and upload speed up to 50 Mbps~*Make video and HD voice calls, audio and video conference, send SMS with Jio 4G voice app~*Recommended to connect up to 10 Wi-Fi enabled devices (smartphone, laptops, tablets and even smart TVs)~*For new Jio SIM connection please visit nearest Reliance Digital or Jio store. For technical issues kindly Contact_us on: [ 18008909999 ]~*Best in class battery (2300mAh) supports up to 6 hours of surf time~*Manufacturer Detail: Haier Appliances India Pvt Ltd., Address:- B-3, MIDC Ranjangaon, Shirpur, Pune, Maharashtra - 412208 acker Detail: Not Applicable, As Manufacture and Packer are same"
+                        },
+                        {
+                            "Brand": "JioFi"
+                        }
+                    ],
+                    "price": 1049,
+                    "strike": 2419,
+                    "rating": 4
+                },
+                {
+                    "productId": "CA011",
+                    "productURL": "https://www.amazon.in/gp/product/B07GVR9TG7/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=03ZMG5B77EJ4H0894BBJ&pf_rd_t=101&pf_rd_p=072e2923-7ae4-42c1-a156-0ebb5ef91774&pf_rd_i=1375427031&linkCode=ll1&tag=fily0e-21&linkId=3a94ddbda01cb876ecb13fea60815f67&language=en_IN",
+                    "ProductName": "TP-Link Archer C6 Gigabit Router Wi-Fi Dual Band AC1200 Wireless, 5 Gigabit Ports, 4 External Antennas and 1 Internal Antenna, Access Point Mode, MU-MIMO",
+                    "productImg": "https://m.media-amazon.com/images/I/41zNy6sDRkL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/31UyBaqVaBL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41AFV+iE+6L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/416nDaCoZWL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41UG2HxV+1L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41KNX5xkGyL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/31r63skWMCL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41zNy6sDRkL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "Supports 802.11ac standard~*Simultaneous 2.4GHz 300 Mbps and 5GHz 867 Mbps connections for 1200 Mbps of total available bandwidth~*4 external antennas and one internal antenna provide stable wireless connections and optimal coverage~*Easy network management at your fingertips with TP-Link tether~*MU-MIMO achieves 2X efficiency by communicating with up to 2 devices at once~*Supports access point mode to create a new Wi-Fi access point~*Protect your home network with firewalls and wireless encryption~*Establish a whitelist or blacklist to allow or block certain devices from accessing the internet~*free 24/7 technical support:Toll Free No: 1800 2094 168 ,Email: support.in@tp-link.com~*Manufacturer Detail: TP-Link Technologies Co., Ltd,South Building, No.5 Keyuan Road, Central Zone,Science & Technology Park, Nanshan, Shenzhen, P.R. China~*Packer Detail: TP-Link Technologies Co., Ltd,South Building, No.5 Keyuan Road, Central Zone,Science & Technology Park, Nanshan, Shenzhen, P.R. China~*Importer Details: TP-LINK India Private Limited,Green Industrial Park, Dongri Pada, Poman,Kaman-Bhiwandi Road, Vasai East, Palghar, Maharashtra – 401208"
+                        },
+                        {
+                            "Brand": "TP-Link"
+                        }
+                    ],
+                    "price": 2299,
+                    "strike": 4999,
+                    "rating": 4
+                },
+                {
+                    "productId": "CA012",
+                    "productURL": "https://www.amazon.in/Canon-EOS-200D-II-55-250mm/dp/B07S26X16N/ref=as_li_ss_tl?m=A14CZOWI0VEHLG&pf_rd_i=1388977031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ce2e928c-6c29-460c-a10d-c6bbba03b52e&pf_rd_r=M0N717ZV06W1QN3NGWD9&pf_rd_s=merchandised-search-2&pf_rd_t=101&qid=1581340874&refinements=p_6:A14CZOWI0VEHLG,p_89:Canon&s=electronics&smid=A14CZOWI0VEHLG&sr=1-1&linkCode=ll1&tag=fily0e-21&linkId=02f8be759bf501552b9f9edf6d1ed041&language=en_IN",
+                    "ProductName": "Canon EOS 200D II 24.1MP Digital SLR Camera + EF-S 18-55mm is STM Lens + EF-S 55-250mm is STM Lens (Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/415ZSUQ2erL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "DIGIC 8 PROCESSOR~*APS-C Approx 24.1 mp CMOS Sensor~*9-point AF during optica viewfinder shooting~*Dual Pixel CMOS AF~*Eye detection AF~*Item comes with a 16GB Memory card and bag~*4K Movie~*4K time-lapse movie~*Movie Digital IS"
+                        },
+                        {
+                            "Brand": "Canon"
+                        }
+                    ],
+                    "price": 57499,
+                    "strike": 65995,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CA013",
+                    "productURL": "https://www.amazon.in/Zebronics-Transformer-Gaming-Multimedia-Keyboard/dp/B07BRKK9JQ/ref=as_li_ss_tl?smid=A14CZOWI0VEHLG&pf_rd_p=69568563-796e-42cd-822c-e3d386183424&pf_rd_s=merchandised-search-1&pf_rd_t=101&pf_rd_i=14142561031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=ERAFKYXRBXRQ6ZNZT9N2&linkCode=ll1&tag=fily0e-21&linkId=141c1b7fbf4a8637583a3947188efeaa&language=en_IN",
+                    "ProductName": "ZEBRONICS Gaming Multimedia USB Keyboard & USB Mouse Combo -Transforme",
+                    "productImg": "https://m.media-amazon.com/images/I/51YSwNjbFOL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Multicolor LED ( 4 modes - 3 light modes and 1 off mode ),Integrated media control Windows key Disable / Enable function~*All Keys Disable / Enable function , All Keys Disable / Enable function~*2-steps stand design, Laser keycaps~*Aluminum body, Backlight LED On / Off function~*Braided cable, high quality USB connector"
+                        },
+                        {
+                            "Brand": "ZEBRONICS"
+                        }
+                    ],
+                    "price": 1099,
+                    "strike": 1599,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CA014",
+                    "productURL": "https://www.amazon.in/Logitech-Hero-Gaming-Mouse-Black/dp/B07GBZ4Q68/ref=as_li_ss_tl?smid=A14CZOWI0VEHLG&pf_rd_p=69568563-796e-42cd-822c-e3d386183424&pf_rd_s=merchandised-search-1&pf_rd_t=101&pf_rd_i=14142561031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=ERAFKYXRBXRQ6ZNZT9N2&linkCode=ll1&tag=fily0e-21&linkId=edac7d35d10b334a5a30104bb0bd4e0b&language=en_IN",
+                    "ProductName": "Logitech G502 Hero High Performance Wired Gaming Mouse, Hero 16K Sensor, 16,000 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC/Mac - Black",
+                    "productImg": "https://m.media-amazon.com/images/I/31ccvquN3JL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41YMwogLxRL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41CIXnVukBL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/31ccvquN3JL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "High-performance HERO 16K Sensor: Logitech's most accurate sensor yet with up to 16,000 DPI for the ultimate in gaming speed, accuracy and responsiveness across entire DPI range; Superior Responsiveness: USB data format 16bits/axis ; Cable length: 2.10m~*11 Customizable Buttons and Onboard Memory: Assign custom commands to the buttons and save up to five ready-to-play profiles directly to the mouse ; Compatibility with Windows 7 or later and macOS 10.11 or later~*Adjustable Weight System: Arrange up to five removable 3.6g weights inside the mouse for personalized weight and balance tuning~*Programmable RGB Lighting and LIGHTSYNC Technology: Customize lighting from nearly 16.8 million colors to match your team's colors, sport your own or sync colors with other Logitech G gear~*Mechanical Switch Button Tensioning: Metal spring tensioning system and pivot hinges are built into left and right gaming mouse buttons for a crisp, clean click feel with rapid click feedback~*Manufacturer Detail: Logitech Asia Pacific Ltd, Units 1003, Tower 1, Cheung Sha Wan Plaza, 833  Cheung Sha Wan Road, Kowloon, Hong Kong.~*Packer Detail: Logitech Asia Pacific Ltd, Units 1003, Tower 1, Cheung Sha Wan Plaza, 833  Cheung Sha Wan Road, Kowloon, Hong Kong.~*Importer Details: Rashi peripherals pvt ltd, Rashi complex, A Building Survey no. 186, Dongaripada poman village, Vasai - Bhiwandi Road, Dist Thane , Maharastra - 401208"
+                        },
+                        {
+                            "Brand": "Logitech"
+                        }
+                    ],
+                    "price": 3895,
+                    "strike": 6495,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "CA015",
+                    "productURL": "https://www.amazon.in/Redgear-Cosmo-7-1-Headphones-Controller/dp/B079S811J3/ref=as_li_ss_tl?smid=A14CZOWI0VEHLG&pf_rd_p=69568563-796e-42cd-822c-e3d386183424&pf_rd_s=merchandised-search-1&pf_rd_t=101&pf_rd_i=14142561031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=ERAFKYXRBXRQ6ZNZT9N2&linkCode=ll1&tag=fily0e-21&linkId=dd989fc9fa7fa224488b2c11c431a8a7&language=en_IN",
+                    "ProductName": "Redgear Cosmo 7.1 USB Gaming Headphones with RGB LED Effect, Mic and in-line Controller for PC",
+                    "productImg": "https://m.media-amazon.com/images/I/41nxMTTPTAL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "7.1 Virtual surround sound for all types of games and music~*Noise cancellation microphone to avoid disturbance~*LED effect on the Earcups and tip of the microphone~*Customization driver for audio customization~*Only PC Compatible (USB: - Audio in and Audio out)~*Impedance: 1kHz/32Ω. Sensitivity: 103±3dB~*Manufacturer Detail: Redwood Interactive , Address :- 131, guru gobin Industrial estate, next to jay coach Goregaon east Mumbai 70~*Packer Detail: Redwood Interactive , Address :- 131, guru gobin Industrial estate, next to jay coach Goregaon east Mumbai 63~*Importer Details: Redwood Interactive , Address :- 131, guru gobin Industrial estate, next to jay coach Goregaon east Mumbai 69"
+                        },
+                        {
+                            "Brand": "Redgear"
+                        }
+                    ],
+                    "price": 1804,
+                    "strike": 2999,
+                    "rating": 4.5
+                }
+            ]
+        },
+        {
+            "ProductType": "Electronics",
+            "product": [
+                {
+                    "productId": "EL001",
+                    "productURL": "https://www.amazon.in/dp/B07DJCVTDN/ref=as_li_ss_tl?pf_rd_s=merchandised-search-5&pf_rd_t=Gateway&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=HGA3E3V958X3GV9WZK2Z&pf_rd_p=a7eca276-1d3e-4601-a016-b330f3f854b2&th=1&linkCode=ll1&tag=fily0e-21&linkId=f4e5bfd974a713fd6070d7d3585caade&language=en_IN",
+                    "ProductName": "OnePlus 7T (Frosted Silver, 8GB RAM, Fluid AMOLED Display, 128GB Storage, 3800mAH Battery)",
+                    "productImg": "https://m.media-amazon.com/images/I/41rmjyCVx0L._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41CK68JShbL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41rmjyCVx0L._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "48+12+16MP triple rear camera with telephoto lens + ultrawide angle lens | 16MP front camera with 4K video capture @ 30/60 FPS, ultrashot, nightscape, portrait, pro mode, panorama, HDR, AI scene detection, RAW image~*16.63 centimeters (6.55 inch) 90Hz fluid AMOLED with 2400 x 1080 pixels resolution and 402 ppi pixel density~*Memory, Storage & SIM: 8GB RAM | 128GB internal memory | Dual SIM (nano+nano) dual-standby (4G+4G)~*Oxygen OS based on Android v10 operating system with 2.96GHz Qualcomm Snapdragon 855 Plus AI Engine octa-core, 7nm processor, Adreno 640~*3800mAH lithium-ion battery~*1 year manufacturer warranty for device and 6 months manufacturer~* warranty for in-box accessories including batteries from the date of purchase~*Box also includes: Warp charge 30 power adapter, warp type-C cable (support usb 2. 0), quick start guide, welcome letter, safety information and warranty card, logo sticker, case, screen protector (pre-applied), sim tray ejector"
+                        },
+                        {
+                            "Brand": "OnePlus"
+                        }
+                    ],
+                    "price": 34999,
+                    "strike": 37999,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "EL002",
+                    "productURL": "https://www.amazon.in/Sennheiser-CX-275-Universal-Headphone/dp/B084DLKTP3/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B008V6T1IW&pd_rd_r=176e4594-415c-4b06-8f02-1ebbb3b8acd6&pd_rd_w=0H9Tt&pd_rd_wg=aI5IB&pf_rd_p=65a2b3b4-c6ee-481d-84c0-06fec97024ff&pf_rd_r=D73MB51MBHH6EJBSME7R&refRID=D73MB51MBHH6EJBSME7R&smid=A14CZOWI0VEHLG&th=1&linkCode=ll1&tag=fily0e-21&linkId=38d42b548554f40ef2043caed8fbae90&language=en_IN",
+                    "ProductName": "Sennheiser CX 275 S + Sennheiser CX 6.0 BT Wireless Neckband",
+                    "productImg": "https://m.media-amazon.com/images/I/31D-a3sg9TL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Signature Sennheiser sound - high powered dynamic speaker systems for great bass-driven stereo sound~*Premium comfort - ear adaptors in different sizes for excellent ear canal fit and ambient noise attenuation~*Intuitive design - highly-aesthetic, ergonomic design , Frequency Response : 17-23,000 Hz~*Ease of use - integrated microphone and smart remote for enhanced usability~*Convenience at its best - storage pouch for hassle-free portability~*NOTE : Additional 3.5 mm Adapter doesn’t work with all the products. This need to be used only when the headset is not compatible directly to a smartphone~*Peace of mind – two-year international warranty. For product related queries contact customer care, toll free :1800 200 3632"
+                        },
+                        {
+                            "Brand": "Sennheiser"
+                        }
+                    ],
+                    "price": 7747,
+                    "strike": 9980,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL003",
+                    "productURL": "https://www.amazon.in/dp/B00DH9NPBM/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=fily0e-21&linkId=1284432801beb251bb014cc0bd3c61dd&language=en_IN",
+                    "ProductName": "Fossil Machine Analog Brown Dial Men's Watch - FS4656",
+                    "productImg": "https://m.media-amazon.com/images/I/510sSfP94AL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Dial Color: Black, Case Shape: Round, Dial Glass Material: Mineral~*Band Color: Brown: Band Material: Leather~*Watch Movement Type: Quartz, Watch Display Type: Analog~*Case Material: Stainless Steel, Case Diameter: 42 millimeters, Stainless Steel Bezel~*Water Resistance Depth: 50 meters, Buckle Clasp~*Stopwatch, 3 subdials: stopwatch second hand, stopwatch minute hand, and 24-hour time~*Warranty type:Manufacturer; 2 Years International Warranty~*Remove plastic at crown to start the watch~*A battery-powered watch with timer functionality"
+                        },
+                        {
+                            "Brand": "Fossil"
+                        }
+                    ],
+                    "price": 10795,
+                    "strike": 10795,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "EL004",
+                    "productURL": "https://www.amazon.in/Fossil-Venture-Analog-Digital-Womens-Watch-FTW6003/dp/B074VFVMY3/ref=as_li_ss_tl?fst=as:off&qid=1581422482&s=watches&sr=1-1&srs=12516989031&linkCode=ll1&tag=fily0e-21&linkId=858beac4a879124fd8fc68d31f75dfc7&language=en_IN",
+                    "ProductName": "Fossil Venture Women's Smartwatch - FTW6003",
+                    "productImg": "https://m.media-amazon.com/images/I/41Bqtd5x4GL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Notifications: Social media / Text / Email / App alerts / Multiple time zones / Alarm clock / Calendar alerts~*Compatibility: Android OS 4.4+ (excluding Go edition) and iOS 9.3+~*Charging required: Yes; Activity tracking: Yes; Notifications: Yes; Functions: Personalize your dial / Control your music / Voice activated google / LED flashlight / Google maps enabled~*Battery life: Estimated all day; Connectivity: Bluetooth smart enabled/4.1 Low energy; Compatibility: Android OS 4.3+, iPhone 5/ iOS 9+; Included accessories: Charging required: Yes~*This wearable has an estimated 24-hour battery life.(Battery life varies based on usage)~*To reset the watch: Open the Fossil Q app and from the app's main menu, open the device settings. Disconnect the watch from the app and go to the phone's bluetooth settings to forget or unpair the old watch. On the back of the watch, gently press the on/off button and release after you feel 2 separate vibrations~*Remove plastic at crown to start the watch"
+                        },
+                        {
+                            "Brand": "Fossil"
+                        }
+                    ],
+                    "price": 15990,
+                    "strike": 15990,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL005",
+                    "productURL": "https://www.amazon.in/gp/product/B07XLMY2HW/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=SPPAWCHGKXDSGRAK5SW6&pf_rd_t=101&pf_rd_p=978d4920-64d0-499c-9796-6bee69951887&pf_rd_i=12516989031&linkCode=ll1&tag=fily0e-21&linkId=7b926c15816ffc50b83b90cf880d413f&language=en_IN",
+                    "ProductName": "Huami Amazfit GTS Smart Watch(Obsidian Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/41fJdU2nz1L._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41hVfxAK9ZL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41hVfxAK9ZL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41rO-sBDhUL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41fJdU2nz1L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41yqeLMuZoL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "1.65” AMOLED Display with high 341 PPI resolution and Corning Gorilla glass~*Metal body (Aluminum Alloy), giving premium and solid look and feel~*5 ATM water-resistance to ensure a normal use up to 50 meters water pressure~*Activity Tracking with distance, active hours, calories and steps~*Smart Notifications with customized vibrations, to get all your important information right on your wrist~*14 days battery life to avoid frequent charging and focus on your daily activities mind free"
+                        },
+                        {
+                            "Brand": "Amazfit"
+                        }
+                    ],
+                    "price": 9999,
+                    "strike": 12999,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL006",
+                    "productURL": "https://www.amazon.in/gp/product/B0815SBQ9W/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-1&pf_rd_r=NKZ7B8RZ21700VJ5M9NQ&pf_rd_t=101&pf_rd_p=fcb0498f-af5f-45f5-adad-dc8063ffe6db&pf_rd_i=1375344031&linkCode=ll1&tag=fily0e-21&linkId=bcc6f775e9c89e863b8c33bea6451c75&language=en_IN",
+                    "ProductName": "AMD Ryzen Threadripper 3990X HEDT Processor with 64 Cores 128 Threads 292MB Cache x16 PCIe 4.0 Max Boost Clock of 4.3Ghz",
+                    "productImg": "https://m.media-amazon.com/images/I/41cAAdXKoeL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "AMD Ryzen Threadripper 3990X processor is designed to offer you the highest multiprocessing performance on a desktop processor. The 64 cores processor equipped with true machine learning is designed to utilize the resources effectively and will offer your brilliant rendering experience when paired with equally capable graphics card.~*Ryzen Threadripper 3990X comes with 128 threads which would enable lighting fast creative workloads. Special effect artists would benefit in a positive way with extreme performance, render times worked down to irrelevant levels and seamless designing and content creation and streaming.~*The unlocked processor has a base clock speed of 2.9 GHz with Max Boost Clock of 4.3 GHz. Although a cooling solution is not included the processor is optimized for liquid cooling which would make sure the processor is cooled sufficiently ensuring stable performance and enabling effective use of the available fire power.~*All this paired with 292 MB of combined game cache with L1 of 4 MB, L2 of 32 MB and L3 cache of 256 MB for rapid access to large data sets. The massive cache memory on-board translates to the best of performance even on the most demanding of setups.~*It has a TDP rating of 280W with quad channel DDR4 support with available ECC support for reliable throughput and support for up-to 3200Mhz. The processor is recommended to go with TRX40 Chipset with a Ryzen ready sTRX4 motherboard. It is based on 7nm ‘Zen Core 2’ architecture providing improved energy efficiency, higher clock speeds. It also supports AMD Ryzen Master Utility."
+                        },
+                        {
+                            "Brand": "AMD"
+                        }
+                    ],
+                    "price": 419990,
+                    "strike": 500000,
+                    "rating": 5
+                },
+                {
+                    "productId": "EL007",
+                    "productURL": "https://www.amazon.in/dp/B07XVL4L3X/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=fily0e-21&linkId=b8dcf801573c6898718d6a0f1d3e9597&language=en_IN",
+                    "ProductName": "Apple iPhone 11 Pro Max (64GB) - Space Grey",
+                    "productImg": "https://m.media-amazon.com/images/I/41dK-v5be0L._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41Q1rZiv-SL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41IaNH6ppgL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/412AHmtVU7L._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41dK-v5be0L._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "6.5-inch Super Retina XDR OLED display~*Water and dust resistant (4 meters for up to 30 minutes, IP68)~*Triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras; Night mode, Portrait mode, and 4K video up to 60fps~*12MP TrueDepth front camera with Portrait Mode, 4K video, and Slo-Mo~*Face ID for secure authentication and Apple Pay~*A13 Bionic chip with third-generation Neural Engine~*Fast charge with 18W adapter included~*Wireless charging~*Manufacturer Detail: Apple Inc, One Apple Park Way, Cupertino, CA 95014, USA~*Packer Detail: Designed by Apple in California, Assembled in China~*Importer Details: Apple India Private Limited No. 24, 19th Floor, Concorde Tower C, UB City, Vittal Mallya Road, Bangalore - 560001"
+                        },
+                        {
+                            "Brand": "Apple"
+                        }
+                    ],
+                    "price": 103900,
+                    "strike": 109900,
+                    "rating": 4.4
+                },
+                {
+                    "productId": "EL008",
+                    "productURL": "https://www.amazon.in/dp/B07YP6CFFK/ref=as_li_ss_tl?pf_rd_s=merchandised-search-11&pf_rd_t=Gateway&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=1YK0TPKYE3GJYFHPYNBE&pf_rd_p=04467810-602b-45d8-b1a1-e5ed367275ae&th=1&linkCode=ll1&tag=fily0e-21&linkId=76759b06eefe688dd7bebf2ba71fb00d&language=en_IN",
+                    "ProductName": "Nokia 6.2 (Ceramic Black, 4GB RAM, 64GB Storage)",
+                    "productImg": "https://m.media-amazon.com/images/I/41DSzpsP58L._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41fO7tlTnAL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41DSzpsP58L._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "16+5+8MP triple rear camera LED flash with depth sensor, with ultra-wide lens | 8MP front camera~*16 centimeters (6.3-inch) Full HD+ screen pure display touchscreen with 1080 x 2340 pixels resolution | corning gorilla glass~*Memory, Storage & SIM: 4GB RAM | 64GB internal memory expandable up to 512GB | Dual SIM (nano+nano) dual-standby (4G+4G)~*Android v9 Pie operating system with Qualcomm Snapdragon 636 octa core processor~*3500mAH lithium_ion battery~*1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase~*Box also includes: 5V/2A Charge, 1m Type-C USB Cable, Headset, Quick Start Guide and Sim Pin"
+                        },
+                        {
+                            "Brand": "Nokia"
+                        }
+                    ],
+                    "price": 11899,
+                    "strike": 17699,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL009",
+                    "productURL": "https://www.amazon.in/dp/B07VDRGCHN/ref=as_li_ss_tl?pf_rd_s=merchandised-search-11&pf_rd_t=Gateway&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=1YK0TPKYE3GJYFHPYNBE&pf_rd_p=04467810-602b-45d8-b1a1-e5ed367275ae&linkCode=ll1&tag=fily0e-21&linkId=c362031b6404ed4ee0253415d2f078e7&language=en_IN",
+                    "ProductName": "Honor 20i (Phantom Blue, 128GB Storage, Triple AI Camera)",
+                    "productImg": "https://m.media-amazon.com/images/I/41PNsAGvFpL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "24+8+2MP AI triple rear camera with wide angle lens and depth assist lens | 32MP AI front camera~*15.7734 centimeters (6.21-inch) FHD+ drew drop display, 90+ percent screen to body ratio with 2340 x 1080 pixels resolution~*Memory, Storage & SIM: 4GB RAM | 128GB internal memory expandable up to 512GB | Dual SIM (nano+nano) dual-standby (4G+4G)~*Android v9+EMUI 9.0.1 operating system with 2.2GHz Kirin 710F octa core processor~*3400mAH lithium-polymer battery~*1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase~*Box also includes: Charger, TPU cover, data cable, SIM eject tool, TP protective film (attached on the phone before delivery), warranty card and user manual~*Brand contact Number:1800-210-9999"
+                        },
+                        {
+                            "Brand": "Honor"
+                        }
+                    ],
+                    "price": 10999,
+                    "strike": 16999,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL010",
+                    "productURL": "https://www.amazon.in/HP-Chromebook-Touchscreen-Bluetooth-14-ca002TU/dp/B082TPW5XR/ref=as_li_ss_tl?pf_rd_i=1375424031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=93ab47fc-f487-498b-aff1-4e97b87b9dbc&pf_rd_r=P88JH8YAY6FFEZGKCXN4&pf_rd_s=merchandised-search-9&pf_rd_t=101&qid=1581422276&refinements=p_85:10440599031,p_72:1318477031&rps=1&s=computers&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFJWDU4NVpUUUhFVTkmZW5jcnlwdGVkSWQ9QTA1MjM4NzQzVlBEQk1WNTlCRlU1JmVuY3J5cHRlZEFkSWQ9QTA0MDI5ODQ5SzQzN003TURLNkYmd2lkZ2V0TmFtZT1zcF9hdGZfYnJvd3NlJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1&linkCode=ll1&tag=fily0e-21&linkId=8a44bb0094dc8802bff4b97240f3b16b&language=en_IN",
+                    "ProductName": "HP Chromebook 14-Inch Touchscreen Laptop with Bluetooth Wireless Headset and Voice enabled smart speaker (Intel N3350/4GB/64GB, Cloud storage/Chrome OS/Backlit/1.5 kg) 14-ca002TU (Charcoal Grey)",
+                    "productImg": "https://m.media-amazon.com/images/I/51A7gtWWtcL._SL250_.jpg",
+                    "moreImage":[
+                        "https://m.media-amazon.com/images/I/41uAVe4JGdL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/41uAVe4JGdL._SL250_.jpg",
+                        "https://m.media-amazon.com/images/I/51A7gtWWtcL._SL250_.jpg"
+                    ],
+                    "product_specification": [{
+                            "Description": "CHROMEBOOK with BOLTT WIRELESS HEADSET and VOICE ENABLED SMART SPEAKER: All the power you need to stay productive and entertained on a seamless Chrome experience with Battery life of upto 10 hours~*POWERFUL PERFORMANCE and SLEEK DESIGN: A CHROMEBOOK IS A LAPTOP THAT RUNS GOOGLE'S CHROME OS OPERATING SYSTEM. Immerse yourself in dual speakers and Audio by Band O PLAY, and easily share your screen with a flexible hinge that allows up to 180-degree rotation. DISPLAY: Touchscreen 14-inch diagonal HD SVA micro-edge WLED-backlit (multitouch-enabled) edge-to-edge glass (1366 x 768)~*OPERATING SYSTEM: Chrome OS. BOOTS IN SECONDS: Powered by Chrome OS with automatic software updates so you'll always have the latest virus protection. It starts up in less than 10 seconds, stays fast throughout the day, and won't slow down over time. PROCESSOR: Intel N3350, 1.1GHz base processor speed, goes up to 2.4GHz, 2 Cores, 2MB Cache~*MEMORY and STORAGE: 4 GB DDR4-2400 SDRAM | HARD DRIVE: 64 GB eMMC | Expandable upto 256 GB | 100 GB Google Drive storage. WARRANTY: This laptop comes with a 1-year domestic warranty covering manufacturing defects and not covering physical damage. For more details, see Warranty section below. APPS: Access to favorite apps from Google Play like Google Drive, Gmail, YouTube, Evernote, Slack, Infinite Painter, Lightroom, MS Office~*WIRELESS SMART AUDIO COMPANIONS: Get an In Ear Bluetooth 5.0 Neckband that has Incredible Sound and powerful bass. It is lightweight, durable and so comfortable that you can wear it all day long. The hook design of magnetic earbuds ensure that they do not fall out of your ears during running. The neckband also has Google and Siri Assistance and a great playtime. Also get a voice enabled smart speaker under redemption"
+                        },
+                        {
+                            "Brand": "HP"
+                        }
+                    ],
+                    "price": 23990,
+                    "strike": 26888,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL011",
+                    "productURL": "https://www.amazon.in/Lenovo-Ideapad-A6-9225-Windows-81N30063IN/dp/B081Z4H8BM/ref=as_li_ss_tl?pf_rd_i=1375424031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=93ab47fc-f487-498b-aff1-4e97b87b9dbc&pf_rd_r=P88JH8YAY6FFEZGKCXN4&pf_rd_s=merchandised-search-9&pf_rd_t=101&qid=1581422276&refinements=p_85:10440599031,p_72:1318477031&rps=1&s=computers&sr=1-3&linkCode=ll1&tag=fily0e-21&linkId=a36e85d08b094dd232f921401d96982e&language=en_IN",
+                    "ProductName": "Lenovo Ideapad S145 AMD A6-9225 15.6 inch HD Thin and Light Laptop (4GB/1TB/Windows 10/Grey/1.85Kg), 81N30063IN",
+                    "productImg": "https://m.media-amazon.com/images/I/41-OnI0081L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "Processor: AMD A6-9225 processor, base speed 2.6 Ghz, max speed 3 Ghz, 2 Cores, 1 MB smart cache~*Operating System: Pre-loaded Windows 10 with lifetime validity~*Display: 15.6-inch screen with (1366X768) HD display | Anti Glare technology | Connectivity: 802.11 AC 1x1 Wi-Fi and Bluetooth 4.2~*Memory and Storage: 4GB RAM | Storage: 1 TB HDD~*Design and battery: Thin and light Laptop| 180 Degree Hinge| Laptop weight 1.85kg | Battery Life: Upto 5.5 hours as per MobileMark 2014~*This genuine Lenovo Laptop comes with 1 year onsite domestic warranty from Lenovo covering manufacturing defects and not covering physical damage. For more details, see Warranty section~*Inside the box: Laptop, Charger, User Manual~*Ports and Optical Drive: 1 HDMI, 2 USB 3.0, USB 2.0 |4-in-1 card reader (SD,SDHC,SDXC,MMC)|Combo audio and microphone jack |No Optical Drive"
+                        },
+                        {
+                            "Brand": "Lenovo"
+                        }
+                    ],
+                    "price": 17949,
+                    "strike": 25790,
+                    "rating": 3.4
+                },
+                {
+                    "productId": "EL012",
+                    "productURL": "https://www.amazon.in/gp/product/B07W5QZQ45/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=3KDBR4TQCK0APXW7Z8WC&pf_rd_t=101&pf_rd_p=766fe60d-b28c-40b0-a262-da1faa10849c&pf_rd_i=976419031&linkCode=ll1&tag=fily0e-21&linkId=0821bff9304c9c5d1c06256710332a8d&language=en_IN",
+                    "ProductName": "OnePlus 138.8 cm (55 inches) Q1 Series 4K Certified Android QLED TV 55Q1IN-1 (Black) (Without Stand)",
+                    "productImg": "https://m.media-amazon.com/images/I/317AOXUyW3L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "This TV doesn't come with table-top stand. It comes with a wall mount inside the box. Table-top stand has to be purchased separately if needed.~*Resolution: 4K Ultra HD (3840x2160) ; Motion Rate 480 Hertz; Actual colour and dimension may differ from the screen image~*Connectivity: 4 HDMI ports (HDMI 2 supports ARC) to connect set top box, Blu Ray players, gaming console | 3 USB port (USB 3.0*1, USB 2.0*1, USB Type C*1) to connect hard drives and other USB devices~*Sound : 50 Watts Output | Alluring sound | Dolby Atmos | Full range 2 Speaker | 2 Sub-woofer~*Smart TV Features : Built-In Wifi | Android TV | Google assistant | Oxygen OS with Android Pie (9) | RAM 3 GB | 16 GB Storage | CPU: A53*4 | OnePlus PQ Engine Gamma Color Magic | Chromecast Built-in |OxygenPlay VOD selection | Screen casting | OnePlus Connect Mobile Sync and control | Bluetooth Stereo mode | File browser(local media player)~*Display : QLED 120% NTSC | Bezel Less Design | Support HDR10，HDR10+，HLG decode, Dolby vision certification | Most holistic experience~*Warranty Information: 1 year warranty from date of purchase. Avail warranty support from ‘Your Orders’, fulfilled by Amazon~*Installation/Wall mounting/demo will be arranged by Amazon Home Services. For any other information, please contact Amazon customer support~*Easy returns: This product is eligible for replacement within 10 days of delivery in case of any product defects, damage or features not matching the description provided"
+                        },
+                        {
+                            "Brand": "OnePlus"
+                        }
+                    ],
+                    "price": 69899,
+                    "strike": 69899,
+                    "rating": 4
+                },
+                {
+                    "productId": "EL013",
+                    "productURL": "https://www.amazon.in/gp/product/B07VFKBQ3K/ref=as_li_ss_tl?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=96CQZYJZPT23E4WAZF1F&pf_rd_t=101&pf_rd_p=76be1bcd-03b2-42cd-9915-4425dfbc8158&pf_rd_i=14364843031&linkCode=ll1&tag=fily0e-21&linkId=fbfde0fb3e5f51d80fe720ef6e37dc1e&language=en_IN",
+                    "ProductName": "Bose Portable Home Speaker with Alexa Voice Control Built-in, Black",
+                    "productImg": "https://m.media-amazon.com/images/I/31Ga7Eog4iL._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "The most versatile smart speaker from Bose a home speaker, a portable speaker, and a voice control speaker, all in one.~*Enjoy 360 degrees of deep, clear, lifelike sound and powerful bass, no matter where you play it, no matter what you listen to.~*Around the house, You can move it from room to room and out of the house, You can take it with you wherever you go.~*Within range of your Wi-Fi network, control the speaker with your voice and use it as an alexa speaker or your Google assistant speaker~*Outside Wi-Fi range, control it with your mobile phone or tablet to listen to anything your mobile device can play.~*Wireless Communication Technology: Bluetooth;Wi-Fi"
+                        },
+                        {
+                            "Brand": "Bose"
+                        }
+                    ],
+                    "price": 31500,
+                    "strike": 31500,
+                    "rating": 4.5
+                },
+                {
+                    "productId": "EL014",
+                    "productURL": "https://www.amazon.in/Contagious-Online-Media-Network-Pvt/dp/B07587F1Y1/ref=as_li_ss_tl?s=mobile-apps&ie=UTF8&qid=1580980030&sr=1-14&linkCode=ll1&tag=fily0e-21&linkId=d5bf226dd274b79e909ba1cafec29a19&language=en_IN",
+                    "ProductName": "DJI Tello India Version Nano Drone 5MP Camera, 720p Recording, Intel Processor, DJI Drone Flight Technology (Black)",
+                    "productImg": "https://m.media-amazon.com/images/I/31-KpzlfB0L._SL250_.jpg",
+                    "product_specification": [{
+                            "Description": "DJI drone flight technology with 720p live View (5MP camera) auto take off or landing with throw and go technology, powered by Intel processor~*Easy videos shooting modes with vision positioning system and electronic image stabilization~*India compatible Nano drone (No flying license required) flight height 15 meters above ground level, gross weight less than 250 grams~*Low battery protection, flight time of 13 mins in a single charge"
+                        },
+                        {
+                            "Brand": "DJI Tello"
+                        }
+                    ],
+                    "price": 9990,
+                    "strike": 11999,
+                    "rating": 4
+                }
+            ]
         }
     ]
 }

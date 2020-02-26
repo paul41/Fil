@@ -90,6 +90,9 @@ angular.module('prodDescApp', [])
             $scope.showimage = (imageToShow) =>{
                 document.getElementById('imgStyle').src = imageToShow;
             }
+            $scope.getWishProduct = (w) => {
+                window.open(wishListItems[w].productURL)
+            }
             $scope.gotoSimilar = (productLink) =>{
                 window.open(productLink)
             }

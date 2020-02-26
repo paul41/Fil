@@ -10,14 +10,13 @@ angular.module('contentApp', [])
 		$scope.wishItems = wishCount;
 		let wishlistArray = getServerData.getWishItems();
 		let productsArr = getServerData.getMap('product');
-		
+		console.log(productsArr)
 		$scope.ProductType = getServerData.getMap('ProductType');
 		if (wishlistArray && wishlistArray.length) {
 			$scope.wishArray = wishlistArray;
 		} else {
 			$scope.wishArray = [];
 		}
-		
 		/* Page externalJS funtionality */
 		$(document).ready(function () {
 			//$('html, body').animate({ scrollTop: 0 })
@@ -83,7 +82,7 @@ angular.module('contentApp', [])
 			window.open(productsArr[i].productURL)
 		}
 		$scope.amazonProducts = [
-			"Amazon Devices", "Amazon Fashion", "Appliances", "Apps for android", "Baby products", "Bags wallets and luggage", "Beauty", "Books", "Car & motorbike", "Clothing",
+			"Amazon Devices", "Appliances", "Apps for android", "Baby products", "Bags wallets and luggage", "Beauty", "Books", "Car & motorbike", "Clothing",
 			"Computers & Accessories", "Electronics", "Furnitures", "Garden & outdoors", "Gift cards", "Health & personal care", "Home & Kitchen", "Jewellery",
 			"Kindle Stores", "Luggage & Bags", "Movies & Tv shows", "Musical instruments", "Office products", "Pet supply", "Prime Video", "Shoes & handbags", "Sports & fitness",
 			"Toys & games", "Video Games", "Watches"
@@ -98,10 +97,14 @@ angular.module('contentApp', [])
 		}
 		$scope.fetchproducts = (item) => {
 			$('#re-search').val(item);
-			getServerData.fetchProductDetails((res) => {
-				if (res.data.length > 0) {
-
-					getServerData.setMap(res.data[0].SearchItems)
+			let researchDataArr = [];
+			$.getJSON('https://web-scraper-v8.herokuapp.com/fily/list?search_text='+item, function(data) {
+				console.log(data)
+					researchDataArr.push(data)
+					let revisedData = getServerData.scrapData(researchDataArr)
+					researchDataArr[0].product = revisedData
+					console.log(researchDataArr)
+					getServerData.setMap(researchDataArr);
 					let cartItems = getServerData.getWishItems();
 					let prdList = getServerData.getMap('product');
 					$scope.lists = discountRateFn(prdList);
@@ -121,18 +124,51 @@ angular.module('contentApp', [])
 						$window.location.href="#!/productDetails"+'/'+id;
 						
 					}
+					$scope.$apply()
 					$("#myRange").attr(
 						"max", Math.max.apply(Math, prdList.map(function (maxi) { return maxi.price })),
 					);
 					$("#myRange").attr(
 						'min', Math.min.apply(Math, prdList.map(function (mini) { return mini.price })),
 					);
-				} else {
-					$window.location.href = "/NotFound";
-				}
-
 				$('#re-search').val("")
-			}, { "SearchItems.ProductType": item })
+			});
+			// getServerData.fetchProductDetails((res) => {
+			// 	console.log(res.data)
+			// 	if (res.data.length > 0) {
+
+			// 		getServerData.setMap(res.data[0].SearchItems)
+			// 		let cartItems = getServerData.getWishItems();
+			// 		let prdList = getServerData.getMap('product');
+			// 		$scope.lists = discountRateFn(prdList);
+			// 		for (let i = 0; i < prdList.length; i++) {
+			// 			for (let j = 0; j < cartItems.length; j++) {
+			// 				if (cartItems[j].productId == prdList[i].productId) {
+			// 					setTimeout(() => {
+			// 						document.getElementsByClassName('fa fa-heart')[i].style.color = "red"
+			// 					})
+			// 				}
+			// 			}
+			// 		}
+			// 		$scope.productUrl = (i) => {
+			// 			window.open(prdList[i].productURL)
+			// 		}
+			// 		$scope.productList = (id) => {
+			// 			$window.location.href="#!/productDetails"+'/'+id;
+						
+			// 		}
+			// 		$("#myRange").attr(
+			// 			"max", Math.max.apply(Math, prdList.map(function (maxi) { return maxi.price })),
+			// 		);
+			// 		$("#myRange").attr(
+			// 			'min', Math.min.apply(Math, prdList.map(function (mini) { return mini.price })),
+			// 		);
+			// 	} else {
+			// 		$window.location.href = "/NotFound";
+			// 	}
+
+			// 	$('#re-search').val("")
+			// }, { "SearchItems.ProductType": item })
 		}
 
 		$scope.redHeart = (rh) => {
@@ -191,7 +227,7 @@ angular.module('contentApp', [])
 			}
 		}
 		$scope.getWishProduct = (w) => {
-			$(location).attr('href', wishlistArray[w].productURL)
+			window.open(wishlistArray[w].productURL)
 		}
 		$scope.radioValues = {
 			brandName: ["Versace", "Amazon", "Reebok", "Adidas", "Woodland", "HRX", "Zara", "Bata"]
