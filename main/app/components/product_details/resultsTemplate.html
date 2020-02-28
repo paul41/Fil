@@ -270,15 +270,15 @@
                         <div style="width:100%;height:100%;display:block;background: #fff;">
                             <i class="fa fa-heart" style="font-size:25px;color:#b5b3b3;padding:12px;position: absolute;" ng-click = redHeart($index);$event.stopPropagation();></i>
                           <img id = "content-img-style" src = {{x.productImg}}>
-                          <span style="display: block;background: #fbe89d;border:1px solid #3E64FF" ng-repeat = "off in x.offer">
+                          <span style="display: block;background: #fbe89d;border:1px solid #3E64FF" ng-repeat = "off in x.offer; track by $index" >
                             {{off}}
                           </span>
                         </div>
                         <div style = "text-align: center;position:relative;z-index:2;background:#fff;box-sizing:border-box;overflow:hidden;">
                           <div style="padding-right: 3px;padding-left: 3px;">
                             <h4  style = "overflow: hidden;height:55px;text-overflow: ellipsis;position: relative;top:12px">{{x.ProductName}}</h4>
-                            <div style = "margin:10px 0 12px;font-size:15px;"><i class = "fa fa-rupee" style="color: #3e64ff"></i><b style="color: #3e64ff;font-size: 20px;">{{x.price}}&nbsp;</b>
-                              <strike><i class = "fa fa-rupee"></i>{{x.strike}}</strike>&nbsp; ({{x.discountpercent}}% Off)
+                            <div style = "margin:10px 0 12px;font-size:15px;"><i class = "fa fa-rupee" style="color: red"></i><b style="color: red;font-size: 20px;">{{x.price}}&nbsp;</b>
+                              <strike style="color: red;"><i class = "fa fa-rupee"></i>{{x.strike}}</strike>&nbsp; ({{x.discountpercent}}% Off)
                             </div>
                             <div style = "margin:12px 0 12px;font-size:15px"><b>{{x.rating}} ★</b></div>
                           </div>

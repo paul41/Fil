@@ -1,4 +1,4 @@
-angular.module('searchAppService',[]).service('getServerData',function ($http){
+angular.module('searchAppService',[]).service('getServerData',function ($http,$window){
 	
 	return{
 		
@@ -12,23 +12,28 @@ angular.module('searchAppService',[]).service('getServerData',function ($http){
 				callback(response)
 			})
 		},
-		scrapData:function(data){
-			const requiredData = [];
-			let filterOffer = data[0].product;
-			for(let off = 0; off<filterOffer.length; off++){
-				if(filterOffer[off].offer.length > 0){
-					requiredData.push(filterOffer[off])
+		arrangeData:function(data){
+			console.log(data)	
+			if(data[0].hasOwnProperty('product') == true){
+				const requiredData = [];
+				let filterOffer = data[0].product;
+				for(let off = 0; off<filterOffer.length; off++){
+					if(filterOffer[off].offer.length > 0){
+						requiredData.push(filterOffer[off])
+					}
 				}
-			}
-			filterOffer.sort(function(a,b){
-				return a.price-b.price
-			})
-			for(let ele of filterOffer){
-				if(ele.offer.length == 0 ){
-					requiredData.push(ele)
-				}		
-			}
-			return requiredData;
+				filterOffer.sort(function(a,b){
+					return a.price-b.price
+				})
+				for(let ele of filterOffer){
+					if(ele.offer.length == 0 ){
+						requiredData.push(ele)
+					}		
+				}
+				return requiredData;
+			}else{
+				$window.location.href = "/NotFound";
+			}	
 		},
 		sortProducts:function(callback,parameter){
 			$http.get('/sortitems',{params:parameter}).then((response)=>{

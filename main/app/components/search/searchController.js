@@ -1,4 +1,4 @@
-angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http','$timeout','$window','$location','getServerData', function ($scope,$http,$timeout,$window,$location,getServerData){
+angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http','$timeout','$window','getServerData', function ($scope,$http,$timeout,$window,getServerData){
 	
 	/* Load UI externalJSs when DOM is ready.. */
 
@@ -39,7 +39,7 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
 	$scope.product = [
         "Amazon Devices","Appliances","Apps for android","Baby products","Bags wallets and luggage","Beauty","Books","Car & motorbike","Clothing",
         "Computers & Accessories","Electronics","Furnitures","Garden & outdoors","Gift cards","Health & personal care","Home & Kitchen","Jewellery",
-        "Kindle Stores","Luggage & Bags","Movies & Tv shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
+        "Kindle Stores","Luggage & Bags","Movies & TV shows","Musical instruments","Office products","Pet supply","Prime Video","Shoes & handbags","Sports & fitness",
         "Toys & games","Video Games","Watches"
     ]
 	const wishlistArray = getServerData.getWishItems();
@@ -70,18 +70,19 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     $scope.search = ()=>{
 		let inputVal = $('#input-search').val();
 		let dataArray = [];
+		let parameter = {"search_text":inputVal}
     	if(inputVal){
-			 $.getJSON('https://web-scraper-v8.herokuapp.com/fily/list?search_text='+inputVal, function(data) {
-				// if(data.product in data){
-					dataArray.push(data)
-					$window.location.href="#!/productList";
-					let sortedData = getServerData.scrapData(dataArray) 
-					dataArray[0].product = sortedData
-					getServerData.setMap(dataArray)
-				//}else{
-				//	$window.location.href = "/NotFound";
-				//}	
-			});
+			$http({
+				url:"https://web-scraper-v8.herokuapp.com/fily/list",
+				method:"get",
+				params:parameter
+			}).then(response => {
+				dataArray.push(response.data)
+				$window.location.href="#!/productList";
+				let sortedData = getServerData.arrangeData(dataArray) 
+				dataArray[0].product = sortedData
+				getServerData.setMap(dataArray)
+			})
     	}else{
     		alert('Enter products,brands and more to search')
     	}
