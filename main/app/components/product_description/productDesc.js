@@ -35,16 +35,32 @@ angular.module('prodDescApp', [])
             })
             productDataArr.push(productsObj[$route.current.params.id])
             console.log(productDataArr)
-            //let txt = productDataArr[0].product_specification[0].Description;
-            // if(txt){
-            //     $scope.para = txt.split("~*")
-            // }
             const url = productDataArr[0].productURL
-            // $http({
-            //     url:"https://web-scraper-v8.herokuapp.com/fily/item",
-            //     method:"post",
-            //     data:{url}
-            // }).then(res => console.log(res))
+            $http({
+                url:"https://web-scraper-v8.herokuapp.com/fily/item",
+                method:"post",
+                data:{url}
+            }).then(res => detailFn(res))
+            function detailFn(detailArr){
+                let detailsA = detailArr.data.attributeList;
+                console.log(detailsA)
+                let eleminateSeemore = detailsA[2].details
+                if(Object.keys(detailsA[2]) == 'details'){
+                    if(eleminateSeemore[eleminateSeemore.length -1] == '› See more product details' || eleminateSeemore[eleminateSeemore.length -1] == 'Show Less'){
+                        eleminateSeemore.splice(eleminateSeemore.length -1,1)
+                    }
+                    $scope.para = eleminateSeemore;
+                }else{
+                    console.log('No detail found at index 2')
+                }
+                if(Array.isArray(detailsA[3].moreItems)){
+                    $scope.similarProducts = detailsA[3].moreItems
+                }else{
+                    console.log('No similar products found');
+                    document.getElementById('similarProdDiv').style.display='none'
+                }
+                    
+            }
             $scope.productDetail = productDataArr;
             $scope.amazonRedirect = () =>{
                 window.open(productDataArr[0].productURL)
