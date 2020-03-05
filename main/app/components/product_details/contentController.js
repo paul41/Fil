@@ -10,6 +10,9 @@ angular.module('contentApp', [])
 		$scope.wishItems = wishCount;
 		let wishlistArray = getServerData.getWishItems();
 		let productsArr = getServerData.getMap('product');
+		if(!productsArr){
+			$window.location.href="#!/NotFound";
+		}
 		console.log(productsArr)
 		$scope.ProductType = getServerData.getMap('ProductType');
 		document.getElementById("re-search").placeholder = getServerData.getMap('ProductType');
@@ -109,7 +112,6 @@ angular.module('contentApp', [])
 				researchDataArr.push(response.data)
 					let revisedData = getServerData.arrangeData(researchDataArr)
 					researchDataArr[0].product = revisedData
-					console.log(researchDataArr)
 					getServerData.setMap(researchDataArr);
 					document.getElementById("re-search").placeholder = getServerData.getMap('ProductType');
 					let cartItems = getServerData.getWishItems();

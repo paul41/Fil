@@ -1,5 +1,5 @@
 angular.module('prodDescApp', [])
-	.controller('prodDescCtrl', ['$scope','$window','$route','getServerData',function($scope,$window,$route,getServerData){
+	.controller('prodDescCtrl', ['$scope','$window','$route','getServerData','$http',function($scope,$window,$route,getServerData,$http){
         
         let productsObj = getServerData.getMap('product');
         let wishCount = 0;
@@ -15,7 +15,7 @@ angular.module('prodDescApp', [])
             document.getElementById('cartBtn').style.cursor = 'not-allowed'
         }
         if($route.current.params.id < productsObj.length){
-
+            console.log(productsObj[$route.current.params.id])
             $(document).ready(function(){
                 $('html, body').animate({ scrollTop: 0 })
                 wishListItems.forEach(element => {
@@ -34,11 +34,17 @@ angular.module('prodDescApp', [])
                 });
             })
             productDataArr.push(productsObj[$route.current.params.id])
-            let txt = productDataArr[0].product_specification[0].Description;
-            if(txt){
-                $scope.para = txt.split("~*")
-            }
-            
+            console.log(productDataArr)
+            //let txt = productDataArr[0].product_specification[0].Description;
+            // if(txt){
+            //     $scope.para = txt.split("~*")
+            // }
+            const url = productDataArr[0].productURL
+            // $http({
+            //     url:"https://web-scraper-v8.herokuapp.com/fily/item",
+            //     method:"post",
+            //     data:{url}
+            // }).then(res => console.log(res))
             $scope.productDetail = productDataArr;
             $scope.amazonRedirect = () =>{
                 window.open(productDataArr[0].productURL)
