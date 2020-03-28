@@ -15,22 +15,31 @@ angular.module('searchAppService',[]).service('getServerData',function ($http,$w
 		arrangeData:function(data){
 			console.log(data)	
 			if(data[0].hasOwnProperty('product') == true){
-				const requiredData = [];
+				const requiredOfferData = [];
+				const amazonNonOffer = [];
+				let arrayToDisplay = [];
 				let filterOffer = data[0].product;
+				console.log(filterOffer)
 				for(let off = 0; off<filterOffer.length; off++){
-					if(filterOffer[off].offer.length > 0){
-						requiredData.push(filterOffer[off])
+					if(filterOffer[off].offer && filterOffer[off].offer.length > 0){
+						
+						requiredOfferData.push(filterOffer[off])
+						requiredOfferData.sort(function(a,b){
+							return a.price-b.price
+						})
+					}else if(filterOffer[off].offer && filterOffer[off].offer.length < 1){
+						amazonNonOffer.push(filterOffer[off]);
+					}else if(!filterOffer[off].offer){
+						amazonNonOffer.push(filterOffer[off]);
+						amazonNonOffer.sort(function(a,b){
+							return a.price-b.price
+						})
 					}
 				}
-				filterOffer.sort(function(a,b){
-					return a.price-b.price
-				})
-				for(let ele of filterOffer){
-					if(ele.offer.length == 0 ){
-						requiredData.push(ele)
-					}		
-				}
-				return requiredData;
+				arrayToDisplay = [...requiredOfferData,...amazonNonOffer]
+				console.log(arrayToDisplay)
+				
+				return arrayToDisplay;
 			}else{
 				$window.location.href = "/NotFound";
 			}	

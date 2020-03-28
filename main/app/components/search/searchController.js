@@ -69,20 +69,40 @@ angular.module('mainAppCtrl',[]).controller('mainAppController',['$scope','$http
     /**********Search module***********/
     $scope.search = ()=>{
 		let inputVal = $('#input-search').val();
+		let completeData = {};
 		let dataArray = [];
 		let parameter = {"search_text":inputVal}
+		
     	if(inputVal){
-			$http({
-				url:"https://web-scraper-v8.herokuapp.com/fily/list",
-				method:"get",
-				params:parameter
-			}).then(response => {
-				dataArray.push(response.data)
-				$window.location.href="#!/productList";
+			async function promAll(){
+				let  mergedProductArray;
+				const amaz = $http({
+					url:"https://web-scraper-v8.herokuapp.com/fily/list",
+					method:"get",
+					params:parameter
+				}).then(data => {return data})
+				const flip = $http({
+					url:"/flipkartdataroute",
+					method:"get",
+					params:{"parameter":inputVal}
+				}).then(flipData =>{ return flipData})
+			
+				const finalprodArray = await Promise.all([amaz,flip]).then(res =>{	
+					console.log(res)
+					mergedProductArray = [...res[0].data.product,...res[1].data[0].product]
+					completeData.ProductType = res[0].data.ProductType;
+					return mergedProductArray
+				})
+				completeData.product = finalprodArray
+				
+				dataArray.push(completeData)
 				let sortedData = getServerData.arrangeData(dataArray) 
 				dataArray[0].product = sortedData
 				getServerData.setMap(dataArray)
-			})
+				$window.location.href="#!/productList";
+				console.log(dataArray[0].product)
+			}
+			promAll()
     	}else{
     		alert('Enter products,brands and more to search')
     	}

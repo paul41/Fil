@@ -10,10 +10,11 @@ angular.module('contentApp', [])
 		$scope.wishItems = wishCount;
 		let wishlistArray = getServerData.getWishItems();
 		let productsArr = getServerData.getMap('product');
-		if(!productsArr){
-			$window.location.href="#!/NotFound";
-		}
-		console.log(productsArr)
+		// if(!productsArr){
+		// 	$window.location.href="#!/NotFound";
+		// }
+		//console.log(productsArr)
+		
 		$scope.ProductType = getServerData.getMap('ProductType');
 		document.getElementById("re-search").placeholder = getServerData.getMap('ProductType');
 		if (wishlistArray && wishlistArray.length) {
@@ -58,13 +59,15 @@ angular.module('contentApp', [])
 				$scope.fname = fbResponse.first_name
 				$scope.lname = fbResponse.last_name
 				$scope.$apply()
-			}
+			}	
 		})
 		/** Calculate discount  */
 		function discountRateFn(arr) {
 			let newProductArr = [];
 			(arr).forEach((item) => {
-
+				if(item.strike == ''){
+					item.strike = item.price
+				}
 				let discountPrice = ((item.strike) - (item.price));
 				let discountRate = Number(discountPrice / item.strike)
 				let rate = (discountRate * 100).toFixed(0)
@@ -74,6 +77,7 @@ angular.module('contentApp', [])
 					item.discountpercent = rate;
 				}	
 				newProductArr.push(item)
+				
 			})
 			return newProductArr;
 		}

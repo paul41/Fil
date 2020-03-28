@@ -268,14 +268,16 @@
                         <div style = "text-align: center;position:relative;z-index:2;background:#fff;box-sizing:border-box;overflow:hidden;">
                           <div style="padding-right: 3px;padding-left: 3px;">
                             <h4  style = "overflow: hidden;height:55px;text-overflow: ellipsis;position: relative;top:12px">{{x.ProductName}}</h4>
-                            <div style = "margin:10px 0 12px;font-size:15px;"><i class = "fa fa-rupee" style="color: red"></i><b style="color: red;font-size: 20px;">{{x.price}}&nbsp;</b>
-                              <strike style="color: red;"><i class = "fa fa-rupee"></i>{{x.strike}}</strike>&nbsp; ({{x.discountpercent}}% Off)
+                            <div ng-if = "x.price" style = "margin:10px 0 12px;font-size:15px;"><i class = "fa fa-rupee" style="color: red"></i>
+                              <b style="color: red;font-size: 20px;">{{x.price}}&nbsp;</b>
+                              <strike ng-if = "x.strike" style="color: red;"><i class = "fa fa-rupee"></i>{{x.strike}}</strike>&nbsp; ({{x.discountpercent}}% Off)
                             </div>
-                            <div style = "margin:12px 0 12px;font-size:15px"><b>{{x.rating}} ★</b></div>
+                            <div ng-if="x.rating"style = "margin:12px 0 12px;font-size:15px"><b>{{x.rating}} ★</b></div>
                           </div>
                           <div width = "100%" style="background:#3e64ff;color: #fff; padding:7px" ng-click = "productUrl($index)">
                             BUY AT
-                            <i class="fa fa-amazon"></i>
+                            <img ng-if = "!x.offer" src="../../../assets/images/flipkartIcon.png" height="25px" width="26px" >
+                            <i ng-if = "x.offer" class="fa fa-amazon"></i>
                           </div>
                           
                         </div>

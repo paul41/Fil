@@ -116,12 +116,11 @@
             <ul style="list-style-type: none;white-space:nowrap;">  
               <li style="display: inline-block;cursor: pointer;box-sizing: border-box;height: 253px;width: 200px;border: 1px solid #ddd;" ng-repeat = "similar in similarProducts" ng-click = gotoSimilar(similar.href)>
                 <img src={{similar.image}}  id="similar-image-style"/>
+                <div style="height: 50px;white-space: normal;overflow: hidden;text-overflow: ellipsis;text-align: center;"><p>{{similar.name}}</p></div>
               </li> 
             </ul>
           </div>
         </div>
-        
-
       <!-- Wishlist modal -->
       <div style="margin-top: 140px;"></div>
 
