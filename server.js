@@ -43,7 +43,7 @@ app.get ('/flipkartdataroute',async function(req,res){
     res.json(itemData)
   }).catch(e =>{
     console.log(e);
-    throw e;
+    //throw e;
   });
 })
 app.get('*', function(req, res){
