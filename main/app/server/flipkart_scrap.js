@@ -4,7 +4,9 @@ module.exports.flipkart = async (prodParam) => {
     let returnArray = [];
     let returnObject = {}
     try {
-        const browser = await puppeteer.launch();
+        const browser = await puppeteer.launch({
+            ignoreDefaultArgs: ['--disable-extensions'],
+          });
         const page = await browser.newPage();
         await page.setViewport({ width: 1280, height: 800 })
         await page.goto('https://www.flipkart.com');
