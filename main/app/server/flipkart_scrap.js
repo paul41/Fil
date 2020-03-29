@@ -5,7 +5,10 @@ module.exports.flipkart = async (prodParam) => {
     let returnObject = {}
     try {
         const browser = await puppeteer.launch({
-            ignoreDefaultArgs: ['--disable-extensions'],
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+              ],
           });
         const page = await browser.newPage();
         await page.setViewport({ width: 1280, height: 800 })
